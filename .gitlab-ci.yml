@@ -1,0 +1,4 @@
+include:
+  - project: 'platform-one/devops/pipeline-products'
+    ref: 'sst-ci'
+    file: '/products/sst/sst-ci.yml'
