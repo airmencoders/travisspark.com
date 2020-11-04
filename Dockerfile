@@ -1,3 +1,5 @@
+# Dockerfile.rails
+
 FROM ruby:2.7
 
 ARG USER_ID=1001
@@ -13,9 +15,9 @@ COPY . .
 RUN chown -R user:user /opt/app
 
 # Install node
-RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
-RUN apt update -y && apt install -y nodejs
-RUN node -v
+#RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+#RUN apt update -y && apt install -y nodejs
+#RUN node -v
 #RUN npm install
 
 USER $USER_ID
@@ -26,4 +28,4 @@ RUN jekyll build
 
 EXPOSE 4000
  
-CMD ["jekyll", "serve"]
+CMD ["bundle", "exec", "jekyll", "serve", "--livereload", "--host", "0.0.0.0"]
