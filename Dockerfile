@@ -1,5 +1,3 @@
-# Dockerfile.rails
-
 FROM ruby:2.7
 
 ARG USER_ID=1001
@@ -13,12 +11,6 @@ COPY . .
 
 # RUN gem install rails bundler
 RUN chown -R user:user /opt/app
-
-# Install node
-#RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
-#RUN apt update -y && apt install -y nodejs
-#RUN node -v
-#RUN npm install
 
 USER $USER_ID
 WORKDIR /opt/app
