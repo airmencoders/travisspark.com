@@ -6,9 +6,7 @@ This Jekyll theme is a port of [ThemeFisher's](https://themefisher.com) [Airspac
 ### View Live
 
 Staging URL:
-```sh
 https://sst.staging.apps.il2.dsop.io/
-```
 
 Pre-prod URL:
 ```sh
