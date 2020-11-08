@@ -3,6 +3,23 @@
 
 This Jekyll theme is a port of [ThemeFisher's](https://themefisher.com) [Airspace template](https://themefisher.com/products/airspace-free-bootstrap-website-template/). It is released under ThemeFisher's [license](https://themefisher.com/license) , which requires attribution. Concern about the licnese please contact with [them](mailto:themefisher@gmail.com)
 
+### View Live
+
+Staging URL:
+```sh
+https://sst.staging.apps.il2.dsop.io/
+```
+
+Pre-prod URL:
+```sh
+Does not exist yet.
+```
+
+Prod URL:
+```sh
+Does not exist yet.
+```
+
 ## Usage
 To start your project, [fork this respository](https://github.com/ndrewtl/airspace-jekyll/fork), put in your content, and go!
 
@@ -44,22 +61,5 @@ bundle [version number]
 If you get `"Error, command not found"` run `gem install bundler` to install it
 using RubyGems.
 
-### Run this repository
 
-Clone the repository, and `cd` into it:
-```sh
-$ git clone https://github.com/ndrewtl/airspace-jekyll.git
-$ cd airspace-jekyll
-```
 
-Install dependencies locally:
-```sh
-$ bundle install --path vendor/bundle
-```
-
-This should install a local copy of jekyll.
-
-Now run the server:
-```sh
-$ ./vendor/bundle/ruby/#{YOUR_RUBY_VERSION}/bin/jekyll server
-```
