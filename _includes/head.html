@@ -15,7 +15,16 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/animate.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" />
+
+<!-- CSS for Product Template-->
+{% if page.layout == "product" %}
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/product.css" />
+{% endif %}
+
+<!-- Custom CSS -->
 <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css" />
+
+
 
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -28,6 +37,10 @@
 
 
 <script src="{{ site.baseurl }}/js/main.js"></script>
+
+{% if page.layout == "product" %}
+<script src="{{ site.baseurl }}/js/product.js"></script>
+{% endif %}
 
 <!--
 /*
