@@ -95,16 +95,21 @@ section.main .graphic {
   display: block;
 }
 section.main .lap-top {
-  /* background-image: url(images/Widow_Computer.png); */
-  height: 55vw;
+    background-image: none;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: auto;
+  /* height: 55vw;
   width: 100%;
   background-position: 50%;
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: #e5e5e5;
+  background-color: #e5e5e5; */
 }
 section.main .lap-top .main-img {
-  display: none;
+  display: inline;
 }
 section.main .lap-top .text-col {
   width: 30%;
@@ -235,6 +240,7 @@ div.img-text-inner.icon .icon-row .icon-block {
   margin-right: 5%;
 }
 div.img-text-inner .img {
+  text-align: center;
   min-width: 55%;
   max-width: 55%;
 }
@@ -270,6 +276,9 @@ div.img-text-inner .text .text-body {
     min-width: 100%;
     max-width: 100%;
     margin: 0;
+  }
+  div.img-text-inner .img {
+    text-align: center;
   }
   div.img-text-inner .img,
   div.img-text-inner .text {

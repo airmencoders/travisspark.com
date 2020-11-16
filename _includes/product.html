@@ -9,6 +9,7 @@
       <div class="main-logo-intro" style="background-color: #{{ page.sections.intro.logo.color }};" >
         <img src="images/{{ page.sections.intro.logo.image }}" alt="{{ page.title }}"/>
       </div>
+      {% if page.sections.intro.banner.visible %}
       <div class="main-banner-intro" style="background-image: url(images/{{ page.sections.intro.banner.image }}); background-color: #{{ page.sections.intro.banner.color }};">
         <div class="text">{{ page.sections.intro.banner.leftText }}</div>
         {% if page.sections.intro.banner.spacer %}
@@ -16,6 +17,7 @@
         {% endif %}
         <div class="text">{{ page.sections.intro.banner.rightText }}</div>
       </div>
+      {% endif %}
     </section> <!-- End Intro -->
     <section class="main">
       <div class="gradient" style='background: linear-gradient(0deg, var(--main1), var(--main0) 49%, #fff);'>
@@ -29,7 +31,7 @@
         <div class="img-text">
           <div class="img-text-inner">
             <div class="img">
-              <img src="images/{{ page.sections.main[0].feature.image }}" alt="{{ page.sections.main[0].purpose }}" />
+              <img src="images/{{ page.sections.main[0].feature.image }}" alt="{{ page.sections.main[0].purpose }}"/>
             </div>
             <div class="text">
               <div class="text-head">{{ page.sections.main[0].feature.compactDescription }}</div>
@@ -80,16 +82,24 @@
           </div>
         </div>
         <img class="graphic" src="images/{{ page.sections.main[2].image }}" />
-      </div>
-      <div class="block lap-top" style="background-image: url(images/{{ page.sections.main[3].images.desktop }});">
-        <img class="main-img" src="images/{{ page.sections.main[3].images.mobile }}" />
-        <div class="text-col">
-          <div class="text">
-            <div class="text-head">{{ page.sections.main[3].compactDescription }}</div>
-            <div class="text-body">{{ page.sections.main[3].expandedDescription }}</div>
+      </div> <!-- End icon block -->
+
+      <div class="events" style="background-color: #{{ page.sections.main[3].color }};">
+        <div class="img-text">
+          <div class="img-text-inner">
+            <div class="text">
+              <div class="text-head">{{ page.sections.main[3].compactDescription }}</div>
+              <div class="text-body">
+              <p>{{ page.sections.main[3].expandedDescription }}</p>
+              </div>
+            </div>
+            <div class="img">
+              <img src="images/{{ page.sections.main[3].image.name }}" style="min-width: {{page.sections.main[3].image.scale}}; max-width: {{page.sections.main[3].image.scale}};"/>
+            </div>
           </div>
         </div>
-      </div><!-- End icon-graphic-group -->
+      </div> <!-- End feature block -->
+      
       <div class="events">
         <div class="heading-block">
           <h3>Coming Up</h3>
