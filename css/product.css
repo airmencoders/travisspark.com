@@ -156,7 +156,7 @@ section.main .lap-top .text-col .text .text-body {
     padding: 0 10% 8vw;
   }
 }
-section.main .events {
+section.main .generic-wrapper {
   padding: 3rem 0;
   background-color: #000;
   color: #fff;

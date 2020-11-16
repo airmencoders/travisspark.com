@@ -17,7 +17,7 @@ sections:
     - descriptor: Real-time & Distrubuted
       purpose: Collaborative Scheduling
       color: "3fb599"
-      video: https://www.youtube.com/embed/Obb0BFUIEnQ
+      video: https://www.youtube.com/embed/buQ6bTLOmKQ
       feature:
         image: coordination_conflict.png
         compactDescription: Schedule Anytime, Anywhere
@@ -58,20 +58,29 @@ sections:
         An expanded explanation of this feature, meant to help the reader understand in more detail what is being done.
         This should tie to the purpose.
   events:
-    - name: Red Flag
-      image: red-flag.png
-      dateTime: 30 JUL @ 1300 EST
-      linkText: ZOOM LINK
-      link: https://google.com
-      description: >
-        Red Flag exercises provide mission commanders, and air, space, and cyber operators the opportunity to experience realistic combat scenarios to prepare for future warfare. The goal of Red Flag is to prioritize the experience of an operator's "first" combat mission, mission commander upgrades, and Flag unique experiences for all participants.
-    - name: Orange Flag
-      image: orange-flag.png
-      dateTime: 30 SEP - 01 OCT
-      linkText: OF 20-3
-      link: https://google.com
-      description: >
-        Orange Flag is a multi-domain test event specializing in collaborative, large force test that spans domains, services, and platforms.  Orange Flag allows data-driven test and experimentation to occur in a complex, operationally representative environment.
+    past:
+      - name: Puckboard Demo & AMA
+        image: FC_Puckboard_Stacked_Logo_BK.png
+        dateTime: 4 Nov 20 
+        linkText: RECORDING
+        link: https://drive.google.com/file/d/1hPPkcEwiT3sOFr3AsODqoa-jaHMCy_r8/view?ts=5fb14a98
+        description: >
+          Live presentation and "ask me anything" session with the core Puckboard team, including an update on the overall program, demos of recent features, insights on best practices, and release of a mobile-friendly interface.
+    future:
+      - name: Orange Flag
+        image: orange-flag.png
+        dateTime: 30 SEP - 01 OCT
+        linkText: OF 20-3
+        link: https://google.com
+        description: >
+          Orange Flag is a multi-domain test event specializing in collaborative, large force test that spans domains, services, and platforms.  Orange Flag allows data-driven test and experimentation to occur in a complex, operationally representative environment.
+      - name: Orange Flag
+        image: orange-flag.png
+        dateTime: 30 SEP - 01 OCT
+        linkText: OF 20-3
+        link: https://google.com
+        description: >
+          Orange Flag is a multi-domain test event specializing in collaborative, large force test that spans domains, services, and platforms.  Orange Flag allows data-driven test and experimentation to occur in a complex, operationally representative environment.
   timeline:
     color: '3fb599'
     releases:
@@ -100,5 +109,5 @@ sections:
         link: https://bing.com
   support:
     logo: FC_Puckboard_Wordmark_BK.png
-    email: email@yourdomain.mil
+    email: puckboard.tron@afwerx.af.mil
 ---

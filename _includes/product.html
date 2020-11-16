@@ -84,7 +84,7 @@
         <img class="graphic" src="images/{{ page.sections.main[2].image }}" />
       </div> <!-- End icon block -->
 
-      <div class="events" style="background-color: #{{ page.sections.main[3].color }};">
+      <div class="generic-wrapper" style="background-color: #{{ page.sections.main[3].color }};">
         <div class="img-text">
           <div class="img-text-inner">
             <div class="text">
@@ -100,12 +100,39 @@
         </div>
       </div> <!-- End feature block -->
       
-      <div class="events">
+      <div class="generic-wrapper">
+        <div class="heading-block">
+          <h3>Summary of</h3>
+          <h2>Completed Events</h2>
+        </div>
+        {% for event in page.sections.events.past %}
+        <div class="img-text">
+          <div class="img-text-inner icon">
+            <div class="img">
+              <img src="images/{{ event.image }}" />
+            </div>
+            <div class="text">
+              <div class="text-head">{{ event.name }}</div>
+              <div class="text-body">
+                <p>{{ event.description }}</p>
+                <div class="icon-row">
+                  <div class="icon-block">
+                    <a href="{{ event.link }}">
+                      <div class="icon-heading">{{ event.linkText }}</div>
+                    </a>
+                    <div class="icon-body">{{ event.dateTime }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
         <div class="heading-block">
           <h3>Coming Up</h3>
           <h2>Planned Events</h2>
         </div>
-        {% for event in page.sections.events %}
+        {% for event in page.sections.events.future %}
         <div class="img-text">
           <div class="img-text-inner icon">
             <div class="img">
