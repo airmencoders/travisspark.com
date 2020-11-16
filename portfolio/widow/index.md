@@ -1,36 +1,68 @@
 ---
 layout: product
 title: Widow
+sections:
+  intro:
+    logo:
+      image: Widow-logo-intro.png
+      color: 3fb599
+    banner:
+      image: WIDOW_intro_F_35s_centered.png
+      color: aaaaaa
+      leftText: I'm on the left!
+      rightText: And I'm on the right!
+      spacer: true
+  main:
+    - descriptor: A Description of
+      purpose: Our Purpose
+      color: 3fb599
+      video: https://www.youtube.com/embed/Obb0BFUIEnQ
+      feature:
+        image: coordination_conflict.png
+        compactDescription: Short Set of Info
+        expandedDescription: An expanded explanation of this feature, meant to help the reader understand in more detail what is being done.
+    -
+    -
+    -
+    - image: Widow_Computer.png
+    -
+    -
+    -
+    -
+  support:
+    image: 
 ---
 
 <section class="intro">
-  <div class="main-logo-intro">
-    <img src="assets/images/{{ page.title }}-logo-intro.png" alt="{{ page.title }}" />
+  <div class="main-logo-intro" style="background-color: #{{ page.sections.intro.logo.color }};" >
+    <img src="images/{{ page.sections.intro.logo.image }}" alt="{{ page.title }}"/>
   </div>
-  <div class="main-banner-intro">
-    <div class="text">The mission at hand is difficult.</div>
+  <div class="main-banner-intro" style="background-image: url(images/{{ page.sections.intro.banner.image }}); background-color: #{{ page.sections.intro.banner.color }};">
+    <div class="text">{{ page.sections.intro.banner.leftText }}</div>
+    {% if page.sections.intro.banner.spacer %}
     <div class="spacer"></div>
-    <div class="text">Planning for it does not have to be.</div>
+    {% endif %}
+    <div class="text">{{ page.sections.intro.banner.rightText }}</div>
   </div>
 </section> <!-- End Intro -->
 <section class="main">
-  <div class="gradient">
+  <div class="gradient" style="background: linear-gradient(0deg, #000, #{{ page.sections.main[0].color }} 49%, #fff);">
     <div class="heading-block">
-      <h3>The Future Of</h3>
-      <h2>Mission Planning</h2>
+      <h3>{{ page.sections.main[0].descriptor }}</h3>
+      <h2>{{ page.sections.main[0].purpose }}</h2>
     </div>
     <div class="video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Obb0BFUIEnQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="{{ page.sections.main[0].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="img-text">
       <div class="img-text-inner">
         <div class="img">
-          <img src="assets/images/coordination_conflict.png" alt="Coordination Conflict Screenshot" />
+          <img src="images/{{ page.sections.main[0].feature.image }}" alt="{{ page.sections.main[0].purpose }}" />
         </div>
         <div class="text">
-          <div class="text-head">Coordinate complex mission parameters collaboratively</div>
+          <div class="text-head">{{ page.sections.main[0].feature.compactDescription }}</div>
           <div class="text-body">
-          Coordination details can be confirmed by the mission planning cell chief (MPCC) and conflicts in TAXI/TO as well as ALT blocks are highlighted automatically.
+          {{ page.sections.main[0].feature.expandedDescription }}
           </div>
         </div>
       </div>
@@ -50,7 +82,7 @@ title: Widow
           </div>
         </div>
         <div class="img">
-          <img src="assets/images/card_bong.png" alt="Asset Card" />
+          <img src="images/card_bong.png" alt="Asset Card" />
         </div>
       </div>
     </div><!-- End Img-text block -->
@@ -60,25 +92,25 @@ title: Widow
   <div class="block icon-graphic-group">
     <div class="icon-row">
       <div class="icon-block">
-        <img class="icon" src="assets/images/icon-1.png"/>
+        <img class="icon" src="images/icon-1.png"/>
         <div class="icon-heading">Automatically create mission products</div>
         <div class="icon-body">Mission details such as CSAR, Timeline, Codewords, and COMM Plan are exported into a standard Coordination Card format. Dynamic tanker plan allows for primary and fall out plans to be directly inserted.</div>
       </div>
       <div class="icon-block">
-        <img class="icon" src="assets/images/icon-2.png"/>
+        <img class="icon" src="images/icon-2.png"/>
         <div class="icon-heading">All domain operation capability</div>
         <div class="icon-body">Assets from CYBER, SPACE, and more are invovled in the process and coordination</div>
       </div>
       <div class="icon-block">
-        <img class="icon" src="assets/images/icon-3.png"/>
+        <img class="icon" src="images/icon-3.png"/>
         <div class="icon-heading">Coordinate from mulitple locations</div>
         <div class="icon-body">WIDOW is designed against the AFTTP 3-3.IPE standard for mission planning with each unit working in unison.</div>
       </div>
     </div>
-    <img class="graphic" src="assets/images/Walkthrough0289.png" />
+    <img class="graphic" src="images/Walkthrough0289.png" />
   </div>
-  <div class="block lap-top">
-    <img class="main-img" src="assets/images/Widow_Computer-mobile.png" />
+  <div class="block lap-top" style="background-image: url(images/{{ page.sections.main[4].image }});">
+    <img class="main-img" src="images/Widow_Computer-mobile.png" />
     <div class="text-col">
       <div class="text">
         <div class="text-head">Visualize Mission Data with Dynamic Mapping</div>
@@ -94,7 +126,7 @@ title: Widow
     <div class="img-text">
       <div class="img-text-inner icon">
         <div class="img">
-          <img src="assets/images/red-flag.png" />
+          <img src="images/red-flag.png" />
         </div>
         <div class="text">
           <div class="text-head">Red Flag</div>
@@ -117,7 +149,7 @@ title: Widow
     <div class="img-text">
       <div class="img-text-inner icon">
         <div class="img">
-          <img src="assets/images/orange-flag.png" />
+          <img src="images/orange-flag.png" />
         </div>
         <div class="text">
           <div class="text-head">Orange Flag</div>
@@ -136,7 +168,7 @@ title: Widow
     <div class="img-text">
       <div class="img-text-inner icon">
         <div class="img">
-          <img src="assets/images/valient-shield.png" />
+          <img src="images/valient-shield.png" />
         </div>
         <div class="text">
           <div class="text-head">Valiant Shield</div>
@@ -155,7 +187,7 @@ title: Widow
     <div class="img-text">
       <div class="img-text-inner icon">
         <div class="img">
-          <img src="assets/images/wsint.png" />
+          <img src="images/wsint.png" />
         </div>
         <div class="text">
           <div class="text-head">WSINT</div>
@@ -231,10 +263,10 @@ title: Widow
       </div>
     </div>
     <div class="documents">
-      <a href="assets/docs/WIDOW - WSINT Press Release.pdf">WIDOW Press Release</a>
-      <a href="assets/docs/WIDOW - HBM - WIDOW for USAF.pdf">Designation of WIDOW as the USAF Mission Planning Cell Tool</a>
-      <a href="assets/docs/WIDOW - Leadership and Operator Quotes.pdf">Leadership and Operator Quotes</a>
-      <a href="assets/docs/WIDOW - Future Employment Diagram.pdf">Future Employment Diagram</a>
+      <a href="docs/WIDOW - WSINT Press Release.pdf">WIDOW Press Release</a>
+      <a href="docs/WIDOW - HBM - WIDOW for USAF.pdf">Designation of WIDOW as the USAF Mission Planning Cell Tool</a>
+      <a href="docs/WIDOW - Leadership and Operator Quotes.pdf">Leadership and Operator Quotes</a>
+      <a href="docs/WIDOW - Future Employment Diagram.pdf">Future Employment Diagram</a>
     </div>
   </div>
 
@@ -245,6 +277,6 @@ title: Widow
     <a class="support-link" href="mailto:support@widow.app">support@widow.app</a>
   </div>
   <div class="main-logo-support">
-    <img src="assets/images/widow-logo-intro.png" alt="WIDOW" />
+    <img src="images/widow-logo-intro.png" alt="WIDOW" />
   </div>
 </section>

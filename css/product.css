@@ -86,7 +86,7 @@ section.main .graphic {
   display: block;
 }
 section.main .lap-top {
-  background-image: url(../assets/images/Widow_Computer.png);
+  /* background-image: url(images/Widow_Computer.png); */
   height: 55vw;
   width: 100%;
   background-position: 50%;
@@ -161,7 +161,6 @@ section.intro .main-banner-intro {
   display: flex;
   color: #fff;
   background-color: #000;
-  background-image: url(../assets/images/WIDOW_intro_F_35s_centered.png);
   background-size: cover;
   background-position: 50%;
   height: 300px;
