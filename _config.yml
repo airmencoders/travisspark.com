@@ -24,6 +24,8 @@ logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-seo-tag
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
