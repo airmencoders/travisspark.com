@@ -8,6 +8,15 @@
   src: url(../fonts/fontawesome-webfont.ttf);
   font-weight: 700;
 }
+
+:root {
+    --timeline: #000;
+  }
+
+.upper {
+    text-transform: uppercase;
+}
+
 body,
 html {
   margin: 0;
@@ -45,19 +54,19 @@ section.main .gradient .video {
 section.main .gradient .video iframe {
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.25);
 }
-section.main .documents {
+section.main .resources {
   flex-wrap: wrap;
   padding: 5%;
 }
-section.main .documents,
-section.main .documents a {
+section.main .resources,
+section.main .resources a {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section.main .documents a {
-  width: 200px;
-  min-height: 80px;
+section.main .resources a {
+  width: 250px;
+  min-height: 120px;
   font-size: 18px;
   font-weight: 700;
   color: #000;
@@ -67,9 +76,9 @@ section.main .documents a {
   padding: 1em;
   margin: 1em;
 }
-section.main .documents a:hover {
-  border-color: #f7941d;
-  background-color: #f7941d;
+section.main .resources a:hover {
+  border-color: var(--timeline);
+  background-color: var(--timeline);
   color: #fff;
 }
 section.main .bar {
@@ -142,7 +151,7 @@ section.main .lap-top .text-col .text .text-body {
     padding: 0 10% 8vw;
   }
 }
-section.main .excercises {
+section.main .events {
   padding: 3rem 0;
   background-color: #000;
   color: #fff;
@@ -320,7 +329,7 @@ div.icon-row .icon-block .icon-body {
   }
 }
 section.support .support {
-  background-color: #f7941d;
+  background-color: var(--timeline);
   color: #fff;
   display: flex;
   padding: 1.5rem 0;
@@ -400,7 +409,7 @@ div.timeline .timeline-inner .line:after {
 div.timeline .timeline-inner .timeline-item {
   padding: 0 0.5rem;
   color: #fff;
-  background-color: #f7941d;
+  background-color: #3fb599;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -442,7 +451,7 @@ div.timeline .timeline-inner .timeline-item.even:before {
 div.timeline .timeline-inner .timeline-item.even:after {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 20px solid #f7941d;
+  border-bottom: 20px solid var(--timeline);
   top: -20px;
 }
 div.timeline .timeline-inner .timeline-item.odd {
@@ -454,7 +463,7 @@ div.timeline .timeline-inner .timeline-item.odd:before {
 div.timeline .timeline-inner .timeline-item.odd:after {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #f7941d;
+  border-top: 20px solid var(--timeline);
   bottom: -20px;
 }
 @media screen and (max-width: 1200px) {
@@ -478,7 +487,7 @@ div.timeline .timeline-inner .timeline-item.odd:after {
   }
   div.timeline .timeline-inner .timeline-item.even:after {
     border-top: 20px solid transparent;
-    border-right: 30px solid #f7941d;
+    border-right: 30px solid var(--timeline);
     border-bottom: 20px solid transparent;
     top: auto;
     left: -30px;
@@ -489,7 +498,7 @@ div.timeline .timeline-inner .timeline-item.odd:after {
   }
   div.timeline .timeline-inner .timeline-item.odd:after {
     border-top: 20px solid transparent;
-    border-right: 30px solid #f7941d;
+    border-right: 30px solid var(--timeline);
     border-bottom: 20px solid transparent;
     bottom: auto;
     left: -30px;
