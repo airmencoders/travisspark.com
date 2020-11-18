@@ -114,7 +114,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #8b86a3, #322e40);
-  opacity: 0.8;
+  opacity: 0.95;
 }
 #slider .block {
   color: #E3E3E4;
@@ -207,7 +207,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: #1d192c;
-  opacity: 0.8;
+  opacity: 0.95;
 }
 #call-to-action h2 {
   padding-bottom: 20px;
@@ -231,7 +231,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/matrix-dev-computer.png");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -375,7 +375,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  opacity: 0.95;
 }
 #global-header .block {
   color: #E3E3E4;
@@ -623,7 +623,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  opacity: 0.95;
 }
 #slider-contact .block {
   color: #E3E3E4;
