@@ -36,20 +36,17 @@ sections:
         scale: 60%
       features:
         - icon: requests.svg
-          compactDescription: Short Set of Info
+          compactDescription: Event Volunteering
           expandedDescription: >
-            An expanded explanation of this feature, meant to help the reader understand in more detail what is being done.
-            This should tie to the purpose.
+            Easily request open positions on flights, sims, or ground events from your personal device, anywhere in the world...without needing a lengthy text chain to your schedulers.
         - icon: alert.svg
-          compactDescription: Short Set of Info
+          compactDescription: Conflict Resolution
           expandedDescription: >
-            An expanded explanation of this feature, meant to help the reader understand in more detail what is being done.
-            This should tie to the purpose.
+            Quickly identify and resolve conflicts, even when crewmembers are scheduled separately by two different organizations.
         - icon: checkfilled.svg
-          compactDescription: Short Set of Info
+          compactDescription: Crew Availabilty
           expandedDescription: >
-            An expanded explanation of this feature, meant to help the reader understand in more detail what is being done.
-            This should tie to the purpose.
+            View available crewmembers before accidentally scheduling someone for two flights at the same time.
     - image:
         name: mobile-view.jpg
         scale: "40%"
@@ -86,16 +83,26 @@ sections:
   timeline:
     color: '3fb599'
     releases:
-      - name: 1801 Flight Plan
-        date: jul 2020
-      - name: 1802 Flight Plan
-        date: aug 2020
-      - name: 1803 Flight Plan
-        date: sep 2020
-      - name: 1804 Flight Plan
-        date: oct 2020
-      - name: 1805 Flight Plan
-        date: nov 2020
+      - name: Multi-Week View
+        date: Jan 21
+      - name: Mobile View v2
+        date: Jan 21
+      - name: Suggested Conflict Resolution
+        date: Jan 21
+      - name: Mattermost C2 v1
+        date: Jan 21
+      - name: Shift Scheduling
+        date: Jul 21
+      - name: Click & Drag Events
+        date: Jul 21
+      - name: Crew Rainbow
+        date: Jul 21
+      - name: Puckboard Logging
+        date: Jul 21
+      - name: Schedule Export
+        date: Jul 21
+      - name: ARMS integration v1
+        date: Jul 21        
   resources:
     color: 484B5C
     # files:
