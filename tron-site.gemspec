@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "airspace-jekyll"
+  spec.name          = "tron-jekyll"
   spec.version       = "0.1.0"
   spec.authors       = ["ndrewtl"]
   spec.email         = ["ndrewtl@users.noreply.github.com"]
