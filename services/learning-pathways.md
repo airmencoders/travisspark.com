@@ -3,6 +3,9 @@ layout: document
 title: Learning Pathways for Government Members
 ---
 
+### In Progress...come back soon!
+
+<!-- 
 #### Initial Qualification
 <a href="/learning-pathways/initial-qualification/beginner.html" class="btn btn-default" style="background-color: #3fb599; color: white;">***Beginner Software Learning Courses***</a>
 
@@ -26,4 +29,4 @@ title: Learning Pathways for Government Members
 <a href="/learning-pathways/tron-software-mentor/definition.html" class="btn btn-default" style="background-color: #3fb599; color: white;">***Tron Software Mentor Certification***</a>
 
 
-
+ -->

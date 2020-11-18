@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Mentorship through Open-Source and Inner-Source Communities
+title: Community-Driven Software Development & Mentorship
 ---
 
 ### Problem
