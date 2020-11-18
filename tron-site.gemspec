@@ -15,4 +15,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "jekyll", "~> 4.1.1"
   spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "rake", "~> 13.0.1"
+  spec.add_development_dependency "jekyll-seo-tag", "~> 2.7.1"
 end
