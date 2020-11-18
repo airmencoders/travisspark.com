@@ -3,6 +3,9 @@
       --main0: #{{ page.sections.main[0].color }};
       --main1: #{{ page.sections.main[1].color }};
       --timeline: #{{ page.sections.timeline.color }};
+      --resources: #{{ page.sections.resources.color }};
+      --bottom-banner: #{{ page.sections.banner.color }};
+      --event-link-hover: #{{ page.sections.events.linkHoverColor }};
     }
     </style>
     <section class="intro">
@@ -81,7 +84,7 @@
             <div class="icon-body">{{ page.sections.main[2].features[2].expandedDescription }}</div>
           </div>
         </div>
-        <img class="graphic" src="images/{{ page.sections.main[2].image }}" />
+        <img class="graphic" src="images/{{ page.sections.main[2].image.name }}" style="padding: 3rem 0; min-width: {{page.sections.main[2].image.scale}}; max-width: {{page.sections.main[2].image.scale}};"/>
       </div> <!-- End icon block -->
 
       <div class="generic-wrapper" style="background-color: #{{ page.sections.main[3].color }};">
@@ -100,11 +103,13 @@
         </div>
       </div> <!-- End feature block -->
       
-      <div class="generic-wrapper">
+      <div class="generic-wrapper events" style="background-color: #{{ page.sections.events.color }};">
+        {% if page.sections.events.past %}
         <div class="heading-block">
-          <h3>Summary of</h3>
-          <h2>Completed Events</h2>
+          <h3>Completed Event</h3>
+          <h2>Recordings</h2>
         </div>
+        {% endif %}
         {% for event in page.sections.events.past %}
         <div class="img-text">
           <div class="img-text-inner icon">
@@ -112,26 +117,29 @@
               <img src="images/{{ event.image }}" />
             </div>
             <div class="text">
-              <div class="text-head">{{ event.name }}</div>
+              <a href="{{ event.link }}">
+              <div class="text-head">{{ event.name }}</div></a>
               <div class="text-body">
                 <p>{{ event.description }}</p>
-                <div class="icon-row">
+                <!-- <div class="icon-row">
                   <div class="icon-block">
                     <a href="{{ event.link }}">
                       <div class="icon-heading">{{ event.linkText }}</div>
                     </a>
                     <div class="icon-body">{{ event.dateTime }}</div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
         </div>
         {% endfor %}
+        {% if page.sections.events.future %}
         <div class="heading-block">
           <h3>Coming Up</h3>
           <h2>Planned Events</h2>
         </div>
+        {% endif %}
         {% for event in page.sections.events.future %}
         <div class="img-text">
           <div class="img-text-inner icon">
@@ -139,7 +147,8 @@
               <img src="images/{{ event.image }}" />
             </div>
             <div class="text">
-              <div class="text-head">{{ event.name }}</div>
+              <a href="{{ event.link }}">
+              <div class="text-head">{{ event.name }}</div></a>
               <div class="text-body">
                 <p>{{ event.description }}</p>
                 <div class="icon-row">
@@ -172,8 +181,8 @@
         </div>
       </div><!-- End Timeline -->
     
-      <div class="gradient gray">
-        <div class="bar">
+      <!-- <div class="gradient gray"> -->
+        <div class="bar" style="background-color: #{{ page.sections.resources.color }};">
           <div class="heading-block">
             <h3>Additional</h3>
             <h2>Resources</h2>
@@ -187,7 +196,7 @@
           <a href="{{ link.link }}">{{ link.title }}</a>
           {% endfor %}
         </div>
-      </div>
+      <!-- </div> -->
     
     </section><!-- End Main -->
     <section class="support">

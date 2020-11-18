@@ -11,6 +11,9 @@
 
 :root {
     --timeline: #000;
+    --resources: #000;
+    --bottom-banner: #000;
+    --event-link-hover: #000;
   }
 
 .upper {
@@ -54,6 +57,15 @@ section.main .gradient .video {
 section.main .gradient .video iframe {
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.25);
 }
+
+section.main .events a {
+  color: #f2f2f2;
+}
+
+section.main .events a:hover {
+  color: var(--event-link-hover);
+}
+
 section.main .resources {
   flex-wrap: wrap;
   padding: 5%;
@@ -77,9 +89,9 @@ section.main .resources a {
   margin: 1em;
 }
 section.main .resources a:hover {
-  border-color: var(--timeline);
-  background-color: var(--timeline);
-  color: #fff;
+  border-color: var(--resources);
+  background-color: var(--resources);
+  color: #f2f2f2;
 }
 section.main .bar {
   background-color: #000;
@@ -161,6 +173,7 @@ section.main .generic-wrapper {
   background-color: #000;
   color: #fff;
 }
+
 section.intro .main-logo-intro {
   display: flex;
   background-color: #000;
@@ -338,7 +351,7 @@ div.icon-row .icon-block .icon-body {
   }
 }
 section.support .support {
-  background-color: var(--timeline);
+  background-color: var(--resources);
   color: #fff;
   display: flex;
   padding: 1.5rem 0;
@@ -365,7 +378,7 @@ section.support .support .support-link:hover {
 }
 section.support .main-logo-support {
   display: flex;
-  background-color: #000;
+  background-color: var(--bottom-banner);
   justify-content: center;
   padding: 2rem 0 3rem;
 }
