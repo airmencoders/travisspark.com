@@ -5,7 +5,7 @@ sections:
   intro:
     logo:
       image: Puckboard_Wordmark_WH.svg
-      scale: 40%
+      scale: 30%
       color: '484B5C'
     banner:
       visible: false
@@ -65,7 +65,7 @@ sections:
         linkText: RECORDING
         link: https://drive.google.com/file/d/1hPPkcEwiT3sOFr3AsODqoa-jaHMCy_r8/view?ts=5fb14a98
         description: >
-          Live presentation and "ask me anything" session with the core Puckboard team, including an update on the overall program, demos of recent features, insights on best practices, and release of a mobile-friendly interface.
+          Live presentation and "Ask Me Anything" session with the core Puckboard team, including an update on the overall program, demos of recent features, insights on best practices, and release of a mobile-friendly interface.
     future:
       # - name: Orange Flag
       #   image: orange-flag.png
@@ -117,7 +117,9 @@ sections:
       - title: Submit a Feature Request
         link: https://docs.google.com/forms/d/e/1FAIpQLSco7XDmmfozco0urHnKG8genX7_KShgJ7nPussUEn2wXxtAmw/viewform
   support:
-    logo: FC_Puckboard_Stacked_Logo_BK.png
+    logo: 
+      image: Puckboard_Wordmark_WH.svg
+      scale: 10%
     email: puckboard.tron@afwerx.af.mil
   banner:
     color: 2C2D33

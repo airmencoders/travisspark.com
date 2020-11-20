@@ -231,7 +231,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/static.png");
+  background: url("../img/matrix-dev-computer.png");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -252,20 +252,40 @@ font header .navbar-default .navbar-nav li a:hover {
   backface-visibility: hidden;
   padding: 100px 0;
 }
+
+#feature:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #1d192c;
+  opacity: 0.95;
+}
+
 #feature h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
+  color: #fff;
 }
 #feature p {
-  color: #8d8f92;
+  color: #fff;
   margin-bottom: 20px;
 }
+
 #feature .btn-view-works {
-  background: #655E7A;
-  color: #fff;
-  padding: 10px 20px;
+  padding: 15px 35px;
+  border: none;
+  background-color: #fff;
+  font-size: 15px;
+  color: #333333;
+  margin-top: 30px;
 }
+
 /*--
 	content Start
 --*/
