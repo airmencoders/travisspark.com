@@ -8,6 +8,7 @@ sections:
       standard: 1d192c
     categories:
       - name: General Platform One
+        filter: General-Platform-One
         links:
           - title: Tron IL4 Confluence
             filter: "tron-il4-confluence"
@@ -25,6 +26,7 @@ sections:
             description: > 
               Go here to run through a quick online course describing Platform One and the Continuous Authority to Operate.
       - name: FOUO/CUI Enterprise Collaboration on Platform One
+        filter: fouo-collab
         links:
           - title: Mattermost (FOUO)
             filter: Mattermost-fouo
@@ -42,6 +44,7 @@ sections:
             description: > 
               FOUO and CUI-approved Confluence instance (impact level 4)
       - name: Publically Releasable Enterprise Collaboration on Platform One
+        filter: public-collab
         links:
           - title: Mattermost
             filter: Mattermost-public
