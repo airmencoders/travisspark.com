@@ -3,14 +3,15 @@
       --main0: #{{ page.sections.main[0].color }};
       --main1: #{{ page.sections.main[1].color }};
       --timeline: #{{ page.sections.timeline.color }};
-      --resources: #{{ page.sections.resources.color }};
+      --resources: #{{ page.sections.resources.color.standard }};
+      --resources-button: #{{ page.sections.resources.color.button }};
       --bottom-banner: #{{ page.sections.banner.color }};
       --event-link-hover: #{{ page.sections.events.linkHoverColor }};
     }
     </style>
     <section class="intro">
       <div class="main-logo-intro" style="background-color: #{{ page.sections.intro.logo.color }};" >
-        <img src="images/{{ page.sections.intro.logo.image }}" alt="{{ page.title }}"/>
+        <img src="images/{{ page.sections.intro.logo.image }}" alt="{{ page.title }}" style="min-width: {{page.sections.intro.logo.scale}}; max-width: {{page.sections.intro.logo.scale}};" />
       </div>
       {% if page.sections.intro.banner.visible %}
       <div class="main-banner-intro" style="background-image: url(images/{{ page.sections.intro.banner.image }}); background-color: #{{ page.sections.intro.banner.color }};">
@@ -28,9 +29,8 @@
           <h3>{{ page.sections.main[0].descriptor }}</h3>
           <h2>{{ page.sections.main[0].purpose }}</h2>
         </div>
-        <div class="video">
-          <iframe width="560" height="315" src="{{ page.sections.main[0].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <div class="bar" >
+        </div><!-- End Bar -->
         <div class="img-text">
           <div class="img-text-inner">
             <div class="img">
@@ -44,26 +44,33 @@
             </div>
           </div>
         </div><!-- End Img-text block -->
-        <div class="bar" style="background-color: #{{ page.sections.main[1].color }};">
-          <div class="heading-block">
-            <h3>{{ page.sections.main[1].descriptor }}</h3>
-            <h2>{{ page.sections.main[1].impact }}</h2>
-          </div>
+        <div class="bar" >
         </div><!-- End Bar -->
         <div class="img-text">
           <div class="img-text-inner">
+            <div class="img mobile">
+              <img src="images/{{ page.sections.main[1].feature.image }}" alt="{{ page.sections.main[1].impact }}" />
+            </div>
             <div class="text">
               <div class="text-head">{{ page.sections.main[1].feature.compactDescription }}</div>
               <div class="text-body">
               <p>{{ page.sections.main[1].feature.expandedDescription }}</p>
               </div>
             </div>
-            <div class="img">
+            <div class="img desktop">
               <img src="images/{{ page.sections.main[1].feature.image }}" alt="{{ page.sections.main[1].impact }}" />
             </div>
           </div>
         </div><!-- End Img-text block -->
-    
+        <div class="bar" style="background-color: #{{ page.sections.main[1].color }};">
+          <div class="heading-block">
+            <h3>{{ page.sections.main[1].descriptor }}</h3>
+            <h2>{{ page.sections.main[1].impact }}</h2>
+          </div>
+        </div><!-- End Bar -->
+        <div class="video">
+          <iframe width="500" height="284" src="{{ page.sections.main[1].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div> <!-- End Gradient Group -->
     
       <div class="block icon-graphic-group">
@@ -77,7 +84,7 @@
             <img class="icon" src="images/{{ page.sections.main[2].features[1].icon }}"/>
             <div class="icon-heading">{{ page.sections.main[2].features[1].compactDescription }}</div>
             <div class="icon-body">{{ page.sections.main[2].features[1].expandedDescription }}</div>
-          </div>
+          </div> 
           <div class="icon-block">
             <img class="icon" src="images/{{ page.sections.main[2].features[2].icon }}"/>
             <div class="icon-heading">{{ page.sections.main[2].features[2].compactDescription }}</div>
@@ -182,7 +189,7 @@
       </div><!-- End Timeline -->
     
       <!-- <div class="gradient gray"> -->
-        <div class="bar" style="background-color: #{{ page.sections.resources.color }};">
+        <div class="bar" style="background-color: var(--resources);">
           <div class="heading-block">
             <h3>Additional</h3>
             <h2>Resources</h2>

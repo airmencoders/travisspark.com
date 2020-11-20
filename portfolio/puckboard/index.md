@@ -4,11 +4,12 @@ title: Puckboard
 sections:
   intro:
     logo:
-      image: Puckboard_Logo_No_Words.svg
+      image: Puckboard_Wordmark_WH.svg
+      scale: 40%
       color: '484B5C'
     banner:
       visible: false
-      image: Puckboard_Logo_No_Words.svg
+      image: Puckboard_Wordmark_WH.svg
       color: '484B5C'
       leftText: I'm on the left!
       rightText: And I'm on the right!
@@ -17,7 +18,6 @@ sections:
     - descriptor: The Future Of
       purpose: Collaborative Scheduling
       color: "484B5C"
-      video: https://www.youtube.com/embed/buQ6bTLOmKQ
       feature:
         image: Puckboard_Main_View.png
         compactDescription: Schedule Anytime, Anywhere
@@ -26,6 +26,7 @@ sections:
     - descriptor: Real-time, distributed, flexible.
       impact: Customize to your needs.
       color: "484B5C"
+      video: https://www.youtube.com/embed/buQ6bTLOmKQ
       feature:
         image: Puckboard_Settings_page.png
         compactDescription: Let us do the heavy lifting.
@@ -44,12 +45,12 @@ sections:
           expandedDescription: >
             Quickly identify and resolve conflicts, even when crewmembers are scheduled separately by two different organizations.
         - icon: checkfilled.svg
-          compactDescription: Crew Availabilty
+          compactDescription: Crew Availability
           expandedDescription: >
             View available crewmembers before accidentally scheduling someone for two flights at the same time.
     - image:
-        name: mobile-view.jpg
-        scale: "40%"
+        name: mobile.png
+        scale: "80%"
       color: 484B5C
       compactDescription: Access your live schedule anywhere, anytime.
       expandedDescription: >
@@ -104,7 +105,9 @@ sections:
       - name: ARMS integration v1
         date: Jul 21        
   resources:
-    color: 484B5C
+    color: 
+      button: c6c8d2
+      standard: 484B5C
     # files:
     #   - title: Puckboard Slideshow
     #     fileName: does-not-exist.ppt
