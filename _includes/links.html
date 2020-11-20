@@ -1,0 +1,71 @@
+<style>
+    :root {
+      --resources: #{{ page.sections.resources.color.standard }};
+      --resources-button: #{{ page.sections.resources.color.button }};
+      --bottom-banner: #{{ page.sections.banner.color }};
+      --event-link-hover: #{{ page.sections.events.linkHoverColor }};
+    }
+</style>
+<script>
+    function makeVisible(className, categoryName) {
+      var item = document.getElementsByClassName(className)[0];
+      item.style = "display:block;";
+    }
+
+    function hide(className) {
+      var item = document.getElementsByClassName(className)[0];
+      item.style = "display:none;";
+    }
+</script>
+<section class="main">
+    <!-- <div class="gradient gray"> -->
+    
+    {% for category in page.sections.resources.categories %}
+    <div class="bar" style="background-color: var(--resources);">
+        <div class="heading-block">
+        <h3>{{category.name}}</h3>
+        </div>
+    </div>
+    <div class="resources">
+        {% for link in category.links %}
+        <a onmouseout='hide("{{link.filter}}")' onmouseover='makeVisible("{{link.filter}}")' href="{{ link.link }}">{{ link.title }}</a>
+        {% endfor %}
+    </div>
+        {% for link in category.links %}
+        <div class="{{link.filter}} heading-block" style="display:none;">
+            <h3 class="description">{{link.description}}</h3>
+            <div class="bar"></div>
+        </div>
+        {% endfor %}
+    {% endfor %}
+</section><!-- End Main -->
+
+<section id="call-to-action">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block">
+            <!-- <h2>View our Portfolio</h2> -->
+            <!-- <p>
+              If you are interested in joining a Tron community like <em>Airmen Coders</em>,
+              or would like to build a local #PoweredByTron software development team
+              at your unit, take a look at our Portfolio/Partners to see what work is 
+              currently being done! 
+            </p>
+            <a class="btn btn-default btn-call-to-action" href="/portfolio/"
+              >View our Partners & Portfolio</a
+            > -->
+            <h2>Interested?</h2>
+            <p>
+              If you are interested in joining a Tron community like <em><b>Airmen Coders</b></em>,
+              or would like to build a local <em><b>#PoweredByTron</b></em> software development team
+              at your unit, reach out! 
+            </p>
+            <a class="btn btn-default btn-call-to-action" href="/contact/"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
