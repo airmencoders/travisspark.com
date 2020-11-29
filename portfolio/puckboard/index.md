@@ -63,7 +63,7 @@ sections:
         image: FC_Puckboard_Stacked_Logo_BK.png
         dateTime: 4 Nov 20 
         linkText: RECORDING
-        link: https://drive.google.com/file/d/1hPPkcEwiT3sOFr3AsODqoa-jaHMCy_r8/view?ts=5fb14a98
+        link: https://www.youtube.com/watch?v=B0ev0BjiT54&feature=youtu.be
         description: >
           Live presentation and "Ask Me Anything" session with the core Puckboard team, including an update on the overall program, demos of recent features, insights on best practices, and release of a mobile-friendly interface.
     future:
