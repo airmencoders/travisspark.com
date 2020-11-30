@@ -60,10 +60,11 @@ sections:
     linkHoverColor: 3fb599
     past:
       - name: Puckboard Demo & AMA (11/4/20)
-        image: FC_Puckboard_Stacked_Logo_BK.png
+        image: ig-Graphic.png
         dateTime: 4 Nov 20 
         linkText: RECORDING
         link: https://www.youtube.com/watch?v=B0ev0BjiT54&feature=youtu.be
+        video: https://www.youtube.com/embed/B0ev0BjiT54
         description: >
           Live presentation and "Ask Me Anything" session with the core Puckboard team, including an update on the overall program, demos of recent features, insights on best practices, and release of a mobile-friendly interface.
     future:

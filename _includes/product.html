@@ -128,6 +128,11 @@
               <div class="text-head">{{ event.name }}</div></a>
               <div class="text-body">
                 <p>{{ event.description }}</p>
+                {% if event.video %}
+                <div class="video">
+                  <iframe width="500" height="284" src="{{ event.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                {% endif %}
                 <!-- <div class="icon-row">
                   <div class="icon-block">
                     <a href="{{ event.link }}">
