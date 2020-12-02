@@ -113,7 +113,7 @@ sections:
     #   - title: Puckboard Slideshow
     #     fileName: does-not-exist.ppt
     links:
-      - title: FOUO Puckboard Link
+      - title: Live Production App (FOUO)
         link: https://puckboard.dsop.io
       - title: Puckboard Knowledge Base
         link: https://confluence.il2.dsop.io/display/puckboardhelp/Puckboard+Knowledge+Base
