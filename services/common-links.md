@@ -30,6 +30,11 @@ sections:
             link: https://jira.il2.dsop.io/secure/RapidBoard.jspa?rapidView=142&projectKey=COT&quickFilter=562
             description: > 
               Go here to quickly see the status of your pipelines or CtF within Platform One.
+          - title: Platform One Website
+            filter: p1-website
+            link: https://p1.dsop.io
+            description: > 
+              Go here to view all details of everything Platform One, from business offerings to onboarding process.
       - name: FOUO/CUI Enterprise Collaboration on Platform One
         filter: fouo-collab
         links:
