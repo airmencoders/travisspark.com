@@ -58,12 +58,12 @@ section.main .gradient.gray {
 section.main .gradient.gray .bar {
   margin-top: 0;
 }
-section.main .gradient .video {
+.video {
   display: flex;
   justify-content: center;
-  padding: 2% 0 5%;
+  padding: 2% 0 2%;
 }
-section.main .gradient .video iframe {
+.video iframe {
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.25);
 }
 
