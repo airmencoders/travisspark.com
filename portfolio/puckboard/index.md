@@ -122,7 +122,7 @@ sections:
   support:
     logo: 
       image: Puckboard_Wordmark_WH.svg
-      scale: 10%
+      scale: 23%
     email: puckboard.tron@afwerx.af.mil
   banner:
     color: 2C2D33
