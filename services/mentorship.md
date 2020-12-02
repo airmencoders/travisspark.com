@@ -47,7 +47,7 @@ If you are unable to find anybody that already has a product in development thro
     Thanks!
     ```
 
-    <span style="color:black">***\*NOTE\****</span> &nbsp; In order to provide a scalable service to the entire DoD, we have to be extremely streamlined in our processes for launching new technologies. We are contantly working to expand our supported offerings, but cannot create custom architectures at this time. If you have already started your project, please ensure that your project can either be launched or refactored to fit into one of our supported tech stack categories, [listed here](asdf).
+    <span style="color:black">***\*NOTE\****</span> &nbsp; In order to provide a scalable service to the entire DoD, we have to be extremely streamlined in our processes for launching new technologies. We are contantly working to expand our supported offerings, but cannot create custom architectures at this time. If you have already started your project, please ensure that your project can either be launched or refactored to fit into one of our supported tech stack categories.
 
 3. We will evaluate your score and ask you to either pursue a collection of pre-requisite online learning/review the prep work to re-take the exam before continuing, or proceed with the next step!
 
