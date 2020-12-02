@@ -25,6 +25,11 @@ sections:
             link: https://auth.galvanize.com/register?uid=fbc9761c8f97c752ea
             description: > 
               Go here to run through a quick online course describing Platform One and the Continuous Authority to Operate.
+          - title: Status of Tron Pipelines
+            filter: status-of-tron-pipelines
+            link: https://jira.il2.dsop.io/secure/RapidBoard.jspa?rapidView=142&projectKey=COT&quickFilter=562
+            description: > 
+              Go here to quickly see the status of your pipelines or CtF within Platform One.
       - name: FOUO/CUI Enterprise Collaboration on Platform One
         filter: fouo-collab
         links:
