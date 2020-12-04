@@ -85,9 +85,9 @@ sections:
   timeline:
     color: '3fb599'
     releases:
-      - name: Multi-Week View
+      - name: Multi-Week View & Mobile View v2
         date: Jan 21
-      - name: Mobile View v2
+      - name: Mobile 781 Builder (beta)
         date: Jan 21
       - name: Suggested Conflict Resolution
         date: Jan 21
