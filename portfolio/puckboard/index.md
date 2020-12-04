@@ -67,6 +67,14 @@ sections:
         video: https://www.youtube.com/embed/B0ev0BjiT54
         description: >
           Live presentation and "Ask Me Anything" session with the core Puckboard team, including an update on the overall program, demos of recent features, insights on best practices, and release of a mobile-friendly interface.
+      - name: Puckboard Intro & AMA (4/16/20)
+        image: PuckboardIntroEvent.png
+        dateTime: 16 Apr 20 
+        linkText: RECORDING
+        link: https://www.youtube.com/watch?v=luxOQPm1_Tc&feature=youtu.be
+        video: https://www.youtube.com/embed/luxOQPm1_Tc
+        description: >
+          Live intro presentation for the team at Charleston. Take a look at Puckboard in its earliest stages.
     future:
       # - name: Orange Flag
       #   image: orange-flag.png
