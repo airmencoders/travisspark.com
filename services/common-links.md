@@ -7,6 +7,21 @@ sections:
       button: c6c8d2
       standard: 1d192c
     categories:
+      - name: Tron Project Statuses
+        filter: tron-project-statuses
+        links: 
+          - title: Product Maturity Board
+            filter: Product-Maturity-Board
+            link: https://jira.il2.dsop.io/secure/RapidBoard.jspa?rapidView=345
+            description: >
+              Go here to view the path to production for any Tron-sponsored project.  Note that you must be 
+              added to the Tron Space in Platform One IL2 Jira to view.
+          - title: Status of Tron Pipelines
+            filter: status-of-tron-pipelines
+            link: https://jira.il2.dsop.io/secure/RapidBoard.jspa?rapidView=142&projectKey=COT&quickFilter=562
+            description: > 
+              Go here to quickly see the status of your pipelines or CtF within Platform One.  Note that you must be 
+              added to the Tron Space in Platform One IL2 Jira to view.
       - name: General Platform One
         filter: General-Platform-One
         links:
@@ -25,11 +40,6 @@ sections:
             link: https://auth.galvanize.com/register?uid=fbc9761c8f97c752ea
             description: > 
               Go here to run through a quick online course describing Platform One and the Continuous Authority to Operate.
-          - title: Status of Tron Pipelines
-            filter: status-of-tron-pipelines
-            link: https://jira.il2.dsop.io/secure/RapidBoard.jspa?rapidView=142&projectKey=COT&quickFilter=562
-            description: > 
-              Go here to quickly see the status of your pipelines or CtF within Platform One.
           - title: Platform One Website
             filter: p1-website
             link: https://p1.dsop.io
