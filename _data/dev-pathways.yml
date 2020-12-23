@@ -1,0 +1,8 @@
+headers: ['Pathway Name','Col1','Col2','Col3']
+rows:
+  - title: Path1
+    entries: [             X   ,  ''  ,   X  ]
+  - title: Path2
+    entries: [             ''  ,  X   ,   X  ]
+  - title: Path3
+    entries: [             X   ,  ''  ,   X  ]

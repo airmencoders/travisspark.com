@@ -1,0 +1,26 @@
+{% assign table = site.data.dev-pathways %}
+<table class="styled-table">
+    <thead>
+        <tr>
+            {% for header in table.headers %}
+                <th>{{ header }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in table.rows %}
+            <tr 
+                {% if page.sections.table.active-pathway == row.title %}
+                    class="active-row"
+                {% elsif page.sections.table.collapse %}
+                    class="hidden"
+                {% endif %}
+            >
+                <td>{{ row.title }}</td>
+                {% for col in row.entries %}
+                    <td>{{ col }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
