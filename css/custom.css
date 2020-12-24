@@ -9,6 +9,12 @@ ion-icon {
     font-size: 32px;
   }
 
+.styled-table-wrapper {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
 .styled-table {
     border-collapse: collapse;
     margin: 25px 0;

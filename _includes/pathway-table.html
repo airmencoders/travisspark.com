@@ -1,26 +1,37 @@
-{% assign table = site.data.dev-pathways %}
-<table class="styled-table">
-    <thead>
-        <tr>
-            {% for header in table.headers %}
-                <th>{{ header }}</th>
-            {% endfor %}
-        </tr>
-    </thead>
-    <tbody>
-        {% for row in table.rows %}
-            <tr 
-                {% if page.sections.table.active-pathway == row.title %}
-                    class="active-row"
-                {% elsif page.sections.table.collapse %}
-                    class="hidden"
-                {% endif %}
-            >
-                <td>{{ row.title }}</td>
-                {% for col in row.entries %}
-                    <td>{{ col }}</td>
+{% if page.sections.table.data=="roles.yml" %}
+    {% assign table=site.data.roles %}
+{% elsif page.sections.table.data=="qualifications.yml" %}
+    {% assign table=site.data.qualifications %}
+{% elsif page.sections.table.data=="pathways.yml" %}
+    {% assign table=site.data.pathways %}
+{% elsif page.sections.table.data=="dev-pathways.yml" %}
+    {% assign table=site.data.dev-pathways %}
+{% endif %}
+
+<div class="styled-table-wrapper">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                {% for header in table.headers %}
+                    <th>{{ header }}</th>
                 {% endfor %}
             </tr>
-        {% endfor %}
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            {% for row in table.rows %}
+                <tr 
+                    {% if page.sections.table.active-pathway == row.title %}
+                        class="active-row"
+                    {% elsif page.sections.table.collapse %}
+                        class="hidden"
+                    {% endif %}
+                >
+                    <td>{{ row.title }}</td>
+                    {% for col in row.entries %}
+                        <td>{{ col }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

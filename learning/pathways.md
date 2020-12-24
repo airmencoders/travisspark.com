@@ -1,6 +1,6 @@
 ---
 layout: pathway
-title: Learning Pathways for Government Members
+title: Learning Pathways
 sections:
   table:
     data: pathways.yml

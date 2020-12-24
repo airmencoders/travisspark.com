@@ -1,0 +1,34 @@
+headers: [Qualification, Frontend Developer (any framework), Backend Developer (Any Framework), cATO Developer, 3 mo in Prod, 1 yr as Full-Stack]
+rows:
+  - title: Frontend Developer
+    entries: [             X   ,  ''  ,   '' ,   '' ,   '' ]
+  - title: Backend Developer
+    entries: [             ''  ,  X   ,   '' ,   '' ,   '' ]
+  - title: Full-Stack Developer
+    entries: [             X   ,  X   ,   '' ,   '' ,   '' ]
+  - title: Production Frontend Developer
+    entries: [             X   ,  ''  ,   X  ,   X  ,   '' ]
+  - title: Production Backend Developer
+    entries: [             X   ,  ''  ,   X  ,   X  ,   '' ]
+  - title: Production Full-Stack Developer
+    entries: [             X   ,  X   ,   X  ,   X  ,   '' ]
+  - title: Anchor Developer
+    entries: [             X   ,  X   ,   X  ,   '' ,   X  ]
+  - title: Mentor Developer
+    entries: [             X   ,  X   ,   X  ,   X  ,   X  ]
+  # - title: Data Scientist
+  #   entries: [             X   ,  ''  ,   '' ]
+  # - title: Lead Data Scientist
+  #   entries: [             X   ,  X   ,   '' ]
+  # - title: Designer
+  #   entries: [             X   ,  ''  ,   '' ]
+  # - title: Lead Designer
+  #   entries: [             X   ,  ''  ,   '' ]  
+  # - title: Product Manager
+  #   entries: [             ''  ,  X   ,   '' ]
+  # - title: Lead Product Manager
+  #   entries: [             ''  ,  X  ,    '' ]
+  # - title: Portfolio Manager
+  #   entries: [             ''  ,  X   ,   '' ]
+  # - title: Board of Directors
+  #   entries: [             ''  ,  ''  ,   X  ] 
