@@ -7,5 +7,9 @@ layout: page
   {% include document.html %}
 </div>
 <p class="center-text" style="padding: 30px;">
-  <a href="{{ site.baseurl }}/#service">Back to services</a>
+  {% if page.return.link %}
+    <a href="{{ page.return.link }}">{{ page.return.text }}</a>
+  {% else %}
+    <a href="/#service">Back to services</a>
+  {% endif %}
 </p>

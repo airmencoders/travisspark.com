@@ -1,0 +1,50 @@
+headers: [Concept\Capability, Frontend Developer in React, Backend Developer in Express, Backend Developer in Spring Boot, cATO Developer]
+rows:
+  - title: Pre-assessment
+    entries: [             X   ,  X   ,   X  ,   X  ]
+  - title: HTML & CSS
+    entries: [             X   ,  ''  ,   '' ,   '' ]
+  - title: Javascript
+    entries: [             X   ,  X   ,   '' ,   '' ]
+  - title: React
+    entries: [             X   ,  ''  ,   '' ,   '' ]
+  - title: Testing in React
+    entries: [             X   ,  ''  ,   '' ,   '' ]  
+  - title: Node.js
+    entries: [             ''  ,  X   ,   '' ,   '' ]
+  - title: Express
+    entries: [             ''  ,  X  ,    '' ,   '' ]
+  - title: Testing in Express
+    entries: [             ''  ,  X   ,   '' ,   '' ]
+  - title: Java
+    entries: [             ''  ,  ''  ,   X  ,   '' ]
+  - title: Spring Boot
+    entries: [             ''  ,  ''  ,   X  ,   '' ]
+  - title: Testing in Spring
+    entries: [             ''  ,  ''  ,   X  ,   '' ]
+  - title: HTTP
+    entries: [             X   ,  X   ,   X  ,   X  ]  
+  - title: Frontend Concepts
+    entries: [             X   ,  ''  ,   '' ,   X  ]
+  - title: Backend/Persistence Concepts
+    entries: [             ''  ,  X   ,   X  ,   X  ]
+  - title: Test-Driven Development
+    entries: [             X   ,  X   ,   X  ,   X  ]
+  - title: Relational DBs & SQL
+    entries: [             ''  ,  X   ,   X  ,   '' ] 
+  - title: Authentication Architecture
+    entries: [             ''  ,  X   ,   X  ,   X  ]
+  - title: Utilizing JWT for Auth
+    entries: [             ''  ,  X   ,   X  ,   X  ] 
+  - title: Utilizing Tron Common API
+    entries: [             X   ,  X   ,   X  ,   '' ]
+  - title: Accessing API & Documenting via Swagger
+    entries: [             ''  ,  X   ,   X  ,   '' ] 
+  - title: Understanding CI/CD
+    entries: [             X   ,  X   ,   X  ,   X  ]
+  - title: Understanding P1 
+    entries: [             ''  ,  ''  ,  ''  ,   X  ]
+  - title: cATO Pipelines
+    entries: [             ''  ,  ''  ,  ''  ,   X  ]
+  - title: Understanding CtF
+    entries: [             ''  ,  ''  ,  ''  ,   X  ]
