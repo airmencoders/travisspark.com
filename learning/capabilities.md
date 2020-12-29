@@ -15,7 +15,7 @@ A ***capability milestone*** is defined as the smallest collection of concepts t
 For Air Force members, when a capability milestone is met through one of the various Tron learning pathways, the person completing the milestone is eligible to receive an Individual Capability (ICM) code through MyVector to facilitate future talent management/assignment opportunities.
 
 Mechanisms for completion of these capability milestones can be found in the <a href="/learning/pathways">Learning Pathways section</a>.
-Definition of the roles that can be filled by each qualification can be found in the <a href="/learning/qualifications">Roles</a> Section.
-Definition of the sufficient qualifications for filling a given role can be found in the <a href="/learning/capabilities">Qualifications</a> Section.
+Definition of the roles that can be filled by each qualification can be found in the <a href="/learning/roles">Roles</a> Section.
+Definition of the sufficient qualifications for filling a given role can be found in the <a href="/learning/qualifications">Qualifications</a> Section.
 
 
