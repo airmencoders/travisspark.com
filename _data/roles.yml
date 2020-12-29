@@ -1,37 +1,25 @@
 headers:
-  - Role\Qualification
-  - Frontend Developer
-  - Backend Developer
-  - Full-Stack Developer
-  - Production Frontend Developer
-  - Production Backend Developer
-  - Production Full-Stack Developer
-  - Anchor Developer
-  - Mentor Developer
+  - Qualification\Role
+  - Developer
+  - Anchor
+  - Designer
+  - Product Manager
+  - Developer Mentor
 rows:
-  - title: Developer
-    entries: [             X   ,  X   ,   X  ,   X  ,   X  ,   X  ,   X  ,   X  ]
-  - title: Anchor
-    entries: [             ''  ,  ''  ,   '' ,   '' ,   '' ,   '' ,   X  ,   '' ]
-  - title: Designer
-    entries: [             ''  ,  ''  ,   '' ,   '' ,   '' ,   '' ,   '' ,   '' ]
-  - title: Product Manager
-    entries: [             ''  ,  ''  ,   '' ,   '' ,   '' ,   '' ,   '' ,   '' ]
-  - title: Developer Mentor
-    entries: [             ''  ,  ''  ,   '' ,   '' ,   '' ,   '' ,   '' ,   X  ]
-  # - title: Data Scientist
-  #   entries: [             X   ,  ''  ,   '' ]
-  # - title: Lead Data Scientist
-  #   entries: [             X   ,  X   ,   '' ]
-  # - title: Designer
-  #   entries: [             X   ,  ''  ,   '' ]
-  # - title: Lead Designer
-  #   entries: [             X   ,  ''  ,   '' ]  
-  # - title: Product Manager
-  #   entries: [             ''  ,  X   ,   '' ]
-  # - title: Lead Product Manager
-  #   entries: [             ''  ,  X  ,    '' ]
-  # - title: Portfolio Manager
-  #   entries: [             ''  ,  X   ,   '' ]
-  # - title: Board of Directors
-  #   entries: [             ''  ,  ''  ,   X  ] 
+  - title: Frontend Developer
+    entries: [             'X'  ,  ''  ,   '' ,   '' ,   '' ]
+  - title: Backend Developer
+    entries: [             'X'  ,  ''  ,   '' ,   '' ,   ''  ]
+  - title: Full-Stack Developer
+    entries: [             'X'  ,  ''  ,   '' ,   '' ,   ''  ]
+  - title: Production Frontend Developer
+    entries: [             'X'  ,  ''  ,   '' ,   '' ,   ''  ]
+  - title: Production Backend Developer
+    entries: [             'X'  ,  ''  ,   '' ,   '' ,   ''  ]
+  - title: Production Full Stack Developer
+    entries: [             'X'  ,  ''  ,   '' ,   '' ,   ''  ]
+  - title: Anchor Developer
+    entries: [             'X'  ,  'X'  ,   '' ,   '' ,   '' ]
+  - title: Mentor Developer
+    entries: [             'X'  ,  ''  ,   '' ,   '' ,   'X' ]
+
