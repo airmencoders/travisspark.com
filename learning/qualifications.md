@@ -12,4 +12,4 @@ Here you will find the various qualifications that are earned upon completion of
 
 Mechanisms for completion of these capability milestones can be found in the <a href="/learning/pathways">Learning Pathways section</a>.
 Definition of the capability milestones can be found in the <a href="/learning/capabilities">Capability Milestones</a> Section.
-Definition of the roles that can be filled by each qualification can be found in the <a href="/learning/qualifications">Roles</a> Section.
+Definition of the roles that can be filled by each qualification can be found in the <a href="/learning/roles">Roles</a> Section.
