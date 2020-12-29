@@ -3,7 +3,7 @@ layout: pathway
 title: Capabilities & Capability Milestones
 sections:
   table:
-    data: dev-pathways.yml
+    data: capabilities.yml
     active-pathway: Path2
     collapse: false
 ---

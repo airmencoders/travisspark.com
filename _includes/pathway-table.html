@@ -4,8 +4,8 @@
     {% assign table=site.data.qualifications %}
 {% elsif page.sections.table.data=="pathways.yml" %}
     {% assign table=site.data.pathways %}
-{% elsif page.sections.table.data=="dev-pathways.yml" %}
-    {% assign table=site.data.dev-pathways %}
+{% elsif page.sections.table.data=="capabilities.yml" %}
+    {% assign table=site.data.capabilities %}
 {% endif %}
 
 <div class="styled-table-wrapper">
@@ -26,7 +26,15 @@
                         class="hidden"
                     {% endif %}
                 >
-                    <td>{{ row.title }}</td>
+                    <td>
+                        {% if row.link %}
+                            <a href={{ row.link }}>
+                        {% endif %}
+                        {{ row.title }}
+                        {% if row.link %}
+                            </a>
+                        {% endif %}
+                    </td>
                     {% for col in row.entries %}
                         <td>{{ col }}</td>
                     {% endfor %}

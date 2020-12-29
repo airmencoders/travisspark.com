@@ -1,63 +1,37 @@
-headers: [Concept, Frontend Developer in React, Backend Developer in Express, Backend Developer in Spring Boot, cATO Developer]
+headers:
+  - Pathway\Qualification
+  - Frontend Developer
+  - Backend Developer
+  - Full-Stack Developer
+  - Production Frontend Developer
+  - Production Backend Developer
+  - Production Full-Stack Developer
+  - Anchor Developer
+  - Mentor Developer
 rows:
-  - title: Pre-assessment
-    entries: [             X   ,  X   ,   X  ,   X  ]
-  - title: HTML & CSS
-    entries: [             X   ,  ''  ,   '' ,   '' ]
-  - title: Javascript
-    entries: [             X   ,  X   ,   '' ,   '' ]
-  - title: React
-    entries: [             X   ,  ''  ,   '' ,   '' ]
-  - title: Testing in React
-    entries: [             X   ,  ''  ,   '' ,   '' ]  
-  - title: Node.js
-    entries: [             ''  ,  X   ,   '' ,   '' ]
-  - title: Express
-    entries: [             ''  ,  X  ,    '' ,   '' ]
-  - title: Testing in Express
-    entries: [             ''  ,  X   ,   '' ,   '' ]
-  - title: Java
-    entries: [             ''  ,  ''  ,   X  ,   '' ]
-  - title: Spring Boot
-    entries: [             ''  ,  ''  ,   X  ,   '' ]
-  - title: Testing in Spring
-    entries: [             ''  ,  ''  ,   X  ,   '' ]
-  - title: HTTP
-    entries: [             X   ,  X   ,   X  ,   X  ]  
-  - title: Frontend Concepts
-    entries: [             X   ,  ''  ,   '' ,   X  ]
-  - title: Backend/Persistence Concepts
-    entries: [             ''  ,  X   ,   X  ,   X  ]
-  - title: Test-Driven Development
-    entries: [             X   ,  X   ,   X  ,   X  ]
-  - title: Relational DBs & SQL
-    entries: [             ''  ,  X   ,   X  ,   '' ] 
-  - title: Authentication Architecture
-    entries: [             ''  ,  X   ,   X  ,   X  ]
-  - title: Utilizing JWT for Auth
-    entries: [             ''  ,  X   ,   X  ,   X  ] 
-  - title: Utilizing Tron Common API
-    entries: [             X   ,  X   ,   X  ,   '' ]
-  - title: Accessing API & Documenting via Swagger
-    entries: [             ''  ,  X   ,   X  ,   '' ] 
-  - title: Understanding CI/CD
-    entries: [             X   ,  X   ,   X  ,   X  ]
-  - title: Understanding P1 
-    entries: [             ''  ,  ''  ,  ''  ,   X  ]
-  - title: cATO Pipelines
-    entries: [             ''  ,  ''  ,  ''  ,   X  ]
-  - title: Understanding CtF
-    entries: [             ''  ,  ''  ,  ''  ,   X  ]
-
-
-
-# initial qualification
-#     beginner
-# junior developer
-#     blended-modular
-#     experienced
-#     sdi
-# production deployer
-# software mentor
-# product manager
-# product designer
+  - title: Full-Time Software Development Immersive (SDI)
+    link: /learning/pathways/sdi
+    entries: [             X   ,  X   ,   X  ,   '' ,  ''  ,  ''  ,   '' ,   '' ]
+  - title: Full-Time SDI plus Tron Cell or Military Coders Payback
+    link: /learning/pathways/sdi#military-coders
+    entries: [             X   ,  X   ,   X  ,   X  ,  X   ,  X   ,   X  ,   '' ]
+  - title: Full-Time SDI plus Factory Internship
+    link: /learning/pathways/sdi#internship
+    entries: [             X   ,  X   ,   X  ,   X  ,  X   ,  X   ,   X  ,   '' ]
+  - title: Part-Time Frontend-Only SDI
+    link: /learning/pathways/modular#frontend-react
+    entries: [             X   ,  ''  ,   '' ,   '' ,  ''  ,  ''  ,   '' ,   '' ]
+  - title: Part-Time Backend-Only SDI (Express)
+    link: /learning/pathways/modular#backend-express
+    entries: [             ''  ,  X   ,   '' ,   '' ,  ''  ,  ''  ,   '' ,   '' ]
+  - title: Part-Time Backend-Only SDI (Spring Boot)
+    link: /learning/pathways/modular#backend-spring
+    entries: [             ''  ,  X   ,   '' ,   '' ,  ''  ,  ''  ,   '' ,   '' ]
+  - title: Part-Time plus Tron Cell or Military Coders Payback
+    link: /learning/pathways/experienced
+    entries: [             X<sup>*</sup>   ,  X<sup>*</sup>   ,   X<sup>*</sup> ,   X<sup>*</sup> ,  X<sup>*</sup>  ,  X<sup>*</sup>  ,   X<sup>*</sup> ,   '' ]
+  - title: Platform One Workshop (Experienced Devs Only)
+    link: /learning/pathways/experienced
+    entries: [             X<sup>**</sup>   ,  X<sup>**</sup>   ,   X<sup>**</sup> ,   '' ,  X   ,  X   ,   X  ,   '' ]
+  - title: Any Pathway to Anchor Plus 6-months Shadowing Current Tron Mentor
+    entries: [             X   ,  X   ,   X  ,   X  ,  X   ,  X   ,   X  ,   X  ]
