@@ -12,7 +12,7 @@ return:
 Government members who have a home-grown ability to write code with a passion to solve their own problems & a desire to rapidly become full-stack developers through a <span style="color:black">***full-time immersive program***</span>.
 
 ***`Solution Offered ("What"):`***
-3-month, full-time software development immersive program taught virtually, finishing as a qualified [Tron Developer](/learning/qualifications) with access to build production-ready prototypes on DoD Platform One.  The various capabilities that students can expect to gain during this course can be found in our ([capability milestones section](/learning/capabilities).
+3-month, full-time software development immersive program taught virtually, finishing as a qualified [Tron Developer](/learning/qualifications) with access to build production-ready prototypes on DoD Platform One.  The various capabilities that students can expect to gain during this course can be found in our [capability milestones section](/learning/capabilities).
 
 1. [Frontend developer in React](/learning/capabilities)
 2. [Backend developer in Express](/learning/capabilities)
