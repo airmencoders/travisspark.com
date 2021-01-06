@@ -12,14 +12,11 @@ return:
 Government members who have a home-grown ability to write code with a passion to solve their own problems & a desire to rapidly become full-stack developers through a <span style="color:black">***full-time immersive program***</span>.
 
 ***`Solution Offered ("What"):`***
-3-month, full-time software development immersive program taught virtually, finishing as a certified [Tron Junior Developer](/learning-pathways/tron-junior-developer/definition.html) with access to build production-ready prototypes on DoD Platform One.  Includes instruction in the following [minimum knowledge sets](/mks/definition.html) up to a common "junior developer" industry standard, in accordance with all standard practices of the [DoD Platform One Continuous Authority to Operate](asdf):
+3-month, full-time software development immersive program taught virtually, finishing as a qualified [Tron Developer](/learning/qualifications) with access to build production-ready prototypes on DoD Platform One.  The various capabilities that students can expect to gain during this course can be found in our ([capability milestones section](/learning/capabilities).
 
-1. [Frontend engineer in React](/mks/frontend/react.html)
-2. [Backend engineer in Express](/mks/backend/express/html)
-3. [Backend engineer in Spring Boot](/mks/backend/spring-boot.html)
-4. [Persistent storage with PostgreSQL](/mks/persistence/sql/postgresql.html)
-
-For full production capability, follow-on transition to the [***Tron*** Production Deployer](/learning-pathways/tron-production-deployer/definition.html) and [***Tron*** Software Mentor](/learning-pathways/tron-production-deployer/definition.html) learning pathways is highly encouraged.
+1. [Frontend developer in React](/learning/capabilities)
+2. [Backend developer in Express](/learning/capabilities)
+3. [Backend developer in Spring Boot](/learning/capabilities)
 
 
 ***`Problem Addressed ("Why"):`***
