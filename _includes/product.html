@@ -68,11 +68,14 @@
             <h2>{{ page.sections.main[1].impact }}</h2>
           </div>
         </div><!-- End Bar -->
+        {% if page.sections.main[1].video %}
         <div class="video">
           <iframe width="500" height="284" src="{{ page.sections.main[1].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        {% endif %}
       </div> <!-- End Gradient Group -->
     
+     {% if page.sections.main.length >= 2 %}
       <div class="block icon-graphic-group">
         <div class="icon-row">
           <div class="icon-block">
@@ -93,7 +96,8 @@
         </div>
         <img class="graphic" src="images/{{ page.sections.main[2].image.name }}" style="padding: 3rem 0; min-width: {{page.sections.main[2].image.scale}}; max-width: {{page.sections.main[2].image.scale}};"/>
       </div> <!-- End icon block -->
-
+      {% endif %}
+      {% if page.sections.main.length >= 3 %}
       <div class="generic-wrapper" style="background-color: #{{ page.sections.main[3].color }};">
         <div class="img-text">
           <div class="img-text-inner">
@@ -177,7 +181,8 @@
         </div>
         {% endfor %}
       </div><!-- End Events -->
-    
+      {% endif %}
+      
       <div class="timeline">
         <div class="heading-block">
           <h3>Timeline for release</h3>
