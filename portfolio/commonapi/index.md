@@ -20,7 +20,7 @@ sections:
       color: "484B5C"
       feature:
         image: placeholder.png
-        compactDescription: Eliminate data duplication of commonly used data
+        compactDescription: Eliminate duplication of commonly used data
         expandedDescription: >
           Common API is designed to make available common data such as user data and organizational information to
           all TRON applications - thereby eliminating duplicate data and database schemas
