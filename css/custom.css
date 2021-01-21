@@ -55,3 +55,23 @@ ion-icon {
 .hidden {
     display: none;
 }
+
+.sdi-apply {
+    background-color: #2C2D33;
+    padding: 2rem;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sdi-video {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0 2%;
+}
+.sdi-video video {
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.25);
+}
