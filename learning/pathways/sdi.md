@@ -12,14 +12,11 @@ return:
 Government members who have a home-grown ability to write code with a passion to solve their own problems & a desire to rapidly become full-stack developers through a <span style="color:black">***full-time immersive program***</span>.
 
 ***`Solution Offered ("What"):`***
-3-month, full-time software development immersive program taught virtually, finishing as a certified [Tron Junior Developer](/learning-pathways/tron-junior-developer/definition.html) with access to build production-ready prototypes on DoD Platform One.  Includes instruction in the following [minimum knowledge sets](/mks/definition.html) up to a common "junior developer" industry standard, in accordance with all standard practices of the [DoD Platform One Continuous Authority to Operate](asdf):
+3-month, full-time software development immersive program taught virtually, finishing as a qualified [Tron Developer](/learning/qualifications) with access to build production-ready prototypes on DoD Platform One.  The various capabilities that students can expect to gain during this course can be found in our [capability milestones section](/learning/capabilities).
 
-1. [Frontend engineer in React](/mks/frontend/react.html)
-2. [Backend engineer in Express](/mks/backend/express/html)
-3. [Backend engineer in Spring Boot](/mks/backend/spring-boot.html)
-4. [Persistent storage with PostgreSQL](/mks/persistence/sql/postgresql.html)
-
-For full production capability, follow-on transition to the [***Tron*** Production Deployer](/learning-pathways/tron-production-deployer/definition.html) and [***Tron*** Software Mentor](/learning-pathways/tron-production-deployer/definition.html) learning pathways is highly encouraged.
+1. [Frontend developer in React](/learning/capabilities)
+2. [Backend developer in Express](/learning/capabilities)
+3. [Backend developer in Spring Boot](/learning/capabilities)
 
 
 ***`Problem Addressed ("Why"):`***
@@ -28,7 +25,7 @@ The DoD Software Acquisitions and Practices Study (released in 2019) discovered 
 Further, these ***MilitaryCoders*** will be immediately equipped with the learning resources, network, and tools to apply their innovative skills to their current or future job assignments.  Upon completion of the program, we expect Airmen Coders to immediately be able to apply their skills to problems of importance to their commanders and remain connected to a robust network of innovative personnel who can share lessons learned across a wide variety of topics.
 
 ***`Start Date & Duration ("When"):`***
-New course dates to be announced early 2021. This course is a full-time 3-month web development immersion and follow-on engagement starting on 19 October or 9 November. The formal release letter must be signed by applicant’s Commander or equivalent and included in the application package due 1 October (22 October for the 9 November start date) in order for applications to be considered. 
+This course is a full-time 3-month web development immersion and follow-on engagement.  Offerings in 2021 will start on 22 Feb and 7 Jun. Applications are open now (see link below); the formal release letter must be signed by applicant’s Commander or equivalent and included in the application package by 29 Jan and 14 May for the respective course. 
 
 ***`Location of the Course ("Where"):`***
 This cohort will be led via VTC and in online collaboration channels by a joint team consisting of instructors from industry and product teams managed by DoD program offices or software factories.  The follow-on rapid development engagement will also be conducted all via remote VTC and using remote access and collaboration tools provided by software factories.

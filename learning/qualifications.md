@@ -6,7 +6,7 @@ return:
   text: Back to Pathways
 sections:
   table:
-    data: .yml
+    data: qualifications.yml
     active-pathway: Path2
     collapse: false
 ---
