@@ -1,6 +1,7 @@
 ---
 layout: document
 title: Software Development Immersive Program (SDI)
+permalink: /learning/pathways/sdi/
 return:
   link: /learning/pathways/
   text: Back to Pathways
