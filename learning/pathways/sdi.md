@@ -25,7 +25,7 @@ The DoD Software Acquisitions and Practices Study (released in 2019) discovered 
 Further, these ***MilitaryCoders*** will be immediately equipped with the learning resources, network, and tools to apply their innovative skills to their current or future job assignments.  Upon completion of the program, we expect Airmen Coders to immediately be able to apply their skills to problems of importance to their commanders and remain connected to a robust network of innovative personnel who can share lessons learned across a wide variety of topics.
 
 ***`Start Date & Duration ("When"):`***
-New course dates to be announced early 2021. This course is a full-time 3-month web development immersion and follow-on engagement starting on 19 October or 9 November. The formal release letter must be signed by applicant’s Commander or equivalent and included in the application package due 1 October (22 October for the 9 November start date) in order for applications to be considered. 
+This course is a full-time 3-month web development immersion and follow-on engagement.  Offerings in 2021 will start on 22 Feb and 7 Jun. Applications are open now (see link below); the formal release letter must be signed by applicant’s Commander or equivalent and included in the application package by 29 Jan and 14 May for the respective course. 
 
 ***`Location of the Course ("Where"):`***
 This cohort will be led via VTC and in online collaboration channels by a joint team consisting of instructors from industry and product teams managed by DoD program offices or software factories.  The follow-on rapid development engagement will also be conducted all via remote VTC and using remote access and collaboration tools provided by software factories.
