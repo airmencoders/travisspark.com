@@ -89,7 +89,7 @@ sections:
     logo: 
       image: placeholder.svg
       scale: 23%
-    email: puckboard@afwerx.af.mil
+    email: tron@afwerx.af.mil
   banner:
     color: 2C2D33
 ---
