@@ -26,7 +26,7 @@ sections:
     - descriptor: Real-time, distributed, flexible.
       impact: Customize to your needs.
       color: "484B5C"
-      video: hhttps://player.vimeo.com/video/507346083
+      video: https://player.vimeo.com/video/507346083
       feature:
         image: Puckboard_Settings_page.png
         compactDescription: Let us do the heavy lifting.
