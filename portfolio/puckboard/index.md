@@ -71,8 +71,8 @@ sections:
         image: PuckboardIntroEvent.png
         dateTime: 16 Apr 20 
         linkText: RECORDING
-        link: https://www.youtube.com/watch?v=luxOQPm1_Tc&feature=youtu.be
-        video: https://www.youtube.com/embed/luxOQPm1_Tc
+        link: https://player.vimeo.com/video/507302055
+        video: https://player.vimeo.com/video/507302055
         description: >
           Live intro presentation for the team at Charleston. Take a look at Puckboard in its earliest stages.
     future:
