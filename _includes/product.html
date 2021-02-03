@@ -207,7 +207,7 @@
         </div>
         <div class="resources">
           {% for file in page.sections.resources.files %}
-          <a href="{{ 'resources/{{ file.fileName }}' | absolute_url }}">{{ file.title }}</a>
+          <a href="{{ 'resources/{{ file.fileName }}' | relative_url }}">{{ file.title }}</a>
           {% endfor %}
           {% for link in page.sections.resources.links %}
           <a href="{{ link.link }}">{{ link.title }}</a>
