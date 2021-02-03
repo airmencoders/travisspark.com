@@ -26,7 +26,7 @@ sections:
     - descriptor: Real-time, distributed, flexible.
       impact: Customize to your needs.
       color: "484B5C"
-      video: https://www.youtube.com/embed/buQ6bTLOmKQ
+      video: https://player.vimeo.com/video/507346083
       feature:
         image: Puckboard_Settings_page.png
         compactDescription: Let us do the heavy lifting.
@@ -63,16 +63,16 @@ sections:
         image: ig-Graphic.png
         dateTime: 4 Nov 20 
         linkText: RECORDING
-        link: https://www.youtube.com/watch?v=B0ev0BjiT54&feature=youtu.be
-        video: https://www.youtube.com/embed/B0ev0BjiT54
+        link: https://vimeo.com/507300977
+        video: https://player.vimeo.com/video/507300977
         description: >
           Live presentation and "Ask Me Anything" session with the core Puckboard team, including an update on the overall program, demos of recent features, insights on best practices, and release of a mobile-friendly interface.
       - name: Puckboard Intro & AMA (4/16/20)
         image: PuckboardIntroEvent.png
         dateTime: 16 Apr 20 
         linkText: RECORDING
-        link: https://www.youtube.com/watch?v=luxOQPm1_Tc&feature=youtu.be
-        video: https://www.youtube.com/embed/luxOQPm1_Tc
+        link: https://vimeo.com/507302055
+        video: https://player.vimeo.com/video/507302055
         description: >
           Live intro presentation for the team at Charleston. Take a look at Puckboard in its earliest stages.
     future:
