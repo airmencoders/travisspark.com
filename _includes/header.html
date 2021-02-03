@@ -14,21 +14,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand" href="{{ '/index.html' | absolute_url }}">
               <img src="/img/logo.png" style="width:auto; height:100%" alt="Logo">
             </a>
           </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="/">Home</a></li>
-                <!-- <li><a href="/portfolio">Portfolio</a></li> -->
-                <li><a href="/#service">Services</a></li>
-                <li><a href="{{ '/portfolio/puckboard' | relative_url }}">Puckboard</a></li>
-                <!-- <li><a href="/partners">Partners</a></li> -->
-                <!-- <li><a href="/blog">Blog</a></li> -->
+                <li><a href="{{ '/' | absolute_url }}">Home</a></li>
+                <!-- <li><a href="{{ '/portfolio' | absolute_url }}">Portfolio</a></li> -->
+                <li><a href="{{ '/#service' | absolute_url }}">Services</a></li>
+                <li><a href="{{ '/portfolio/puckboard' | absolute_url }}">Puckboard</a></li>
+                <!-- <li><a href="{{ '/partners' | absolute_url }}">Partners</a></li> -->
+                <!-- <li><a href="{{ '/blog' | absolute_url }}">Blog</a></li> -->
                 <li><a href="https://tron.substack.com/">Blog</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="{{ '/contact' | absolute_url }}">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->

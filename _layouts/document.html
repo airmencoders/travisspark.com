@@ -10,6 +10,6 @@ layout: page
   {% if page.return.link %}
     <a href="{{ page.return.link }}">{{ page.return.text }}</a>
   {% else %}
-    <a href="/#service">Back to services</a>
+    <a href="{{ '/#service' | absolute_url }}">Back to services</a>
   {% endif %}
 </p>

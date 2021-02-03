@@ -56,8 +56,8 @@ projects:
                 <ul id="portfolio-contant-active">
                     {% for project in page.projects %}
                     <li class="mix {{ project.path }}">
-                      <a href="/portfolio/{{ project.path }}">
-                        <img src="/img/portfolio/{{ project.image }}" alt="">
+                      <a href="{{ '/portfolio/'project.path  | absolute_url }}">
+                        <img src="{{ '/img/portfolio/'project.image  | absolute_url }}" alt="">
                         <div class="overly">
                           <div class="position-center">
                             <h2>{{ project.name }}</h2>
@@ -83,40 +83,40 @@ projects:
         <div class="block">
           <div id="clients-logo" class="owl-carousel">
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo1.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo1.png' | absolute_url }}" alt="Features">
             </div>
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo2.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo2.png' | absolute_url }}" alt="Features">
             </div>
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo3.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo3.png' | absolute_url }}" alt="Features">
             </div>
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo4.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo4.png' | absolute_url }}" alt="Features">
             </div>
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo5.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo5.png' | absolute_url }}" alt="Features">
             </div>
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo3.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo3.png' | absolute_url }}" alt="Features">
             </div>
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo2.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo2.png' | absolute_url }}" alt="Features">
             </div>
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo5.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo5.png' | absolute_url }}" alt="Features">
             </div>
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo1.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo1.png' | absolute_url }}" alt="Features">
             </div>
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo4.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo4.png' | absolute_url }}" alt="Features">
             </div>
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo5.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo5.png' | absolute_url }}" alt="Features">
             </div>
             <div class="clients-logo-img">
-              <img src="/img/clients/clients-logo3.png" alt="Features">
+              <img src="{{ '/img/clients/clients-logo3.png' | absolute_url }}" alt="Features">
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@ projects:
         <div class="block">
           <h2>There is no reason to wait before believing you can have an impact.</h2>
           <p>Check out our service catalogue to see how we can best collaborate to help bring your vision to reality.</p>
-          <a class="btn btn-default btn-call-to-action" href="/#service" >Browse our Services</a>
+          <a class="btn btn-default btn-call-to-action" href="{{ /#service | absolute_url }}" >Browse our Services</a>
         </div>
       </div>
     </div>
