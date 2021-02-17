@@ -1,0 +1,37 @@
+headers:
+  - Pathway\Qualification
+  - Frontend Developer
+  - Backend Developer
+  - Full-Stack Developer
+  - Production Frontend Developer
+  - Production Backend Developer
+  - Production Full-Stack Developer
+  - Anchor Developer
+  - Mentor Developer
+rows:
+  - title: Full-Time Software Development Immersive (SDI)
+    link: /learning/pathways/sdi/
+    entries: [             X   ,  X   ,   X  ,   '' ,  ''  ,  ''  ,   '' ,   '' ]
+  - title: Full-Time SDI plus Tron Cell or Military Coders Payback
+    link: /learning/pathways/sdi/#military-coders
+    entries: [             X   ,  X   ,   X  ,   X  ,  X   ,  X   ,   X  ,   '' ]
+  - title: Full-Time SDI plus Factory Internship
+    link: /learning/pathways/sdi/#internship
+    entries: [             X   ,  X   ,   X  ,   X  ,  X   ,  X   ,   X  ,   '' ]
+  - title: Part-Time Frontend-Only SDI
+    link: /learning/pathways/modular/#frontend-react
+    entries: [             X   ,  ''  ,   '' ,   '' ,  ''  ,  ''  ,   '' ,   '' ]
+  - title: Part-Time Backend-Only SDI (Express)
+    link: /learning/pathways/modular/#backend-express
+    entries: [             ''  ,  X   ,   '' ,   '' ,  ''  ,  ''  ,   '' ,   '' ]
+  - title: Part-Time Backend-Only SDI (Spring Boot)
+    link: /learning/pathways/modular/#backend-spring
+    entries: [             ''  ,  X   ,   '' ,   '' ,  ''  ,  ''  ,   '' ,   '' ]
+  - title: Part-Time plus Tron Cell or Military Coders Payback
+    link: /learning/pathways/experienced/
+    entries: [             X<sup>*</sup>   ,  X<sup>*</sup>   ,   X<sup>*</sup> ,   X<sup>*</sup> ,  X<sup>*</sup>  ,  X<sup>*</sup>  ,   X<sup>*</sup> ,   '' ]
+  - title: Platform One Workshop (Experienced Devs Only)
+    link: /learning/pathways/experienced/
+    entries: [             X<sup>**</sup>   ,  X<sup>**</sup>   ,   X<sup>**</sup> ,   '' ,  X   ,  X   ,   X  ,   '' ]
+  - title: Any Pathway to Anchor Plus 6-months Shadowing Current Tron Mentor
+    entries: [             X   ,  X   ,   X  ,   X  ,  X   ,  X   ,   X  ,   X  ]

@@ -1,0 +1,14 @@
+headers:
+  - SDI
+  - Start Date
+  - Applications Due
+  - Course Complete
+
+rows:
+  - title: SDI 1
+    entries: [             '1 Jun 20'   ,  '8 May 20'   ,  '21 Aug 20' ]
+  - title: SDI 2
+    entries: [             '19 Oct 20'  ,  '25 Sep 20'  ,  '8 Jan 21']
+  - title: SDI 3
+    entries: [             '9 Nov 20'   ,  '16 Oct 20'  ,  '5 Feb 21']
+

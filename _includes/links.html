@@ -1,0 +1,71 @@
+<style>
+    :root {
+      --resources: #{{ page.sections.resources.color.standard }};
+      --resources-button: #{{ page.sections.resources.color.button }};
+      --bottom-banner: #{{ page.sections.banner.color }};
+      --event-link-hover: #{{ page.sections.events.linkHoverColor }};
+    }
+</style>
+<script>
+    function printText(categoryFilter, linkFilter) {
+        console.log("asdf");
+      var item = document.getElementsByClassName(`placeholder-${categoryFilter}`)[0];
+      item.getElementsByClassName("description")[0].innerHTML = document.getElementsByClassName(`storage-${linkFilter}`)[0].innerHTML;
+    }
+
+    function hide(categoryFilter) {
+      var item = document.getElementsByClassName(`placeholder-${categoryFilter}`)[0];
+      item.getElementsByClassName("description")[0].innerHTML = "Mouse over link to see description";
+    }
+</script>
+<section class="main">
+    <!-- <div class="gradient gray"> -->
+    
+    {% for category in page.sections.resources.categories %}
+    <div class="bar" style="background-color: var(--resources);">
+        <div class="heading-block">
+        <h3>{{category.name}}</h3>
+        </div>
+    </div>
+    <div class="resources">
+        {% for link in category.links %}
+        <a onmouseout='hide("{{category.filter}}")' onmouseover='printText("{{category.filter}}", "{{link.filter}}")' href="{{ link.link }}">{{ link.title }}</a>
+        <div class="storage-{{link.filter}}" style="display:none;">{{link.description}}</div>
+        {% endfor %}
+    </div>
+        <div class="placeholder-{{category.filter}} heading-block">
+            <h3 class="description">Mouse over link to see description</h3>
+            <div class="bar"></div>
+        </div>
+    {% endfor %}
+</section><!-- End Main -->
+
+<section id="call-to-action">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block">
+            <!-- <h2>View our Portfolio</h2> -->
+            <!-- <p>
+              If you are interested in joining a Tron community like <em>Airmen Coders</em>,
+              or would like to build a local #PoweredByTron software development team
+              at your unit, take a look at our Portfolio/Partners to see what work is 
+              currently being done! 
+            </p>
+            <a class="btn btn-default btn-call-to-action" href="{{ '/portfolio/' | relative_url }}"
+              >View our Partners & Portfolio</a
+            > -->
+            <h2>Interested?</h2>
+            <p>
+              If you are interested in joining a Tron community like <em><b>Airmen Coders</b></em>,
+              or would like to build a local <em><b>#PoweredByTron</b></em> software development team
+              at your unit, reach out! 
+            </p>
+            <a class="btn btn-default btn-call-to-action" href="{{ '/contact/' | relative_url }}"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

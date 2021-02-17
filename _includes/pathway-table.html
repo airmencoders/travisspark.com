@@ -1,0 +1,45 @@
+{% if page.sections.table.data=="roles.yml" %}
+    {% assign table=site.data.roles %}
+{% elsif page.sections.table.data=="qualifications.yml" %}
+    {% assign table=site.data.qualifications %}
+{% elsif page.sections.table.data=="pathways.yml" %}
+    {% assign table=site.data.pathways %}
+{% elsif page.sections.table.data=="capabilities.yml" %}
+    {% assign table=site.data.capabilities %}
+{% endif %}
+
+<div class="styled-table-wrapper">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                {% for header in table.headers %}
+                    <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in table.rows %}
+                <tr 
+                    {% if page.sections.table.active-pathway == row.title %}
+                        class="active-row"
+                    {% elsif page.sections.table.collapse %}
+                        class="hidden"
+                    {% endif %}
+                >
+                    <td>
+                        {% if row.link %}
+                            <a href={{ row.link }}>
+                        {% endif %}
+                        {{ row.title }}
+                        {% if row.link %}
+                            </a>
+                        {% endif %}
+                    </td>
+                    {% for col in row.entries %}
+                        <td>{{ col }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
