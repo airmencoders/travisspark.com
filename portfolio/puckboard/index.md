@@ -63,7 +63,7 @@ sections:
         image: mattermost-logomark-blue.png
         dateTime: 19 Jan 21 
         linkText: RECORDING
-        link: https://vimeo.com/video/514033742
+        link: https://vimeo.com/514033742
         video: https://player.vimeo.com/video/514033742
         description: >
           Live demo of the upcoming integration between Puckboard and Mattermost!!
