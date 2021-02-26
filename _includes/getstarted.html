@@ -1,0 +1,267 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
+
+<!-- CSS -->
+<link rel="stylesheet" href="{{ '/css/owl.carousel.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/font-awesome.min.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/getstarted.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/ionicons.min.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/animate.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/responsive.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/css/syntax.css' | relative_url }}" />
+
+<!-- CSS for Product Template-->
+{% if page.layout == "product" or page.layout == "links" %}
+<link rel="stylesheet" type="text/css" href="{{ '/css/product.css' | relative_url }}" />
+{% endif %}
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="{{ '/css/custom.css' | relative_url }}" />
+
+
+
+<!-- Js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
+<script src="{{ '/js/owl.carousel.min.js' | relative_url }}"></script>
+<script src="{{ '/js/plugins.js' | relative_url }}"></script>
+<script src="{{ '/js/min/waypoints.min.js' | relative_url }}"></script>
+<script src="{{ '/js/jquery.counterup.js' | relative_url }}"></script>
+
+
+<script src="{{ '/js/main.js' | relative_url }}"></script>
+
+{% if page.layout == "product" %}
+<script src="{{ '/js/product.js' | relative_url }}"></script>
+{% endif %}
+
+<!-- ionicons -->
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <body>
+
+
+
+
+
+
+
+
+<section id="intro" style="border-bottom: 1px double #ddd;">
+    <div class="container">
+      <div class="row">
+        <div class=" col-sm-12">
+          <div class="block">
+            <div class="">
+                <h1>Get Started with Puckboard</h1>
+               
+                <p>
+                    Welcome! This guide will walk through the steps that are required to create your unit in Puckboard and set you up for success in your respective organization.
+                    
+                    At the end of this guide, you will be familiar with the process, tools, and team that are available to help support your Puckboard endeavors and user journey.</p>
+            </div>
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+    </div>
+  </section>
+
+<section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <div class="block">
+            <div class="">
+              <h1>Step 1. Watch the demo</h1>
+              <p>This video will walk you through the core functionality of Puckboard and the user interface. After you watch the demo, you will have the knowledge to navigate through Puckboard, customize your squadrons settings, add personnel, and create and edit events.</p>
+              <p></p>
+            </div>
+          </div>
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-5 col-sm-12">
+          <div class="block">
+            <iframe src="https://player.vimeo.com/video/507346083" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div><!-- .col-md-5 close -->
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" style="border-bottom: 1px double #ddd;"> </section>
+
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <div class="block">
+            <div class="">
+              <h1>Step 2. Join a live AMA</h1>
+              <p>Every Tuesday and Thursday, the Puckboard team hosts a live AMA to answer any questions, announce new releases, and provide live training. On Thursdays, the team also provides information on Mattermost and relevant integrations.</p>
+              <p>Register below to claim your spot.</p>
+              <a href="#" class="btn btn-view-works">Register for Tuesday</a> <a href="#" class="btn btn-view-works">Register for Thursday</a>
+            </div>
+          </div>
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-5 col-sm-12">
+          <div class="block">
+            <img src="/portfolio/puckboard/images/zoom.png" width="620">
+          </div>
+          
+        </div><!-- .col-md-5 close -->
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" style="border-bottom: 1px double #ddd;"> </section>
+
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <div class="block">
+            <div class="">
+              <h1>Step 3. Sign up for Platform One SSO</h1>
+              <p>Already a Mattermost user? You can skip to step 4.</p>
+              <p>P1 SSO is how you will login to Puckboard and other applications within the P1 ecosystem.</p>
+              <a href="#" class="btn btn-view-works">Sign up for P1 SSO</a> <a href="#" class="btn btn-view-works">Learn more about P1</a>
+            </div>
+          </div>
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-5 col-sm-12">
+          <div class="block">
+            <img src="/portfolio/puckboard/images/jira.png" width="620">
+          </div>
+          
+        </div><!-- .col-md-5 close -->
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" style="border-bottom: 1px double #ddd;"> </section>
+
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <div class="block">
+            <div class="">
+              <h1>Step 4. Submit a request to create your unit in Puckboard</h1>
+              <p>Now that you have a P1 SSO account, you can login to our Service Desk and request a new unit for Puckboard.</p>
+              <p>The team then creates your unit and reaches out to ensure that all personnel are uploaded properly.</p>
+              <a href="#" class="btn btn-view-works">Take me to the form!</a> 
+            </div>
+          </div>
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-5 col-sm-12">
+          <div class="block">
+            <img src="/portfolio/puckboard/images/pb.png" width="620">
+          </div>
+          
+        </div><!-- .col-md-5 close -->
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" style="border-bottom: 1px double #ddd;"> </section>
+
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <div class="block">
+            <div class="">
+              <h1>Step 5. Implement and train</h1>
+              <p>This is the fun part, where you get to work with the training and onboarding team to implement Puckboard for your unit. </p>
+              <p>We grant access to our internal knowledge base and Mattermost team, work with you on implementing best practices, and ensure that you will be ready to succeed at go-live.</p>
+              <a href="#" class="btn btn-view-works">Knowledge Base</a> <a href="#" class="btn btn-view-works">Mattermost Team</a> 
+            </div>
+          </div>
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-5 col-sm-12">
+          <div class="block">
+            <img src="/portfolio/puckboard/images/gantticon.png" width="620">
+          </div>
+          
+        </div><!-- .col-md-5 close -->
+      </div>
+    </div>
+  </section>
+
+
+  <section id="intro" style="border-bottom: 1px double #ddd;"> </section>
+
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <div class="block">
+            <div class="">
+              <h1>Step 6. Go-Live</h1>
+              <p>Okay, we take it back. THIS is the fun part. After determining readiness and ensuring access to all of the support resources, you get to launch Puckboard as the source of truth for your schedule!</p>
+              <p>During this whole process, you have access to the onboarding team, training materials, and other users in the Mattermost team. We're with you every step of the way.</p>
+              <a href="#" class="btn btn-view-works">Knowledge Base</a> <a href="#" class="btn btn-view-works">Mattermost Team</a> 
+            </div>
+          </div>
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-5 col-sm-12">
+          <div class="block">
+            <img src="/portfolio/puckboard/images/live.png" width="620">
+          </div>
+          
+        </div><!-- .col-md-5 close -->
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" style="border-bottom: 1px double #ddd;"> </section>
+
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <div class="block">
+            <div class="">
+              <h1>Step 7-ish. Get involved</h1>
+              <p>Puckboard is developed using User Centered Design and Agile methodology, meaning that we fight for you, the user.</p>
+              <p>If you have suggestions on how to make Puckboard better, or want to submit feature suggestions, submit a request in the Service Desk. You can see what other users have submitted and vote on their ideas. You can also ask questions in our Confluence space, stay informed on releases, and even get involved with feature design.</p>
+              <a href="https://jira.il2.dso.mil/servicedesk/customer/portal/68" class="btn btn-view-works">Service Desk</a> <a href="#" class="btn btn-view-works">Roadmap</a> <a href="#" class="btn btn-view-works">Confluence</a> 
+            </div>
+          </div>
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-5 col-sm-12">
+          <div class="block">
+            <img src="/portfolio/puckboard/images/road.png" width="620">
+          </div>
+          
+        </div><!-- .col-md-5 close -->
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" style="border-bottom: 1px double #ddd;">
+    <div class="container">
+      <div class="row">
+        <div class=" col-sm-12">
+          <div class="block">
+            <div class="">
+                <h1>Thank you.</h1>
+               
+                <p>If you have questions, comments, or mean things to say, drop us a note in Mattermost or come to an AMA! We appreciate every single one of you, happy Puckboarding!</p>
+            </div>
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+    </div>
+  </section>
+
+
+    </body>
+</html>
