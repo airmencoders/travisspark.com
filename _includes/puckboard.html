@@ -1,0 +1,146 @@
+<style>
+    :root {
+      --main0: #{{ page.sections.main[0].color }};
+      --main1: #{{ page.sections.main[1].color }};
+      --timeline: #{{ page.sections.timeline.color }};
+      --resources: #{{ page.sections.resources.color.standard }};
+      --resources-button: #{{ page.sections.resources.color.button }};
+      --bottom-banner: #{{ page.sections.banner.color }};
+      --event-link-hover: #{{ page.sections.events.linkHoverColor }};
+    }
+</style>
+
+<section id="hero">
+    <div id="hero-image"></div>
+    <div class="container">
+        <div id="row-hero" class="row" style="border: 10px solid #fff; padding: 20px;">
+            <div id="logo-wrapper">
+                <img src="{{ page.sections.hero.logo }}" alt="{{ page.title }}" style="width: 600px;" />
+                <h3>{{ page.sections.hero.header }}</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="resources" style="background-color: #{{ page.sections.features.background-color }};">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <h2 class="center">{{ page.sections.features.header }}</h2>
+              <div class="header-descriptor">
+                  <p>{{ page.sections.features.descriptor }}</p>
+              </div>
+          </div>
+      </div>
+      <div class="row padding">
+          <div class="col-md-4 center">
+              <img class="img-responsive center-block" src="{{ page.sections.features.cards[0].image }}" style="margin-bottom: 50px; height: 100px;"/>
+              <h4>{{ page.sections.features.cards[0].imageHeader }}</h4>
+              <p class="content-descriptor">{{ page.sections.features.cards[0].imageDescriptor }}</p>
+          </div>
+          <div class="col-md-4 center">
+              <img class="img-responsive center-block" src="{{ page.sections.features.cards[1].image }}" style="margin-bottom: 50px; height: 100px;"/>
+              <h4>{{ page.sections.features.cards[1].imageHeader }}</h4>
+              <p class="content-descriptor">{{ page.sections.features.cards[1].imageDescriptor }}</p>
+          </div>
+          <div class="col-md-4 center">
+              <img class="img-responsive center-block" src="{{ page.sections.features.cards[2].image }}" style="margin-bottom: 50px; height: 100px;"/>
+              <h4>{{ page.sections.features.cards[2].imageHeader }}</h4>
+              <p class="content-descriptor">{{ page.sections.features..cards[2].imageDescriptor }}</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+{% for section in page.sections.splitColumns %}
+{% if section.background-color == "fff" %}
+<section class="feature" style="background-color: #{{ section.background-color }};">
+{% else %}
+<section class="feature white" style="background-color: #{{ section.background-color }};">
+{% endif %}
+  <div class="container">
+  <div class="row">
+      {% if section.textOrientation == "right" %}
+      <div class="col-md-6 col-sm-12">
+        {% if section.video %}
+        <iframe src="{{ section.video }}" width="500" height="284" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        {% elsif section.image %}
+        <img src="{{ section.image }}" width="500">
+        {% endif %}
+      </div><!-- .col-md-6 close -->
+      {% endif %}
+      <div class="col-md-6 col-sm-12">
+        <h3>{{ section.header }}</h3>
+        <p>{{ section.descriptor }}</p>
+
+        {% if section.descriptor2 %}
+        <p>{{ section.descriptor2 }}</p>
+        {% endif %}
+        {% if section.button1Text %}
+        <a href="{{ section.button1Url }}" class="btn btn-primary btn-lg">{{ section.button1Text }}</a>
+        {% endif %}
+        {% if section.button2Text %}
+        <a href="{{ section.button2Url }}" class="btn btn-primary btn-lg">{{ section.button2Text }}</a>
+        {% endif %}
+        {% if section.button3Text %}
+        <a href="{{ section.button3Url }}" class="btn btn-primary btn-lg">{{ section.button3Text }}</a>
+        {% endif %}
+      </div><!-- .col-md-6 close -->
+      {% if section.textOrientation == "left" %}
+      <div class="col-md-6 col-sm-12">
+        {% if section.video %}
+        <iframe src="{{ section.video }}" width="500" height="284" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        {% elsif section.image %}
+        <img src="{{ section.image }}" width="500">
+        {% endif %}
+      </div><!-- .col-md-6 close -->
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+<section class="timeline white" style="background-color: #{{ page.sections.timeline.background-color }};">
+    <div class="timeline">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="center">Timeline for release</h2>
+          <div class="header-descriptor">
+              <p>Major Feature Roadmap</p>
+          </div>
+        </div>
+      </div>
+        <!-- <div class="heading-block">
+          <h3>Timeline for release</h3>
+          <h2>Major Feature Roadmap</h2>
+        </div> -->
+        <div class="timeline-inner">
+          {% for release in page.sections.timeline.releases %}
+          <div class="timeline-item" style="background-color: var(--timeline);">
+              {{ release.name }} <strong class="upper">{{ release.date }}</strong>
+          </div>
+          {% endfor %}
+          <div class="line"></div>
+        </div>
+      </div><!-- End Timeline -->
+
+</section>
+
+<section id="end">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h3>{{ page.sections.end.header }}</h3>
+        <h4>{{ page.sections.end.descriptor }}</h4>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        {% if page.sections.end.button1Text %}
+        <a class="btn btn-primary btn-lg" href="{{ page.sections.end.button1Url}}">{{ page.sections.end.button1Text }}</a>
+        {% endif %}
+        {% if page.sections.end.button2Text %}
+        <a class="btn btn-primary btn-lg" href="{{ page.sections.end.button2Url }}">{{ page.sections.end.button2Text }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

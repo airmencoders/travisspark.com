@@ -1,0 +1,120 @@
+<section id="main" class="white" style="background-color: #{{ page.sections.main.background-color }};">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="center">{{ page.sections.main.header }}</h1>
+                <div class="header-descriptor">
+                    <p>{{ page.sections.main.descriptor }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive center-block" src="{{ page.sections.main.image }}" alt="{{ page.sections.main.image-alt }}" style="width: 600px;"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="video" style="background-color: #{{ page.sections.splitColumns[0].background-color }};">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="center">{{ page.sections.splitColumns[0].header }}</h2>
+                <div class="header-descriptor">
+                    <p>{{ page.sections.splitColumns[0].descriptor }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           <hr> 
+        </div>
+        <div class="row padding">
+            <div class="col-md-6">
+                <h3>{{ page.sections.splitColumns[0].moduleHeader }}</h3>
+                <h4>{{ page.sections.splitColumns[0].moduleSubHeader }}</h4>
+                <p class="content-descriptor">{{ page.sections.splitColumns[0].expandedDescription }}</p>
+                <button class="btn btn-primary btn-lg" href="{{ page.sections.splitColumns[0].buttons[0].link }}">{{ page.sections.splitColumns[0].buttons[0].text }}</button>
+            </div>
+            <div class="col-md-6">
+                <iframe width="500" height="284" src="{{ page.sections.splitColumns[0].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {% if page.sections.splitColumns[0].buttons[1] %}
+                <button class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[0].buttons[1].link }}">{{ page.sections.splitColumns[0].buttons[1].text }}</button>
+                {% endif %}
+                {% if page.sections.splitColumns[0].buttons[2] %}
+                <button class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[0].buttons[2].link }}">{{ page.sections.splitColumns[0].buttons[2].text }}</button>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="resources white" style="background-color: #{{ page.sections.resources[0].background-color }};">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="center">{{ page.sections.resources[0].header }}</h2>
+                <div class="header-descriptor">
+                    <p>{{ page.sections.resources[0].descriptor }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           <hr> 
+        </div>
+        <div class="row padding">
+            <div class="col-md-4 center">
+                <a href="{{ page.sections.resources[0].cards[0].imageLink }}"><img class="img-responsive center-block" src="{{ page.sections.resources[0].cards[0].image }}" style="margin-bottom: 50px; height: 100px;"/></a>
+                <h4>{{ page.sections.resources[0].cards[0].imageHeader }}</h4>
+                <p class="content-descriptor">{{ page.sections.resources[0].cards[0].imageDescriptor }}</p>
+            </div>
+            <div class="col-md-4 center">
+                <a href="{{ page.sections.resources[0].cards[1].imageLink }}"><img class="img-responsive center-block" src="{{ page.sections.resources[0].cards[1].image }}" style="margin-bottom: 50px; height: 100px;"/></a>
+                <h4>{{ page.sections.resources[0].cards[1].imageHeader }}</h4>
+                <p class="content-descriptor">{{ page.sections.resources[0].cards[1].imageDescriptor }}</p>
+            </div>
+            <div class="col-md-4 center">
+                <a href="{{ page.sections.resources[0].cards[2].imageLink }}"><img class="img-responsive center-block" src="{{ page.sections.resources[0].cards[2].image }}" style="margin-bottom: 50px; height: 100px;"/></a>
+                <h4>{{ page.sections.resources[0].cards[2].imageHeader }}</h4>
+                <p class="content-descriptor">{{ page.sections.resources[0].cards[2].imageDescriptor }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="video" style="background-color: #{{ page.sections.splitColumns[0].background-color }};">
+    <div class="container">
+        {% if page.sections.splitColumns[1].header %}
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="center">{{ page.sections.splitColumns[1].header }}</h2>
+                <div class="header-descriptor">
+                    <p>{{ page.sections.splitColumns[1].descriptor }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           <hr> 
+        </div>
+        {% endif %}
+        <div class="row padding">
+            <div class="col-md-6">
+                <h3>{{ page.sections.splitColumns[1].moduleHeader }}</h3>
+                {% if page.sections.splitColumns[1].moduleSubHeader %}<h4>{{ page.sections.splitColumns[1].moduleSubHeader }}</h4>{% endif %}
+                <p class="content-descriptor">{{ page.sections.splitColumns[1].expandedDescription }}</p>
+                {% if page.sections.splitColumns[1].buttons[0] %}
+                <button class="btn btn-primary btn-lg" href="{{ page.sections.splitColumns[1].buttons[0].link }}">{{ page.sections.splitColumns[1].buttons[0].text }}</button>
+                {% endif %}
+            </div>
+            <div class="col-md-6">
+                <iframe width="500" height="284" src="{{ page.sections.splitColumns[1].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {% if page.sections.splitColumns[1].buttons[1] %}
+                <button class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[1].buttons[1].link }}">{{ page.sections.splitColumns[1].buttons[1].text }}</button>
+                {% endif %}
+                {% if page.sections.splitColumns[1].buttons[2] %}
+                <button class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[1].buttons[2].link }}">{{ page.sections.splitColumns[1].buttons[2].text }}</button>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>

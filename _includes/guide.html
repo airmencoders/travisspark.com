@@ -1,0 +1,55 @@
+<section id="intro" style="border-bottom: 1px double #ddd;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>{{ page.sections.main.header }}</h1>  
+          <p style="width: 75%;">{{ page.sections.main.descriptor }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% for section in page.sections.body %}
+<section id="feature" style="border-bottom: 1px double #ddd;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h3>{{ section.header }}</h3>
+        <p>{{ section.descriptor }}</p>
+
+        {% if section.descriptor2 %}
+        <p>{{ section.descriptor2 }}</p>
+        {% endif %}
+        {% if section.button1Text %}
+        <a href="{{ section.button1Url }}" class="btn btn-primary btn-lg">{{ section.button1Text }}</a>
+        {% endif %}
+        {% if section.button2Text %}
+        <a href="{{ section.button2Url }}" class="btn btn-primary btn-lg">{{ section.button2Text }}</a>
+        {% endif %}
+        {% if section.button3Text %}
+        <a href="{{ section.button3Url }}" class="btn btn-primary btn-lg">{{ section.button3Text }}</a>
+        {% endif %}
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        {% if section.video %}
+        <iframe src="{{ section.video }}" width="500" height="284" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        {% elsif section.image %}
+        <img src="{{ section.image }}" width="500">
+        {% endif %}
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+
+<section id="intro" style="border-bottom: 1px double #ddd;">
+  <div class="container">
+    <div class="row">
+      <div class=" col-md-12">
+        <h3>{{ page.sections.end.header }}</h3>
+        <p style="width: 75%;">{{ page.sections.end.descriptor }}</p>
+      </div>
+    </div>
+  </div>
+</section>
