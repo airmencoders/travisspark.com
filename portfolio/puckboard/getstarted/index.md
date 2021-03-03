@@ -22,8 +22,6 @@ sections:
       - header: Step 3. Sign up for Platform One SSO
         descriptor: Already a Mattermost user? You can skip to step 4.
         descriptor2: P1 SSO is how you will login to Puckboard and other applications within the P1 ecosystem.
-        button1Text: Sign up for P1 SSO
-        button1Url: https://login.dso.mil/auth/realms/baby-yoda/protocol/openid-connect/registrations?client_id=account&response_type=code
         button2Text: Learn more about P1
         button2Url: /p1
         image: /portfolio/puckboard/images/jira.png
@@ -31,7 +29,7 @@ sections:
         descriptor: Now that you have a P1 SSO account, you can login to our Service Desk and request a new unit for Puckboard.
         descriptor2: The team then creates your unit and reaches out to ensure that all personnel are uploaded properly.
         button1Text: Take me to the form!
-        button1Url: https://jira.il2.dso.mil/servicedesk/customer/portal/68/group/94
+        button1Url: https://jira.il2.dso.mil/servicedesk/customer/portal/68/create/306
         image: /portfolio/puckboard/images/pb.png
       - header: Step 5. Implement and train
         descriptor: This is the fun part, where you get to work with the training and onboarding team to implement Puckboard for your unit.
@@ -44,16 +42,16 @@ sections:
       - header: Step 6. Go-Live
         descriptor: Okay, we take it back. THIS is the fun part. After determining readiness and ensuring access to all of the support resources, you get to launch Puckboard as the source of truth for your schedule and join the growing legion of Puckboarders!
         descriptor2: During this whole process, you have access to the onboarding team, training materials, and other users in the Mattermost team. We're with you every step of the way.
-        image: /portfolio/puckboard/images/live.png
-      - header: Step 7-ish. Get involved
+        image: /portfolio/puckboard/images/patches.png
+      - header: Step 7. Get involved
         descriptor: Puckboard is developed using User Centered Design and Agile methodology, meaning that we fight for you, the user.
         descriptor2: If you have suggestions on how to make Puckboard better, or want to submit feature suggestions, submit a request in the Service Desk. You can see what other users have submitted and vote on their ideas. You can also ask questions in our Confluence space, stay informed on releases, and even get involved with feature design.
         button1Text: Suggest a feature
-        button1Url: https://jira.il2.dso.mil/servicedesk/customer/portal/68
-        button2Text: New releases
+        button1Url: https://jira.il2.dso.mil/servicedesk/customer/portal/68/create/305
+        button2Text: Release Notes
         button2Url: https://confluence.il2.dso.mil/display/puckboardhelp/Puckboard+Release+Notes
-        button3Text: Confluence
-        button3Url: https://confluence.il2.dso.mil/display/puckboardhelp/questions/all
+        button3Text: FAQ
+        button3Url: https://confluence.il2.dso.mil/display/puckboardhelp/Frequently+Asked+Questions
         image: /portfolio/puckboard/images/road.png
     end:
         header: Thank you.
