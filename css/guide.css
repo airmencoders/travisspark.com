@@ -292,15 +292,20 @@
  }
  
  #feature .btn-view-works {
-   padding: 15px 50px;
+   padding: 15px 30px;
    border: none;
-   background-color:black;
+   background-color: #484B5C;
    font-size: 15px;
    color: white;
    margin-top: 30px;
    margin-left: 30px;
  }
  
+ #feature img {
+   padding-left: 35x;
+   width: 100%;
+
+ }
  /*--
      content Start
  --*/

@@ -41,8 +41,7 @@ p {
     margin: 30px auto;
 }
 section img {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 100%;
 
 }
 .btn {

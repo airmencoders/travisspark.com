@@ -32,9 +32,9 @@
       </div><!-- .col-md-6 close -->
       <div class="col-md-6 col-sm-12">
         {% if section.video %}
-        <iframe src="{{ section.video }}" width="500" height="284" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="{{ section.video }}" width="100%" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         {% elsif section.image %}
-        <img src="{{ section.image }}" width="500">
+        <img src="{{ section.image }}">
         {% endif %}
       </div><!-- .col-md-6 close -->
     </div>

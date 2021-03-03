@@ -32,30 +32,49 @@ sections:
       descriptor: Build a schedule in minutes, with customizable roles, event types, and conflict settings. View your squadron or unit roster while you’re building the schedule, and see in real time who is available for missions.
       image: /portfolio/puckboard/images/Puckboard_Settings_page.png
       textOrientation: right
+  whatsnew:
+    header: What's new in Puckboard?
+    descriptor: The latest releases. 
+    cards:
+      - image: /portfolio/puckboard/images/mobilerelease.png
+        imageDescriptor: Access your schedule from any device with internet connection, make requests, and approve them all on your phone. 
+      - image: /portfolio/puckboard/images/twoweekrelease.png
+        imageDescriptor: View your schedule across multiple weeks with the click of a button, with easy filters available to view by personnel or event type. 
+      - image: /portfolio/puckboard/images/performance.png
+        imageDescriptor: Improvements to loading time and bug fixes for multiple features. 
+        image-alt: performance
+      - image: /portfolio/puckboard/images/adminrelease.png
+        imageDescriptor: Added functionality for Squadron POCs and Organizational Admins, with greater flexibility to scale fast and securely.
+        image-alt: permission     
+      - image: /portfolio/puckboard/images/requestrelease.png
+        imageDescriptor: Delete or cancel requests after review, improving communications within your squadron. 
+        image-alt: permission    
+      - image: /portfolio/puckboard/images/pblbeta.png
+        imageDescriptor: Puckboard Logging Beta Program, contact us to get involved!
+        image-alt: permission    
   timeline:
     background-color: 454355
     color: '3fb599'
     releases:
-      - name: Multi-Week View & Mobile View v2
-        date: Jan 21
-      - name: Mobile 781 Builder (beta)
-        date: Jan 21
-      - name: Suggested Conflict Resolution
-        date: Jan 21
-      - name: Mattermost C2 v1
-        date: Jan 21
+      - name: Crew Rainbow
+        date: April 21
+      - name: Qualifications
+        date: May 21
+      - name: Mattermost Integration
+        date: June 21
       - name: Shift Scheduling
         date: Jul 21
-      - name: Click & Drag Events
-        date: Jul 21
-      - name: Crew Rainbow
-        date: Jul 21
+      - name: Combined Scheduling
+        date: Aug 21
       - name: Puckboard Logging
-        date: Jul 21
-      - name: Schedule Export
-        date: Jul 21
+        date: August 21
       - name: ARMS integration v1
-        date: Jul 21   
+        date: Aug 21   
+      - name: Currency Capability
+        date: Aug 21  
+      - name: Training Profile
+        date: Aug 21         
+
   end:
     header: Ready to get started?
     descriptor: Get started today or contact us
