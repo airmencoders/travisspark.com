@@ -100,13 +100,66 @@
 </section>
 {% endfor %}
 
+
+
+
+
+<section class="whatsnew" style="background-color: #{{ page.sections.whatsnew.background-color }};">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <h2 class="center">{{ page.sections.whatsnew.header }}</h2>
+              <div class="header-descriptor">
+                  <p>{{ page.sections.whatsnew.descriptor }}</p>
+              </div>
+          </div>
+      </div>
+      <div class="row padding">
+          <div class="col-md-2 center">
+              <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[0].image }}" style="margin-bottom: 50px; height: 100%;"/>
+              <h4>{{ page.sections.whatsnew.cards[0].imageHeader }}</h4>
+              <p class="content-descriptor">{{ page.sections.whatsnew.cards[0].imageDescriptor }}</p>
+          </div>
+          <div class="col-md-2 center">
+              <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[1].image }}" style="margin-bottom: 50px; height: 100%;"/>
+              <h4>{{ page.sections.whatsnew.cards[1].imageHeader }}</h4>
+              <p class="content-descriptor">{{ page.sections.whatsnew.cards[1].imageDescriptor }}</p>
+          </div>
+          <div class="col-md-2 center">
+              <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[2].image }}" style="margin-bottom: 50px; height: 100%;"/>
+              <h4>{{ page.sections.whatsnew.cards[2].imageHeader }}</h4>
+              <p class="content-descriptor">{{ page.sections.whatsnew..cards[2].imageDescriptor }}</p>
+          </div>
+          <div class="col-md-2 center">
+            <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[3].image }}" style="margin-bottom: 50px; height: 100%;"/>
+            <h4>{{ page.sections.whatsnew.cards[3].imageHeader }}</h4>
+            <p class="content-descriptor">{{ page.sections.whatsnew..cards[3].imageDescriptor }}</p>
+        </div>
+        <div class="col-md-2 center">
+          <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[4].image }}" style="margin-bottom: 50px; height: 100%;"/>
+          <h4>{{ page.sections.whatsnew.cards[4].imageHeader }}</h4>
+          <p class="content-descriptor">{{ page.sections.whatsnew..cards[4].imageDescriptor }}</p>
+      </div>
+      <div class="col-md-2 center">
+        <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[5].image }}" style="margin-bottom: 50px; height: 100%;"/>
+        <h4>{{ page.sections.whatsnew.cards[5].imageHeader }}</h4>
+        <p class="content-descriptor">{{ page.sections.whatsnew..cards[5].imageDescriptor }}</p>
+    </div>
+        </div>
+  </div>
+</section>
+
+
+
+
+
 <section class="timeline white" style="background-color: #{{ page.sections.timeline.background-color }};">
     <div class="timeline">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="center">Timeline for release</h2>
+          <h2 class="center">What's next for Puckboard?</h2>
           <div class="header-descriptor">
-              <p>Major Feature Roadmap</p>
+              <p></p>
           </div>
         </div>
       </div>
