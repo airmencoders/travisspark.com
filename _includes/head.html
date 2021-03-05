@@ -54,6 +54,10 @@
 <script src="{{ '/js/product.js' | relative_url }}"></script>
 {% endif %}
 
+{% if page.layout == "p1" or page.layout == "puckboard" %}
+<script src="{{ '/js/puckboard.js' | relative_url }}"></script>
+{% endif %}
+
 <!-- ionicons -->
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
