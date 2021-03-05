@@ -1,58 +1,30 @@
 <style>
-    :root {
-      --main0: #{{ page.sections.main[0].color }};
-      --main1: #{{ page.sections.main[1].color }};
-      --timeline: #{{ page.sections.timeline.color }};
-      --resources: #{{ page.sections.resources.color.standard }};
-      --resources-button: #{{ page.sections.resources.color.button }};
-      --bottom-banner: #{{ page.sections.banner.color }};
-      --event-link-hover: #{{ page.sections.events.linkHoverColor }};
-    }
+  :root {
+    --timeline: #{{ page.sections.timeline.color }};
+  }
 </style>
 
 <section id="hero">
     <div id="hero-image"></div>
-    <div class="container">
-        <div id="row-hero" class="row" style="border: 10px solid #fff; padding: 20px;">
+    <div id="hero-container" class="container">
+        <div id="row-hero" class="row white">
             <div id="logo-wrapper">
-                <img src="{{ page.sections.hero.logo }}" alt="{{ page.title }}" style="width: 600px;" />
-                <h3>{{ page.sections.hero.header }}</h3>
+                <img class="img-responsive" src="{{ page.sections.hero.logo }}" alt="{{ page.title }}" style="width: 600px;" />
+                <h3>{{ page.sections.hero.header }}</h3><br>
             </div>
+        </div>
+        <br><br>
+        <div id="hero-cta" class="row white center">
+          <h2><b>{{ page.sections.cta[0].header }}</b></h2>
+          {% if page.sections.cta[0].button1Text %}
+        <a class="btn btn-primary btn-lg" href="{% if page.sections.cta[0].isInternal %} {{ site.url }}{% endif %}/{{ page.sections.cta[0].button1Url}}">{{ page.sections.cta[0].button1Text }}</a>
+        {% endif %}
+
         </div>
     </div>
 </section>
 
-<section class="resources" style="background-color: #{{ page.sections.features.background-color }};">
-  <div class="container">
-      <div class="row">
-          <div class="col-md-12">
-              <h2 class="center">{{ page.sections.features.header }}</h2>
-              <div class="header-descriptor">
-                  <p>{{ page.sections.features.descriptor }}</p>
-              </div>
-          </div>
-      </div>
-      <div class="row padding">
-          <div class="col-md-4 center">
-              <img class="img-responsive center-block" src="{{ page.sections.features.cards[0].image }}" style="margin-bottom: 50px; height: 100px;"/>
-              <h4>{{ page.sections.features.cards[0].imageHeader }}</h4>
-              <p class="content-descriptor">{{ page.sections.features.cards[0].imageDescriptor }}</p>
-          </div>
-          <div class="col-md-4 center">
-              <img class="img-responsive center-block" src="{{ page.sections.features.cards[1].image }}" style="margin-bottom: 50px; height: 100px;"/>
-              <h4>{{ page.sections.features.cards[1].imageHeader }}</h4>
-              <p class="content-descriptor">{{ page.sections.features.cards[1].imageDescriptor }}</p>
-          </div>
-          <div class="col-md-4 center">
-              <img class="img-responsive center-block" src="{{ page.sections.features.cards[2].image }}" style="margin-bottom: 50px; height: 100px;"/>
-              <h4>{{ page.sections.features.cards[2].imageHeader }}</h4>
-              <p class="content-descriptor">{{ page.sections.features..cards[2].imageDescriptor }}</p>
-          </div>
-      </div>
-  </div>
-</section>
-
-{% for section in page.sections.splitColumns %}
+{% for section in page.sections.splitColumns limit:2 %}
 {% if section.background-color == "fff" %}
 <section class="feature" style="background-color: #{{ section.background-color }};">
 {% else %}
@@ -65,7 +37,7 @@
         {% if section.video %}
         <iframe src="{{ section.video }}" width="500" height="284" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         {% elsif section.image %}
-        <img src="{{ section.image }}" width="500">
+        <img class="img-responsive" src="{{ section.image }}" width="500">
         {% endif %}
       </div><!-- .col-md-6 close -->
       {% endif %}
@@ -77,21 +49,23 @@
         <p>{{ section.descriptor2 }}</p>
         {% endif %}
         {% if section.button1Text %}
-        <a href="{{ section.button1Url }}" class="btn btn-primary btn-lg">{{ section.button1Text }}</a>
+        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button1Url }}" class="btn btn-primary btn-lg">{{ section.button1Text }}</a>
         {% endif %}
         {% if section.button2Text %}
-        <a href="{{ section.button2Url }}" class="btn btn-primary btn-lg">{{ section.button2Text }}</a>
+        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button2Url }}" class="btn btn-primary btn-lg">{{ section.button2Text }}</a>
         {% endif %}
         {% if section.button3Text %}
-        <a href="{{ section.button3Url }}" class="btn btn-primary btn-lg">{{ section.button3Text }}</a>
+        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button3Url }}" class="btn btn-primary btn-lg">{{ section.button3Text }}</a>
         {% endif %}
       </div><!-- .col-md-6 close -->
       {% if section.textOrientation == "left" %}
       <div class="col-md-6 col-sm-12">
         {% if section.video %}
-        <iframe src="{{ section.video }}" width="500" height="284" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div class="video">
+          <iframe src="{{ section.video }}" width="540" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
         {% elsif section.image %}
-        <img src="{{ section.image }}" width="500">
+        <img class="img-responsive" src="{{ section.image }}" width="500" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
         {% endif %}
       </div><!-- .col-md-6 close -->
       {% endif %}
@@ -100,60 +74,137 @@
 </section>
 {% endfor %}
 
-
-
-
-
-<section class="whatsnew" style="background-color: #{{ page.sections.whatsnew.background-color }};">
+<section class="resources" style="background-color: #{{ page.sections.features[0].background-color }};">
   <div class="container">
       <div class="row">
           <div class="col-md-12">
-              <h2 class="center">{{ page.sections.whatsnew.header }}</h2>
-              <div class="header-descriptor">
-                  <p>{{ page.sections.whatsnew.descriptor }}</p>
-              </div>
+              <h2 class="center">{{ page.sections.features[0].header }}</h2>
           </div>
       </div>
       <div class="row padding">
-          <div class="col-md-2 center">
-              <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[0].image }}" style="margin-bottom: 50px; height: 100%;"/>
-              <h4>{{ page.sections.whatsnew.cards[0].imageHeader }}</h4>
-              <p class="content-descriptor">{{ page.sections.whatsnew.cards[0].imageDescriptor }}</p>
+        {% for card in page.sections.features[0].cards limit:3 %}
+        <div class="col-md-4 center">
+          <div class="card">
+            {% if card.image %}
+            <img class="img-responsive center-block" src="{{ card.image }}"/>
+            {% elsif card.video %}
+            <iframe src="{{ card.video }}" width="100%" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            {% endif %}
           </div>
-          <div class="col-md-2 center">
-              <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[1].image }}" style="margin-bottom: 50px; height: 100%;"/>
-              <h4>{{ page.sections.whatsnew.cards[1].imageHeader }}</h4>
-              <p class="content-descriptor">{{ page.sections.whatsnew.cards[1].imageDescriptor }}</p>
-          </div>
-          <div class="col-md-2 center">
-              <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[2].image }}" style="margin-bottom: 50px; height: 100%;"/>
-              <h4>{{ page.sections.whatsnew.cards[2].imageHeader }}</h4>
-              <p class="content-descriptor">{{ page.sections.whatsnew..cards[2].imageDescriptor }}</p>
-          </div>
-          <div class="col-md-2 center">
-            <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[3].image }}" style="margin-bottom: 50px; height: 100%;"/>
-            <h4>{{ page.sections.whatsnew.cards[3].imageHeader }}</h4>
-            <p class="content-descriptor">{{ page.sections.whatsnew..cards[3].imageDescriptor }}</p>
+          <h4>{{ card.header }}</h4>
+          <p class="content-descriptor">{{ card.descriptor }}</p>
         </div>
-        <div class="col-md-2 center">
-          <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[4].image }}" style="margin-bottom: 50px; height: 100%;"/>
-          <h4>{{ page.sections.whatsnew.cards[4].imageHeader }}</h4>
-          <p class="content-descriptor">{{ page.sections.whatsnew..cards[4].imageDescriptor }}</p>
+        {% endfor %}
       </div>
-      <div class="col-md-2 center">
-        <img class="img-responsive center-block" src="{{ page.sections.whatsnew.cards[5].image }}" style="margin-bottom: 50px; height: 100%;"/>
-        <h4>{{ page.sections.whatsnew.cards[5].imageHeader }}</h4>
-        <p class="content-descriptor">{{ page.sections.whatsnew..cards[5].imageDescriptor }}</p>
-    </div>
-        </div>
   </div>
 </section>
 
+<section class="cta" style="background-color:#{{ page.sections.cta[1].background-color }};">
+  <div class="container">
+    <div class="row white">
+      <div class="col-md-6 col-sm-12">
+        <h3>{{ page.sections.cta[1].header }}</h3>
+        <h4>{{ page.sections.cta[1].descriptor }}</h4>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        {% if page.sections.cta[1].buttons %}
+        {% for button in page.sections.cta[1].buttons %}
+        <a class="btn btn-primary btn-lg" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
+        {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="feature" style="background-color: #{{ page.sections.splitColumns[2].background-color }};">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h3>{{ page.sections.splitColumns[2].header }}</h3>
+        <p>{{ page.sections.splitColumns[2].descriptor }}</p>
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        <img class="img-responsive" src="/portfolio/puckboard/images/mobile.png" width="500">
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
 
+<section class="resources white" style="background-color: #{{ page.sections.features[1].background-color }};">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <h2 class="center">{{ page.sections.features[1].header }}</h2>
+          </div>
+      </div>
+      <div class="row padding">
+        {% for card in page.sections.features[1].cards limit:6 %}
+        <div class="col-md-2 center">
+          <div class="card whats-new">
+            {% if card.image %}
+            <img class="img-responsive center-block" src="{{ card.image }}"/>
+            {% elsif card.video %}
+            <iframe src="{{ card.video }}" width="100%" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            {% endif %}
+          </div>
+          <h4>{{ card.header }}</h4>
+          <p class="content-descriptor">{{ card.descriptor }}</p>
+        </div>
+        {% endfor %}
+      </div>
+  </div>
+</section>
 
+{% for section in page.sections.splitColumns2 %}
+{% if section.background-color == "fff" %}
+<section class="feature" style="background-color: #{{ section.background-color }};">
+{% else %}
+<section class="feature white" style="background-color: #{{ section.background-color }};">
+{% endif %}
+  <div class="container">
+  <div class="row">
+      {% if section.textOrientation == "right" %}
+      <div class="col-md-6 col-sm-12">
+        {% if section.video %}
+        <iframe src="{{ section.video }}" width="500" height="284" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        {% elsif section.image %}
+        <img class="img-responsive" src="{{ section.image }}" width="500">
+        {% endif %}
+      </div><!-- .col-md-6 close -->
+      {% endif %}
+      <div class="col-md-6 col-sm-12">
+        <h3>{{ section.header }}</h3>
+        <p>{{ section.descriptor }}</p>
 
-<section class="timeline white" style="background-color: #{{ page.sections.timeline.background-color }};">
+        {% if section.descriptor2 %}
+        <p>{{ section.descriptor2 }}</p>
+        {% endif %}
+        {% if section.button1Text %}
+        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button1Url }}" class="btn btn-primary btn-lg">{{ section.button1Text }}</a>
+        {% endif %}
+        {% if section.button2Text %}
+        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button2Url }}" class="btn btn-primary btn-lg">{{ section.button2Text }}</a>
+        {% endif %}
+        {% if section.button3Text %}
+        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button3Url }}" class="btn btn-primary btn-lg">{{ section.button3Text }}</a>
+        {% endif %}
+      </div><!-- .col-md-6 close -->
+      {% if section.textOrientation == "left" %}
+      <div class="col-md-6 col-sm-12">
+        {% if section.video %}
+        <iframe src="{{ section.video }}" width="500" height="284" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        {% elsif section.image %}
+        <img class="img-responsive" src="{{ section.image }}" width="500">
+        {% endif %}
+      </div><!-- .col-md-6 close -->
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+<section class="timeline" style="background-color: #{{ page.sections.timeline.background-color }};">
     <div class="timeline">
       <div class="row">
         <div class="col-md-12">
@@ -179,20 +230,17 @@
 
 </section>
 
-<section id="end">
+<section class="cta white" style="background-color: #{{ page.sections.cta[2].background-color }}">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12">
-        <h3>{{ page.sections.end.header }}</h3>
-        <h4>{{ page.sections.end.descriptor }}</h4>
+        <h3>{{ page.sections.cta[2].header }}</h3>
+        <h4>{{ page.sections.cta[2].descriptor }}</h4>
       </div>
       <div class="col-md-6 col-sm-12">
-        {% if page.sections.end.button1Text %}
-        <a class="btn btn-primary btn-lg" href="{{ page.sections.end.button1Url}}">{{ page.sections.end.button1Text }}</a>
-        {% endif %}
-        {% if page.sections.end.button2Text %}
-        <a class="btn btn-primary btn-lg" href="{{ page.sections.end.button2Url }}">{{ page.sections.end.button2Text }}</a>
-        {% endif %}
+        {% for button in page.sections.cta[2].buttons %}
+        <a class="btn btn-primary btn-lg" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
+        {% endfor %}
       </div>
     </div>
   </div>

@@ -33,7 +33,7 @@ p {
     color: white;
 }
 .header-descriptor {
-    width: 500px;
+    /* width: 500px; */
     margin: 20px auto;
     text-align: center;
 }
@@ -42,7 +42,12 @@ p {
 }
 section img {
     width: 100%;
-
+}
+.feature img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.feature p {
+    margin-top: 30px;
 }
 .btn {
     margin: 20px 10px 20px 0;
@@ -231,14 +236,13 @@ div.timeline .timeline-inner .line:after {
 
 #hero {
     position: relative;
-    height: 70vh;
+    height: 740px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #hero-image {    
-    content: "";
     background-image: url('/portfolio/puckboard/images/hero.jpg');
     background-size: cover;
     position: absolute;
@@ -246,17 +250,86 @@ div.timeline .timeline-inner .line:after {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     z-index: -1;
 }
+#hero-image:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #8b86a3, #322e40);
+    opacity: 0.95;
+}
+/* #hero-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */
 #row-hero {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    border: 5px solid #fff;
 }
 #logo-wrapper {
-    background-color: rgba(113,181,153,0.8);
+    /* background-color: rgba(113,181,153,0.8); */
+    /* background-color: #454355; */
     width: 100%;
     height: 100%;
     padding: 40px;
+}
+#hero-cta {
+    margin: 50px 0;
+}
+.card {
+    height: 240px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.card img {
+    height: 150px;
+}
+.resources h2 {
+    margin-bottom: 5rem;
+}
+.video {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+section#video-hero {
+    padding: 0;
+    position: relative;
+}
+#video-hero-container {
+    /* display: none; */
+    position: relative;
+    top: 0;
+    left: 0;
+    /* z-index: -1; */
+}
+#video-hero-container-text {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10rem;
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index: 2;
+}
+.p1-cta {
+    padding: 0;
+    background-color: black;
+}
+.whats-new {
+    margin-bottom: 0px;
+    height: 100%;
 }
