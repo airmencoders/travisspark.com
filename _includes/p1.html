@@ -32,7 +32,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <img class="img-responsive center-block" src="{{ page.sections.main.image }}" alt="{{ page.sections.main.image-alt }}" style="width: 800px;"/>
+                <img class="img-responsive center-block" src="{{ page.sections.main.image }}" alt="{{ page.sections.main.image-alt }}" style="width: 1200px;"/>
             </div>
         </div>
     </div>
@@ -63,11 +63,20 @@
             <div class="col-md-6">
                 <iframe width="500" height="284" src="{{ page.sections.splitColumns[0].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 {% if page.sections.splitColumns[0].buttons[1] %}
+                <br><br><br>
                 <a class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[0].buttons[1].link }}">{{ page.sections.splitColumns[0].buttons[1].text }}</a>
                 {% endif %}
                 {% if page.sections.splitColumns[0].buttons[2] %}
                 <a class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[0].buttons[2].link }}">{{ page.sections.splitColumns[0].buttons[2].text }}</a>
                 {% endif %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-6">
+
             </div>
         </div>
     </div>

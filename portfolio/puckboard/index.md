@@ -13,7 +13,7 @@ sections:
        - image: /portfolio/puckboard/images/requests.svg
          header: Event Volunteering
          descriptor: Easily request open positions on flights, sims, or ground events from your personal device, anywhere in the world...without needing a lengthy text chain to your schedulers.
-       - video: https://player.vimeo.com/video/519703716
+       - video: https://player.vimeo.com/video/519703716?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
          header: Conflict Resolution
          descriptor: Quickly identify and resolve conflicts, even when crewmembers are scheduled separately by two different organizations.
        - image: /portfolio/puckboard/images/checkfilled.svg
@@ -45,7 +45,7 @@ sections:
   splitColumns:
     - background-color: fff
       header: Schedule Anytime, Anywhere
-      descriptor: Puckboard is intentionally designed as a live, highly available collaborative scheduling platform to meet the scheduling needs of servicemembers around the globe on your desktop, phone, or tablet.
+      descriptor: Puckboard is designed as a live, collaborative scheduling platform available to servicemembers around the globe on your desktop, phone, or tablet. Anywhere you have the internet! <b>This software is fully accredited on the military network for your mission data, uses the same account login as other Platform One apps such as Mattermost, and best of all - completely free!</b>
       # image: /portfolio/puckboard/images/Puckboard_Main_View.png
       video: https://player.vimeo.com/video/519703781
       textOrientation: left

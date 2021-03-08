@@ -275,6 +275,7 @@ div.timeline .timeline-inner .line:after {
     align-items: center;
     padding: 20px;
     border: 5px solid #fff;
+    margin-top: 65px;
 }
 #logo-wrapper {
     /* background-color: rgba(113,181,153,0.8); */
