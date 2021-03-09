@@ -61,7 +61,8 @@
                 <a class="btn btn-primary btn-lg visible-xs-inline-block visible-sm-inline-block" href="{{ page.sections.splitColumns[0].buttons[0].link }}">{{ page.sections.splitColumns[0].buttons[0].text }}</a>
             </div>
             <div class="col-md-7">
-                <iframe width="650" height="365" src="{{ page.sections.splitColumns[0].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="iframe-container">
+                <iframe class="embed-video" src="{{ page.sections.splitColumns[0].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                 {% if page.sections.splitColumns[0].buttons[1] %}
                 <br><br><br>
                 <a class="btn btn-default btn-lg visible-xs-inline-block visible-sm-inline-block" href="{{ page.sections.splitColumns[0].buttons[1].link }}">{{ page.sections.splitColumns[0].buttons[1].text }}</a>
@@ -145,7 +146,9 @@
                 {% endif %}
             </div>
             <div class="col-md-7">
-                <iframe width="650" height="365" src="{{ page.sections.splitColumns[1].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="iframe-container">
+                <iframe class="embed-video" src="{{ page.sections.splitColumns[1].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
                 {% if page.sections.splitColumns[1].buttons[1] %}
                 <button class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[1].buttons[1].link }}">{{ page.sections.splitColumns[1].buttons[1].text }}</button>
                 {% endif %}
