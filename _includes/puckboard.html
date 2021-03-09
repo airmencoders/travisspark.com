@@ -61,8 +61,8 @@
       {% if section.textOrientation == "left" %}
       <div class="col-md-6 col-sm-12">
         {% if section.video %}
-        <div class="video">
-          <iframe src="{{ section.video }}" width="540" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div class="iframe-container">
+          <iframe class="embed-video" src="{{ section.video }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
         {% elsif section.image %}
         <img class="img-responsive" src="{{ section.image }}" width="500" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
