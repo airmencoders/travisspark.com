@@ -10,6 +10,10 @@ section .container {
 .row.padding {
     padding: 20px 0;
 }
+.no-padding-margin {
+    padding: 0 !important;
+    margin: 0 !important;
+}
 h1 {
     font-size: 56px;
 }
@@ -55,7 +59,6 @@ section img {
 .btn-primary {
     background-color: #3FB599;
     border-color: #00AB99;
-    padding: 
 }
 .btn-primary:hover {
     background-color: #71B599;

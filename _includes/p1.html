@@ -54,29 +54,34 @@
            <hr> 
         </div>
         <div class="row padding">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <h3>{{ page.sections.splitColumns[0].moduleHeader }}</h3>
                 <h4>{{ page.sections.splitColumns[0].moduleSubHeader }}</h4>
                 <p class="content-descriptor">{{ page.sections.splitColumns[0].expandedDescription }}</p>
-                <a class="btn btn-primary btn-lg" href="{{ page.sections.splitColumns[0].buttons[0].link }}">{{ page.sections.splitColumns[0].buttons[0].text }}</a>
+                <a class="btn btn-primary btn-lg visible-xs-inline-block visible-sm-inline-block" href="{{ page.sections.splitColumns[0].buttons[0].link }}">{{ page.sections.splitColumns[0].buttons[0].text }}</a>
             </div>
-            <div class="col-md-6">
-                <iframe width="500" height="284" src="{{ page.sections.splitColumns[0].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-md-7">
+                <iframe width="650" height="365" src="{{ page.sections.splitColumns[0].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 {% if page.sections.splitColumns[0].buttons[1] %}
                 <br><br><br>
-                <a class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[0].buttons[1].link }}">{{ page.sections.splitColumns[0].buttons[1].text }}</a>
+                <a class="btn btn-default btn-lg visible-xs-inline-block visible-sm-inline-block" href="{{ page.sections.splitColumns[0].buttons[1].link }}">{{ page.sections.splitColumns[0].buttons[1].text }}</a>
                 {% endif %}
                 {% if page.sections.splitColumns[0].buttons[2] %}
-                <a class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[0].buttons[2].link }}">{{ page.sections.splitColumns[0].buttons[2].text }}</a>
+                <a class="btn btn-default btn-lg visible-xs-inline-block visible-sm-inline-block" href="{{ page.sections.splitColumns[0].buttons[2].link }}">{{ page.sections.splitColumns[0].buttons[2].text }}</a>
                 {% endif %}
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
-
+            <div class="col-md-5">
+                <a class="btn btn-primary btn-lg visible-md-inline-block visible-lg-inline-block" href="{{ page.sections.splitColumns[0].buttons[0].link }}">{{ page.sections.splitColumns[0].buttons[0].text }}</a>
             </div>
-            <div class="col-md-6">
-
+            <div class="col-md-7">
+                {% if page.sections.splitColumns[0].buttons[1] %}
+                <a class="btn btn-default btn-lg visible-md-inline-block visible-lg-inline-block" href="{{ page.sections.splitColumns[0].buttons[1].link }}">{{ page.sections.splitColumns[0].buttons[1].text }}</a>
+                {% endif %}
+                {% if page.sections.splitColumns[0].buttons[2] %}
+                <a class="btn btn-default btn-lg visible-md-inline-block visible-lg-inline-block" href="{{ page.sections.splitColumns[0].buttons[2].link }}">{{ page.sections.splitColumns[0].buttons[2].text }}</a>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -96,24 +101,21 @@
            <hr> 
         </div>
         <div class="row padding">
+            {% for card in page.sections.resources[0].cards %}
             <div class="col-md-4 center">
-                <a href="{{ page.sections.resources[0].cards[0].imageLink }}"><img class="img-responsive center-block" src="{{ page.sections.resources[0].cards[0].image }}" style="margin-bottom: 50px; height: 100px;"/></a>
-                <h4>{{ page.sections.resources[0].cards[0].imageHeader }}</h4>
-                <p class="content-descriptor">{{ page.sections.resources[0].cards[0].imageDescriptor }}</p>
-                <a class="btn btn-primary btn-lg" href="{{ page.sections.resources[0].cards[0].imageLink }}">{{ page.sections.resources[0].cards[0].buttonText }}</a>
+                <img class="img-responsive center-block" src="{{ card.image }}" style="margin-bottom: 50px; height: 100px;"/>
+                <h4>{{ card.imageHeader }}</h4>
+                <p class="content-descriptor">{{ card.imageDescriptor }}</p>
+                <a class="btn btn-primary btn-lg visible-xs-inline-block visible-sm-inline-block" href="{{ card.imageLink }}">{{ card.buttonText }}</a>
             </div>
-            <div class="col-md-4 center">
-                <a href="{{ page.sections.resources[0].cards[1].imageLink }}"><img class="img-responsive center-block" src="{{ page.sections.resources[0].cards[1].image }}" style="margin-bottom: 50px; height: 100px;"/></a>
-                <h4>{{ page.sections.resources[0].cards[1].imageHeader }}</h4>
-                <p class="content-descriptor">{{ page.sections.resources[0].cards[1].imageDescriptor }}</p>
-                <a class="btn btn-primary btn-lg" href="{{ page.sections.resources[0].cards[1].imageLink }}">{{ page.sections.resources[0].cards[1].buttonText }}</a>
+            {% endfor %}
+        </div>
+        <div class="row no-padding-margin">
+            {% for card in page.sections.resources[0].cards %}
+            <div class="col-md-4 center no-padding-margin">
+                <a class="btn btn-primary btn-lg visible-md-inline-block visible-lg-inline-block" href="{{ card.imageLink }}">{{ card.buttonText }}</a>
             </div>
-            <div class="col-md-4 center">
-                <a href="{{ page.sections.resources[0].cards[2].imageLink }}"><img class="img-responsive center-block" src="{{ page.sections.resources[0].cards[2].image }}" style="margin-bottom: 50px; height: 100px;"/></a>
-                <h4>{{ page.sections.resources[0].cards[2].imageHeader }}</h4>
-                <p class="content-descriptor">{{ page.sections.resources[0].cards[2].imageDescriptor }}</p>
-                <a class="btn btn-primary btn-lg" href="{{ page.sections.resources[0].cards[2].imageLink }}">{{ page.sections.resources[0].cards[2].buttonText }}</a>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
@@ -134,7 +136,7 @@
         </div>
         {% endif %}
         <div class="row padding">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <h3>{{ page.sections.splitColumns[1].moduleHeader }}</h3>
                 {% if page.sections.splitColumns[1].moduleSubHeader %}<h4>{{ page.sections.splitColumns[1].moduleSubHeader }}</h4>{% endif %}
                 <p class="content-descriptor">{{ page.sections.splitColumns[1].expandedDescription }}</p>
@@ -142,8 +144,8 @@
                 <button class="btn btn-primary btn-lg" href="{{ page.sections.splitColumns[1].buttons[0].link }}">{{ page.sections.splitColumns[1].buttons[0].text }}</button>
                 {% endif %}
             </div>
-            <div class="col-md-6">
-                <iframe width="500" height="284" src="{{ page.sections.splitColumns[1].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-md-7">
+                <iframe width="650" height="365" src="{{ page.sections.splitColumns[1].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 {% if page.sections.splitColumns[1].buttons[1] %}
                 <button class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[1].buttons[1].link }}">{{ page.sections.splitColumns[1].buttons[1].text }}</button>
                 {% endif %}
