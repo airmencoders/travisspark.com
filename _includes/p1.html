@@ -166,7 +166,7 @@
     </div>
     <div class="col-md-6 col-sm-12">
         {% for button in page.sections.end.buttons %}
-        <a class="btn btn-primary btn-lg" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
+        <a class="btn btn-primary btn-lg" href="{{ '/puckboard/' | relative_url }}">{{ button.text }}</a>
         {% endfor %}
     </div>
     </div>

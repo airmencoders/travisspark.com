@@ -25,7 +25,7 @@
         {% if section.buttons %}
         {% for button in section.buttons %}
         {% if button.newTab %}
-        <a class="btn btn-primary btn-lg" target="_blank" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
+        <a class="btn btn-primary btn-lg" target="_blank" href="{{ '/p1/' | relative_url }}">{{ button.text }}</a>
         {% else %}
         <a class="btn btn-primary btn-lg" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
         {% endif %}
@@ -65,9 +65,12 @@
         <h4>{{ page.sections.cta[0].descriptor }}</h4>
       </div>
       <div class="col-md-6 col-sm-12">
-        {% for button in page.sections.cta[0].buttons %}
+        {% if page.sections.cta[0].buttons %}
+        <a class="btn btn-primary btn-lg" href="{{ '/getstarted/' | relative_url }}">{{ page.sections.cta[0].buttons[0].text }}</a>
+        {% for button in page.sections.cta[0].buttons offset:1 %}
         <a class="btn btn-primary btn-lg" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
         {% endfor %}
+        {% endif %}
       </div>
     </div>
   </div>
