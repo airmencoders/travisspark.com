@@ -263,7 +263,7 @@ div.timeline .timeline-inner .line:after {
     justify-content: center;
 }
 #hero-image {    
-    background-image: url('/portfolio/puckboard/images/hero.jpg');
+    background-image: url('/puckboard/images/hero.jpg');
     background-size: cover;
     position: absolute;
     top: -40px;

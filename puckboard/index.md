@@ -1,22 +1,21 @@
 ---
 layout: puckboard
 title: Puckboard
-permalink: /puckboard/
 sections:
   hero:
-    logo: /portfolio/puckboard/images/Puckboard_Wordmark_WH.svg
+    logo: ./images/Puckboard_Wordmark_WH.svg
     header: The future of collaborative scheduling
   features:
     - background-color: fff
       header: Learn what Puckboard can do for you
       cards:
-       - image: /portfolio/puckboard/images/requests.svg
+       - image: ./images/requests.svg
          header: Event Volunteering
          descriptor: Easily request open positions on flights, sims, or ground events from your personal device, anywhere in the world...without needing a lengthy text chain to your schedulers.
        - video: https://player.vimeo.com/video/519703716?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
          header: Conflict Resolution
          descriptor: Quickly identify and resolve conflicts, even when crewmembers are scheduled separately by two different organizations.
-       - image: /portfolio/puckboard/images/checkfilled.svg
+       - image: ./images/checkfilled.svg
          header: Crew Availability
          descriptor: View available crewmembers before accidentally scheduling someone for two flights at the same time.
          image-alt: Platform One Ecosystem
@@ -25,39 +24,39 @@ sections:
       descriptor: The latest releases.
       cards:
        - header: Mobile Improvements
-        # image: /portfolio/puckboard/images/mobilerelease.png
+        # image: ./images/mobilerelease.png
          descriptor: Access your schedule from any device with internet connection, make requests, and approve them all on your phone. 
        - header: Multi-week View
-        #  image: /portfolio/puckboard/images/twoweekrelease.png
+        #  image: ./images/twoweekrelease.png
          descriptor: View your schedule across multiple weeks with the click of a button, with easy filters available to view by personnel or event type.
        - header: Performance Improvements & Bug Fixes
-        #  image: /portfolio/puckboard/images/performance.png
+        #  image: ./images/performance.png
          descriptor: Improvements to loading time and bug fixes for multiple features. 
        - header: Restructured Permission Set
-        #  image: /portfolio/puckboard/images/adminrelease.png
+        #  image: ./images/adminrelease.png
          descriptor: Added functionality for Squadron POCs and Organizational Admins, with greater flexibility to scale fast and securely.
        - header: Delete / Cancel Requests
-        #  image: /portfolio/puckboard/images/requestrelease.png
+        #  image: ./images/requestrelease.png
          descriptor: Delete or cancel requests after review, improving communications within your squadron. 
        - header: Puckboard Logging Beta
-        #  image: /portfolio/puckboard/images/pblbeta.png
+        #  image: ./images/pblbeta.png
          descriptor: Puckboard Logging Beta Program, contact us to get involved!
   splitColumns:
     - background-color: fff
       header: Schedule Anytime, Anywhere
       descriptor: Puckboard is designed as a live, collaborative scheduling platform available to servicemembers around the globe on your desktop, phone, or tablet. Anywhere you have the internet! <b>This software is fully accredited on the military network for your mission data, uses the same account login as other Platform One apps such as Mattermost, and best of all - completely free!</b>
-      # image: /portfolio/puckboard/images/Puckboard_Main_View.png
+      # image: ./images/Puckboard_Main_View.png
       video: https://player.vimeo.com/video/519703781
       textOrientation: left
     - background-color: 454355
       header: Let us do the heavy lifting
       descriptor: Build a schedule in minutes, with customizable roles, event types, and conflict settings. View your squadron or unit roster while you’re building the schedule, and see in real time who is available for missions.
-      image: /portfolio/puckboard/images/Puckboard_Settings_page.png
+      image: ./images/Puckboard_Settings_page.png
       textOrientation: right
     - background-color: fff
       header: Access your live schedule anywhere, anytime
       descriptor: Puckboard is available anywhere you have internet access and a browser, and updates are shown in real time. The mobile view is optimized for all devices, adding needed flexibility to your operations.
-      image: /portfolio/puckboard/images/Puckboard_Settings_page.png
+      image: ./images/Puckboard_Settings_page.png
       textOrientation: right
   timeline:
     background-color: fff
