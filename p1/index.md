@@ -1,7 +1,6 @@
 ---
 layout: p1
 title: Platform One
-permalink: /p1
 sections:
     hero:
         header: Sign up for Platform One and Mattermost
@@ -10,7 +9,7 @@ sections:
         background-color: fff
         header: Ecosystem
         descriptor: Here at Tron, we partner with the Air Force’s Platform One (P1) organization as the foundation our apps are built on. Having mission apps with mobile access is possible because they live and operate within the P1’s architecture and security. The key to accessing Mattermost, or any other mission app on P, is the Single Sign On (SSO). This allows you to work on any device with internet, using a single password. All of this is available to anyone with a .mil email and CAC card.
-        image: /portfolio/puckboard/p1/images/ecosystem.png
+        image: ./images/ecosystem.png
         image-alt: Platform One Ecosystem
     splitColumns:
       - background-color: 454355
@@ -23,7 +22,7 @@ sections:
           - text: Get Started
             link: https://chat.il4.dso.mil/signup_user_complete/?id=6et69u6g9prnd8i59b8yw9n7zw
           - text: Onboarding Guide w/ Mobile
-            link: /portfolio/puckboard/p1/resources/P1_Onboarding_Guide_Mobile.pptx
+            link: ./resources/P1_Onboarding_Guide_Mobile.pptx
           # - text: Other
           #   link: 
       - background-color: fff
@@ -39,18 +38,18 @@ sections:
         header: Onboarding Guides
         descriptor: Resources for creating a PlatformOne account and gaining access to Mattermost and other mission apps.
         cards:
-          - image: /portfolio/puckboard/p1/images/mobile.svg
-            imageLink: /portfolio/puckboard/p1/resources/MM_CONEMP_Attach 2.docx
+          - image: ./images/mobile.svg
+            imageLink: ./resources/MM_CONEMP_Attach 2.docx
             imageHeader: Command Post Resources
             imageDescriptor: From CP troops, For CP troops. Best practices compiled from several MAF bases using mattermost for more than a year already.
             buttonText: Guide
-          - image: /portfolio/puckboard/p1/images/paper.svg
-            imageLink: /portfolio/puckboard/p1/resources/MM_Onboarding_Guide_NonMobile.pdf
+          - image: ./images/paper.svg
+            imageLink: ./resources/MM_Onboarding_Guide_NonMobile.pdf
             imageHeader: Onboarding Guide Non-Mobile
             imageDescriptor: For members who never anticipate using Mattermost on a mobile device (ie. AOC FMs)
             buttonText: Guide
-          - image: /portfolio/puckboard/p1/images/plane.svg
-            imageLink: /portfolio/puckboard/p1/resources/MM_CONEMP.docx
+          - image: ./images/plane.svg
+            imageLink: ./resources/MM_CONEMP.docx
             imageHeader: AMC/AOC CONEMP
             imageDescriptor: The AMC & 618th AOC implementaion CONEMP of Mattermost use for C2
             buttonText: Guide
