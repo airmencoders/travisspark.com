@@ -1,7 +1,7 @@
 ---
 layout: p1
 title: Platform One
-permalink: /p1/
+permalink: /p1
 sections:
     hero:
         header: Sign up for Platform One and Mattermost

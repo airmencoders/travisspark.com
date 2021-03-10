@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: Get Started
-permalink: /getstarted/
+permalink: /puckboard/onboard
 sections:
     main:
         header: Get Started with Puckboard
