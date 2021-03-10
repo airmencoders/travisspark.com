@@ -56,11 +56,22 @@ section img {
 .btn {
     margin: 20px 10px 20px 0;
 }
+.video-hero-btn {
+    margin-right: 80px;
+    margin-left: auto;
+}
 @media screen and (max-width: 768px) {
 	.btn {
 		margin-bottom: 50px;
 		width: 100%;
-	}
+    }
+    .video-hero-btn {
+        margin: 2rem 10rem;
+    }
+    .feature img, .feature .iframe-container {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
 }
 .btn-primary {
     background-color: #3FB599;
@@ -297,13 +308,21 @@ div.timeline .timeline-inner .line:after {
     margin: 50px 0;
 }
 .card {
-    height: 240px;
+    height: 150px;
+    width: 150px;
     margin-bottom: 50px;
+    background-color: #3FB599;
+    border-radius: 2rem;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 .card img {
     height: 150px;
+}
+.card h4 {
+    font-size: 22px;
 }
 .resources h2 {
     margin-bottom: 5rem;
@@ -332,6 +351,7 @@ section#video-hero {
     display: flex;
     align-items: center;
     padding-left: 10rem;
+    padding-right: 10rem;
     background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
     z-index: 2;
 }
@@ -339,10 +359,10 @@ section#video-hero {
     padding: 0;
     background-color: black;
 }
-.whats-new {
+/* .whats-new {
     margin-bottom: 0px;
     height: 100%;
-}
+} */
 
 .embed-video{
 	position: absolute;

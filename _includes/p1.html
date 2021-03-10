@@ -1,7 +1,7 @@
 <section class="p1-cta white">
     <div class="row">
         <div class="col-md-12" style="display: flex; justify-content: right;">
-            <a style="margin-right: 80px; margin-left: auto;" class="btn btn-primary btn-lg" href="https://login.dso.mil/auth/realms/baby-yoda/protocol/openid-connect/registrations?client_id=account&response_type=code">Create P1 Account</a>
+            <a class="btn btn-primary btn-lg video-hero-btn" href="#split1">Create P1 Account</a>
         </div>
     </div>
 </section>
@@ -16,7 +16,7 @@
         </div>
     </div>
     <div id="video-hero-container">
-        <iframe width="100%" height="550px" src="{{ page.sections.hero.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="740px" src="{{ page.sections.hero.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </section>
 
@@ -26,7 +26,7 @@
             <div class="col-md-12">
                 <h1 class="center">{{ page.sections.main.header }}</h1>
                 <div class="header-descriptor">
-                    <p>{{ page.sections.main.descriptor }}</p>
+                    <h3>{{ page.sections.main.descriptor }}</h3>
                 </div>
             </div>
         </div>
@@ -38,14 +38,14 @@
     </div>
 </section>
 
-<section class="video white" style="background-color: #{{ page.sections.splitColumns[0].background-color }};">
+<section id="split1" class="video white" style="background-color: #{{ page.sections.splitColumns[0].background-color }};">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h2 class="center">{{ page.sections.splitColumns[0].header }}</h2>
                 {% if page.sections.splitColumns[0].descriptor %}
                 <div class="header-descriptor">
-                    <p>{{ page.sections.splitColumns[0].descriptor }}</p>
+                    <h3>{{ page.sections.splitColumns[0].descriptor }}</h3>
                 </div>
                 {% endif %}
             </div>
@@ -94,7 +94,7 @@
             <div class="col-md-12">
                 <h2 class="center">{{ page.sections.resources[0].header }}</h2>
                 <div class="header-descriptor">
-                    <p>{{ page.sections.resources[0].descriptor }}</p>
+                    <h3>{{ page.sections.resources[0].descriptor }}</h3>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
             <div class="col-md-12">
                 <h2 class="center">{{ page.sections.splitColumns[1].header }}</h2>
                 <div class="header-descriptor">
-                    <p>{{ page.sections.splitColumns[1].descriptor }}</p>
+                    <h3>{{ page.sections.splitColumns[1].descriptor }}</h3>
                 </div>
             </div>
         </div>

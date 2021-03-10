@@ -1,7 +1,7 @@
 ---
 layout: p1
 title: Platform One
-permalink: /p1/
+permalink: /p1
 sections:
     hero:
         header: Sign up for Platform One and Mattermost
@@ -9,7 +9,7 @@ sections:
     main:
         background-color: fff
         header: Ecosystem
-        descriptor: Here at Tron, we partner with the Air Force’s Platform One (P1) organization as the foundation our apps are built on. Having mission apps with mobile access is possible because they live and operate within the P1’s architecture and security. The key to accessing Mattermost, or any other mission app on P, is the Single Sign On (SSO). This allows you to work on any device with internet, using a single password. All of this is available to anyone with a .mil email and CAC card.
+        descriptor: Here at Tron, we partner with the Air Force’s Platform One (P1) organization as the foundation our apps are built on. Having mission apps with mobile access is possible because they live and operate within the P1’s architecture and security. The key to accessing Mattermost, or any other mission app on P1, is the Single Sign On (SSO). This allows you to work on any device with internet, using a single password. All of this is available to anyone with a .mil email and/or CAC card.
         image: /portfolio/puckboard/p1/images/ecosystem.png
         image-alt: Platform One Ecosystem
     splitColumns:

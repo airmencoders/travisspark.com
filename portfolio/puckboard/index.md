@@ -24,23 +24,23 @@ sections:
       header: What's new in Puckboard?
       descriptor: The latest releases.
       cards:
-       - image: /portfolio/puckboard/images/mobilerelease.png
-        #  header: Event Volunteering
+       - header: Mobile Improvements
+        # image: /portfolio/puckboard/images/mobilerelease.png
          descriptor: Access your schedule from any device with internet connection, make requests, and approve them all on your phone. 
-       - image: /portfolio/puckboard/images/twoweekrelease.png
-        #  header: Conflict Resolution
+       - header: Multi-week View
+        #  image: /portfolio/puckboard/images/twoweekrelease.png
          descriptor: View your schedule across multiple weeks with the click of a button, with easy filters available to view by personnel or event type.
-       - image: /portfolio/puckboard/images/performance.png
-        #  header: Crew Availability
+       - header: Performance Improvements & Bug Fixes
+        #  image: /portfolio/puckboard/images/performance.png
          descriptor: Improvements to loading time and bug fixes for multiple features. 
-       - image: /portfolio/puckboard/images/adminrelease.png
-        #  header: Crew Availability
+       - header: Restructured Permission Set
+        #  image: /portfolio/puckboard/images/adminrelease.png
          descriptor: Added functionality for Squadron POCs and Organizational Admins, with greater flexibility to scale fast and securely.
-       - image: /portfolio/puckboard/images/requestrelease.png
-        #  header: Crew Availability
+       - header: Delete / Cancel Requests
+        #  image: /portfolio/puckboard/images/requestrelease.png
          descriptor: Delete or cancel requests after review, improving communications within your squadron. 
-       - image: /portfolio/puckboard/images/pblbeta.png
-        #  header: Crew Availability
+       - header: Puckboard Logging Beta
+        #  image: /portfolio/puckboard/images/pblbeta.png
          descriptor: Puckboard Logging Beta Program, contact us to get involved!
   splitColumns:
     - background-color: fff
