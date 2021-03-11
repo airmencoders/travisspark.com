@@ -84,7 +84,7 @@ sections:
     - header: Get started today!
       button1Text: Onboard with us
       # button1Url:  getstarted
-      button1Url:  /getstarted/
+      button1Url:  /puckboard/getstarted/
       isInternal: 'yes'
     - header: Ready to get started?
       descriptor: Get started today or contact us
