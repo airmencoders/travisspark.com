@@ -20,18 +20,17 @@ variables:
   image: ruby:2.7
   stage: build
 
-# eslint:
-#   stage: build
-#   extends: .job_template
-#   script:
-#     - npm i
-#     - npm run lint
+eslint:
+  stage: build
+  extends: .job_template
+  script:
+    - bundle install
 
 build and test:
   stage: build
   extends: .job_template
   script:
-    - echo "Build and Test TRON Website"
+    - echo "Build TRON Website"
     - bundle install
   tags:
     #- p1
