@@ -17,7 +17,7 @@ variables:
   DEPLOY_REPO: https://jdceanfa:${CI_STATIC_SITES_TOKEN}@repo1.dso.mil/platform-one/apps/static-sites.git
 
 .job_template:
-  image: registry.il2.dso.mil/platform-one/devops/pipeline-templates/ironbank/ruby27:2.7.2
+  image: ruby:2.7
   stage: build
 
 # eslint:
@@ -37,7 +37,7 @@ build and test:
     #- p1
 
 code-ship:
-  image: registry.il2.dso.mil/platform-one/devops/pipeline-templates/ironbank/ruby27:2.7.2
+  image: ruby:2.7
   extends: .copy-site
   script:
     - echo 'code shipping to static-sites deployment'
@@ -49,7 +49,7 @@ code-ship:
     #- p1
 
 publish-staging:
-  image: registry.il2.dso.mil/platform-one/devops/pipeline-templates/ironbank/ruby27:2.7.2
+  image: ruby:2.7
   extends: .copy-staging-site
   script:
     - echo 'Publishing build outputs to MR for staging pre-prod'
