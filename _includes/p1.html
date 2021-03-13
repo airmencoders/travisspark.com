@@ -62,10 +62,9 @@
             </div>
             <div class="col-md-8">
                 {% if page.sections.splitColumns[0].buttons[1] %}
-                <a class="btn btn-default btn-lg visible-md-inline-block visible-lg-inline-block" href="{{ page.sections.splitColumns[0].buttons[1].link }}">{{ page.sections.splitColumns[0].buttons[1].text }}</a>
+                <a class="btn btn-default btn-lg visible-md-inline-block visible-lg-inline-block" data-toggle="tooltip" data-placement="top" title="For those who need access to Mattermost on a mobile device" href="{{ page.sections.splitColumns[0].buttons[1].link }}">{{ page.sections.splitColumns[0].buttons[1].text }}</a>
                 {% endif %}
                 {% if page.sections.splitColumns[0].buttons[2] %}
-                <script>$("[data-toggle=tooltip]").tooltip();</script>
                 <a class="btn btn-default btn-lg visible-md-inline-block visible-lg-inline-block" data-toggle="tooltip" data-placement="top" title="For members who never anticipate using Mattermost on a mobile device (ie. AOC FMs)" href="{{ page.sections.splitColumns[0].buttons[2].link }}">{{ page.sections.splitColumns[0].buttons[2].text }}</a>
                 {% endif %}
             </div>
@@ -193,18 +192,18 @@
     </div>
 </section>
 
-<section class="cta altBgs">
-<a id="getstarted"></a>
-<div class="container">
-    <div class="row">
-    <div class="col-md-6 col-sm-12">
-        <h3>{{ page.sections.end.header }}</h3>
-        <h4>{{ page.sections.end.descriptor }}</h4>
-    </div>
-    <div class="col-md-6 col-sm-12">
-        {% for button in page.sections.end.buttons %}
-        <a class="btn btn-primary btn-lg" href="{{ '/puckboard/' | relative_url }}">{{ button.text }}</a>
-        {% endfor %}
-    </div>
+<section id="getstarted" class="cta altBgs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h3>{{ page.sections.cta[0].header }}</h3>
+                <h4>{{ page.sections.cta[0].descriptor }}</h4>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                {% for button in page.sections.cta[0].buttons %}
+                <a class="btn btn-primary btn-lg" href="{{ '/puckboard/' | relative_url }}">{{ button.text }}</a>
+                {% endfor %}
+            </div>
+        </div>
     </div>
 </section>

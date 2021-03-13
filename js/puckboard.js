@@ -45,4 +45,9 @@ function backgrounds() {
 window.onload = function () {
     accordion();
     backgrounds();
+    tooltip();
+}
+
+function tooltip() {
+    $("[data-toggle=tooltip]").tooltip();
 }
