@@ -20,11 +20,11 @@ variables:
   image: ruby:2.7
   stage: build
 
-eslint:
-  stage: build
-  extends: .job_template
-  script:
-    - bundle install
+# eslint:
+#   stage: build
+#   extends: .job_template
+#   script:
+#     - bundle install
 
 build and test:
   stage: build
