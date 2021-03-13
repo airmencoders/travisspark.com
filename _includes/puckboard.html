@@ -4,17 +4,17 @@
   }
 </style>
 
-<section id="hero">
+<section id="hero" class="white">
     <div id="hero-image"></div>
     <div id="hero-container" class="container">
-        <div id="row-hero" class="row white">
+        <div id="row-hero" class="row">
             <div id="logo-wrapper">
                 <img class="img-responsive" src="{{ page.sections.hero.logo }}" alt="{{ page.title }}" style="width: 600px;" />
                 <h3>{{ page.sections.hero.header }}</h3><br>
             </div>
         </div>
         <br><br>
-        <div id="hero-cta" class="row white center">
+        <div id="hero-cta" class="row center">
           <h2><b>{{ page.sections.cta[0].header }}</b></h2>
           {% if page.sections.cta[0].button1Text %}
           <!-- <a class="btn btn-primary btn-lg" href="{% if page.sections.cta[0].isInternal %} {{ site.url }}{% endif %}/{{ page.sections.cta[0].button1Url}}">{{ page.sections.cta[0].button1Text }}</a> -->
@@ -25,11 +25,7 @@
 </section>
 
 {% for section in page.sections.splitColumns limit:2 %}
-{% if section.background-color == "fff" %}
-<section class="feature" style="background-color: #{{ section.background-color }};">
-{% else %}
-<section class="feature white" style="background-color: #{{ section.background-color }};">
-{% endif %}
+<section class="feature altBgs">
   <div class="container">
   <div class="row">
       {% if section.textOrientation == "right" %}
@@ -48,15 +44,6 @@
         {% if section.descriptor2 %}
         <p>{{ section.descriptor2 }}</p>
         {% endif %}
-        {% if section.button1Text %}
-        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button1Url }}" class="btn btn-primary btn-lg">{{ section.button1Text }}</a>
-        {% endif %}
-        {% if section.button2Text %}
-        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button2Url }}" class="btn btn-primary btn-lg">{{ section.button2Text }}</a>
-        {% endif %}
-        {% if section.button3Text %}
-        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button3Url }}" class="btn btn-primary btn-lg">{{ section.button3Text }}</a>
-        {% endif %}
       </div><!-- .col-md-6 close -->
       {% if section.textOrientation == "left" %}
       <div class="col-md-6 col-sm-12">
@@ -74,7 +61,7 @@
 </section>
 {% endfor %}
 
-<section class="resources" style="background-color: #{{ page.sections.features[0].background-color }};">
+<section class="resources altBgs">
   <div class="container">
       <div class="row">
           <div class="col-md-12">
@@ -97,9 +84,9 @@
   </div>
 </section>
 
-<section class="cta" style="background-color:#{{ page.sections.cta[1].background-color }};">
+<section class="cta altBgs">
   <div class="container">
-    <div class="row white">
+    <div class="row">
       <div class="col-md-6 col-sm-12">
         <h3>{{ page.sections.cta[1].header }}</h3>
         <h4>{{ page.sections.cta[1].descriptor }}</h4>
@@ -116,7 +103,7 @@
   </div>
 </section>
 
-<section class="feature" style="background-color: #{{ page.sections.splitColumns[2].background-color }};">
+<section class="feature altBgs">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12">
@@ -130,7 +117,7 @@
   </div>
 </section>
 
-<section class="resources white" style="background-color: #{{ page.sections.features[1].background-color }};">
+<section class="resources altBgs">
   <div class="container">
       <div class="row">
           <div class="col-md-12">
@@ -157,11 +144,7 @@
 </section>
 
 {% for section in page.sections.splitColumns2 %}
-{% if section.background-color == "fff" %}
-<section class="feature" style="background-color: #{{ section.background-color }};">
-{% else %}
-<section class="feature white" style="background-color: #{{ section.background-color }};">
-{% endif %}
+<section class="feature altBgs">
   <div class="container">
   <div class="row">
       {% if section.textOrientation == "right" %}
@@ -180,15 +163,6 @@
         {% if section.descriptor2 %}
         <p>{{ section.descriptor2 }}</p>
         {% endif %}
-        {% if section.button1Text %}
-        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button1Url }}" class="btn btn-primary btn-lg">{{ section.button1Text }}</a>
-        {% endif %}
-        {% if section.button2Text %}
-        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button2Url }}" class="btn btn-primary btn-lg">{{ section.button2Text }}</a>
-        {% endif %}
-        {% if section.button3Text %}
-        <a href="{% if page.sections.end.isInternal %} {{ site.url }}{% endif %}/{{ section.button3Url }}" class="btn btn-primary btn-lg">{{ section.button3Text }}</a>
-        {% endif %}
       </div><!-- .col-md-6 close -->
       {% if section.textOrientation == "left" %}
       <div class="col-md-6 col-sm-12">
@@ -204,7 +178,7 @@
 </section>
 {% endfor %}
 
-<section class="timeline" style="background-color: #{{ page.sections.timeline.background-color }};">
+<section class="timeline altBgs">
     <div class="timeline">
       <div class="row">
         <div class="col-md-12">
@@ -227,10 +201,27 @@
           <div class="line"></div>
         </div>
       </div><!-- End Timeline -->
-
 </section>
 
-<section class="cta white" style="background-color: #{{ page.sections.cta[2].background-color }}">
+<section id="faq" class="faq altBgs">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <h2 class="center">{{ page.sections.faq.header }}</h2>
+          </div>
+      </div>
+      <div class="row padding">
+        {% for tab in page.sections.faq.tabs %}
+        <button class="accordion">{{ tab.question }}</button>
+        <div class="panel">
+          <p>{{ tab.answer }}</p>
+        </div>
+        {% endfor %}
+      </div>
+  </div>
+</section>
+
+<section class="cta altBgs">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12">

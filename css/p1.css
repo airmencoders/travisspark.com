@@ -7,6 +7,9 @@ section .container {
     padding-left: 30px;
     padding-right: 30px;
 }
+section.altBgs {
+    background: #fff;
+}
 .row.padding {
     padding: 20px 0;
 }
@@ -363,7 +366,6 @@ section#video-hero {
     margin-bottom: 0px;
     height: 100%;
 } */
-
 .embed-video{
 	position: absolute;
 	top: 0;
@@ -373,12 +375,49 @@ section#video-hero {
 	width: 100%;
 	height: 100%;
 }
-
 .iframe-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 24px;
+}
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.active, .accordion:hover {
+    /* background-color: #ccc; */
+    background-color: #3FB599;
+}
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.panel {
+    padding: 0 18px;
+    background-color: inherit;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border: none;
+}
+.panel p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
