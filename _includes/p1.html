@@ -1,4 +1,4 @@
-<section class="p1-cta white">
+<section class="p1-cta">
     <div class="row">
         <div class="col-md-12" style="display: flex; justify-content: right;">
             <a class="btn btn-primary btn-lg video-hero-btn" href="#split1">Create P1 Account</a>
@@ -20,25 +20,7 @@
     </div>
 </section>
 
-<section id="main" style="background-color: #{{ page.sections.main.background-color }};">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="center">{{ page.sections.main.header }}</h1>
-                <div class="header-descriptor">
-                    <h3>{{ page.sections.main.descriptor }}</h3>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <img class="img-responsive center-block" src="{{ page.sections.main.image }}" alt="{{ page.sections.main.image-alt }}" style="width: 1200px;"/>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="split1" class="video white" style="background-color: #{{ page.sections.splitColumns[0].background-color }};">
+<section id="split1" class="video altBgs">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -88,7 +70,55 @@
     </div>
 </section>
 
-<section class="resources" style="background-color: #{{ page.sections.resources[0].background-color }};">
+<section class="cta altBgs">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <h3>{{ page.sections.cta[1].header }}</h3>
+            <h4>{{ page.sections.cta[1].descriptor }}</h4>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            {% for button in page.sections.cta[1].buttons %}
+            <a class="btn btn-primary btn-lg" href="{{ '/puckboard#faq' | relative_url }}">{{ button.text }}</a>
+            {% endfor %}
+        </div>
+        </div>
+    </div>
+</section>
+
+<section id="main" class="altBgs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="center">{{ page.sections.main.header }}</h1>
+                <div class="header-descriptor">
+                    <h3>{{ page.sections.main.descriptor }}</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive center-block" src="{{ page.sections.main.image }}" alt="{{ page.sections.main.image-alt }}" style="width: 1200px;"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta" style="background-color: #98D4E6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h3>{{ page.sections.cta[2].header }}</h3>
+          <h4>{{ page.sections.cta[2].descriptor }}</h4>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <a class="btn btn-primary btn-lg" style="background-color: #F68720; border-color: #F68720;" href="{{ page.sections.cta[2].buttons[0].url }}">{{ page.sections.cta[2].buttons[0].text }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="resources altBgs">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -121,7 +151,7 @@
     </div>
 </section>
 
-<section class="video white" style="background-color: #{{ page.sections.splitColumns[0].background-color }};">
+<section class="video altBgs">
     <div class="container">
         {% if page.sections.splitColumns[1].header %}
         <div class="row">
@@ -160,18 +190,18 @@
     </div>
 </section>
 
-<section class="cta" style="background-color: #{{ page.sections.end.background-color }}">
-<div class="container">
-    <div class="row">
-    <div class="col-md-6 col-sm-12">
-        <h3>{{ page.sections.end.header }}</h3>
-        <h4>{{ page.sections.end.descriptor }}</h4>
+<section class="cta altBgs">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <h3>{{ page.sections.cta[0].header }}</h3>
+            <h4>{{ page.sections.cta[0].descriptor }}</h4>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            {% for button in page.sections.cta[0].buttons %}
+            <a class="btn btn-primary btn-lg" href="{{ '/puckboard/' | relative_url }}">{{ button.text }}</a>
+            {% endfor %}
+        </div>
+        </div>
     </div>
-    <div class="col-md-6 col-sm-12">
-        {% for button in page.sections.end.buttons %}
-        <a class="btn btn-primary btn-lg" href="{{ '/puckboard/' | relative_url }}">{{ button.text }}</a>
-        {% endfor %}
-    </div>
-    </div>
-</div>
 </section>

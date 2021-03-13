@@ -6,8 +6,7 @@ sections:
     logo: ./images/Puckboard_Wordmark_WH.svg
     header: The future of collaborative scheduling
   features:
-    - background-color: fff
-      header: Learn what Puckboard can do for you
+    - header: Learn what Puckboard can do for you
       cards:
        - image: ./images/requests.svg
          header: Event Volunteering
@@ -19,47 +18,36 @@ sections:
          header: Crew Availability
          descriptor: View available crewmembers before accidentally scheduling someone for two flights at the same time.
          image-alt: Platform One Ecosystem
-    - background-color: 454355
-      header: What's new in Puckboard?
+    - header: What's new in Puckboard?
       descriptor: The latest releases.
       cards:
        - header: Mobile Improvements
-        # image: ./images/mobilerelease.png
          descriptor: Access your schedule from any device with internet connection, make requests, and approve them all on your phone. 
        - header: Multi-week View
-        #  image: ./images/twoweekrelease.png
          descriptor: View your schedule across multiple weeks with the click of a button, with easy filters available to view by personnel or event type.
        - header: Performance Improvements & Bug Fixes
-        #  image: ./images/performance.png
          descriptor: Improvements to loading time and bug fixes for multiple features. 
        - header: Restructured Permission Set
-        #  image: ./images/adminrelease.png
          descriptor: Added functionality for Squadron POCs and Organizational Admins, with greater flexibility to scale fast and securely.
        - header: Delete / Cancel Requests
-        #  image: ./images/requestrelease.png
          descriptor: Delete or cancel requests after review, improving communications within your squadron. 
        - header: Puckboard Logging Beta
-        #  image: ./images/pblbeta.png
          descriptor: Puckboard Logging Beta Program, contact us to get involved!
   splitColumns:
-    - background-color: fff
-      header: Schedule Anytime, Anywhere
+    - header: Schedule Anytime, Anywhere
       descriptor: Puckboard is designed as a live, collaborative scheduling platform available to servicemembers around the globe on your desktop, phone, or tablet. Anywhere you have the internet! <b>This software is fully accredited on the military network for your mission data, uses the same account login as other Platform One apps such as Mattermost, and best of all - completely free!</b>
       # image: ./images/Puckboard_Main_View.png
       video: https://player.vimeo.com/video/519703781
       textOrientation: left
-    - background-color: 454355
-      header: Let us do the heavy lifting
+    - header: Let us do the heavy lifting
       descriptor: Build a schedule in minutes, with customizable roles, event types, and conflict settings. View your squadron or unit roster while you’re building the schedule, and see in real time who is available for missions.
       image: ./images/Puckboard_Settings_page.png
       textOrientation: right
-    - background-color: fff
-      header: Access your live schedule anywhere, anytime
+    - header: Access your live schedule anywhere, anytime
       descriptor: Puckboard is available anywhere you have internet access and a browser, and updates are shown in real time. The mobile view is optimized for all devices, adding needed flexibility to your operations.
       image: ./images/Puckboard_Settings_page.png
       textOrientation: right
   timeline:
-    background-color: fff
     color: '3fb599'
     releases:
       - name: Crew Rainbow
@@ -79,11 +67,21 @@ sections:
       - name: Currency Capability
         date: Aug 21  
       - name: Training Profile
-        date: Aug 21   
+        date: Aug 21  
+  faq:
+    header: Frequently Asked Questions (FAQs)
+    tabs:
+      - question: What is Mattermost?
+        answer: Mattermost is an open-source collaborative messaging software that is hosted within the DoD’s own cyber infrastructure.<br><br>Mattermost is accessible on any device connected to the internet, both government devices on the military network as well as personal devices with any kind of civilian internet access around the globe. Mattermost is an IL-4 approved software that allows FOUO, PII, and mission information with the capability of 2-way file transfer. 
+      - question: How is Mattermost accessible anywhere?
+        answer: Mattermost utilizes the DoD’s PlatformOne (P1) architecture to provide secure, approved delivery of IL-4 data to any device.The P1 structure allows a user to login to hosted web apps using Single Sign On (SSO) and Multi-Factor Authentication (MFA) such as Google Authenticator. Each user is capable of using either 1) a username + password + MFA or 2) CAC card + pin to log into any P1 hosted software from any web browser and URL. Some applications like Mattermost (MM) even have approved iOS and Android native apps.
+      - question: Is Mattermost Legal?
+        answer: Mattermost lives completely within the P1 framework and complies with all federal and DoD security requirements. They operate under the PartyBus continuous ATO, and employ a cybersecurity method known as DevSecOps which bakes in security requirements at every step of the coding, testing, evaluation, and launch process. Mattermost currently operates at Impact Level 4 (IL-4) and each unit is responsible for ensuring their use case is capable of IL-4 dissemination.<br><br>Our team can help answer any security questions and provide expanded security & ATO paperwork if requested. 
+      - question: Who pays for Mattermost?
+        answer: Mattermost is maintained by Platform one and receives funding from multiple large programs of record. There is no cost to individual units or wings to use Mattermost. 
   cta:
     - header: Get started today!
       button1Text: Onboard with us
-      # button1Url:  getstarted
       button1Url:  /puckboard/getstarted/
       isInternal: 'yes'
     - header: Ready to get started?
@@ -94,7 +92,6 @@ sections:
           isInternal: 'yes'
         - text: Contact us
           url: mailto:puckboard.tron@afwerx.af.mil
-      background-color: 454355
     - header: Ready to get started?
       descriptor: Get started today or contact us
       buttons:
@@ -103,5 +100,4 @@ sections:
           isInternal: 'yes'
         - text: Contact us
           url: mailto:puckboard.tron@afwerx.af.mil
-      background-color: 454355
 ---
