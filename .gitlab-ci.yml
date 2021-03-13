@@ -1,0 +1,79 @@
+image: alpine:latest
+
+stages:
+  - build
+  - staging
+  - deploy
+  - after-copy
+
+include:
+  - project: 'platform-one/devops/pipeline-templates'
+    ref: static-sites-job
+    file: 'jobs/static-sites/copy-static-sites.yml'
+
+variables:
+  SITE_NAME: tron-website
+  OUTPUT_FOLDER: _site
+  DEPLOY_REPO: https://jdceanfa:${CI_STATIC_SITES_TOKEN}@repo1.dso.mil/platform-one/apps/static-sites.git
+
+.job_template:
+  image: registry.il2.dso.mil/platform-one/devops/pipeline-templates/ironbank/ruby27
+  stage: build
+
+# eslint:
+#   stage: build
+#   extends: .job_template
+#   script:
+#     - npm i
+#     - npm run lint
+
+build and test:
+  stage: build
+  extends: .job_template
+  script:
+    - echo "Build and Test TRON Website"
+    - bundle install
+  tags:
+    #- p1
+
+code-ship:
+  image: registry.il2.dso.mil/platform-one/devops/pipeline-templates/ironbank/ruby27
+  extends: .copy-site
+  script:
+    - echo 'code shipping to static-sites deployment'
+    # run your code to produce prod artifacts
+    - bundle install
+    - JEKYLL_ENV=production
+    - jekyll build
+  tags:
+    #- p1
+
+publish-staging:
+  image: registry.il2.dso.mil/platform-one/devops/pipeline-templates/ironbank/ruby27
+  extends: .copy-staging-site
+  script:
+    - echo 'Publishing build outputs to MR for staging pre-prod'
+    - bundle install
+    - jekyll build
+  tags:
+    #- p1
+
+staging-mr:
+  variables:
+    TARGET_BRANCH: staging
+  extends: .auto-mr
+  script:
+    - echo 'running auto merge request for staging'
+    - echo "Opening Merge request for ${GITLAB_USER_NAME}"
+  tags:
+    #- p1
+
+deploy-mr:
+  variables:
+    TARGET_BRANCH: master
+  extends: .auto-mr
+  script:
+    - echo 'running auto merge request for master'
+    - echo "Opening Merge request for ${GITLAB_USER_NAME}"
+  tags:
+    #- p1
