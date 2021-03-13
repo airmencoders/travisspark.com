@@ -12,7 +12,7 @@ include:
     file: 'jobs/static-sites/copy-static-sites.yml'
 
 variables:
-  SITE_NAME: tron-website
+  SITE_NAME: tron-site
   OUTPUT_FOLDER: _site
   DEPLOY_REPO: https://jdceanfa:${CI_STATIC_SITES_TOKEN}@repo1.dso.mil/platform-one/apps/static-sites.git
 
