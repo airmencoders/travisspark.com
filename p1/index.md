@@ -17,13 +17,16 @@ sections:
         moduleSubHeader: Our communication platform.
         expandedDescription: MatterMost has become the gateway to bringing the Air Force into the 21st century. Communication is no longer an issue within your unit. MatterMost combines security and usability in order to get the job done. You can use your common access card or just a regular username/password/2way authenticator to access this tool. Keep your members informed, involved, and innovative with this application. Join us on our continuing journey of digital transformation.
         buttons:
-          - text: Get Started
-            link: https://chat.il4.dso.mil/signup_user_complete/?id=6et69u6g9prnd8i59b8yw9n7zw
+          - text: Create P1 Account
+            link: /p1/#getstarted
           - text: Onboarding Guide w/ Mobile
             link: ./resources/P1_Onboarding_Guide_Mobile.pptx
           - text: Onboarding Guide Non-Mobile
             link: ./resources/MM_Onboarding_Guide_NonMobile.pdf
-      - video: https://player.vimeo.com/video/514033742
+          # - text: Other
+          #   link: 
+      - background-color: fff
+        video: https://player.vimeo.com/video/514033742
         moduleHeader: Mattermost / Puckboard Integration
         moduleSubHeader: Streamline operations. Instantly communicate with your crew.
         expandedDescription: The Mattermost / Puckboard integration was built by Airmen coders and is slated to be released very shortly! Soon you will be able to create Mattermost channels with your crew with the touch of a button, allowing you to communicate directly with the SARM and aircrew. Coming soon. 
@@ -40,8 +43,8 @@ sections:
             imageDescriptor: From CP troops, For CP troops. Best practices compiled from several MAF bases using mattermost for more than a year already.
             buttonText: Guide
           - image: ./images/paper.svg
-            imageLink: ./resources/MM_Onboarding_Guide_NonMobile.pdf
-            imageHeader: Onboarding Guide Non-Mobile
+            imageLink: ./resources/P1_MM_Training.pptx
+            imageHeader: MatterMost User Tips
             imageDescriptor: For members who never anticipate using Mattermost on a mobile device (ie. AOC FMs)
             buttonText: Guide
           - image: ./images/plane.svg

@@ -421,3 +421,13 @@ section#video-hero {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.tooltip.top .tooltip-inner {
+    background-color:black;
+    height: 100px;
+    min-width: 700px;
+    font-size: 20px;
+}
+.tooltip.top .tooltip-arrow {
+    border-top-color: white;
+} 
+
