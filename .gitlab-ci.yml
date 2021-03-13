@@ -37,7 +37,6 @@ build and test:
 
 code-ship:
   image: ruby:2.7
-  stage: deploy
   extends: .copy-site
   script:
     - echo 'code shipping to static-sites deployment'
@@ -50,7 +49,6 @@ code-ship:
 
 publish-staging:
   image: ruby:2.7
-  stage: staging
   extends: .copy-staging-site
   script:
     - echo 'Publishing build outputs to MR for staging pre-prod'
@@ -62,7 +60,6 @@ publish-staging:
 staging-mr:
   variables:
     TARGET_BRANCH: staging
-  stage: after-copy
   extends: .auto-mr
   script:
     - echo 'running auto merge request for staging'
@@ -73,7 +70,6 @@ staging-mr:
 deploy-mr:
   variables:
     TARGET_BRANCH: master
-  stage: after-copy
   extends: .auto-mr
   script:
     - echo 'running auto merge request for master'
