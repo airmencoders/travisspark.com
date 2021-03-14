@@ -23,6 +23,16 @@
 <link rel="stylesheet" type="text/css" href="{{ '/css/product.css' | relative_url }}" />
 {% endif %}
 
+<!-- CSS for Get Started Template-->
+{% if page.layout == "guide" %}
+<link rel="stylesheet" type="text/css" href="{{ '/css/guide.css' | relative_url }}" />
+{% endif %}
+
+<!-- CSS for Platform 1 Template-->
+{% if page.layout == "p1" or page.layout == "guide" or page.layout == "puckboard"%}
+<link rel="stylesheet" type="text/css" href="{{ '/css/p1.css' | relative_url }}" />
+{% endif %}
+
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ '/css/custom.css' | relative_url }}" />
 
@@ -40,8 +50,12 @@
 
 <script src="{{ '/js/main.js' | relative_url }}"></script>
 
-{% if page.layout == "product" %}
+{% if page.layout == "product" or page.layout == "puckboard" %}
 <script src="{{ '/js/product.js' | relative_url }}"></script>
+{% endif %}
+
+{% if page.layout == "p1" or page.layout == "puckboard" %}
+<script src="{{ '/js/puckboard.js' | relative_url }}"></script>
 {% endif %}
 
 <!-- ionicons -->

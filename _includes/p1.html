@@ -1,0 +1,209 @@
+<section class="p1-cta">
+    <div class="row">
+        <div class="col-md-12" style="display: flex; justify-content: right;">
+            <a class="btn btn-primary btn-lg video-hero-btn" href="#split1">Create P1 Account</a>
+        </div>
+    </div>
+</section>
+
+<section id="video-hero" class="white">
+    <div id="video-hero-container-text">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>{{ page.sections.hero.header }}</h1>
+                <button class="btn btn-primary btn-lg" onclick="removeEl('video-hero-container-text')">Watch now</button>
+            </div>
+        </div>
+    </div>
+    <div id="video-hero-container">
+        <iframe width="100%" height="740px" src="{{ page.sections.hero.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="split1" class="video altBgs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="center">{{ page.sections.splitColumns[0].header }}</h2>
+                {% if page.sections.splitColumns[0].descriptor %}
+                <div class="header-descriptor">
+                    <h3>{{ page.sections.splitColumns[0].descriptor }}</h3>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="row">
+           <hr> 
+        </div>
+        <div class="row padding">
+            <div class="col-md-4">
+                <h3>{{ page.sections.splitColumns[0].moduleHeader }}</h3>
+                <h4>{{ page.sections.splitColumns[0].moduleSubHeader }}</h4>
+                <p class="content-descriptor">{{ page.sections.splitColumns[0].expandedDescription }}</p>
+                <a class="btn btn-primary btn-lg visible-xs-inline-block visible-sm-inline-block" href="{{ page.sections.splitColumns[0].buttons[0].link }}">{{ page.sections.splitColumns[0].buttons[0].text }}</a>
+            </div>
+            <div class="col-md-8">
+                <div class="row>">
+			<div class="iframe-container">
+                <iframe class="embed-video" src="{{ page.sections.splitColumns[0].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                {% if page.sections.splitColumns[0].buttons[1] %}
+                <br><br><br>
+                <a class="btn btn-default btn-lg visible-xs-inline-block visible-sm-inline-block" href="{{ page.sections.splitColumns[0].buttons[1].link }}">{{ page.sections.splitColumns[0].buttons[1].text }}</a>
+                {% endif %}
+                {% if page.sections.splitColumns[0].buttons[2] %}
+                <a class="btn btn-default btn-lg visible-xs-inline-block visible-sm-inline-block" href="{{ page.sections.splitColumns[0].buttons[2].link }}">{{ page.sections.splitColumns[0].buttons[2].text }}</a>
+                {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <a class="btn btn-primary btn-lg visible-md-inline-block visible-lg-inline-block" href="{{ page.sections.splitColumns[0].buttons[0].link }}">{{ page.sections.splitColumns[0].buttons[0].text }}</a>
+            </div>
+            <div class="col-md-8">
+                {% if page.sections.splitColumns[0].buttons[1] %}
+                <a class="btn btn-default btn-lg visible-md-inline-block visible-lg-inline-block" data-toggle="tooltip" data-placement="top" title="For those who need access to Mattermost on a mobile device" href="{{ page.sections.splitColumns[0].buttons[1].link }}">{{ page.sections.splitColumns[0].buttons[1].text }}</a>
+                {% endif %}
+                {% if page.sections.splitColumns[0].buttons[2] %}
+                <a class="btn btn-default btn-lg visible-md-inline-block visible-lg-inline-block" data-toggle="tooltip" data-placement="top" title="For members who never anticipate using Mattermost on a mobile device (ie. AOC FMs)" href="{{ page.sections.splitColumns[0].buttons[2].link }}">{{ page.sections.splitColumns[0].buttons[2].text }}</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta altBgs">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <h3>{{ page.sections.cta[1].header }}</h3>
+            <h4>{{ page.sections.cta[1].descriptor }}</h4>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            {% for button in page.sections.cta[1].buttons %}
+            <a class="btn btn-primary btn-lg" href="{{ '/puckboard#faq' | relative_url }}">{{ button.text }}</a>
+            {% endfor %}
+        </div>
+        </div>
+    </div>
+</section>
+
+<section id="main" class="altBgs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="center">{{ page.sections.main.header }}</h1>
+                <div class="header-descriptor">
+                    <h3>{{ page.sections.main.descriptor }}</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive center-block" src="{{ page.sections.main.image }}" alt="{{ page.sections.main.image-alt }}" style="width: 1200px;"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta" style="background-color: #98D4E6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h3>{{ page.sections.cta[2].header }}</h3>
+          <h4>{{ page.sections.cta[2].descriptor }}</h4>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <a class="btn btn-primary btn-lg" style="background-color: #F68720; border-color: #F68720;" href="{{ page.sections.cta[2].buttons[0].url }}">{{ page.sections.cta[2].buttons[0].text }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="resources altBgs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="center">{{ page.sections.resources[0].header }}</h2>
+                <div class="header-descriptor">
+                    <h3>{{ page.sections.resources[0].descriptor }}</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           <hr> 
+        </div>
+        <div class="row padding">
+            {% for card in page.sections.resources[0].cards %}
+            <div class="col-md-4 center">
+                <img class="img-responsive center-block" src="{{ card.image }}" style="margin-bottom: 50px; height: 100px;"/>
+                <h4>{{ card.imageHeader }}</h4>
+                <p class="content-descriptor">{{ card.imageDescriptor }}</p>
+                <a class="btn btn-primary btn-lg visible-xs-inline-block visible-sm-inline-block" href="{{ card.imageLink }}">{{ card.buttonText }}</a>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row no-padding-margin">
+            {% for card in page.sections.resources[0].cards %}
+            <div class="col-md-4 center no-padding-margin">
+                <a class="btn btn-primary btn-lg visible-md-inline-block visible-lg-inline-block" href="{{ card.imageLink }}">{{ card.buttonText }}</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="video altBgs">
+    <div class="container">
+        {% if page.sections.splitColumns[1].header %}
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="center">{{ page.sections.splitColumns[1].header }}</h2>
+                <div class="header-descriptor">
+                    <h3>{{ page.sections.splitColumns[1].descriptor }}</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           <hr> 
+        </div>
+        {% endif %}
+        <div class="row padding">
+            <div class="col-md-5">
+                <h3>{{ page.sections.splitColumns[1].moduleHeader }}</h3>
+                {% if page.sections.splitColumns[1].moduleSubHeader %}<h4>{{ page.sections.splitColumns[1].moduleSubHeader }}</h4>{% endif %}
+                <p class="content-descriptor">{{ page.sections.splitColumns[1].expandedDescription }}</p>
+                {% if page.sections.splitColumns[1].buttons[0] %}
+                <button class="btn btn-primary btn-lg" href="{{ page.sections.splitColumns[1].buttons[0].link }}">{{ page.sections.splitColumns[1].buttons[0].text }}</button>
+                {% endif %}
+            </div>
+            <div class="col-md-7">
+			<div class="iframe-container">
+                <iframe class="embed-video" src="{{ page.sections.splitColumns[1].video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+                {% if page.sections.splitColumns[1].buttons[1] %}
+                <button class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[1].buttons[1].link }}">{{ page.sections.splitColumns[1].buttons[1].text }}</button>
+                {% endif %}
+                {% if page.sections.splitColumns[1].buttons[2] %}
+                <button class="btn btn-default btn-lg" href="{{ page.sections.splitColumns[1].buttons[2].link }}">{{ page.sections.splitColumns[1].buttons[2].text }}</button>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="getstarted" class="cta altBgs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h3>{{ page.sections.cta[0].header }}</h3>
+                <h4>{{ page.sections.cta[0].descriptor }}</h4>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                {% for button in page.sections.cta[0].buttons %}
+                <a class="btn btn-primary btn-lg" href="{{ '/puckboard/' | relative_url }}">{{ button.text }}</a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

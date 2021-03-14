@@ -1,0 +1,77 @@
+<section id="hero">
+  <div id="hero-image"></div>
+  <div id="hero-container" class="container">
+    <div class="row white">
+      <div class="col-md-12">
+        <h1>{{ page.sections.main.header }}</h1>  
+        <h3 >{{ page.sections.main.descriptor }}</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% for section in page.sections.body %}
+<section id="feature" style="border-bottom: 1px double #ddd;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h3>{{ section.header }}</h3>
+        <p>{{ section.descriptor }}</p>
+
+        {% if section.descriptor2 %}
+        <p>{{ section.descriptor2 }}</p>
+        {% endif %}
+
+        {% if section.buttons %}
+        {% for button in section.buttons %}
+        {% if button.newTab %}
+        <a class="btn btn-primary btn-lg" target="_blank" href="{{ '/p1/' | relative_url }}">{{ button.text }}</a>
+        {% else %}
+        <a class="btn btn-primary btn-lg" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+
+      </div><!-- .col-md-6 close -->
+      <div class="col-md-6 col-sm-12">
+        {% if section.video %}
+        <iframe src="{{ section.video }}" width="100%" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        {% elsif section.image %}
+        <img src="{{ section.image }}">
+        {% endif %}
+      </div><!-- .col-md-6 close -->
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+
+<section id="intro" style="border-bottom: 1px double #ddd;">
+  <div class="container">
+    <div class="row">
+      <div class=" col-md-12">
+        <h3>{{ page.sections.end.header }}</h3>
+        <p style="width: 75%;">{{ page.sections.end.descriptor }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta white" style="background-color: #{{ page.sections.cta[0].background-color }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h3>{{ page.sections.cta[0].header }}</h3>
+        <h4>{{ page.sections.cta[0].descriptor }}</h4>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        {% if page.sections.cta[0].buttons %}
+        <a class="btn btn-primary btn-lg" href="{{ '/puckboard/getstarted/' | relative_url }}">{{ page.sections.cta[0].buttons[0].text }}</a>
+        {% for button in page.sections.cta[0].buttons offset:1 %}
+        <a class="btn btn-primary btn-lg" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
+        {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

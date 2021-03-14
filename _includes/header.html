@@ -23,12 +23,33 @@
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ '/' | relative_url }}">Home</a></li>
                 <!-- <li><a href="{{ '/portfolio/' | relative_url }}">Portfolio</a></li> -->
-                <li><a href="{{ '/#service' | relative_url }}">Services</a></li>
-                <li><a href="{{ '/portfolio/puckboard/' | relative_url }}">Puckboard</a></li>
+                <li class="dropdown">
+                  <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ '/learning/pathways/'  | relative_url }}">Learning Pathways</a></li>
+                    <li><a href="{{ '/services/mentorship.html' | relative_url }}">Guided Mentorship</a></li>
+                    <li><a href="{{ '/services/talent-development.html' | relative_url }}">Tron Node Buildout</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="{{ '/puckboard/' | relative_url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Puckboard <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ '/puckboard/' | relative_url }}">About Puckboard</a></li>
+                    <li><a href="{{ '/puckboard/getstarted/' | relative_url }}">Get Started</a></li>
+                    <li><a href="{{ '/p1/' | relative_url }}">Platform 1</a></li>
+                  </ul>
+                </li>
+                <!-- <li><a href="{{ '/#service' | relative_url }}">Resources</a></li> -->
+                <li class="dropdown">
+                  <a href="{{ '/services/common-links.html' | relative_url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ '/services/common-links.html' | relative_url }}">Common Links</a></li>
+                    <li><a href="https://tron.substack.com/">Blog</a></li>
+                    <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+                  </ul>
+                </li>
                 <!-- <li><a href="{{ '/partners/' | relative_url }}">Partners</a></li> -->
                 <!-- <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li> -->
-                <li><a href="https://tron.substack.com/">Blog</a></li>
-                <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
