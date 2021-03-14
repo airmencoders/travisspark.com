@@ -88,7 +88,7 @@ sections:
       descriptor: Get started today or contact us
       buttons:
         - text: Onboard with us
-          url: getstarted
+          url: /puckboard/getstarted/
           isInternal: 'yes'
         - text: Contact us
           url: mailto:puckboard.tron@afwerx.af.mil
@@ -96,7 +96,7 @@ sections:
       descriptor: Get started today or contact us
       buttons:
         - text: Onboard with us
-          url: getstarted
+          url: /puckboard/getstarted/
           isInternal: 'yes'
         - text: Contact us
           url: mailto:puckboard.tron@afwerx.af.mil
