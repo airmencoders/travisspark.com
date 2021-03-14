@@ -50,7 +50,7 @@ sections:
           - image: ./images/plane.svg
             imageLink: ./resources/MM_CONEMP.docx
             imageHeader: AMC/AOC CONEMP
-            imageDescriptor: The AMC & 618th AOC implementaion CONEMP of Mattermost use for C2
+            imageDescriptor: The AMC & 618th AOC implementation CONEMP of Mattermost use for C2
             buttonText: Guide
     cta:
       - header: Use the same P1 login to access your unit's schedule anywhere with Puckboard
