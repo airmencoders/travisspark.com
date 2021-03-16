@@ -9,11 +9,32 @@ permalink: /
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-2">
-        <div class="block">
-          <h1 class="animated fadeInUp"><img src="/img/TRONLogo_Combo-Horizontal-WH.png" alt="tron" style="width:30%; height:30%"/></h1>
-          <p class="animated fadeInUp">
-            The collaborative, end-to-end, government enablement and prototype
-            accelerator foundation.
+        <div
+          class="block"
+          style="
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+          "
+        >
+          <div>
+            <a
+              href="{{ '/start/' | relative_url }}"
+              class="btn btn-view-works"
+              >Get Started</a
+            >
+          </div>
+          <div>
+            <h1 class="animated fadeInUp">
+              <img
+                src="/img/spark_logo.png"
+                alt="spark"
+                style="width: 60%; height: 60%"
+              />
+            </h1>
+          </div>
+          <p class="animated fadeInUp" style="clear: left; float: left">
+            The Travis gateway into the Defense innovation ecosystem.
           </p>
         </div>
       </div>
@@ -29,29 +50,30 @@ permalink: /
           <div class="section-title">
             <h2>Mission</h2>
             <p>
-              We seek to build a government-wide cadre of digitally-enabled
-              servicemembers and civilians through open, extensible, and
-              mission-obsessed software.
+              We seek to empower the community of innovators at Travis AFB to
+              increase lethality, return time to Airmen, and provide potential
+              cost-reducing solution to the United States government.
             </p>
           </div>
           <div class="section-title">
             <h2>Vision</h2>
           </div>
           <p>
-            Success to us means creating an environment within the US military
-            and government at large where any servicemember or government
-            civilian can become educated and enabled to contribute to the
-            software that runs their lives & the lives of the people they
-            represent, whether through code, product ownership, design, or
-            elsewhere, in a manner that brings programmatic decision authority
-            to the people who are closest to the mission.
+            The Warfighter has relatively minimal say on the end product and may
+            receive the technology after it’s already irrelevant. The defense
+            establishment must immediately shift this paradigm if it wants to
+            succeed in the era of great power competition and advance beyond our
+            adversaries’ capabilities. Travis Air Force Base’s Phoenix Spark Hub
+            sets out to be the leader in bridging the gap between the operator
+            and agile organizations/companies who are motivated to rapidly
+            develop capabilities the Warfighter deserves.
           </p>
         </div>
       </div>
       <!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="img/alaska_jet_effects_round.png" alt="Img" />
+          <img src="img/covid_mask.png" alt="COVID Mask" />
         </div>
       </div>
       <!-- .col-md-5 close -->
@@ -63,22 +85,14 @@ permalink: /
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-6">
-        <h2>CORE VALUES</h2>
-        <p>
-          1. The people of the United States of America deserve military and
-          government leadership who can effectively communicate, understand, and
-          lead in a world dominated by software & technology.
-        </p>
-        <p>
-          2. This technological talent is curated best by empowering individuals
-          who are passionate and purpose-driven in digital service towards their
-          country.
-        </p>
-        <p>
-          3. There is no reason to wait to be promoted before believing you can
-          have an impact.
-        </p>
-        <a href="https://tron.substack.com/about" class="btn btn-view-works"
+        <h2>PRIORITIES</h2>
+        <p>1. Increase Lethality</p>
+        <p>2. Return Time to Airmen</p>
+        <p>3. Empower Innovators at all Levels</p>
+        <p>4. Reduce Cost</p>
+        <a
+          href="mailto:60AMW.PS.PhoenixSpark@us.af.mil"
+          class="btn btn-view-works"
           >Learn More</a
         >
       </div>
@@ -91,83 +105,71 @@ permalink: /
   <div class="container">
     <div class="row">
       <div class="section-title">
-        <h2>Services & Resources</h2>
-        <p>
-          How we support existing and prospective teams.
-        </p>
+        <h2>Focus Areas</h2>
+        <p>The tools we use to improve the mission.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <ion-icon name="school-outline"></ion-icon>
-            <h4>Servicemember Learning Pathways</h4>
-            <p>
-              Become an end-to-end certified developer, deployer, or mentor for
-              code running on DoD Weapons Systems.
-            </p>
-            <br />
-            <a href="{{ '/learning/pathways/'  | relative_url }}" class="linktext">View Learning Pathways</a>
+          <ion-icon name="print-outline"></ion-icon>
+          <h4>Additive Manufacturing</h4>
+          <p>
+            Additive manufacturing, or 3D printing, has proven the ability to
+            enhance sustainment capabilities while minimizing supply chain costs
+            associated with contracts, transport, and storage.
+          </p>
+          <br />
+          <a href="{{ '/manufacturing/'  | relative_url }}" class="linktext"
+            >Learn about 3D printing</a
+          >
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
           <ion-icon name="code-slash-outline"></ion-icon>
-            <h4>Community-Driven Software Development & Mentorship</h4>
-            <p>
-              Connecting digitally-adept servicemembers to an appropriate formal
-              or informal mentorship support community.
-            </p>
-            <br />
-            <a href="{{ '/services/mentorship.html' | relative_url }}" class="linktext">Find a Mentor Now</a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-            <ion-icon name="person-add-outline"></ion-icon>
-            <ion-icon name="person-add-outline"></ion-icon>
-            <ion-icon name="person-add-outline"></ion-icon>
-            <h4>Tron Node Buildout</h4>
-            <p>
-              If you are a group wanting to upskill and build a local software team at your unit,
-              you can work with us to help guide you through the process & become a 
-              certified Tron node.
-            </p>
-            <br />
-            <a href="{{ '/services/talent-development.html' | relative_url }}" class="linktext">View The Playbook</a>
-        </div>
-      </div>
-      <!-- <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-bug"></i>
-          <h4>Static Site Hosting</h4>
+          <h4>Digital Environments</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut
+            In the growing world of technology, we spend over 90% of our day
+            interacting with digital tools. We strive to keep our Airmen
+            informed on recent developments in the field that can both benefit
+            and threaten our way of lives.
           </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <a href="{{ '/services/tutorials.html' | relative_url }}"
-            ><i class="ion-headphone"></i>
-            <h4>Tutorials for Basic P1 Enterprise Collaboration</h4>
-            <p>
-              There are lots of great tools on DoD Platform One, this area
-              contains information/documentation on how to utilize.
-            </p></a
+          <br />
+          <a href="{{ '/digital/' | relative_url }}" class="linktext"
+            >Enter the Matrix</a
           >
         </div>
-      </div> -->
+      </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <ion-icon name="link-outline"></ion-icon>
-            <h4>Everyday Links</h4>
-            <p>Links to commonly-used resources like Mattermost, Jira Service Desk, and the Tron
-              Product Maturity Board can be found here.
-            </p>
-            <br />
-            <a href="{{ '/services/common-links.html' | relative_url }}" class="linktext">View Links</a>
+          <ion-icon name="game-controller-outline"></ion-icon>
+          <h4>Augmented & Virtual Reality (AR,VR), Automated Vehicles</h4>
+          <p>
+            Traditional training and workflows in the military are conducted
+            using legacy paper products and checklists. AR/VR/XR solutions have
+            the potential to change this paradigm.
+          </p>
+          <br />
+          <a href="{{ '/arvr/' | relative_url }}" class="linktext"
+            >Play with AR/VR</a
+          >
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <ion-icon name="airplane-outline"></ion-icon>
+          <h4>Small Unmanned Aerial Systems (sUAS)</h4>
+          <p>
+            sUAS projects at Travis are actively changing the reality of how we
+            secure our perimeters, perform maintenance on large jets, and much
+            more, all aimed at improving our situational awareness for rapid
+            decision making.
+          </p>
+          <br />
+          <a href="{{ '/suas/' | relative_url }}" class="linktext"
+            >Fly a drone</a
+          >
         </div>
       </div>
     </div>
@@ -191,11 +193,12 @@ permalink: /
           > -->
           <h2>Interested?</h2>
           <p>
-            If you are interested in joining a Tron community like <em><b>Airmen Coders</b></em>,
-            or would like to build a local <em><b>#PoweredByTron</b></em> software development team
-            at your unit, reach out! 
+            If you are interested in joining the Travis innovation community,
+            reach out!
           </p>
-          <a class="btn btn-default btn-call-to-action" href="{{ '/contact/' | relative_url }}"
+          <a
+            class="btn btn-default btn-call-to-action"
+            href="{{ '/contact/' | relative_url }}"
             >Contact Us</a
           >
         </div>
