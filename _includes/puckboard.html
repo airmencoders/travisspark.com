@@ -18,7 +18,7 @@
           <h2><b>{{ page.sections.cta[0].header }}</b></h2>
           {% if page.sections.cta[0].button1Text %}
           <!-- <a class="btn btn-primary btn-lg" href="{% if page.sections.cta[0].isInternal %} {{ site.url }}{% endif %}/{{ page.sections.cta[0].button1Url}}">{{ page.sections.cta[0].button1Text }}</a> -->
-          <a class="btn btn-primary btn-lg" href="{{ '/puckboard/getstarted/' | relative_url }}">{{ page.sections.cta[0].button1Text }}</a>
+          <a class="btn btn-primary btn-lg" href="{{ page.sections.cta[0].button1Url | relative_url }}">{{ page.sections.cta[0].button1Text }}</a>
           {% endif %}
         </div>
     </div>
@@ -93,7 +93,7 @@
       </div>
       <div class="col-md-6 col-sm-12">
         {% if page.sections.cta[1].buttons %}
-        <a class="btn btn-primary btn-lg" href="{{ '/puckboard/getstarted/' | relative_url }}">{{ page.sections.cta[1].buttons[0].text }}</a>
+        <a class="btn btn-primary btn-lg" href="{{ page.sections.cta[1].buttons[0].url | relative_url }}">{{ page.sections.cta[1].buttons[0].text }}</a>
         {% for button in page.sections.cta[1].buttons offset:1 %}
         <a class="btn btn-primary btn-lg" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
         {% endfor %}
@@ -230,7 +230,7 @@
       </div>
       <div class="col-md-6 col-sm-12">
         {% if page.sections.cta[2].buttons %}
-        <a class="btn btn-primary btn-lg" href="{{ '/puckboard/getstarted/' | relative_url }}">{{ page.sections.cta[2].buttons[0].text }}</a>
+        <a class="btn btn-primary btn-lg" href="{{ page.sections.cta[2].buttons[0].url | relative_url }}">{{ page.sections.cta[2].buttons[0].text }}</a>
         {% for button in page.sections.cta[2].buttons offset:1 %}
         <a class="btn btn-primary btn-lg" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
         {% endfor %}

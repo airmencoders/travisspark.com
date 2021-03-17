@@ -113,7 +113,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #8b86a3, #322e40);
+  background: linear-gradient(to left, #000, #111);
   opacity: 0.95;
 }
 #slider .block {
@@ -206,7 +206,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #1d192c;
+  background: #000;
   opacity: 0.95;
 }
 #call-to-action h2 {
@@ -231,7 +231,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/matrix-dev-computer.png");
+  background: url("../img/phoenix_printed_tabs.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -262,8 +262,8 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #1d192c;
-  opacity: 0.95;
+  background: #000;
+  opacity: 0.92;
 }
 
 #feature h2 {
@@ -277,7 +277,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 20px;
 }
 
-#feature .btn-view-works {
+.btn-view-works {
   padding: 15px 35px;
   border: none;
   background-color: #fff;
@@ -394,7 +394,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  background: linear-gradient(to left, #000, #111 70%);
   opacity: 0.95;
 }
 #global-header .block {
