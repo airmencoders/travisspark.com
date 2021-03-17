@@ -6,6 +6,8 @@ exclude:
   - "README.md"
   - "LICENSE.md"
   - "*.gemspec"
+  - "OldDockerfile"
+  - "/static-sites/"
 
 keep_files:
   - "CNAME"
