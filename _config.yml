@@ -13,9 +13,9 @@ keep_files:
   - ".gitignore"
 
 # Site settings
-title: TronGov
-subtitle: "The end-to-end government enablement and prototype accelerator"
-url: "https://tron.preprod.dso.mil" # the base hostname & protocol for your site
+title: Phoenix Spark
+subtitle: "The Travis Gateway into the Defense Innovation Ecosystem."
+url: "https://spark.dso.mil" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/"
 # cover: "/assets/cover.png"
