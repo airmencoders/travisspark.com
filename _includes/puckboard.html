@@ -9,7 +9,11 @@
     <div id="hero-container" class="container">
         <div id="row-hero" class="row">
             <div id="logo-wrapper">
+                {% if page.sections.hero.logo %}
                 <img class="img-responsive" src="{{ page.sections.hero.logo }}" alt="{{ page.title }}" style="width: 600px;" />
+                {% elsif page.sections.hero.text %}
+                <h1>{{ page.sections.hero.text }}</h1><br>
+                {% endif %}
                 <h3>{{ page.sections.hero.header }}</h3><br>
             </div>
         </div>
@@ -24,7 +28,7 @@
     </div>
 </section>
 
-{% for section in page.sections.splitColumns limit:2 %}
+{% for section in page.sections.splitColumns %}
 <section class="feature altBgs">
   <div class="container">
   <div class="row">
@@ -61,6 +65,7 @@
 </section>
 {% endfor %}
 
+{% if page.sections.features[0] %}
 <section class="resources altBgs">
   <div class="container">
       <div class="row">
@@ -83,7 +88,9 @@
       </div>
   </div>
 </section>
+{% endif %}
 
+{% if page.sections.cta[1] %}
 <section class="cta altBgs">
   <div class="container">
     <div class="row">
@@ -102,21 +109,53 @@
     </div>
   </div>
 </section>
+{% endif %}
 
+{% if page.sections.splitColumnsFinal %}
 <section class="feature altBgs">
   <div class="container">
-    <div class="row">
+  <div class="row">
+      {% if page.sections.splitColumnsFinal.textOrientation == "right" %}
       <div class="col-md-6 col-sm-12">
-        <h3>{{ page.sections.splitColumns[2].header }}</h3>
-        <p>{{ page.sections.splitColumns[2].descriptor }}</p>
+        {% if page.sections.splitColumnsFinal.video %}
+        <iframe src="{{ page.sections.splitColumnsFinal.video }}" width="500" height="284" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        {% elsif page.sections.splitColumnsFinal.image %}
+        <img class="img-responsive" src="{{ page.sections.splitColumnsFinal.image }}" width="500">
+        {% endif %}
       </div><!-- .col-md-6 close -->
+      {% endif %}
+
+      {% if page.sections.splitColumnsFinal.textOrientation == "center" %}
+      <div>
+      {% else %}
       <div class="col-md-6 col-sm-12">
-        <img class="img-responsive" src="/puckboard/images/mobile.png" width="500">
+      {% endif %}
+        <h3>{{ page.sections.splitColumnsFinal.header }}</h3>
+        <p>{{ page.sections.splitColumnsFinal.descriptor }}</p>
+
+        {% if page.sections.splitColumnsFinal.descriptor2 %}
+        <p>{{ page.sections.splitColumnsFinal.descriptor2 }}</p>
+        {% endif %}
       </div><!-- .col-md-6 close -->
+
+      {% if page.sections.splitColumnsFinal.textOrientation == "left" %}
+      <div class="col-md-6 col-sm-12">
+        {% if page.sections.splitColumnsFinal.video %}
+        <div class="iframe-container">
+          <iframe class="embed-video" src="{{ page.sections.splitColumnsFinal.video }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        {% elsif page.sections.splitColumnsFinal.image %}
+        <img class="img-responsive" src="{{ page.sections.splitColumnsFinal.image }}" width="500" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        {% endif %}
+      </div><!-- .col-md-6 close -->
+      {% endif %}
     </div>
   </div>
 </section>
+{% endif %}
 
+
+{% if page.sections.features[1] %}
 <section class="resources altBgs">
   <div class="container">
       <div class="row">
@@ -142,6 +181,7 @@
       </div>
   </div>
 </section>
+{% endif %}
 
 {% for section in page.sections.splitColumns2 %}
 <section class="feature altBgs">
@@ -178,6 +218,7 @@
 </section>
 {% endfor %}
 
+{% if page.sections.timeline %}
 <section class="timeline altBgs">
     <div class="timeline">
       <div class="row">
@@ -202,7 +243,9 @@
         </div>
       </div><!-- End Timeline -->
 </section>
+{% endif %}
 
+{% if page.sections.faq %}
 <section id="faq" class="faq altBgs">
   <div class="container">
       <div class="row">
@@ -220,7 +263,9 @@
       </div>
   </div>
 </section>
+{% endif %}
 
+{% if page.sections.cta[2] %}
 <section class="cta altBgs">
   <div class="container">
     <div class="row">
@@ -239,3 +284,4 @@
     </div>
   </div>
 </section>
+{% endif %}

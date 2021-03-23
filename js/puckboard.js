@@ -32,7 +32,7 @@ function backgrounds() {
     arr[0].style.background = "#fff";
     for (i = 1; i < arr.length; i++) {
         if ((i % 2) != 0) {
-            arr[i].style.background = "#454355";
+            arr[i].style.background = "#000";
             arr[i].style.color = "#fff";
         }
         else {

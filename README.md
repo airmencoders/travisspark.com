@@ -1,37 +1,7 @@
-# _Airspace_ for Jekyll
-![screenshot](screenshots/home.png "Description goes here")
-
-This Jekyll theme is a port of [ThemeFisher's](https://themefisher.com) [Airspace template](https://themefisher.com/products/airspace-free-bootstrap-website-template/). It is released under ThemeFisher's [license](https://themefisher.com/license) , which requires attribution. Concern about the licnese please contact with [them](mailto:themefisher@gmail.com)
-
-### View Live
-
-Staging URL:
-https://sst.staging.apps.il2.dsop.io/
-
-Pre-prod URL:
-```sh
-Does not exist yet.
-```
-
-Prod URL:
-```sh
-Does not exist yet.
-```
-
-## Usage
-To start your project, [fork this respository](https://github.com/ndrewtl/airspace-jekyll/fork), put in your content, and go!
-
-## Examples
-Here are some projects that have used this Jekyll Theme:
-* [BOYUAN Open Source 博辕开源](https://boyuanitsm.github.io)
-* [Campus VC](https://mrchildneo.github.io/mrchildneo/)
-* [Mãos de amar](https://www.maosdeamar.com.br/)
-* [ATK Team](http://www.atksec.com/)
-* [Coding Club](https://ourcodingclub.github.io/)
-* [Dev Empathy Book Club](http://www.devempathybook.club/)
-* [DKAN Open Data Catalog](http://getdkan.com) (modified version of this theme)
-
 ## Steps for Setup:
+
+### Read Jekyll tutorial
+Go through the steps to learn `jekyll` in the tutorial here: https://jekyllrb.com/docs/step-by-step/01-setup/
 
 ### Make sure you have Ruby
 
@@ -60,4 +30,21 @@ If you get `"Error, command not found"` run `gem install bundler` to install it
 using RubyGems.
 
 
+# _Airspace_ for Jekyll
+![screenshot](screenshots/home.png "Description goes here")
+
+This Jekyll theme is a port of [ThemeFisher's](https://themefisher.com) [Airspace template](https://themefisher.com/products/airspace-free-bootstrap-website-template/). It is released under ThemeFisher's [license](https://themefisher.com/license) , which requires attribution. Concern about the licnese please contact with [them](mailto:themefisher@gmail.com)
+
+### View Live
+
+
+Pre-prod URL:
+```sh
+spark.preprod.dso.mil
+```
+
+Prod URL:
+```sh
+spark.dso.mil
+```
 
