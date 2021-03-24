@@ -1,41 +1,43 @@
 ---
 layout: dau
-title: ARVR
+title: SUAS
 sections:
   hero:
     logo: 
-    text: Augmented & Virtual Reality (AR/VR)
-    header: Modernize your training paradigm.
+    text: Small Unmanned Aerial Systems (sUAS)
+    header: Automate your perimeter control & high-risk maintenance activities using drones.
     color:
       light: '000'
       dark: '111'
   splitColumns:
-    - header: Aircrew Training in Virtual Reality
+    - header: Aircraft Maintenance Remote Viewing
       descriptor: >
-         Increased AR/VR design capabilities to provide Airmen with an advanced platform to design and execute complex AR/VR training simulations. They have developed an emergency escape testing program, virtual loadmaster preflight checklist and a 360 degree AR (Aerial Refueling) instructional video.
-      image: /arvr/images/arvr.png
-      textOrientation: left
-    - header: Security Forces Virtual Simulation Training
-      descriptor: The 60th Security Forces Squadron uses AR/VR through an AFWERX SBIR company to build virtual training scenarios that allows security forces members to train/develop situational experiences in a controlled environment.  
-      image: /arvr/images/security-forces-arvr.png
+        The 60th AMW is currently exploring a scaling effort to utilize sUAS to assist maintainers in executing historically high-risk
+        maintenance activities such as T-Tail inspections on large mobility aircraft.
+      image: /suas/images/cropped-flares.jpg
       textOrientation: right
+    - header: Border Perimeter Security
+      descriptor: >
+         The 60th SFS is working with an AFWERX SBIR company in testing and developing a prototype autonomous aerial monitoring system to deliver advanced perimeter security and situational awareness using autonomous self-deployed drones.  Currently they have 3 autonomous and 2 tethered units in production use.
+      image: /suas/images/easy-aerial.png
+      textOrientation: left
   splitColumnsFinal:
-    header: Accelerate your training through AR/VR
+    header: Modernize your TTPs with sUAS
     descriptor: >
-      Immersive education and training are proven methods for rapid learning & knowledge retention.  AR/VR solutions are designed to
-      take your unit's training program to the next level. Check out the FAQ's for more information.
+      Small UAS tactics, techniques and procedures are not keeping pace with innovation, the demand for capability, or the growing threats emerging from malignant actors. The massive proliferation of  extreme-low-cost and autonomous aviation technologies, commonly referred to as sUAS or “drones,” creates a paradigm shift in the way global mobility operations are conducted. We are working on staying ahead of the wave!
     textOrientation: center
     # image: /arvr/images/arvr.png
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
-      - question: How do I get AR/VR solutions for my unit?
+      - question: How do I get sUAS solutions for my unit?
         answer: >
           Click the "Contact Us" button above, send us some information about your use case, and we will connect you to other teams on base
-          who are already working in the AR/VR arena!
+          who are already working in the same arena!
         # Link to confluence, add in primary POCs for travis & other bases, if that doesn't work, try a new SBIR (see FAQ below) 
-      - question: How do I use SBIR for AR/VR?
-        answer: Checkout the <a href=/sbir/>AFWERX SBIR page</a> and the <a href=/arvr-sbir-list/>AFWERX AR/VR SBIR Companies</a> list first, and feel to reachout to any of these companies!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
+      - question: How do I use SBIR for sUAS?
+        answer: >
+          Checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list first, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reachout to any of them!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
   cta:
     - header: Get started today!
       button1Text: Contact us

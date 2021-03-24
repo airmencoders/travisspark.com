@@ -1,41 +1,51 @@
 ---
 layout: dau
-title: ARVR
+title: Digital
 sections:
   hero:
-    logo: 
-    text: Augmented & Virtual Reality (AR/VR)
-    header: Modernize your training paradigm.
+    logo: /digital/images/logo.png
+    text: Software & Digital Environments
+    header: >
+      Creating partnerships between digital airmen & innovative businesses to solve problems through software.
     color:
       light: '000'
       dark: '111'
   splitColumns:
-    - header: Aircrew Training in Virtual Reality
+    - header: Tron Travis
       descriptor: >
-         Increased AR/VR design capabilities to provide Airmen with an advanced platform to design and execute complex AR/VR training simulations. They have developed an emergency escape testing program, virtual loadmaster preflight checklist and a 360 degree AR (Aerial Refueling) instructional video.
-      image: /arvr/images/arvr.png
+        The 60th AMW is currently joining in a partnership called, <a target="_blank" href="https://tron.dso.mil/"><span style="font-style: italic;">Tron Software</span></a>, with the 437 AW, 15 Wg, 305 AMW, Joint Special Operations Command, Space Operations Center,
+        Platform One, CORSAIR Ranch, and AFWERX to build a collaborative software innovation organization that can allow 
+        community-driven decisions, centralized support, and decentralized control/execution.  
+      image: /digital/images/digital-airmen-commit.png
       textOrientation: left
-    - header: Security Forces Virtual Simulation Training
-      descriptor: The 60th Security Forces Squadron uses AR/VR through an AFWERX SBIR company to build virtual training scenarios that allows security forces members to train/develop situational experiences in a controlled environment.  
-      image: /arvr/images/security-forces-arvr.png
+    - header: Digital Aircrew Initiative, Mattermost
+      descriptor: >
+         When COVID restrictions began in March of 2020, the 60th AMW quickly began working to find a lasting solution for remote collaboration
+         that could handle both normal and FOUO/PII communications.  Working with both <a target="_blank" href="https://p1.dso.mil/">DoD Platform One</a> and <a target="_blank" href="https://tron.dso.mil/">Tron Software</a>, Phoenix Spark helped to launch a DoD-wide version of Mattermost to support remote collaboration.  Since that time, Phoenix Spark has continued to iterate, working with multiple AMC wings & staff agencies to build command-wide guidance & processes for utilizing the platform as a C2 capability. 
+      video: https://vimeo.com/showcase/8144814/embed
       textOrientation: right
+    - header: Digital Aircrew Initiative, Puckboard
+      descriptor: >
+         The 60th SFS is working with an AFWERX SBIR company in testing and developing a prototype autonomous aerial monitoring system to deliver advanced perimeter security and situational awareness using autonomous self-deployed drones.  Currently they have 3 autonomous and 2 tethered units in production use.
+      video: https://player.vimeo.com/video/519703781
+      textOrientation: left
   splitColumnsFinal:
-    header: Accelerate your training through AR/VR
+    header: Modernize your Software & Digital Talent
     descriptor: >
-      Immersive education and training are proven methods for rapid learning & knowledge retention.  AR/VR solutions are designed to
-      take your unit's training program to the next level. Check out the FAQ's for more information.
+      Help us to create an environment within the US military and government at large where any servicemember or government civilian can become educated and enabled to contribute to the software that runs their lives & the lives of the people they represent, whether through code, product ownership, design, or elsewhere, in a manner that brings programmatic decision authority to the people who are closest to the mission.
     textOrientation: center
     # image: /arvr/images/arvr.png
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
-      - question: How do I get AR/VR solutions for my unit?
+      - question: How do I get sUAS solutions for my unit?
         answer: >
           Click the "Contact Us" button above, send us some information about your use case, and we will connect you to other teams on base
-          who are already working in the AR/VR arena!
+          who are already working in the same arena!
         # Link to confluence, add in primary POCs for travis & other bases, if that doesn't work, try a new SBIR (see FAQ below) 
-      - question: How do I use SBIR for AR/VR?
-        answer: Checkout the <a href=/sbir/>AFWERX SBIR page</a> and the <a href=/arvr-sbir-list/>AFWERX AR/VR SBIR Companies</a> list first, and feel to reachout to any of these companies!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
+      - question: How do I use SBIR for sUAS?
+        answer: >
+          Checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list first, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reachout to any of them!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
   cta:
     - header: Get started today!
       button1Text: Contact us

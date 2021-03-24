@@ -32,10 +32,11 @@ sections:
       - question: How do I get AR/VR solutions for my unit?
         answer: >
           Click the "Contact Us" button above, send us some information about your use case, and we will connect you to other teams on base
-          who are already working in the AR/VR arena!
+          who are already working in the same arena!
         # Link to confluence, add in primary POCs for travis & other bases, if that doesn't work, try a new SBIR (see FAQ below) 
       - question: How do I use SBIR for AR/VR?
-        answer: Checkout the <a href=/sbir/>AFWERX SBIR page</a> and the <a href=/arvr-sbir-list/>AFWERX AR/VR SBIR Companies</a> list first, and feel to reachout to any of these companies!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
+        answer: >
+          Checkout the <a href=/sbir/>AFWERX SBIR page</a> and the <a href=/arvr-sbir-list/>AFWERX AR/VR SBIR Companies</a> list first, and feel to reachout to any of these companies!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
   cta:
     - header: Get started today!
       button1Text: Contact us
