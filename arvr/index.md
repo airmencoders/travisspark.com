@@ -36,7 +36,7 @@ sections:
         # Link to confluence, add in primary POCs for travis & other bases, if that doesn't work, try a new SBIR (see FAQ below) 
       - question: How do I use SBIR for AR/VR?
         answer: >
-          Checkout the <a href=/sbir/>AFWERX SBIR page</a> and the <a href=/arvr-sbir-list/>AFWERX AR/VR SBIR Companies</a> list first, and feel to reachout to any of these companies!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
+          Checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/arvr-sbir-list/>AFWERX AR/VR SBIR Companies</a> list first, and feel to reachout to any of these companies!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
   cta:
     - header: Get started today!
       button1Text: Contact us
