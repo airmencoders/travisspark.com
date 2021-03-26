@@ -3,7 +3,6 @@ layout: dau
 title: Digital
 sections:
   hero:
-    logo: /digital/images/logo.png
     text: Software & Digital Environments
     header: >
       Creating partnerships between digital airmen & innovative businesses to solve problems through software.

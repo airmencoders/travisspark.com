@@ -31,30 +31,32 @@ sections:
     tabs:
       - question: How do I get AR/VR solutions for my unit?
         answer: >
-          Click the "Contact Us" button above, send us some information about your use case, and we will connect you to other teams on base
-          who are already working in the same arena!
-        # Link to confluence, add in primary POCs for travis & other bases, if that doesn't work, try a new SBIR (see FAQ below) 
+          Click the "View the AR/VR Knowledge Base" button above to find contact information, best practices, and existing contracts.  Once you are ready, feel free to contact one of the team members there to get going! 
       - question: How do I use SBIR for AR/VR?
         answer: >
-          Checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/arvr-sbir-list/>AFWERX AR/VR SBIR Companies</a> list first, and feel to reachout to any of these companies!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
+          Before you start a new SBIR, we highly recommend that you try to team up to scale an existing effort that has proven success & that
+          has a passionate government POC.  You can find these efforts from the <b>View the AR/VR Knowledge Base</b> button above!  If you want to keep
+          looking at other options, checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/arvr-sbir-list/>AFWERX AR/VR SBIR Companies</a> list, and feel to reachout to any of these companies.  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
   cta:
     - header: Get started today!
-      button1Text: Contact us
-      button1Url:  mailto:60AMW.PS.PhoenixSpark@us.af.mil
-      isInternal: 
+      button1Text: View the AR/VR Knowledge Base
+      button1Url:  /arvr-kb/
+      isInternal: 'yes'
     - header: Ready to get started?
       descriptor: Reach out and join the team
       buttons:
-        - text: Contact us
-          url: mailto:60AMW.PS.PhoenixSpark@us.af.mil
+        - text: View the AR/VR Knowledge Base
+          url:  /arvr-kb/
+          isInternal: 'yes'
         - text: Join our ecosystem
           url: /apply/
           isInternal: 'yes'
     - header: Ready to get started?
       descriptor: Reach out and join the team
       buttons:
-        - text: Contact us
-          url: mailto:60AMW.PS.PhoenixSpark@us.af.mil
+        - text: View the AR/VR Knowledge Base
+          url:  /arvr-kb/
+          isInternal: 'yes'
         - text: Join our ecosystem
           url: /apply/
           isInternal: 'yes'

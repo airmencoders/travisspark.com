@@ -41,13 +41,14 @@ sections:
   cta:
     - header: Get started today!
       button1Text: View the sUAS Knowledge Base
-      button1Url:  https://confluence.il4.dso.mil/pages/viewpage.action?pageId=28975753
-      isInternal: 
+      button1Url:  /suas-kb/
+      isInternal: 'yes'
     - header: Ready to get started?
       descriptor: Reach out and join the team
       buttons:
         - text: View the sUAS Knowledge Base
-          url:  https://confluence.il4.dso.mil/pages/viewpage.action?pageId=28975753
+          url:  /suas-kb/
+          isInternal: 'yes'
         - text: Join our ecosystem
           url: /apply/
           isInternal: 'yes'
@@ -55,7 +56,8 @@ sections:
       descriptor: Reach out and join the team
       buttons:
         - text: View the sUAS Knowledge Base
-          url:  https://confluence.il4.dso.mil/pages/viewpage.action?pageId=28975753
+          url:  /suas-kb/
+          isInternal: 'yes'
         - text: Join our ecosystem
           url: /apply/
           isInternal: 'yes'
