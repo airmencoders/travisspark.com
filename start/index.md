@@ -2,76 +2,62 @@
 layout: guide
 title: Get Started
 sections:
-    main:
+    hero:
         header: Onboard Into the Innovation Ecosystem
         descriptor: >
           Welcome! This guide will help you get going with Phoenix Spark & the innovation community at Travis
+        color:
+          light: '000'
+          dark: '111'
     body:
-      - header: <b>Step 1.</b> Watch the demo
-        descriptor: This video walks you through setting up your Puckboard and how to get started scheduling immediately. After you watch the demo, you will have the knowledge to navigate through the app, customize your squadrons settings, add personnel, and create and edit events.
-        video: https://player.vimeo.com/video/516955160
-      - header: <b>Step 2.</b> Join a live AMA
-        descriptor: Still have Questions? Every Tuesday and Thursday, the Puckboard team hosts a live AMA to answer any questions, announce new releases, and provide live training. On Thursdays, the team also provides information on Mattermost and relevant integrations.
-        descriptor2: Register below to claim your spot.
+      - header: <b>Step 1.</b> Identify Your Goals
+        descriptor: >
+          Why do you want to enter into the innovation arena?  Are you trying to solve a specific problem for your unit, launch your own team, learn to code or aquire a new toolset, enter the world of defense ventures & SBIR, or just tinker with cool tech? Knowing what your goals are will help you to navigate the wild west arena of tech in a much more intentional manner.  You might even already have everything that you need to be successful right here!
+      - header: <b>Step 2.</b> Peruse our Focus Areas
+        descriptor: >
+          Keeping your goals in mind, take a look through the <b>Focus Areas</b>, linked here & in the top nav bar.  Read through each section and take a look at the FAQs & knowledge bases linked therein.  Here you will find quick descriptions of various ongoing projects, their intended outcomes, and most importantly, contact information for the government POCs who have walked the path already. <br /><br /><b>Note: If you cannot login to the knowledge bases, accomplish Step 3 (below) before this step.</b>
+        descriptor2: 'Our Main Focus Areas:'
         buttons:
-          - text: Register for Tuesday
-            url: https://www.zoomgov.com/j/1612986916?pwd=aFVGK0pHc1hOQWRHb1pxSDFSUUUrQT09
-          - text: Register for Thursday
-            url: https://www.zoomgov.com/j/1604796342?pwd%3DbVR3bklZZE1OZFFSY2diSjNMeXNDdz09&sa=D&source=calendar&ust=1612810707213000&usg=AOvVaw1zUaKr8amvJmVVUuC6Flis
-        image: ../images/zoom.png
+          - text: <span style="padding:1px">Additive Manufacturing</span>
+            url: /manufacturing/
+          - text: <span style="padding:5px">Digital Environments</span>
+            url: /digital/
+          - text: <span style="padding:73px">AR/VR</span>
+            url: /arvr/
+          - text: <span style="padding:33px">sUAS (Drones)</span>
+            url: /suas/
       - header: <b>Step 3.</b> Sign up for Platform One SSO
-        descriptor: <i>Already a Mattermost user? You can skip to step 4.</i>
-        descriptor2: Puckboard is possible because it lives within the Air Force’s PlatformOne (P1) architecture and security. The key to accessing Puckboard, or any other mission apps on P1, is the Single Sign On (SSO). This allows you to work on any device, in any of the mission apps (like Puckboard, Mattermost, & Widow) using a single password. All of this is available to anyone with a .mil email and CAC card. <br><br> Use the button below to find our step by step guide to creating your P1 account.
+        descriptor: <i>Already have an account? You can skip to step 4.</i>
+        descriptor2: >
+          Our knowledge bases and many of our digital applications live within the DoD Platform One (P1) environment. In order to access our knowledge bases, chat functions, or any other mission apps, you will need a P1 is the Single Sign On (SSO) account. This allows you to work on any device, in any of the mission apps (like Puckboard, Mattermost, & Widow) using a single password or CAC. All of this is available to anyone with a .mil email and CAC card. <br><br> Use the button below to find our step by step guide to creating your P1 account. <br /><br /><b>Note: This link takes you to an a different site, which, while looking suspiciously almost identical to this site, is not the same page.</b>
         buttons:
           - text: Create your P1 Account
-            url: p1
+            url: https://tron.dso.mil/p1/
+            newTab: 'yes'
+      - header: <b>Step 4.</b> Reach Out!
+        descriptor: > 
+          Now that you have a good idea of what the innovation ecosystem looks like, it is time to get involved!  If you already found a contact in our knowledge base that is addressing your problem, feel free to send that individual a direct message to ask questions.  Otherwise, swing by the Spark lab in the center of the 6th ARS building during our walk-in hours on Friday afternoons & we can triage together. 
+      - header: <b>Step 5.</b> Join the ecosystem
+        descriptor: > 
+          We are always looking for people wanting to be mentors for others, key innovators in functional areas, subject matter experts in our focus areas, and even full-time employees.  If joining this community feels interesting to you in any way, then fill out our application form below!  
+        buttons:
+          - text: Apply to join
+            url: /apply/
             isInternal: 'yes'
             newTab: 'yes'
-        image: ../images/jira.png
-      - header: <b>Step 4.</b> Submit a request to create your unit in Puckboard
-        descriptor: Now that you have a P1 SSO account, you can login to our Service Desk and request a new unit for Puckboard.
-        descriptor2: The team then creates your unit and reaches out to ensure that all personnel are uploaded properly.
-        buttons:
-          - text: Take me to the form!
-            url: https://jira.il2.dso.mil/servicedesk/customer/portal/68/create/306
-        image: ../images/pb.png
-      - header: <b>Step 5.</b> Implement and train
-        descriptor: This is the fun part, where you get to work with the training and onboarding team to implement Puckboard for your unit.
-        descriptor2: Your P1 SSO grants access to our internal knowledge base and Mattermost team where we work with you on implementing best practices, and ensure that you will be ready to succeed at go-live. Join the community where you can find best practices, ask questions, and get help on any Puckboarding subject in our Puckboard Team on the Mattermost chat software.
-        buttons:
-          - text: Knowledge Base
-            url: https://confluence.il2.dso.mil/display/puckboardhelp/Puckboard+Knowledge+Base
-          - text: Mattermost Team
-            url: https://chat.il4.dso.mil/signup_user_complete/?id=6et69u6g9prnd8i59b8yw9n7zw
-        image: ../images/gantticon.png
-      - header: <b>Step 6.</b> Go-Live
-        descriptor: Okay, we take it back. THIS is the fun part. After determining readiness and ensuring access to all of the support resources, you get to launch Puckboard as the source of truth for your schedule and join the growing legion of Puckboarders!
-        descriptor2: During this whole process, you have access to the onboarding team, training materials, and other users in the Mattermost team. We're with you every step of the way.
-        image: ../images/patches.png
-      - header: <b>Step 7.</b> Get involved
-        descriptor: Puckboard is developed using User Centered Design and Agile methodology, meaning that we fight for you, the user.
-        descriptor2: If you have suggestions on how to make Puckboard better, or want to submit feature suggestions, submit a request in the Service Desk. You can see what other users have submitted and vote on their ideas. You can also ask questions in our Confluence space, stay informed on releases, and even get involved with feature design.
-        buttons:
-          - text: Suggest a feature
-            url: https://jira.il2.dso.mil/servicedesk/customer/portal/68/create/305
-          - text: Release Notes
-            url: https://confluence.il2.dso.mil/display/puckboardhelp/Puckboard+Release+Notes
-          - text: FAQ
-            url: https://confluence.il2.dso.mil/display/puckboardhelp/Frequently+Asked+Questions
-        image: ../images/road.png
     end:
         header: Thank you.
-        descriptor: If you have questions, comments, or mean things to say, drop us a note in Mattermost or come to an AMA! We appreciate every single one of you, happy Puckboarding!
+        descriptor: If you have questions, comments, or mean things to say, send us an email or come by on Friday afternoons to chat!
     cta:
-      - header: Ready to get started?
-        descriptor: Get started today or contact us
+      - header: Want to read it again?
+        descriptor: Click here to go back to the top.
         buttons:
-          - text: Onboard with us
-            url: getstarted
+          - text: Top of Page
+            url: /start/
             isInternal: 'yes'
           - text: Contact us
-            url: mailto:puckboard.tron@afwerx.af.mil
-        background-color: 454355
+            url: /contact/
+        background-color: '000'
 ---
 
 

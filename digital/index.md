@@ -47,23 +47,25 @@ sections:
           Checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list first, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reachout to any of them!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
   cta:
     - header: Get started today!
-      button1Text: Contact us
-      button1Url:  mailto:60AMW.PS.PhoenixSpark@us.af.mil
+      button1Text: Learn about Tron 
+      button1Url:  https://tron.dso.mil/
       isInternal: 
     - header: Ready to get started?
       descriptor: Reach out and join the team
       buttons:
-        - text: Contact us
-          url: mailto:60AMW.PS.PhoenixSpark@us.af.mil
-        - text: Join our ecosystem
+        - text: Learn about Tron
+          url:  https://tron.dso.mil/
+          isInternal: 
+        - text: Apply to join Tron Travis
           url: /apply/
           isInternal: 'yes'
     - header: Ready to get started?
       descriptor: Reach out and join the team
       buttons:
-        - text: Contact us
-          url: mailto:60AMW.PS.PhoenixSpark@us.af.mil
-        - text: Join our ecosystem
+        - text: Learn about Tron
+          url:  https://tron.dso.mil/
+          isInternal: 
+        - text: Apply to join Tron Travis
           url: /apply/
           isInternal: 'yes'
   # features:
