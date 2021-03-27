@@ -17,7 +17,7 @@ sections:
       textOrientation: left
     - header: Security Forces Virtual Simulation Training
       descriptor: The 60th Security Forces Squadron uses AR/VR through an AFWERX SBIR company to build virtual training scenarios that allows security forces members to train/develop situational experiences in a controlled environment.  
-      image: /arvr/images/security-forces-arvr.png
+      image: /arvr/images/street-smarts.jpg
       textOrientation: right
   splitColumnsFinal:
     header: Accelerate your training through AR/VR

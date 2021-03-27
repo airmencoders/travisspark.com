@@ -14,7 +14,7 @@ sections:
       descriptor: >
         The 60th AMW is currently exploring a scaling effort to utilize sUAS to assist maintainers in executing historically high-risk
         maintenance activities such as T-Tail inspections on large mobility aircraft.
-      image: /suas/images/cropped-flares.jpg
+      image: /suas/images/drone-inspection.jpg
       textOrientation: right
     - header: Border Perimeter Security
       descriptor: >
