@@ -20,7 +20,9 @@
         <br><br>
         <div id="hero-cta" class="row center">
           <h2><b>{{ page.sections.cta[0].header }}</b></h2>
-          {% if page.sections.cta[0].button1Text %}
+          {% if page.sections.cta[0].code %}
+            {{ page.sections.cta[0].code }}
+          {% elsif page.sections.cta[0].button1Text %}
           <!-- <a class="btn btn-primary btn-lg" href="{% if page.sections.cta[0].isInternal %} {{ site.url }}{% endif %}/{{ page.sections.cta[0].button1Url}}">{{ page.sections.cta[0].button1Text }}</a> -->
           <a class="btn btn-primary btn-lg" href="{{ page.sections.cta[0].button1Url | relative_url }}">{{ page.sections.cta[0].button1Text }}</a>
           {% endif %}
@@ -99,6 +101,12 @@
         <h4>{{ page.sections.cta[1].descriptor }}</h4>
       </div>
       <div class="col-md-6 col-sm-12">
+
+        {% if page.sections.cta[1].manual %}
+        {% for manual in page.sections.cta[1].manual %}
+          {{ manual.code }}
+        {% endfor %}
+        {% endif %}
         {% if page.sections.cta[1].buttons %}
         <a class="btn btn-primary btn-lg" href="{{ page.sections.cta[1].buttons[0].url | relative_url }}">{{ page.sections.cta[1].buttons[0].text }}</a>
         {% for button in page.sections.cta[1].buttons offset:1 %}
@@ -274,6 +282,11 @@
         <h4>{{ page.sections.cta[2].descriptor }}</h4>
       </div>
       <div class="col-md-6 col-sm-12">
+        {% if page.sections.cta[2].manual %}
+        {% for manual in page.sections.cta[2].manual %}
+          {{ manual.code }}
+        {% endfor %}
+        {% endif %}
         {% if page.sections.cta[2].buttons %}
         <a class="btn btn-primary btn-lg" href="{{ page.sections.cta[2].buttons[0].url | relative_url }}">{{ page.sections.cta[2].buttons[0].text }}</a>
         {% for button in page.sections.cta[2].buttons offset:1 %}
