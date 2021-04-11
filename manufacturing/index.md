@@ -5,7 +5,7 @@ sections:
   hero:
     logo: 
     text: Additive Manufacturing
-    header: The instant supply chain.
+    header: 
     color:
       light: '000'
       dark: '111'
@@ -15,8 +15,8 @@ sections:
          Additive manufacturing, combined with computer automated design, gives you the powerful capability to turn a mental vision into a tangible product.  Whether you are making parts to assist the mission, learning to print coins for your unit, or even making toys to donate to the community, additive manufacturing can help to prototype, refine, and build quickly.
       image: /manufacturing/images/printing.jpg
       textOrientation: left
-    - header: Intanstaneously construct mission parts
-      descriptor: From iPad mounts on the airplane to wire bundling systems for Aeromedical Evacuation teams, additive manufacturing at Phoenix Spark has a legacy of bringing disruptively valuable capabilities to improve our warfighting capability. 
+    - header: The instant supply chain
+      descriptor: From iPad mounts on the airplane to wire bundling systems for Aeromedical Evacuation teams, additive manufacturing at Phoenix Spark has a legacy of bringing disruptively valuable capabilities to improve our warfighting capability in a fraction of the time of a normal supply chain.
       image: /manufacturing/images/mounts.jpg
       textOrientation: right
   splitColumnsFinal:

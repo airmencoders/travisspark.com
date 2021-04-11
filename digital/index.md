@@ -4,8 +4,7 @@ title: Digital
 sections:
   hero:
     text: Software & Digital Environments
-    header: >
-      Creating partnerships between digital airmen & innovative businesses to solve problems through software.
+    header:
     color:
       light: '000'
       dark: '111'
@@ -14,7 +13,7 @@ sections:
       descriptor: >
         The 60th AMW is currently joining in a partnership called, <a target="_blank" href="https://tron.dso.mil/"><span style="font-style: italic;">Tron Software</span></a>, with the 437 AW, 15 Wg, 305 AMW, Joint Special Operations Command, Space Operations Center,
         Platform One, CORSAIR Ranch, and AFWERX to build a collaborative software innovation organization that can allow 
-        community-driven decisions, centralized support, and decentralized control/execution.  
+        community-driven decisions, centralized support, and decentralized control/execution.  We are actively creating partnerships between digital airmen & innovative businesses to solve problems through software!
       image: /digital/images/digital-airmen-commit.png
       textOrientation: left
     - header: Digital Aircrew Initiative, Mattermost

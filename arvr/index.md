@@ -5,7 +5,7 @@ sections:
   hero:
     logo: 
     text: Augmented & Virtual Reality (AR/VR)
-    header: Modernize your training paradigm.
+    header: 
     color:
       light: '000'
       dark: '111'

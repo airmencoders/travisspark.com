@@ -5,7 +5,7 @@ sections:
   hero:
     logo: 
     text: Small Unmanned Aerial Systems (sUAS)
-    header: Automate your perimeter control & high-risk maintenance activities using drones.
+    header: 
     color:
       light: '000'
       dark: '111'
