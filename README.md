@@ -38,13 +38,8 @@ This Jekyll theme is a port of [ThemeFisher's](https://themefisher.com) [Airspac
 ### View Live
 
 
-Pre-prod URL:
-```sh
-spark.preprod.dso.mil
-```
-
 Prod URL:
 ```sh
-spark.dso.mil
+travisspark.com
 ```
 
