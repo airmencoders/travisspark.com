@@ -1,0 +1,38 @@
+<div class="outside-wrapper">
+<div class="inside-wrapper">
+<div class="event-toggle-row">
+    <div
+      type="button"
+      class="event-toggle-buttons event-toggle-buttons-selected"
+    >
+      All
+    </div>
+
+    {% for filter in page.sections.filters %}
+    <button
+      type="button"
+      class="event-toggle-buttons event-toggle-buttons-deselected"
+    >
+      {{ filter.title }}
+    </button>
+    {% endfor %}
+
+  <div class="cards-row">
+    {% for event in page.sections.events %}
+    <div class="card">
+      <img
+        src={{ event.image }}
+        class="card-image"
+      />
+      <div class="card-title">{{event.title}}</div>
+      <div class="card-desc">
+        {{ event.description }}
+      </div>
+      <div class="card-actions">
+        <button type="button" class="card-action">{{ event.button }}</button>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+</div>
