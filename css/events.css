@@ -75,6 +75,7 @@
 }
 
 .card {
+    text-align: left;
 	display: inline-block;
 	width: 40%;
 	min-width: 400px;
@@ -108,6 +109,22 @@
     overflow: hidden;
 }
 
+.card-dates {
+    box-sizing: content-box;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 1em 1em 1em;
+    text-align: left;
+    height: 1em;
+    overflow: hidden;
+}
+
+.card-date, .card-time {
+    display: inline;
+    margin: 0 1em 0 0;
+}
+
 .card-desc {
     box-sizing: content-box;
     font-size: 0.9em;
@@ -116,7 +133,6 @@
     height: 4em;
     overflow: hidden;
     border-bottom: 1px solid rgba(170, 170, 170, 0.5);
-
 }
 
 .card-action {

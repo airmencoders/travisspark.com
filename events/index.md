@@ -3,24 +3,28 @@ layout: events
 title: Spark Events
 sections:
   filters:
+    - title: 3D Printing Classes
+      filter: 3d
     - title: Raspberry Pi Classes
-      filter:
+      filter: rpi
     - title: SBIR Round Table
-      filter:
+      filter: sbir
     - title: Colliders
-      filter:
+      filter: collider
     - title: Demo Days
-      filter:
+      filter: demo-day
     - title: Pitch Days
-      filter:
+      filter: pitch-day
   events:
-    - title: This is title.
+    - title: 3D Printing Class
+      date: 10-11 May
+      time: 0800-1600
       description: >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
-        iusto s deleniti ea atque. Nostrum odio temporibus nisi inventore,
-        velit hic in quas quos quo?
-      image: "https://getmdl.io/assets/demos/welcome_card.jpg"
+        Sign up today to learn how to 3D print tools or swag for your 
+        squadron using the Phoenix Spark additive manufacturing capabilities!
+      image: /manufacturing/images/printing.jpg
       button: Read More
+      filter: 3d
     - title:
       description:
       image:
