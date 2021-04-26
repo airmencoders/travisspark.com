@@ -23,7 +23,8 @@ sections:
         Sign up today to learn how to 3D print tools or swag for your 
         squadron using the Phoenix Spark additive manufacturing capabilities!
       image: /manufacturing/images/printing.jpg
-      button: Read More
+      button: Register
+      link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-101-tickets-152176005529?aff=website"
       filter: 3d
     - title:
       description:
