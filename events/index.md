@@ -20,8 +20,8 @@ sections:
       date: 10-11 May
       time: 0800-1600
       description: >
-        Sign up today to learn how to 3D print tools or swag for your 
-        squadron using the Phoenix Spark additive manufacturing capabilities!
+        Sign up today to learn how to 3D print tools for your 
+        squadron at the Phoenix Spark Lab!
       image: /manufacturing/images/printing.jpg
       button: Register
       link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-101-tickets-152176005529?aff=website"
