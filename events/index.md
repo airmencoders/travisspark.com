@@ -26,19 +26,14 @@ sections:
       button: Register
       link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-101-tickets-152176005529?aff=website"
       filter: 3d
-    - title:
-      description:
-      image:
-      button: 
-    - title: This is title.
+    - title: Travis Phoenix Spark Tech Day
+      date: 21 May
+      time: 0800-1600
       description: >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
-        iusto s deleniti ea atque. Nostrum odio temporibus nisi inventore,
-        velit hic in quas quos quo?
-      image: "https://getmdl.io/assets/demos/welcome_card.jpg"
-      button: Read More
-    - title:
-      description:
-      image:
-      button: 
+        The Gonge Innovation Center is hosting a Tech Day! Come see our new space, 
+        enjoy some free food, and watch some cool tech demos.
+      image: /events/img/spark-logo-card.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/travis-phoenix-spark-tech-day-tickets-152567195589?aff=website"
+      filter: 3d
 ---
