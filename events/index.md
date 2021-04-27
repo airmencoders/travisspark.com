@@ -35,5 +35,5 @@ sections:
       image: /events/img/spark-logo-card.jpg
       button: Register
       link: "https://www.eventbrite.com/e/travis-phoenix-spark-tech-day-tickets-152567195589?aff=website"
-      filter: 3d
+      filter: sbir 3d demo-day pitch-day
 ---
