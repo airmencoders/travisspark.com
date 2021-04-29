@@ -16,12 +16,12 @@ sections:
     - title: Pitch Days
       filter: pitch-day
   events:
-    - title: Travis Phoenix Spark Tech Day
+    - title: Spark Tech Day
       date: 21 May
       time: 0800-1600
       description: >
-        The Gonge Innovation Center is hosting a Tech Day! Come see our new space, 
-        enjoy some free food, and watch some cool tech demos.
+        Come see our new Gonge Innovation Center, enjoy some free food, 
+        and watch some cool tech demos!
       image: /events/img/spark-logo-card.jpg
       button: Register
       link: "https://www.eventbrite.com/e/travis-phoenix-spark-tech-day-tickets-152567195589?aff=website"
