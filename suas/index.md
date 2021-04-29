@@ -39,21 +39,21 @@ sections:
           has a passionate government POC.  You can find these efforts from the <b>View the sUAS Knowledge Base</b> button above!  If you want to keep
           looking at other options, checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reachout to any of them.  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
   cta:
-    # - header: Get started today!
-    #   button1Text: View the AR/VR Knowledge Base
-    #   button1Url:  /arvr-kb/
-    #   isInternal: 'yes'
     - header: Get started today!
-      code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
+      button1Text: Join our Ecosystem
+      button1Url:  /forms/suas-join.html
+      isInternal: 'yes'
+    # - header: Get started today!
+    #   code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
     - header: Ready to get started?
       descriptor: Reach out and join the team
       manual:
         - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-da368c67-665f-4cab-b5f9-3dc694fa6523"><span class="hs-cta-node hs-cta-da368c67-665f-4cab-b5f9-3dc694fa6523" id="hs-cta-da368c67-665f-4cab-b5f9-3dc694fa6523"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/da368c67-665f-4cab-b5f9-3dc694fa6523"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-da368c67-665f-4cab-b5f9-3dc694fa6523" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/da368c67-665f-4cab-b5f9-3dc694fa6523.png"  alt="View the Small UAS (Drone) Knowledge Base"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'da368c67-665f-4cab-b5f9-3dc694fa6523', {"region":"na1"}); </script></span>
-        - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
-      # buttons:
-      #   - text: View the AR/VR Knowledge Base
-      #     url:  /arvr-kb/
-      #     isInternal: 'yes'
+        # - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
+      buttons:
+        - text: Join our Ecosystem
+          url:  /forms/suas-join.html
+          isInternal: 'yes'
       #   - text: Join our ecosystem
       #     url: /apply/
       #     isInternal: 'yes'
@@ -61,11 +61,11 @@ sections:
       descriptor: Reach out and join the team
       manual:
         - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-da368c67-665f-4cab-b5f9-3dc694fa6523"><span class="hs-cta-node hs-cta-da368c67-665f-4cab-b5f9-3dc694fa6523" id="hs-cta-da368c67-665f-4cab-b5f9-3dc694fa6523"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/da368c67-665f-4cab-b5f9-3dc694fa6523"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-da368c67-665f-4cab-b5f9-3dc694fa6523" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/da368c67-665f-4cab-b5f9-3dc694fa6523.png"  alt="View the Small UAS (Drone) Knowledge Base"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'da368c67-665f-4cab-b5f9-3dc694fa6523', {"region":"na1"}); </script></span>
-        - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
-      # buttons:
-      #   - text: View the AR/VR Knowledge Base
-      #     url:  /arvr-kb/
-      #     isInternal: 'yes'
+        # - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
+      buttons:
+        - text: Join our Ecosystem
+          url:  /forms/suas-join.html
+          isInternal: 'yes'
       #   - text: Join our ecosystem
       #     url: /apply/
       #     isInternal: 'yes'

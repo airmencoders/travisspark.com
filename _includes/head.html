@@ -38,6 +38,11 @@
 <link rel="stylesheet" type="text/css" href="{{ '/css/events.css' | relative_url }}" />
 {% endif %}
 
+<!-- CSS for Forms Template-->
+{% if page.layout == "forms"%}
+<link rel="stylesheet" type="text/css" href="{{ '/css/forms.css' | relative_url }}" />
+{% endif %}
+
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ '/css/custom.css' | relative_url }}" />
 
@@ -66,6 +71,11 @@
 {% if page.layout == "events" %}
 <script src="{{ '/js/events.js' | relative_url }}"></script>
 {% endif %}
+
+{% if page.layout == "forms" %}
+<script src="{{ '/js/forms.js' | relative_url }}"></script>
+{% endif %}
+
 <!-- ionicons -->
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
