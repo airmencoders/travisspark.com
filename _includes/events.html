@@ -22,10 +22,12 @@
   <div class="cards-row">
     {% for event in page.sections.events %}
     <div class="card {{ event.filter }}">
-      <img
+      <div class="card-image-wrapper">
+        <img
         src={{ event.image }}
         class="card-image"
       />
+    </div>
       <div class="card-title">{{event.title}}</div>
       <div class="card-dates">
           <div class="card-date">
