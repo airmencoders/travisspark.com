@@ -25,7 +25,7 @@ sections:
       image: /events/img/spark-logo-card.jpg
       button: Register
       link: "https://www.eventbrite.com/e/travis-phoenix-spark-tech-day-tickets-152567195589?aff=website"
-      filter: sbir 3d demo-day pitch-day
+      filter: sbir demo-day pitch-day
     - title: 3D Printing Class
       date: 10-11 May
       time: 0800-1700
