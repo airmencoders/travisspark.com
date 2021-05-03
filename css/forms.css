@@ -18,6 +18,12 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .inside-wrapper {
+    width: 90%;
+  }
+}
+
 .card {
   overflow: hidden;
   white-space: normal;
@@ -35,12 +41,6 @@
   /* animation: scl 0.5s ease-in-out; */
   /* transform-origin: left center; */
   background-color: #fff;
-}
-
-@media only screen and (max-width: 600px) {
-  .inside-wrapper {
-    width: 90%;
-  }
 }
 
 @media only screen and (max-width: 600px) {
