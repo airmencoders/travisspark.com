@@ -48,7 +48,7 @@
     width: 95%;
     display: block;
     min-width: 150px;
-    margin: auto;
+    margin: 4em auto;
     box-sizing: border-box;
   }
 }
