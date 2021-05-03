@@ -27,10 +27,11 @@
 
 @media only screen and (max-width: 600px) {
     .card {
-      width: 100%;
+      width: 95%;
       display: block;
       min-width: 300px;
       margin: auto;
+      box-sizing: border-box;
     }
   }
 
