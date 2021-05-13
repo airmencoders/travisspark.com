@@ -26,7 +26,7 @@ sections:
       button: Register
       link: "https://www.eventbrite.com/e/travis-phoenix-spark-tech-day-tickets-152567195589?aff=website"
       filter: sbir demo-day pitch-day
-    - title: 3D Printing Class
+    - title: 3D Printing 101 Class
       date: 17-18 May
       time: 0800-1700
       description: >
@@ -36,7 +36,7 @@ sections:
       button: Register
       link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-101-registration-152599456081?aff=website"
       filter: 3d
-    - title: 3D Printing Class
+    - title: 3D Printing 101 Class
       date: 14-15 June
       time: 0800-1700
       description: >
@@ -45,5 +45,15 @@ sections:
       image: /manufacturing/images/printing.jpg
       button: Register
       link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-101-registration-152600234409?aff=website"
+      filter: 3d
+    - title: 3D Printing 201 Class
+      date: 17-18 June
+      time: 0800-1700
+      description: >
+        Sign up today to learn intermediate level 3D printing for innovation projects
+        at the Phoenix Spark Lab!
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-201-registration-154636833933?aff=website"
       filter: 3d
 ---
