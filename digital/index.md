@@ -24,7 +24,7 @@ sections:
       textOrientation: right
     - header: Digital Aircrew Initiative, Puckboard
       descriptor: >
-         The 60th SFS is working with an AFWERX SBIR company in testing and developing a prototype autonomous aerial monitoring system to deliver advanced perimeter security and situational awareness using autonomous self-deployed drones.  Currently they have 3 autonomous and 2 tethered units in production use.
+         Puckboard is a live, collaborative scheduling platform available to servicemembers around the globe on your desktop, phone, or tablet--anywhere you have the internet!  Build a schedule in minutes, with customizable roles, event types, and conflict settings. View your squadron or unit roster while you’re building the schedule, and see in real time who is available for missions.
       video: https://player.vimeo.com/video/519703781
       textOrientation: left
   splitColumnsFinal:
