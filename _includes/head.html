@@ -1,16 +1,25 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>
+  {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+</title>
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-<link rel="shortcut icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
+<link
+  rel="shortcut icon"
+  type="image/png"
+  href="{{ '/favicon.png' | relative_url }}"
+/>
 
 <!-- CSS -->
 <link rel="stylesheet" href="{{ '/css/owl.carousel.css' | relative_url }}" />
 <link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | relative_url }}" />
-<link rel="stylesheet" href="{{ '/css/font-awesome.min.css' | relative_url }}" />
+<link
+  rel="stylesheet"
+  href="{{ '/css/font-awesome.min.css' | relative_url }}"
+/>
 <link rel="stylesheet" href="{{ '/css/airspace.css' | relative_url }}" />
 <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}" />
 <link rel="stylesheet" href="{{ '/css/ionicons.min.css' | relative_url }}" />
@@ -20,59 +29,90 @@
 
 <!-- CSS for Product Template-->
 {% if page.layout == "product" or page.layout == "links" %}
-<link rel="stylesheet" type="text/css" href="{{ '/css/product.css' | relative_url }}" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ '/css/product.css' | relative_url }}"
+/>
 {% endif %}
 
 <!-- CSS for Get Started Template-->
 {% if page.layout == "guide" %}
-<link rel="stylesheet" type="text/css" href="{{ '/css/guide.css' | relative_url }}" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ '/css/guide.css' | relative_url }}"
+/>
 {% endif %}
 
 <!-- CSS for Platform 1 Template-->
-{% if page.layout == "p1" or page.layout == "guide" or page.layout == "puckboard" or page.layout == "dau"%}
-<link rel="stylesheet" type="text/css" href="{{ '/css/p1.css' | relative_url }}" />
+{% if page.layout == "p1" or page.layout == "guide" or page.layout ==
+"puckboard" or page.layout == "dau"%}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ '/css/p1.css' | relative_url }}"
+/>
 {% endif %}
 
 <!-- CSS for Events Template-->
 {% if page.layout == "events"%}
-<link rel="stylesheet" type="text/css" href="{{ '/css/events.css' | relative_url }}" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ '/css/events.css' | relative_url }}"
+/>
 {% endif %}
 
 <!-- CSS for Forms Template-->
 {% if page.layout == "forms"%}
-<link rel="stylesheet" type="text/css" href="{{ '/css/forms.css' | relative_url }}" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ '/css/forms.css' | relative_url }}"
+/>
 {% endif %}
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ '/css/custom.css' | relative_url }}" />
 
-
+<!-- Google Tag Manager -->
+<script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != "dataLayer" ? "&l=" + l : "";
+    j.async = true;
+    j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, "script", "dataLayer", "GTM-NKB5PTJ");
+</script>
+<!-- End Google Tag Manager -->
 
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script>
+  window.jQuery ||
+    document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>');
+</script>
 <script src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
 <script src="{{ '/js/owl.carousel.min.js' | relative_url }}"></script>
 <script src="{{ '/js/plugins.js' | relative_url }}"></script>
 <script src="{{ '/js/min/waypoints.min.js' | relative_url }}"></script>
 <script src="{{ '/js/jquery.counterup.js' | relative_url }}"></script>
 
-
 <script src="{{ '/js/main.js' | relative_url }}"></script>
 
 {% if page.layout == "product" or page.layout == "puckboard" %}
 <script src="{{ '/js/product.js' | relative_url }}"></script>
-{% endif %}
-
-{% if page.layout == "p1" or page.layout == "puckboard" or page.layout == "dau"%}
+{% endif %} {% if page.layout == "p1" or page.layout == "puckboard" or
+page.layout == "dau"%}
 <script src="{{ '/js/puckboard.js' | relative_url }}"></script>
-{% endif %}
-
-{% if page.layout == "events" %}
+{% endif %} {% if page.layout == "events" %}
 <script src="{{ '/js/events.js' | relative_url }}"></script>
-{% endif %}
-
-{% if page.layout == "forms" %}
+{% endif %} {% if page.layout == "forms" %}
 <script src="{{ '/js/forms.js' | relative_url }}"></script>
 {% endif %}
 
