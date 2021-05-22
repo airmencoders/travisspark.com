@@ -18,11 +18,11 @@
   min-width: 300px;
   margin: auto;
   text-align: center;
-  padding: 3em;
+  padding: 3em 0;
 }
 
 @media only screen and (max-width: 600px) {
   .inside-wrapper {
-    width: 99%;
+    width: 90%;
   }
 }
