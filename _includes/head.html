@@ -73,6 +73,16 @@
 />
 {% endif %}
 
+
+<!-- CSS for paperform Template-->
+{% if page.layout == "paperform"%}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ '/css/paperform.css' | relative_url }}"
+/>
+{% endif %}
+
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ '/css/custom.css' | relative_url }}" />
 

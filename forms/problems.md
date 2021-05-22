@@ -1,5 +1,5 @@
 ---
-layout: forms
+layout: paperform
 title: Problems
 permalink: /problems/
 ---

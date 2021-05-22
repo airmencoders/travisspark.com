@@ -1,0 +1,28 @@
+:root {
+  --primary: 230, 74, 25;
+  --primary-main: rgb(var(--primary));
+  --primary-light: rgb(255, 125, 71);
+  --primary-dark: rgb(172, 8, 0);
+  --primary-hover: rgba(var(--primary), 0.5);
+  --primary-contrast: #ffffff;
+}
+
+.outside-wrapper {
+  width: 100%;
+}
+
+.inside-wrapper {
+  box-sizing: border-box;
+  white-space: normal;
+  width: 85%;
+  min-width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 3em;
+}
+
+@media only screen and (max-width: 600px) {
+  .inside-wrapper {
+    width: 90%;
+  }
+}
