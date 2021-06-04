@@ -5,8 +5,8 @@ sections:
   filters:
     - title: 3D Printing Classes
       filter: 3d
-    - title: Raspberry Pi Classes
-      filter: rpi
+    - title: Robotics Classes
+      filter: arduino
     - title: SBIR Round Table
       filter: sbir
     - title: Colliders
@@ -16,37 +16,16 @@ sections:
     - title: Pitch Days
       filter: pitch-day
   events:
-    - title: Spark Tech Day
-      date: 21 May
-      time: 0800-1600
-      description: >
-        Come see our new Gonge Innovation Center, enjoy some free food, 
-        and watch some cool tech demos!
-      image: /events/img/spark-logo-card.jpg
-      button: Register
-      link: "https://www.eventbrite.com/e/travis-phoenix-spark-tech-day-tickets-152567195589?aff=website"
-      filter: sbir demo-day pitch-day
-    - title: 3D Printing 101 Class
-      date: 17-18 May
-      time: 0800-1700
-      description: >
-        Sign up today to learn how to 3D print tools for your 
-        squadron at the Phoenix Spark Lab!
-      image: /manufacturing/images/printing.jpg
-      button: Register
-      link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-101-registration-152599456081?aff=website"
-      filter: 3d
-    - title: 3D Printing 101 Class
+    - title: 3D Printing Level 1
       date: 14-15 June
       time: 0800-1700
       description: >
-        Sign up today to learn how to 3D print tools for your 
-        squadron at the Phoenix Spark Lab!
+        Sign up today to learn how introductory level 3D Printing at the Phoenix Spark Lab
       image: /manufacturing/images/printing.jpg
       button: Register
       link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-101-registration-152600234409?aff=website"
       filter: 3d
-    - title: 3D Printing 201 Class
+    - title: 3D Printing Level 2
       date: 17-18 June
       time: 0800-1700
       description: >
@@ -55,5 +34,23 @@ sections:
       image: /manufacturing/images/printing.jpg
       button: Register
       link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-201-registration-154636833933?aff=website"
+      filter: 3d
+    - title: Robotics Level 1
+      date: 5-6 July
+      time: 0800-1700
+      description: >
+        Sign up today to learn introductory robotics by building a 3d Printed robot arm at the Phoenix Spark Innovation Lab!
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/solid-301-introductory-robotics-registration-156003816615?aff=website"
+      filter: arduino
+    - title: 3D Printing Level 1
+      date: 8-9 July
+      time: 0800-1700
+      description: >
+        Sign up today to learn how introductory level 3D Printing at the Phoenix Spark Lab
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/solid-101-introductory-3d-printing-registration-156000986149?aff=website"
       filter: 3d
 ---
