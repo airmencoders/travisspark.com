@@ -16,6 +16,15 @@ sections:
     - title: Pitch Days
       filter: pitch-day
   events:
+    - title: Friday Pitch Session
+      date: Every Working Friday
+      time: 1200
+      description: >
+        Got an idea? Walk in pitches are welcome every Friday at 1200. Big or small, Phoenix Spark is here to help you develop your idea into an innovation project. You can get a headstart on Friday's pitch session by submitting your idea at the link below.
+      image: /manufacturing/images/light_bulbs.jpg
+      button: Submit Idea
+      link: "https://travisspark.com/ideas/"
+      filter: pitch-day
     - title: 3D Printing Level 1
       date: 14-15 June
       time: 0800-1700
