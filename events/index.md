@@ -49,7 +49,7 @@ sections:
       time: 0800-1700
       description: >
         Sign up today to learn introductory robotics by building a 3d Printed robot arm at the Phoenix Spark Innovation Lab!
-      image: /manufacturing/images/printing.jpg
+      image: /img/robot.jpg
       button: Register
       link: "https://www.eventbrite.com/e/solid-301-introductory-robotics-registration-156003816615?aff=website"
       filter: arduino
