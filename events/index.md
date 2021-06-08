@@ -62,4 +62,13 @@ sections:
       button: Register
       link: "https://www.eventbrite.com/e/solid-101-introductory-3d-printing-registration-156000986149?aff=website"
       filter: 3d
+    - title: 3D Scanning Level 1
+      date: 4 Aug
+      time: 0800-1700
+      description: >
+        Sign up today to learn introductory level 3D Scanning at the Phoenix Spark Lab
+      image: /img/artec_leo3.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/introductory-3d-scanning-registration-158657237067?aff=website"
+      filter: 3d
 ---
