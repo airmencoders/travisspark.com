@@ -54,7 +54,7 @@ sections:
       link: "https://www.eventbrite.com/e/solid-301-introductory-robotics-registration-156003816615?aff=website"
       filter: arduino
     - title: 3D Printing Level 1
-      date: 8-9 July
+      date: 15-16 July
       time: 0800-1700
       description: >
         Sign up today to learn how introductory level 3D Printing at the Phoenix Spark Lab
