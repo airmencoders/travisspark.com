@@ -25,15 +25,6 @@ sections:
       button: Submit Idea
       link: "https://travisspark.com/ideas/"
       filter: pitch-day
-    - title: 3D Printing Level 1
-      date: 14-15 June
-      time: 0800-1700
-      description: >
-        Sign up today to learn how introductory level 3D Printing at the Phoenix Spark Lab
-      image: /manufacturing/images/printing.jpg
-      button: Register
-      link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-101-registration-152600234409?aff=website"
-      filter: 3d
     - title: 3D Printing Level 2
       date: 17-18 June
       time: 0800-1700
@@ -70,5 +61,14 @@ sections:
       image: /img/artec_leo3.jpg
       button: Register
       link: "https://www.eventbrite.com/e/introductory-3d-scanning-registration-158657237067?aff=website"
+      filter: 3d
+    - title: 3D Printing Level 1
+      date: 19-20 July
+      time: 0800-1700
+      description: >
+        Sign up today to learn how introductory level 3D Printing at the Phoenix Spark Lab
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-159914399273?aff=website"
       filter: 3d
 ---
