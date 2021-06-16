@@ -71,4 +71,14 @@ sections:
       button: Register
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-159914399273?aff=website"
       filter: 3d
+    - title: 3D Printing Level 2
+      date: 17-18 June
+      time: 0800-1700
+      description: >
+        Sign up today to learn intermediate level 3D printing for innovation projects
+        at the Phoenix Spark Lab!
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/3d-printing-level-2-registration-159923570705?aff=website"
+      filter: 3d
 ---
