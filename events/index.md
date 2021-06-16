@@ -45,7 +45,7 @@ sections:
       link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-201-registration-154636833933?aff=website"
       filter: 3d
     - title: Robotics Level 1
-      date: 5-6 July
+      date: 6-7 July
       time: 0800-1700
       description: >
         Sign up today to learn introductory robotics by building a 3d Printed robot arm at the Phoenix Spark Innovation Lab!
