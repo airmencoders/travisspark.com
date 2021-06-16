@@ -72,7 +72,7 @@ sections:
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-159914399273?aff=website"
       filter: 3d
     - title: 3D Printing Level 2
-      date: 17-18 June
+      date: 22-23 July
       time: 0800-1700
       description: >
         Sign up today to learn intermediate level 3D printing for innovation projects
