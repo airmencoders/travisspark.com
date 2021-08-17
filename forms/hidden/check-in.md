@@ -1,7 +1,7 @@
 ---
-layout: paperform
-title: Lab Sign-In
+layout: googleform
+title: Lab Check-In
 permalink: /checkin/
 ---
 
-<div data-paperform-id="checkintravisspark"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpvpIp0PmX4puYQ45MhLzptNwV2Bnfl2jvwsvO3UeNgWvuwA/viewform?embedded=true">Loading…</iframe>
