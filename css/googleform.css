@@ -1,0 +1,34 @@
+.outside-wrapper {
+  width: 100%;
+}
+
+.inside-wrapper {
+  box-sizing: border-box;
+  white-space: normal;
+  width: 85%;
+  min-width: 300px;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  padding-bottom: min(700px, 100%);
+  padding-top: 30px;
+  overflow: auto;
+}
+
+.inside-wrapper iframe,
+.inside-wrapper object,
+.inside-wrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .inside-wrapper {
+    width: 90%;
+  }
+}

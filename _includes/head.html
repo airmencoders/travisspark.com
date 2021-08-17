@@ -83,6 +83,15 @@
 />
 {% endif %}
 
+<!-- CSS for Google Forms Template-->
+{% if page.layout == "googleform"%}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ '/css/googleform.css' | relative_url }}"
+/>
+{% endif %}
+
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ '/css/custom.css' | relative_url }}" />
 
