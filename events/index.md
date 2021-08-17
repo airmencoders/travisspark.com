@@ -5,8 +5,8 @@ sections:
   filters:
     - title: 3D Printing Classes
       filter: 3d
-    - title: Raspberry Pi Classes
-      filter: rpi
+    - title: Robotics Classes
+      filter: arduino
     - title: SBIR Round Table
       filter: sbir
     - title: Colliders
@@ -16,44 +16,58 @@ sections:
     - title: Pitch Days
       filter: pitch-day
   events:
-    - title: Spark Tech Day
-      date: 21 May
-      time: 0800-1600
+    - title: Friday Pitch Session
+      date: Every Working Friday
+      time: 1200
       description: >
-        Come see our new Gonge Innovation Center, enjoy some free food, 
-        and watch some cool tech demos!
-      image: /events/img/spark-logo-card.jpg
-      button: Register
-      link: "https://www.eventbrite.com/e/travis-phoenix-spark-tech-day-tickets-152567195589?aff=website"
-      filter: sbir demo-day pitch-day
-    - title: 3D Printing 101 Class
-      date: 17-18 May
+        Got an idea? Walk in pitches are welcome every Friday at 1200. Big or small, Phoenix Spark is here to help you develop your idea into an innovation project. You can get a headstart on Friday's pitch session by submitting your idea at the link below.
+      image: /img/light_bulbs.jpg
+      button: Submit Idea
+      link: "https://travisspark.com/ideas/"
+      filter: pitch-day
+    - title: Robotics Level 1
+      date: 5-6 Sep
       time: 0800-1700
       description: >
-        Sign up today to learn how to 3D print tools for your 
-        squadron at the Phoenix Spark Lab!
+        Sign up today to learn introductory robotics by building a 3d Printed robot arm at the Phoenix Spark Innovation Lab!
+      image: /img/robot.JPG
+      button: Register
+      link: "https://www.eventbrite.com/e/robotics-level-1-registration-163087002615?aff=website"
+      filter: arduino
+    - title: 3D Printing Level 1
+      date: 23-24 Aug
+      time: 0800-1700
+      description: >
+        Sign up today to learn how introductory level 3D Printing at the Phoenix Spark Lab
       image: /manufacturing/images/printing.jpg
       button: Register
-      link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-101-registration-152599456081?aff=website"
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-163087977531?aff=website"
       filter: 3d
-    - title: 3D Printing 101 Class
-      date: 14-15 June
+    - title: 3D Printing Level 1
+      date: 26-27 Aug
       time: 0800-1700
       description: >
-        Sign up today to learn how to 3D print tools for your 
-        squadron at the Phoenix Spark Lab!
+        Sign up today to learn how introductory level 3D Printing at the Phoenix Spark Lab
       image: /manufacturing/images/printing.jpg
       button: Register
-      link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-101-registration-152600234409?aff=website"
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-163088196185?aff=website"
       filter: 3d
-    - title: 3D Printing 201 Class
-      date: 17-18 June
+    - title: 3D Printing Level 1
+      date: 30-31 Aug
       time: 0800-1700
       description: >
-        Sign up today to learn intermediate level 3D printing for innovation projects
-        at the Phoenix Spark Lab!
+        Sign up today to learn how introductory level 3D Printing at the Phoenix Spark Lab
       image: /manufacturing/images/printing.jpg
       button: Register
-      link: "https://www.eventbrite.com/e/phoenix-spark-additive-manufacturing-201-registration-154636833933?aff=website"
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-163088645529?aff=website"
+      filter: 3d
+    - title: 3D Printing Level 1
+      date: 2-3 Sep
+      time: 0800-1700
+      description: >
+        Sign up today to learn how introductory level 3D Printing at the Phoenix Spark Lab
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-163088836099?aff=website"
       filter: 3d
 ---
