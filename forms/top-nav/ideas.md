@@ -1,6 +1,6 @@
 ---
 layout: googleform
-title: Problems
+title: Ideas
 permalink: /ideas/
 ---
 

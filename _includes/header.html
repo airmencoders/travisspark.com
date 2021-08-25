@@ -44,10 +44,16 @@
                 </li>
                 <!-- <li><a href="{{ '/#service' | relative_url }}">Resources</a></li> -->
                 <li class="dropdown">
+                  <a href="{{ '/start/' | relative_url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reserve <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ '/reserve/upper-room/' | relative_url }}">Upper Conference Room</a></li>
+                    <li><a href="{{ '/reserve/lower-room/' | relative_url }}">Lower Conference Room</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
                   <a href="{{ '/start/' | relative_url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="{{ '/contact/' | relative_url }}">Contact Us</a></li>
-                    <li><a href="{{ '/start/' | relative_url }}">Get Started</a></li>
+                    <li><a href="{{ '/contact/' | relative_url }}">Contact Us</a></li>  
                     <li><a href='https://tron.dso.mil/'>Tron Software</a></li>
                     <li><a href='https://www.afwerx.af.mil/'>AFWERX</a></li>
                     <li><a href="https://p1.dso.mil/">Platform One</a></li>
@@ -58,6 +64,7 @@
                 <li class="dropdown">
                   <a href="{{ '/start/' | relative_url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reports <span class="caret"></span></a>
                   <ul class="dropdown-menu">
+                    <li><a target="_blank" href="{{ '/reports/one-pager.pdf' | relative_url }}">Current Heavy Lifts</a></li>
                     <li><a target="_blank" href="{{ '/reports/current.pdf' | relative_url }}">Dec 20</a></li>
                     <li><a target="_blank" href="{{ '/reports/previous.pdf' | relative_url }}">May 20</a></li>
                     <li><a target="_blank" href="{{ '/reports/last-year.pdf' | relative_url }}">Feb 20</a></li>
