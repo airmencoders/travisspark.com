@@ -7,14 +7,16 @@ sections:
       filter: 3d
     - title: Robotics Classes
       filter: arduino
-    - title: SBIR Round Table
-      filter: sbir
-    - title: Colliders
-      filter: collider
-    - title: Demo Days
-      filter: demo-day
     - title: Pitch Days
       filter: pitch-day
+    - title: Coding Classes
+      filter: coding
+    # - title: SBIR Round Table
+    #   filter: sbir
+    # - title: Colliders
+    #   filter: collider
+    # - title: Demo Days
+    #   filter: demo-day
   events:
     - title: Friday Pitch Session
       date: Every Working Friday
@@ -23,7 +25,33 @@ sections:
         Got an idea? Walk in pitches are welcome every Friday at 1200. Big or small, Phoenix Spark is here to help you develop your idea into an innovation project. You can get a headstart on Friday's pitch session by submitting your idea at the link below.
       image: /img/light_bulbs.jpg
       button: Submit Idea
-      link: "https://travisspark.com/ideas/"
+      link: "/ideas/"
+      filter: pitch-day
+    - title: Full-Time Software Immersive
+      date: Various Dates
+      description: >
+        Interested in learning to be a junior software developer?  Spark & Tron offer a full-time, 3-month course that can be funded
+        by your unit.  Applications & vetting are free, learn more here!
+      image: /img/matrix-dev-computer.png
+      button: Learn More
+      link: "/forms/sdi-full-time.html"
+      filter: coding
+    - title: Part-Time Software Immersive
+      date: Various Dates
+      description: >
+        Interested in learning to be a junior software developer, but can only get a few hours off per week?  Spark & Tron offer a part-time, 6-month course that can be funded by your unit.  Applications & vetting are free, learn more here!
+      image: /img/matrix-dev-computer.png
+      button: Learn More
+      link: "/forms/sdi-part-time.html"
+      filter: coding
+    - title: Friday Pitch Session
+      date: Every Working Friday
+      time: 1200
+      description: >
+        Got an idea? Walk in pitches are welcome every Friday at 1200. Big or small, Phoenix Spark is here to help you develop your idea into an innovation project. You can get a headstart on Friday's pitch session by submitting your idea at the link below.
+      image: /img/light_bulbs.jpg
+      button: Submit Idea
+      link: "/ideas/"
       filter: pitch-day
     - title: Robotics Level 1
       date: 5-6 Sep
