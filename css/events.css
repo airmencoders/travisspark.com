@@ -162,6 +162,11 @@
     border-radius: 4px;
 }
 
+.card-action-clicked {
+    background-color: var(--primary-contrast);
+    color: var(--primary-main);
+}
+
 .card-action:hover {
     background-color: var(--primary-hover);
     color: var(--primary-contrast);

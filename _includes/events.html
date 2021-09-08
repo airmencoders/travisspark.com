@@ -1,13 +1,16 @@
 <div class="outside-wrapper">
 <div class="inside-wrapper">
 <div class="event-toggle-row">
+
+    {% if page.sections.filters %}
     <button
       type="button"
       id="all"
       class="event-toggle-buttons event-toggle-buttons-selected"
     >
       All
-    </buttton>
+    </button>
+    {% endif %}
 
     {% for filter in page.sections.filters %}
     <button
@@ -18,7 +21,7 @@
       {{ filter.title }}
     </button>
     {% endfor %}
-
+</div>
   <div class="cards-row">
     {% for event in page.sections.events %}
     <div class="card {{ event.filter }}">
@@ -41,9 +44,9 @@
         {{ event.description }}
       </div>
       <div class="card-actions">
-        <a target="_blank" href={{ event.link }}>
-          <button type="button" class="card-action">{{ event.button }}</button>
-        </a>
+        <!-- <a target="_blank" href={{ event.link }}> -->
+          <button onclick="dimButton(event, '{{ event.link }}')" type="button" class="card-action">{{ event.button }}</button>
+        <!-- </a> -->
       </div>
     </div>
     {% endfor %}

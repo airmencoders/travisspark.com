@@ -2,6 +2,11 @@ var buttons = {};
 var events = {};
 var activeFilters = ["all"];
 
+var dimButton = function (event, link) {
+  event.target.classList.add("card-action-clicked");
+  window.open(link);
+}
+
 var toggleSelected = function (button) {
   var isActive = true;
 
