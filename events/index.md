@@ -56,7 +56,8 @@ sections:
     - title: 3D Printing Level 1
       date: 21-22 Oct
       time: 0800-1600
-      description: > Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
+      description: >
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
       image: /manufacturing/images/printing.jpg
       button: Register
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-192340444447?aff=website"
@@ -64,7 +65,8 @@ sections:
     - title: 3D Printing Level 1
       date: 4-5 Nov
       time: 0800-1600
-      description: > Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
+      description: >
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
       image: /manufacturing/images/printing.jpg
       button: Register
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-192340845647?aff=website"
@@ -72,7 +74,8 @@ sections:
     - title: 3D Printing Level 1
       date: 8-9 Nov
       time: 0800-1600
-      description: > Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
+      description: >
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
       image: /manufacturing/images/printing.jpg
       button: Register
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-192341678137?aff=website"
@@ -80,7 +83,8 @@ sections:
     - title: 3D Printing Level 1
       date: 18-19 Nov
       time: 0800-1600
-      description: > Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
+      description: >
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
       image: /manufacturing/images/printing.jpg
       button: Register
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-192341958977?aff=website"
@@ -88,7 +92,8 @@ sections:
     - title: 3D Printing Level 1
       date: 22-23 Nov
       time: 0800-1600
-      description: > Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
+      description: >
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
       image: /manufacturing/images/printing.jpg
       button: Register
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-192344376207?aff=website"
