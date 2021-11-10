@@ -53,4 +53,14 @@ sections:
       button: Submit Idea
       link: "/ideas/"
       filter: pitch-day
+    - title: 3D Printing Level 1
+      date: 18-19 Nov
+      time: 0800-1600
+      description: >
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-192341958977?aff=website"
+      filter: 3d
+
 ---
