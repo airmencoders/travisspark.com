@@ -18,7 +18,7 @@ sections:
               Go here to view the apps currently deployed on Digitize.
           - title: Digitize Instructions
             filter: digitize-instructions
-            link: https://https://digitize.apps.dso.mil/sites/docs/
+            link: https://digitize.apps.dso.mil/sites/docs/
             description: > 
               Go here to learn how to launch an app on Digitize for yourself!
           - title: Request a Repo
