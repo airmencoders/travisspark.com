@@ -22,10 +22,10 @@ sections:
       date: Every Working Friday
       time: 1200
       description: >
-        Got an idea? Walk in pitches are welcome every Friday at 1200. Big or small, Phoenix Spark is here to help you develop your idea into an innovation project. You can get a headstart on Friday's pitch session by submitting your idea at the link below.
+        Got an idea? Walk ins and pitches are welcome every Friday at 1200. Big or small, Phoenix Spark is here to help you develop your idea into an innovation project.
       image: /img/light_bulbs.jpg
-      button: Submit Idea
-      link: "/ideas/"
+      button: Reserve
+      link: "https://www.eventbrite.com/e/friday-ideation-development-tickets-211387905917"
       filter: pitch-day
     - title: Full-Time Software Immersive
       date: Various Dates
@@ -44,15 +44,6 @@ sections:
       button: Learn More
       link: "/forms/sdi-part-time.html"
       filter: coding
-    - title: Friday Pitch Session
-      date: Every Working Friday
-      time: 1200
-      description: >
-        Got an idea? Walk in pitches are welcome every Friday at 1200. Big or small, Phoenix Spark is here to help you develop your idea into an innovation project. You can get a headstart on Friday's pitch session by submitting your idea at the link below.
-      image: /img/light_bulbs.jpg
-      button: Submit Idea
-      link: "/ideas/"
-      filter: pitch-day
     - title: 3D Printing Level 1
       date: 18-19 Nov
       time: 0800-1600
