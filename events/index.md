@@ -33,7 +33,7 @@ sections:
       description: >
         Submit your idea today for a chance to pitch your innovation to the Wing Commander and a panel of judges!
       image: /img/SparkTank-22-logo.png
-      button: Submit Idea!
+      button: Find Out More!
       link: "https://www.eventbrite.com/e/2022-travis-spark-tank-sif-competition-idea-submission-campaign-tickets-214803361637?aff=affiliate1"
       filter: pitch-day
     - title: Full-Time Software Immersive
