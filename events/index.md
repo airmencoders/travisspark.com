@@ -27,6 +27,15 @@ sections:
       button: Reserve
       link: "https://www.eventbrite.com/e/friday-ideation-development-tickets-211387905917"
       filter: pitch-day
+    - title: Spark Tank 2022 SIF Competition
+      date: Nov 30 - Jan 31
+      time: 
+      description: >
+        Submit your idea today for a chance to pitch your innovation to the Wing Commander and a panel of judges!
+      image: /img/SparkTank-22-logo.png
+      button: Submit Idea!
+      link: "https://www.eventbrite.com/e/2022-travis-spark-tank-sif-competition-idea-submission-campaign-tickets-214803361637?aff=affiliate1"
+      filter: pitch-day
     - title: Full-Time Software Immersive
       date: Various Dates
       description: >
