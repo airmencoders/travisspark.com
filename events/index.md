@@ -66,6 +66,15 @@ sections:
       button: Register
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-244552762897?aff=website"
       filter: 3d
+    - title: 3D Printing Level 1
+      date: 21-22 Feb
+      time: 0800-1600
+      description: >
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-244563274337?aff=website"
+      filter: 3d
     - title: Minnovatrium
       date: 10-11 Feb
       description: >
