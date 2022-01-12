@@ -58,7 +58,7 @@ sections:
       link: "/forms/sdi-part-time.html"
       filter: coding
     - title: 3D Printing Level 1
-      date: 16-17 Dec
+      date: 20-21 Jan
       time: 0800-1600
       description: >
         Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
@@ -67,19 +67,11 @@ sections:
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-222111881617?aff=website"
       filter: 3d
     - title: Minnovatrium
-      date: 13-14 Dec
+      date: 10-11 Feb
       description: >
-        A two day innovation workshop and primer based on the work of Dr. Jeff Degraff's Innovatrium. This workshop seeks to get members excited about innovation concepts, help  members understand the Innovation Genome and how it can apply to their workcenters when building innovation teams. Additionally, this workshop is an opportunity to identify exceptional individuals that may wish to pursue further education by registering with Project Mercury and attending an Innovatrium Cohort.
+        A two day innovation workshop and primer based on the work of Dr. Jeff Degraff's Innovatrium. This workshop seeks to get members excited about innovation concepts, help  members understand the Innovation Genome and how it can apply to their workcenters when building innovation teams.
       image: /events/img/innovation_workshop_banner.png
       button: Learn More
-      link: "https://www.eventbrite.com/e/minnovatrium-tickets-222056295357?aff=website"
-      filter: innovation
-    - title: Minnovatrium
-      date: 10-11 Jan
-      description: >
-        A two day innovation workshop and primer based on the work of Dr. Jeff Degraff's Innovatrium. This workshop seeks to get members excited about innovation concepts, help  members understand the Innovation Genome and how it can apply to their workcenters when building innovation teams. Additionally, this workshop is an opportunity to identify exceptional individuals that may wish to pursue further education by registering with Project Mercury and attending an Innovatrium Cohort.
-      image: /events/img/innovation_workshop_banner.png
-      button: Learn More
-      link: "https://www.eventbrite.com/e/minnovatrium-tickets-222141088977?aff=website"
+      link: "https://www.eventbrite.com/e/minnovatrium-tickets-244549051797?aff=website"
       filter: innovation
 ---
