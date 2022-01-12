@@ -64,7 +64,7 @@ sections:
         Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
       image: /manufacturing/images/printing.jpg
       button: Register
-      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-222111881617?aff=website"
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-244552762897?aff=website"
       filter: 3d
     - title: Minnovatrium
       date: 10-11 Feb
