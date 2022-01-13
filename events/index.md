@@ -11,12 +11,16 @@ sections:
       filter: pitch-day
     - title: Coding Classes
       filter: coding
+    - title: Innovation Classes
+      filter: innovation
     # - title: SBIR Round Table
     #   filter: sbir
     # - title: Colliders
     #   filter: collider
     # - title: Demo Days
     #   filter: demo-day
+    # - title: Innovation Classes
+    #   filter: innovation
   events:
     - title: Friday Pitch Session
       date: Every Working Friday
@@ -26,6 +30,15 @@ sections:
       image: /img/light_bulbs.jpg
       button: Reserve
       link: "https://www.eventbrite.com/e/friday-ideation-development-tickets-211387905917"
+      filter: pitch-day
+    - title: Spark Tank 2022 SIF Competition
+      date: Nov 30 - Jan 31
+      time: 
+      description: >
+        Submit your idea today for a chance to pitch your innovation to the Wing Commander and a panel of judges!
+      image: /img/SparkTank-22-logo.png
+      button: Find Out More!
+      link: "https://www.eventbrite.com/e/2022-travis-spark-tank-sif-competition-idea-submission-campaign-tickets-214803361637?aff=affiliate1"
       filter: pitch-day
     - title: Full-Time Software Immersive
       date: Various Dates
@@ -45,13 +58,29 @@ sections:
       link: "/forms/sdi-part-time.html"
       filter: coding
     - title: 3D Printing Level 1
-      date: 18-19 Nov
+      date: 20-21 Jan
       time: 0800-1600
       description: >
-        Sign up today to learn introductory 3D Printing skills with Phoenix Spark  at the Lt. Gen John Gonge Innovation Lab.
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
       image: /manufacturing/images/printing.jpg
       button: Register
-      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-192341958977?aff=website"
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-244552762897?aff=website"
       filter: 3d
-
+    - title: 3D Printing Level 1
+      date: 21-22 Feb
+      time: 0800-1600
+      description: >
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-244563274337?aff=website"
+      filter: 3d
+    - title: Minnovatrium
+      date: 10-11 Feb
+      description: >
+        A two day innovation workshop and primer based on the work of Dr. Jeff Degraff's Innovatrium. This workshop seeks to get members excited about innovation concepts, help  members understand the Innovation Genome and how it can apply to their workcenters when building innovation teams.
+      image: /events/img/innovation_workshop_banner.png
+      button: Learn More
+      link: "https://www.eventbrite.com/e/minnovatrium-tickets-244549051797?aff=website"
+      filter: innovation
 ---
