@@ -76,7 +76,7 @@ sections:
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-244563274337?aff=website"
       filter: 3d
     - title: Minnovatrium
-      date: 10-11 Feb
+      date: 7-8 Mar
       description: >
         A two day innovation workshop and primer based on the work of Dr. Jeff Degraff's Innovatrium. This workshop seeks to get members excited about innovation concepts, help  members understand the Innovation Genome and how it can apply to their workcenters when building innovation teams.
       image: /events/img/innovation_workshop_banner.png
