@@ -1,6 +1,6 @@
 ---
 layout: guide
-title: Get Started
+title: Industry Partnerships
 sections:
     hero:
         header: Industry, Are You Interested in Partnering with Travis?
