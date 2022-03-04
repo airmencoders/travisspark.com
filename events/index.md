@@ -79,7 +79,7 @@ sections:
       date: 5 may
       description: >
         If you are a company with a product or solution and you would like the opportuntiy to demo your product to potential customers at Travis AFB, sign up for our Industry Pitch Day.
-      image: /events/img/Industry Pitch Day.png
+      image: /events/img/industry_pitch_day.png
       button: Learn More
       link: "https://travisspark.com/industry/"
       filter: industry
