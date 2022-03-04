@@ -75,6 +75,7 @@ sections:
       image: /events/img/innovation_workshop_banner.png
       button: Learn More
       link: "https://www.eventbrite.com/e/minnovatrium-tickets-244549051797?aff=website"
+      filter: innovation
     - title: Industry Pitch Day
       date: 5 may
       description: >
