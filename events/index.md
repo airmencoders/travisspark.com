@@ -13,6 +13,8 @@ sections:
       filter: coding
     - title: Innovation Classes
       filter: innovation
+    - title: Industry
+      filter: industry
     # - title: SBIR Round Table
     #   filter: sbir
     # - title: Colliders
@@ -73,5 +75,12 @@ sections:
       image: /events/img/innovation_workshop_banner.png
       button: Learn More
       link: "https://www.eventbrite.com/e/minnovatrium-tickets-244549051797?aff=website"
-      filter: innovation
+    - title: Industry Pitch Day
+      date: 5 may
+      description: >
+        If you are a company with a product or solution and you would like the opportuntiy to demo your product to potential customers at Travis AFB, sign up for our Industry Pitch Day.
+      image: /events/img/Industry Pitch Day.png
+      button: Learn More
+      link: "https://travisspark.com/industry/"
+      filter: industry
 ---
