@@ -48,7 +48,7 @@ sections:
       button: Find Out More!
       link: "https://airforcegaming.com/"
       filter: working
-    - title: Spark Tank 2022 SIF Competition Finals
+    - title: Spark Tank 2022 Finals
       date: Mar 18
       time: 1200
       description: >
