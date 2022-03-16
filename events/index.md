@@ -3,6 +3,8 @@ layout: events
 title: Spark Events
 sections:
   filters:
+    - title: Working Groups
+      filter: working
     - title: 3D Printing Classes
       filter: 3d
     - title: Robotics Classes
@@ -23,6 +25,10 @@ sections:
     #   filter: demo-day
     # - title: Innovation Classes
     #   filter: innovation
+    # - title: Industry
+    #   filter: industry
+    # - title: Working Groups
+    #   filter: working
   events:
     - title: Friday Pitch Session
       date: Every Working Friday
@@ -33,11 +39,20 @@ sections:
       button: Reserve
       link: "https://www.eventbrite.com/e/friday-ideation-development-tickets-211387905917"
       filter: pitch-day
-    - title: Spark Tank 2022 SIF Competition
-      date: Nov 30 - Jan 31
-      time: 
+    - title: Air Force Gaming Working Group
+      date: Every 1st and 3rd Tuesday
+      time: 1500
       description: >
-        Submit your idea today for a chance to pitch your innovation to the Wing Commander and a panel of judges!
+        Air Force Gaming is a DAF initiative to bring Airmen together from all over base through gaming in order to building community and resiliance. The Travis Working Group meets every 1st and 3rd Tuesdays in the Spark Upper Conference Room.
+      image: /events/img/afgaming.png
+      button: Find Out More!
+      link: "https://airforcegaming.com/"
+      filter: working
+    - title: Spark Tank 2022 SIF Competition Finals
+      date: Mar 18
+      time: 1200
+      description: >
+        The conclusion of the 2022 Travis Spark Tank SIF Competition will be held at the Delta Breeze on Friday, the 18th of March, at 1200. Please come and cheer on the idea submitters!
       image: /img/SparkTank-22-logo.png
       button: Find Out More!
       link: "https://www.eventbrite.com/e/2022-travis-spark-tank-sif-competition-idea-submission-campaign-tickets-214803361637?aff=affiliate1"
