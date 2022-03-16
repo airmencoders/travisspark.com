@@ -39,12 +39,12 @@ sections:
       button: Reserve
       link: "https://www.eventbrite.com/e/friday-ideation-development-tickets-211387905917"
       filter: pitch-day
-    - title: Air Force Gaming Working Group
+    - title: AF Gaming Working Group
       date: Every 1st and 3rd Tuesday
       time: 1500
       description: >
-        Air Force Gaming is a DAF initiative to bring Airmen together from all over base through gaming in order to building community and resiliance. The Travis Working Group meets every 1st and 3rd Tuesdays in the Spark Upper Conference Room.
-      image: /events/img/afgaming.png
+        Air Force Gaming is a DAF initiative to bring Airmen together through gaming to foster community, resiliance, and excellence. The Working Group meets in the Spark Upper Conference Room.
+      image: /events/img/afgaming.PNG
       button: Find Out More!
       link: "https://airforcegaming.com/"
       filter: working
