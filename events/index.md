@@ -48,15 +48,6 @@ sections:
       button: Find Out More!
       link: "https://airforcegaming.com/"
       filter: working
-    - title: Spark Tank 2022 Finals
-      date: Mar 18
-      time: 1200
-      description: >
-        The conclusion of the 2022 Travis Spark Tank SIF Competition will be held at the Delta Breeze on Friday, the 18th of March, at 1200. Please come and cheer on the idea submitters!
-      image: /img/SparkTank-22-logo.png
-      button: Find Out More!
-      link: "https://www.eventbrite.com/e/2022-travis-spark-tank-sif-competition-idea-submission-campaign-tickets-214803361637?aff=affiliate1"
-      filter: pitch-day
     - title: Full-Time Software Immersive
       date: Various Dates
       description: >
@@ -75,16 +66,16 @@ sections:
       link: "/forms/sdi-part-time.html"
       filter: coding
     - title: 3D Printing Level 1
-      date: 28-29 Mar
+      date: 18-19 July
       time: 0800-1600
       description: >
         Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
       image: /manufacturing/images/printing.jpg
       button: Register
-      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-291351649627?aff=website"
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-329162252157?aff=website"
       filter: 3d
     - title: Minnovatrium
-      date: 28-29 Apr
+      date: 26-27 May
       description: >
         A two day innovation workshop and primer based on the work of Dr. Jeff Degraff's Innovatrium. This workshop seeks to get members excited about innovation concepts, help  members understand the Innovation Genome and how it can apply to their workcenters when building innovation teams.
       image: /events/img/innovation_workshop_banner.png
@@ -92,7 +83,7 @@ sections:
       link: "https://www.eventbrite.com/e/minnovatrium-tickets-244549051797?aff=website"
       filter: innovation
     - title: Industry Pitch Day
-      date: 5 may
+      date: June
       description: >
         If you are a company with a product or solution and you would like the opportuntiy to demo your product to potential customers at Travis AFB, sign up for our Industry Pitch Day.
       image: /events/img/industry_pitch_day.png
