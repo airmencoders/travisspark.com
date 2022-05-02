@@ -75,7 +75,7 @@ sections:
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-331962166777?aff=website"
       filter: 3d
     - title: 3D Printing Level 1
-      date: 23-24 May
+      date: 2-3 Jun
       time: 0800-1600
       description: >
         Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
