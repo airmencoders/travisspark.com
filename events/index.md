@@ -66,24 +66,6 @@ sections:
       link: "/forms/sdi-part-time.html"
       filter: coding
     - title: 3D Printing Level 1
-      date: 23-24 May
-      time: 0800-1600
-      description: >
-        Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
-      image: /manufacturing/images/printing.jpg
-      button: Register
-      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-331962166777?aff=website"
-      filter: 3d
-    - title: 3D Printing Level 1
-      date: 2-3 Jun
-      time: 0800-1600
-      description: >
-        Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
-      image: /manufacturing/images/printing.jpg
-      button: Register
-      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-331965316197?aff=website"
-      filter: 3d
-    - title: 3D Printing Level 1
       date: 18-19 July
       time: 0800-1600
       description: >
