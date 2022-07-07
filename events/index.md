@@ -66,7 +66,7 @@ sections:
       link: "/forms/sdi-part-time.html"
       filter: coding
     - title: 3D Printing Level 1
-      date: 18-19 July
+      date: 25-26 July
       time: 0800-1600
       description: >
         Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
@@ -74,6 +74,33 @@ sections:
       button: Register
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-329162252157?aff=website"
       filter: 3d
+    - title: 3D Printing Level 1
+      date: 8-9 Aug
+      time: 0800-1600
+      description: >
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-374484893397?aff=website"
+      filter: 3d 
+    - title: 3D Printing Level 1
+      date: 22-23 Aug
+      time: 0800-1600
+      description: >
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-381231572897?aff=website"
+      filter: 3d      
+    - title: 3D Printing Level 1
+      date: 12-13 Sep
+      time: 0800-1600
+      description: >
+        Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
+      image: /manufacturing/images/printing.jpg
+      button: Register
+      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-381233869767?aff=website"
+      filter: 3d      
     - title: Minnovatrium
       date: 26-27 May
       description: >
