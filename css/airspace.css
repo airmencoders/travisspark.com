@@ -142,21 +142,15 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 1;
 }
 @keyframes slide{
-    0%{
+    33%{
         transform: translateX(0);
     }
-    25%{
-        transform: translateX(0);
-    }
-    50%{
+    67%{
         transform: translateX(-100%);
     }
-    75%{
-        transform: translateX(-200%);
-    }
     100%{
-        transform: translateX(-300%);
-    }
+        transform: translateX(-200%);
+    }    
 }
 /*--
 	wrapper Start
