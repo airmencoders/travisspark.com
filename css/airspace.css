@@ -182,7 +182,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	service Start
 --*/
 #service {
-  text-align: center;
+  text-align: justified;
   padding: 90px 0;
 }
 #service .service-item {
