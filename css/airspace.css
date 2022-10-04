@@ -114,7 +114,7 @@ font header .navbar-default .navbar-nav li a:hover {
   scroll-behavior: smooth;
   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
   border-radius: 0.5rem;
-  animation: slide 15s infinite;
+  animation: slide 1s infinite;
 }
 .slider img {
   flex: 1 0 100%;
