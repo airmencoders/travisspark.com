@@ -101,7 +101,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .slider-wrapper {
   position: relative;
-  max-width: 48rem;
+  max-width: 75rem;
   margin: 0 auto;
 }
 .slider {
@@ -127,11 +127,10 @@ font header .navbar-default .navbar-nav li a:hover {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
-  size: 2rem;	
 }
 .slider-nav a {
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   background-color: #fff;
   opacity: 0.75;
