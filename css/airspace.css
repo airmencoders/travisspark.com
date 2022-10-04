@@ -96,9 +96,6 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider Start
 --*/
-/*--
-	Slider Start
---*/
 .container {
   padding: 2rem;
 }
@@ -130,6 +127,7 @@ font header .navbar-default .navbar-nav li a:hover {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+  size: 2rem;	
 }
 .slider-nav a {
   width: 0.5rem;
