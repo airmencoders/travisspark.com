@@ -101,7 +101,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .slider-wrapper {
   position:relative;
-  max-width: 48rem;
+  max-width: 100rem;
   margin: 0 auto;
 }
 .slider {
