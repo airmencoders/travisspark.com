@@ -3,6 +3,8 @@ layout: events
 title: Spark Events
 sections:
   filters:
+    - title: 2023 Spark Tank
+    filter: 2023-spark
     - title: 3D Printing Classes
       filter: 3d
     - title: Pitch Days
@@ -14,6 +16,15 @@ sections:
     # - title: Working Groups
     #   filter: working
   events:
+    - title: 2023 Spark Tank
+      date: TBD
+      time: Open for submissions 24/7
+      description: >
+        Submit your innovation, idea, project, or proposal to the 2023 Spark Tank and help the USAF and your fellow airmen "accelerate change".
+      image: /img/light_bulbs.jpg
+      button: Submit
+      link: ""
+      filter: spark-tank
     - title: Friday Pitch Session
       date: Every Working Friday
       time: 1200
