@@ -16,7 +16,7 @@ sections:
       image: /sparktank/images/spark-tank-bkgrnd.png
       textOrientation: right
     - header: The History of Spark Tank
-      decriptor: >
+      descriptor: >
         Spark Tank history to go here.
       
     - header: Overview of Previous Spark Tank Top Nominees
