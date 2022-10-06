@@ -50,7 +50,6 @@ sections:
           Yes!  The top Spark Tank nominees are not the only submittals that receive funding.  The Spark Tank Selection Board, composed of civilians, NCO's, SNCO's, and officers, will also select a number of additional submittals to receive funding.  The number of additional submittals to receive funding will be determined by the amount of funding available once the top picks have all been purchased.
           
 <html>      
-<body>
 		
   <section>
     <div class="rt-container">
@@ -72,8 +71,4 @@ sections:
     </div>
   </section>
      
-
-<!-- Analytics -->
-
-	</body>
 </html> 
