@@ -1,6 +1,3 @@
-
-
-
 ---
 layout: dau
 title: 2023 Spark Tank 
@@ -52,4 +49,31 @@ sections:
         answer: >
           Yes!  The top Spark Tank nominees are not the only submittals that receive funding.  The Spark Tank Selection Board, composed of civilians, NCO's, SNCO's, and officers, will also select a number of additional submittals to receive funding.  The number of additional submittals to receive funding will be determined by the amount of funding available once the top picks have all been purchased.
           
- 
+<html>      
+<body>
+		
+  <section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <!-- partial:index.partial.html -->
+<ul class="timeline">
+	<li data-year="Oct-2022" data-text="2023 Spark Tank now open for submissions!"></li>
+	<li data-year="2018" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+	<li data-year="2019" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+	<li data-year="2020" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+	<li data-year="2021" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+</ul>
+<!-- partial -->
+           
+    		</div>
+		</div>
+    </div>
+  </section>
+     
+
+<!-- Analytics -->
+
+	</body>
+</html> 
