@@ -53,7 +53,9 @@ sections:
   #     button1Url:  /forms/suas-join.html
   #     isInternal: 'yes'
   #   # - header: Get started today!
-  #   #   code: <div class="Timeline">
+      # code: 
+      
+      <div class="Timeline">
 
   <svg height="5" width="200">
   <line x1="0" y1="0" x2="200" y2="0" style="stroke:#004165;stroke-width:5" />
