@@ -21,7 +21,7 @@ sections:
       time: Open for submissions 24/7
       description: >
         Submit your innovation, idea, project, or proposal to the 2023 Spark Tank and help the USAF and your fellow airmen "accelerate change".
-      image: /img/light_bulbs.jpg
+      image: /img/spark-tank-events-img.png
       button: Submit
       link: "https://travisspark.com/sparktank/"
       filter: spark-tank
