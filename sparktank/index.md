@@ -33,16 +33,20 @@ sections:
         answer: >
           The top Spark Tank nominees, as selected by the Spark Tank Selection Board, are those that best meet the following criteria:
           <ul>
-            <li>Originality</li>
-            <li>Feasibility</li>
+            <li>Originality
+              - The idea is new and has not been previously implemented or attempted by Travis AFB. 
+
+                NOTE:  If the idea has been attempted by Travis AFB, the idea must be significantly improved upon from the previous attempt.
+            </li>
+            <li>Feasibility
+              - The idea is feasible and can be implemented within the current fiscal year.
+            </li>
             <li>Impact</li>
             <li>Scalability</li>
           </ul>
-      - question: If I am not selected as a top nominee, can my innovative idea, initiative, or program still be eligible to receive funding?
+      - question: If I am not selected as a top nominee, is my idea, initiative, or program still eligible to receive funding?
         answer: >
-          Before you start a new SBIR, we highly recommend that you try to team up to scale an existing effort that has proven success & that
-          has a passionate government POC.  You can find these efforts from the <b>View the sUAS Knowledge Base</b> button above!  If you want to keep
-          looking at other options, checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reach out to any of them.  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afternoons & we can talk next steps!
+          Yes!  The top Spark Tank nominees are not the only submittals that receive funding.  The Spark Tank Selection Board, composed of civilians, NCO's, SNCO's, and officers, will also select a number of additional submittals to receive funding.  The number of additional submittals to receive funding will be determined by the amount of funding available once the top picks have all been purchased.
   cta:
     - header: Get started today!
       button1Text: Join our Ecosystem
