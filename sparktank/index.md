@@ -27,26 +27,26 @@ sections:
   splitColumnsFinal:
     header: 2023 Spark Tank Timeline
     descriptor: >
-      #####1 October - 15 November, 2022<br> 
+      1 October - 15 November, 2022<br> 
       Window for Spark Tank submissions<br>
       <br>
       <br>
-      #####15 November - 7 December, 2022<br>
+      15 November - 7 December, 2022<br>
       Refine your submission and submit your final proposal<br>
       <br>
-      ######**NOTE:** Personnel pitching ideas must attend one of the Friday Pitch Sessions<br>
+      **NOTE:** Personnel pitching ideas must attend one of the Friday Pitch Sessions<br>
       <br>
       <br>
-      #####15 December, 2022 <br>
+      15 December, 2022 <br>
       Pitch your idea to the Spark Tank judges panel<br>
       <br>
       <br>
-      #####16 December, 2022 - 15 January, 2023<br>
+      16 December, 2022 - 15 January, 2023<br>
       Submitters create and forward all required documentation for their proposals<br>
       Ex.: Statements of Work, Form 9's, etc.<br>
       <br>
       <br>
-      #####15 January, 2023<br>
+      15 January, 2023<br>
       Wing CC reviews top picks and selects the top 3<br>
       <br>
       <br>
