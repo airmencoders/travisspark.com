@@ -24,98 +24,57 @@ sections:
     header: 2023 Spark Tank Timeline
     descriptor: >
       
-<div class="Timeline">
-
-  <svg height="5" width="200">
-  <line x1="0" y1="0" x2="200" y2="0" style="stroke:#004165;stroke-width:5" />
-  Sorry, your browser does not support inline SVG.
-</svg>
-
-  <div class="event1">
-    
-    <div class="event1Bubble">
-      <div class="eventTime">
-        <div class="DayDigit">02</div>
-        <div class="Day">
-           Wednesday
-          <div class="MonthYear">february 2016</div>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+            <!-- AD -->
         </div>
-      </div>
-      <div class="eventTitle">Profile Created</div>
-    </div>
-    <div class="eventAuthor">by Youri Nelson</div>
-    <svg height="20" width="20">
-       <circle cx="10" cy="11" r="5" fill="#004165" />
-     </svg>
-    <div class="time">9 : 27 AM</div>
-    
-  </div>
-  
-  <svg height="5" width="300">
-  <line x1="0" y1="0" x2="300" y2="0" style="stroke:#004165;stroke-width:5" />
-  Sorry, your browser does not support inline SVG.
-</svg>
-
-  <div class="event2">
-    
-    <div class="event2Bubble">
-      <div class="eventTime">
-        <div class="DayDigit">17</div>
-        <div class="Day">
-           Thursday
-          <div class="MonthYear">April 2016</div>
+        <div class="col-rt-2">
+            <ul>
+                <li><a href="https://codeconvey.com/simple-horizontal-timeline-css">Back to Tutorial</a></li>
+            </ul>
         </div>
-      </div>
-      <div class="eventTitle">Phone Interview</div>
     </div>
-    <div class="event2Author">by Tom Eggleston</div>
-      <svg height="20" width="20">
-    <circle cx="10" cy="11" r="5" fill="#004165" />
-    </svg>
-    <div class="time2">1 : 32 PM</div>
-  </div>
-  
-  <svg height="5" width="50">
-  <line x1="0" y1="0" x2="50" y2="0" style="stroke:#004165;stroke-width:5" />
-  Sorry, your browser does not support inline SVG.
-</svg>
-
-  <div class="now">
-    NOW
-  </div>  
-    
-  
-  <svg height="5" width="150">
-  <line x1="0" y1="0" x2="150" y2="0" style="stroke:rgba(162, 164, 163, 0.37);stroke-width:5" />
-  Sorry, your browser does not support inline SVG.
-</svg>
-  <div class="event3 futureGray ">
-    <div class="event1Bubble futureOpacity">
-      <div class="eventTime">
-        <div class="DayDigit">05</div>
-        <div class="Day">
-           Tuesday
-          <div class="MonthYear">May 2016</div>
-        </div>
-      </div>
-      <div class="eventTitle">Anticipated Hire</div>
-    </div>
-      <svg height="20" width="20">
-    <circle cx="10" cy="11" r="5" fill="rgba(162, 164, 163, 0.37)" />
-    </svg>
-  </div>
-<svg height="5" width="50">
-<line x1="0" y1="0" x2="50" y2="0" style="stroke:#004165;stroke-width:5" /> 
-</svg>
-<svg height="20" width="42">
-<line x1="1" y1="0" x2="1" y2="20" style="stroke:#004165;stroke-width:2" /> 
-<circle cx="11" cy="10" r="3" fill="#004165" />  
-<circle cx="21" cy="10" r="3" fill="#004165" />  
-<circle cx="31" cy="10" r="3" fill="#004165" />    
-<line x1="41" y1="0" x2="41" y2="20" style="stroke:#004165;stroke-width:2" /> 
-</svg>  
-  
 </div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+            	<h1>CSS Horizontal Timeline Example</h1>
+                <p>A pure CSS horizontal timeline with simple &amp; clean design.</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <!-- partial:index.partial.html -->
+<ul class="timeline">
+	<li data-year="2017" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+	<li data-year="2018" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+	<li data-year="2019" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+	<li data-year="2020" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+	<li data-year="2021" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+</ul>
+<!-- partial -->
+           
+    		</div>
+		</div>
+    </div>
+</section>
+     
+
+<!-- Analytics -->
+
+	</body>
+</html>
 
     # textOrientation: center
     # image: /arvr/images/arvr.png
