@@ -1,30 +1,6 @@
 <html>      
 <body>
 		
-<div class="ScriptTop">
-    <div class="rt-container">
-        <div class="col-rt-4" id="float-right">
-            <!-- AD -->
-        </div>
-        <div class="col-rt-2">
-            <ul>
-                <li><a href="https://codeconvey.com/simple-horizontal-timeline-css">Back to Tutorial</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<header class="ScriptHeader">
-    <div class="rt-container">
-    	<div class="col-rt-12">
-        	<div class="rt-heading">
-            	<h1>CSS Horizontal Timeline Example</h1>
-                <p>A pure CSS horizontal timeline with simple &amp; clean design.</p>
-            </div>
-        </div>
-    </div>
-</header>
-
 <section>
     <div class="rt-container">
           <div class="col-rt-12">
