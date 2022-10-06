@@ -23,6 +23,69 @@ sections:
   splitColumnsFinal:
     header: 2023 Spark Tank Timeline
     descriptor: >
+      <section id="timeline">
+
+<article>
+
+<div class="inner"><span class="date"><span class="day">30<sup>th</sup></span> <span class="month">Jan</span> <span class="year">2014</span></span>
+
+## The Title
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.
+
+</div>
+
+</article>
+
+<article>
+
+<div class="inner"><span class="date"><span class="day">26<sup>th</sup></span> <span class="month">Jan</span> <span class="year">2014</span></span>
+
+## The Title
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.
+
+</div>
+
+</article>
+
+<article>
+
+<div class="inner"><span class="date"><span class="day">26<sup>th</sup></span> <span class="month">Jan</span> <span class="year">2014</span></span>
+
+## The Title
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.
+
+</div>
+
+</article>
+
+<article>
+
+<div class="inner"><span class="date"><span class="day">26<sup>th</sup></span> <span class="month">Jan</span> <span class="year">2014</span></span>
+
+## The Title
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.
+
+</div>
+
+</article>
+
+<article>
+
+<div class="inner"><span class="date"><span class="day">26<sup>th</sup></span> <span class="month">Jan</span> <span class="year">2014</span></span>
+
+## The Title
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.
+
+</div>
+
+</article>
+
+</section>
 
 
     # textOrientation: center
@@ -48,27 +111,3 @@ sections:
       - question: If I am not selected as a top nominee, is my idea, initiative, or program still eligible to receive funding?
         answer: >
           Yes!  The top Spark Tank nominees are not the only submittals that receive funding.  The Spark Tank Selection Board, composed of civilians, NCO's, SNCO's, and officers, will also select a number of additional submittals to receive funding.  The number of additional submittals to receive funding will be determined by the amount of funding available once the top picks have all been purchased.
-          
-<html>      
-		
-  <section>
-    <div class="rt-container">
-          <div class="col-rt-12">
-              <div class="Scriptcontent">
-              
-     <!-- partial:index.partial.html -->
-<ul class="timeline">
-	<li data-year="Oct-2022" data-text="2023 Spark Tank now open for submissions!"></li>
-	<li data-year="2018" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-	<li data-year="2019" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-	<li data-year="2020" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-	<li data-year="2021" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-</ul>
-<!-- partial -->
-           
-    		</div>
-		</div>
-    </div>
-  </section>
-     
-</html> 
