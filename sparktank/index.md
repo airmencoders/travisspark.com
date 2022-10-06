@@ -1,29 +1,3 @@
----
-layout: dau
-title: 2023 Spark Tank 
-sections:
-  hero:
-    logo: 
-    text: 2023 Travis AFB Spark Tank
-    header: 
-    color:
-      light: '000'
-      dark: '111'
-  splitColumns:
-    - header: What is Spark Tank?
-      descriptor: >
-        The Travis AFB Spark Tank enables airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to help grow a culture of innovation.
-      image: /sparktank/images/spark-tank-bkgrnd.png
-      textOrientation: right
-    - header: Overview of Previous Spark Tank Top Nominees
-      descriptor: >
-         Previous Spark Tank top selectees have included a submission from the Aeromedical Evacuation Squadron for a additively manufactured KC-46A hose and line clamp, a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application, Augmented Reality equipment for aircraft maintenance, and more.  
-      image: /sparktank/images/spark-tank-2022-wolfe.jpg
-      textOrientation: left
-  splitColumnsFinal:
-    header: 2023 Spark Tank Timeline
-    descriptor: >
-
 <html>      
 <body>
 		
@@ -76,6 +50,34 @@ sections:
 
 	</body>
 </html>
+
+
+---
+layout: dau
+title: 2023 Spark Tank 
+sections:
+  hero:
+    logo: 
+    text: 2023 Travis AFB Spark Tank
+    header: 
+    color:
+      light: '000'
+      dark: '111'
+  splitColumns:
+    - header: What is Spark Tank?
+      descriptor: >
+        The Travis AFB Spark Tank enables airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to help grow a culture of innovation.
+      image: /sparktank/images/spark-tank-bkgrnd.png
+      textOrientation: right
+    - header: Overview of Previous Spark Tank Top Nominees
+      descriptor: >
+         Previous Spark Tank top selectees have included a submission from the Aeromedical Evacuation Squadron for a additively manufactured KC-46A hose and line clamp, a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application, Augmented Reality equipment for aircraft maintenance, and more.  
+      image: /sparktank/images/spark-tank-2022-wolfe.jpg
+      textOrientation: left
+  splitColumnsFinal:
+    header: 2023 Spark Tank Timeline
+    descriptor: >
+
 
     # textOrientation: center
     # image: /arvr/images/arvr.png
