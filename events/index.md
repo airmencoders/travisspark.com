@@ -3,7 +3,7 @@ layout: events
 title: Spark Events
 sections:
   filters:
-    - title: 2023 Spark Tank
+    - title: Spark Tank 2023
       filter: 2023-spark
     - title: 3D Printing Classes
       filter: 3d
@@ -24,7 +24,7 @@ sections:
       image: img/spark-tank-events-img.png
       button: Submit
       link: "https://travisspark.com/sparktank/"
-      filter: spark-tank
+      filter: 2023-spark
     - title: Friday Pitch Session
       date: Every Working Friday
       time: 1200

@@ -29,14 +29,20 @@ sections:
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
-      - question: How do I get sUAS solutions for my unit?
+      - question: How are the top Spark Tank nominees selected?
         answer: >
-          Click the "View the sUAS Knowledge Base" button above to find contact information, best practices, and existing contracts.  Once you are ready, feel free to contact one of the team members there to get going!
-      - question: How do I use SBIR for sUAS?
+          The top Spark Tank nominees, as selected by the Spark Tank Selection Board, are those that best meet the following criteria:
+          <ul>
+            <li>Originality</li>
+            <li>Feasibility</li>
+            <li>Impact</li>
+            <li>Scalability</li>
+          </ul>
+      - question: If I am not selected as a top nominee, can my innovative idea, initiative, or program still be eligible to receive funding?
         answer: >
           Before you start a new SBIR, we highly recommend that you try to team up to scale an existing effort that has proven success & that
           has a passionate government POC.  You can find these efforts from the <b>View the sUAS Knowledge Base</b> button above!  If you want to keep
-          looking at other options, checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reachout to any of them.  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
+          looking at other options, checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reach out to any of them.  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afternoons & we can talk next steps!
   cta:
     - header: Get started today!
       button1Text: Join our Ecosystem
