@@ -13,7 +13,7 @@ sections:
     - header: What is Spark Tank?
       descriptor: >
         The Travis AFB Spark Tank enables airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to help grow a culture of innovation.
-      image: /sparktank/images/spark-logo-transparent-bkgrnd.png
+      image: sparktank/images/spark-logo-transparent-bkgrnd.png
       textOrientation: right
     - header: Overview of Previous Spark Tank Top Nominees
       descriptor: >
@@ -47,13 +47,13 @@ sections:
       - question: If I am not selected as a top nominee, is my idea, initiative, or program still eligible to receive funding?
         answer: >
           Yes!  The top Spark Tank nominees are not the only submittals that receive funding.  The Spark Tank Selection Board, composed of civilians, NCO's, SNCO's, and officers, will also select a number of additional submittals to receive funding.  The number of additional submittals to receive funding will be determined by the amount of funding available once the top picks have all been purchased.
-  cta:
-    - header: Get started today!
-      button1Text: Join our Ecosystem
-      button1Url:  /forms/suas-join.html
-      isInternal: 'yes'
-    # - header: Get started today!
-      code: <div class="Timeline">
+  # cta:
+  #   - header: Get started today!
+  #     button1Text: Join our Ecosystem
+  #     button1Url:  /forms/suas-join.html
+  #     isInternal: 'yes'
+  #   # - header: Get started today!
+  #   #   code: <div class="Timeline">
 
   <svg height="5" width="200">
   <line x1="0" y1="0" x2="200" y2="0" style="stroke:#004165;stroke-width:5" />
