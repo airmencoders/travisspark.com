@@ -12,8 +12,8 @@ sections:
   splitColumns:
     - header: What is Spark Tank?
       descriptor: >
-        The Travis AFB Spark Tank is a chance for any airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to grow a culture of innovation.
-      image: 
+        The Travis AFB Spark Tank enables airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to help grow a culture of innovation.
+      image: sparktank/images/spark-logo-transparent-bkgrnd.png
       textOrientation: right
     - header: Overview of Previous Spark Tank Top Nominees
       descriptor: >
@@ -21,7 +21,7 @@ sections:
       image: /sparktank/images/spark-tank-2022-wolfe.jpg
       textOrientation: left
   splitColumnsFinal:
-    header: Modernize your TTPs with sUAS
+    header: 2023 Spark Tank Timeline
     descriptor: >
       Small UAS tactics, techniques and procedures are not keeping pace with innovation, the demand for capability, or the growing threats emerging from malignant actors. The massive proliferation of  extreme-low-cost and autonomous aviation technologies, commonly referred to as sUAS or “drones,” creates a paradigm shift in the way global mobility operations are conducted. We are working on staying ahead of the wave!
     textOrientation: center
@@ -47,13 +47,108 @@ sections:
       - question: If I am not selected as a top nominee, is my idea, initiative, or program still eligible to receive funding?
         answer: >
           Yes!  The top Spark Tank nominees are not the only submittals that receive funding.  The Spark Tank Selection Board, composed of civilians, NCO's, SNCO's, and officers, will also select a number of additional submittals to receive funding.  The number of additional submittals to receive funding will be determined by the amount of funding available once the top picks have all been purchased.
-  # cta:
-  #   - header: Get started today!
-  #     button1Text: Join our Ecosystem
-  #     button1Url:  /forms/suas-join.html
-  #     isInternal: 'yes'
-  #   # - header: Get started today!
-  #   #   code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
+  cta:
+    - header: Get started today!
+      button1Text: Join our Ecosystem
+      button1Url:  /forms/suas-join.html
+      isInternal: 'yes'
+    # - header: Get started today!
+      code: <div class="Timeline">
+
+  <svg height="5" width="200">
+  <line x1="0" y1="0" x2="200" y2="0" style="stroke:#004165;stroke-width:5" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+  <div class="event1">
+    
+    <div class="event1Bubble">
+      <div class="eventTime">
+        <div class="DayDigit">02</div>
+        <div class="Day">
+           Wednesday
+          <div class="MonthYear">february 2016</div>
+        </div>
+      </div>
+      <div class="eventTitle">Profile Created</div>
+    </div>
+    <div class="eventAuthor">by Youri Nelson</div>
+    <svg height="20" width="20">
+       <circle cx="10" cy="11" r="5" fill="#004165" />
+     </svg>
+    <div class="time">9 : 27 AM</div>
+    
+  </div>
+  
+  <svg height="5" width="300">
+  <line x1="0" y1="0" x2="300" y2="0" style="stroke:#004165;stroke-width:5" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+  <div class="event2">
+    
+    <div class="event2Bubble">
+      <div class="eventTime">
+        <div class="DayDigit">17</div>
+        <div class="Day">
+           Thursday
+          <div class="MonthYear">April 2016</div>
+        </div>
+      </div>
+      <div class="eventTitle">Phone Interview</div>
+    </div>
+    <div class="event2Author">by Tom Eggleston</div>
+      <svg height="20" width="20">
+    <circle cx="10" cy="11" r="5" fill="#004165" />
+    </svg>
+    <div class="time2">1 : 32 PM</div>
+  </div>
+  
+  <svg height="5" width="50">
+  <line x1="0" y1="0" x2="50" y2="0" style="stroke:#004165;stroke-width:5" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+  <div class="now">
+    NOW
+  </div>  
+    
+  
+  <svg height="5" width="150">
+  <line x1="0" y1="0" x2="150" y2="0" style="stroke:rgba(162, 164, 163, 0.37);stroke-width:5" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+  <div class="event3 futureGray ">
+    <div class="event1Bubble futureOpacity">
+      <div class="eventTime">
+        <div class="DayDigit">05</div>
+        <div class="Day">
+           Tuesday
+          <div class="MonthYear">May 2016</div>
+        </div>
+      </div>
+      <div class="eventTitle">Anticipated Hire</div>
+    </div>
+      <svg height="20" width="20">
+    <circle cx="10" cy="11" r="5" fill="rgba(162, 164, 163, 0.37)" />
+    </svg>
+  </div>
+<svg height="5" width="50">
+<line x1="0" y1="0" x2="50" y2="0" style="stroke:#004165;stroke-width:5" /> 
+</svg>
+<svg height="20" width="42">
+<line x1="1" y1="0" x2="1" y2="20" style="stroke:#004165;stroke-width:2" /> 
+<circle cx="11" cy="10" r="3" fill="#004165" />  
+<circle cx="21" cy="10" r="3" fill="#004165" />  
+<circle cx="31" cy="10" r="3" fill="#004165" />    
+<line x1="41" y1="0" x2="41" y2="20" style="stroke:#004165;stroke-width:2" /> 
+</svg>  
+  
+</div>
+  
+  
+  
+  # <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
   #   - header: Ready to get started?
   #     descriptor: Reach out and join the team
   #     manual:
