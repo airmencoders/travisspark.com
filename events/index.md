@@ -16,7 +16,7 @@ sections:
     # - title: Working Groups
     #   filter: working
   events:
-    - title: 2023 Spark Tank
+    - title: Spark Tank 2023
       date: TBD
       time: Open for submissions 24/7
       description: >
