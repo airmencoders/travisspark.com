@@ -13,7 +13,7 @@ sections:
     - header: What is Spark Tank?
       descriptor: >
         The Travis AFB Spark Tank enables airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to help grow a culture of innovation.
-      image: /sparktank/images/spark-logo-transparent-bkgrnd.png
+      image: /sparktank/images/spark-tank-bkgrnd.png
       textOrientation: right
     - header: Overview of Previous Spark Tank Top Nominees
       descriptor: >
