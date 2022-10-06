@@ -29,12 +29,12 @@ sections:
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
-      - question: If I didn't make the Spark Tank submission deadline, can I still submit my idea?
-        answer: >
-          Of course!  We encourage all Airmen to submit their ideas at any point, not just during the Spark Tank submission time frame.  To do so, follow the steps earlier in the page.
       - question: If I don't get picked as a top nominee, can I still receive funding for my idea?
         answer: >
           Yes!  Even those submittals which are not selected as top nominees will be considered for funding.  Once the top submittals have had funding allocated, other innovation ideas will be considered for funding.  If you have an idea, submit it!
+      - question: If I didn't make the Spark Tank submission deadline, can I still submit my idea?
+        answer: >
+          Of course!  We encourage all Airmen to submit their ideas at any point, not just during the Spark Tank submission time frame.  To do so, follow the steps earlier in the page.
   # cta:
   #   - header: Get started today!
   #     button1Text: Join our Ecosystem
