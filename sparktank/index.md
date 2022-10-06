@@ -23,7 +23,100 @@ sections:
   splitColumnsFinal:
     header: 2023 Spark Tank Timeline
     descriptor: >
-      Small UAS tactics, techniques and procedures are not keeping pace with innovation, the demand for capability, or the growing threats emerging from malignant actors. The massive proliferation of  extreme-low-cost and autonomous aviation technologies, commonly referred to as sUAS or “drones,” creates a paradigm shift in the way global mobility operations are conducted. We are working on staying ahead of the wave!
+      
+      <div class="Timeline">
+
+  <svg height="5" width="200">
+  <line x1="0" y1="0" x2="200" y2="0" style="stroke:#004165;stroke-width:5" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+  <div class="event1">
+    
+    <div class="event1Bubble">
+      <div class="eventTime">
+        <div class="DayDigit">02</div>
+        <div class="Day">
+           Wednesday
+          <div class="MonthYear">february 2016</div>
+        </div>
+      </div>
+      <div class="eventTitle">Profile Created</div>
+    </div>
+    <div class="eventAuthor">by Youri Nelson</div>
+    <svg height="20" width="20">
+       <circle cx="10" cy="11" r="5" fill="#004165" />
+     </svg>
+    <div class="time">9 : 27 AM</div>
+    
+  </div>
+  
+  <svg height="5" width="300">
+  <line x1="0" y1="0" x2="300" y2="0" style="stroke:#004165;stroke-width:5" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+  <div class="event2">
+    
+    <div class="event2Bubble">
+      <div class="eventTime">
+        <div class="DayDigit">17</div>
+        <div class="Day">
+           Thursday
+          <div class="MonthYear">April 2016</div>
+        </div>
+      </div>
+      <div class="eventTitle">Phone Interview</div>
+    </div>
+    <div class="event2Author">by Tom Eggleston</div>
+      <svg height="20" width="20">
+    <circle cx="10" cy="11" r="5" fill="#004165" />
+    </svg>
+    <div class="time2">1 : 32 PM</div>
+  </div>
+  
+  <svg height="5" width="50">
+  <line x1="0" y1="0" x2="50" y2="0" style="stroke:#004165;stroke-width:5" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+  <div class="now">
+    NOW
+  </div>  
+    
+  
+  <svg height="5" width="150">
+  <line x1="0" y1="0" x2="150" y2="0" style="stroke:rgba(162, 164, 163, 0.37);stroke-width:5" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+  <div class="event3 futureGray ">
+    <div class="event1Bubble futureOpacity">
+      <div class="eventTime">
+        <div class="DayDigit">05</div>
+        <div class="Day">
+           Tuesday
+          <div class="MonthYear">May 2016</div>
+        </div>
+      </div>
+      <div class="eventTitle">Anticipated Hire</div>
+    </div>
+      <svg height="20" width="20">
+    <circle cx="10" cy="11" r="5" fill="rgba(162, 164, 163, 0.37)" />
+    </svg>
+  </div>
+<svg height="5" width="50">
+<line x1="0" y1="0" x2="50" y2="0" style="stroke:#004165;stroke-width:5" /> 
+</svg>
+<svg height="20" width="42">
+<line x1="1" y1="0" x2="1" y2="20" style="stroke:#004165;stroke-width:2" /> 
+<circle cx="11" cy="10" r="3" fill="#004165" />  
+<circle cx="21" cy="10" r="3" fill="#004165" />  
+<circle cx="31" cy="10" r="3" fill="#004165" />    
+<line x1="41" y1="0" x2="41" y2="20" style="stroke:#004165;stroke-width:2" /> 
+</svg>  
+  
+</div>
+
     textOrientation: center
     # image: /arvr/images/arvr.png
   faq:
