@@ -25,7 +25,7 @@ sections:
       image: /sparktank/images/spark-tank-2022-wolfe.jpg
       textOrientation: left
   splitColumnsFinal:
-    header: 2023 Spark Tank Timeline
+    header: **2023 Spark Tank Timeline**
     descriptor: >
       1 October - 15 November, 2022<br> 
       Window for Spark Tank submissions<br>
