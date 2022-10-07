@@ -22,7 +22,7 @@ sections:
         <br>
         <strong><h4>15 November - 7 December, 2022</h4></strong>
         <h5>Refine your submission and submit your final proposal</h5>
-        </strong><h6>NOTE:</strong> Personnel pitching ideas must attend one of the Friday Pitch Sessions</h6>
+        </strong><h6 style="color:red;">NOTE:</strong> Personnel pitching ideas must attend one of the Friday Pitch Sessions</h6>
         <br>
         <strong><h4>15 December, 2022</h4></strong>
         <h5>Pitch your idea to the Spark Tank judges panel</h5>
