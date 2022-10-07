@@ -1,6 +1,6 @@
 ---
 layout: dau
-title: Spark Tank
+title: 2023 Spark Tank 
 sections:
   hero:
     logo: 
@@ -13,53 +13,87 @@ sections:
     - header: What is Spark Tank?
       descriptor: >
         The Travis AFB Spark Tank is a chance for any airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to grow a culture of innovation.
-      image: /spark-tank/images/spark-tank-bkgrnd.png
+      image: 
       textOrientation: right
-    - header: The History of Spark Tank
-      descriptor: >
-        Spark Tank history to go here.  
-    - header: Overview of Previous Spark Tank Top Nominees
+    - header: Border Perimeter Security
       descriptor: >
          Previous Spark Tank top selectees have included a submission from the Aeromedical Evacuation Squadron for a additively manufactured KC-46A hose and line clamp, a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application, Augmented Reality equipment for aircraft maintenance, and more.  
-      image: /spark-tank/images/spark-tank-2022-wolfe.jpg
+      image: /sparktank/images/spark-tank-2022-wolfe.jpg
       textOrientation: left
   splitColumnsFinal:
-    header: 2023 Spark Tank Timeline
+    header: Modernize your TTPs with sUAS
     descriptor: >
-       October - 15 November, 2022<br> 
-      <h5>Window for Spark Tank submissions</h5>
-      <br>
-      15 November - 7 December, 2022<br>
-      <h5>Refine your submission and submit your final proposal</h5><br>
-      NOTE - Personnel pitching ideas must attend one of the Friday Pitch Sessions<br>
-      <br>
-      15 December, 2022 <br>
-      <h5>Pitch your idea to the Spark Tank judges panel</h5>
-      <br>
-      <br>
-      16 December, 2022 - 15 January, 2023<br>
-      <h5>Submitters create and forward all required documentation for their proposals</h5>
-      Ex. - Statements of Work, Form 9's, etc.
-      <br>
-      <br>
-      15 January, 2023<br>
-      <h5>Wing CC reviews top picks and selects the top 3</h5>
-      <br>
-      <br>
-      1 March, 2023<br>
-      <h5>Spark Tank is held at Travis AFB</h5>
-      <h5>Top 3 present their ideas to the Wing CC and VIP's</h5>
-      <br>
-      <br>
-    textOrientation: left
+      Small UAS tactics, techniques and procedures are not keeping pace with innovation, the demand for capability, or the growing threats emerging from malignant actors. The massive proliferation of  extreme-low-cost and autonomous aviation technologies, commonly referred to as sUAS or “drones,” creates a paradigm shift in the way global mobility operations are conducted. We are working on staying ahead of the wave!
+    textOrientation: center
     # image: /arvr/images/arvr.png
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
-      - question: If I don't get picked as a top nominee, can I still receive funding for my idea?
+      - question: How do I get sUAS solutions for my unit?
         answer: >
-          Yes!  Even those submissions which are not selected as top nominees will be considered for funding.  Once the top submissions have had funding allocated, other innovation ideas will be considered for funding.  If you have an idea, submit it!
-      - question: If I didn't make the Spark Tank submission deadline, can I still submit my idea?
+          Click the "View the sUAS Knowledge Base" button above to find contact information, best practices, and existing contracts.  Once you are ready, feel free to contact one of the team members there to get going!
+      - question: How do I use SBIR for sUAS?
         answer: >
-          Of course!  We encourage all Airmen to submit their ideas at any point, not just during the Spark Tank submission time frame.  To do so, follow the steps earlier in the page.
+          Before you start a new SBIR, we highly recommend that you try to team up to scale an existing effort that has proven success & that
+          has a passionate government POC.  You can find these efforts from the <b>View the sUAS Knowledge Base</b> button above!  If you want to keep
+          looking at other options, checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reachout to any of them.  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
+  cta:
+    - header: Get started today!
+      button1Text: Join our Ecosystem
+      button1Url:  /forms/suas-join.html
+      isInternal: 'yes'
+    # - header: Get started today!
+    #   code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
+    - header: Ready to get started?
+      descriptor: Reach out and join the team
+      manual:
+        - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-da368c67-665f-4cab-b5f9-3dc694fa6523"><span class="hs-cta-node hs-cta-da368c67-665f-4cab-b5f9-3dc694fa6523" id="hs-cta-da368c67-665f-4cab-b5f9-3dc694fa6523"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/da368c67-665f-4cab-b5f9-3dc694fa6523"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-da368c67-665f-4cab-b5f9-3dc694fa6523" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/da368c67-665f-4cab-b5f9-3dc694fa6523.png"  alt="View the Small UAS (Drone) Knowledge Base"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'da368c67-665f-4cab-b5f9-3dc694fa6523', {"region":"na1"}); </script></span>
+        # - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
+      buttons:
+        - text: Join our Ecosystem
+          url:  /forms/suas-join.html
+          isInternal: 'yes'
+      #   - text: Join our ecosystem
+      #     url: /apply/
+      #     isInternal: 'yes'
+    - header: Ready to get started?
+      descriptor: Reach out and join the team
+      manual:
+        - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-da368c67-665f-4cab-b5f9-3dc694fa6523"><span class="hs-cta-node hs-cta-da368c67-665f-4cab-b5f9-3dc694fa6523" id="hs-cta-da368c67-665f-4cab-b5f9-3dc694fa6523"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/da368c67-665f-4cab-b5f9-3dc694fa6523"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-da368c67-665f-4cab-b5f9-3dc694fa6523" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/da368c67-665f-4cab-b5f9-3dc694fa6523.png"  alt="View the Small UAS (Drone) Knowledge Base"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'da368c67-665f-4cab-b5f9-3dc694fa6523', {"region":"na1"}); </script></span>
+        # - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
+      buttons:
+        - text: Join our Ecosystem
+          url:  /forms/suas-join.html
+          isInternal: 'yes'
+      #   - text: Join our ecosystem
+      #     url: /apply/
+      #     isInternal: 'yes'
+  # features:
+  #   - header: Learn what Puckboard can do for you
+  #     cards:
+  #      - image: /arvr/images/requests.svg
+  #        header: Event Volunteering
+  #        descriptor: Easily request open positions on flights, sims, or ground events from your personal device, anywhere in the world...without needing a lengthy text chain to your schedulers.
+  #      - video: https://player.vimeo.com/video/519703716?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479
+  #        header: Conflict Resolution
+  #        descriptor: Quickly identify and resolve conflicts, even when crewmembers are scheduled separately by two different organizations.
+  #      - image: /arvr/images/checkfilled.svg
+  #        header: Crew Availability
+  #        descriptor: View available crewmembers before accidentally scheduling someone for two flights at the same time.
+  #        image-alt: Platform One Ecosystem
+  #   - header: What's new in Puckboard?
+  #     descriptor: The latest releases.
+  #     cards:
+  #      - header: Mobile Improvements
+  #        descriptor: Access your schedule from any device with internet connection, make requests, and approve them all on your phone. 
+  #      - header: Multi-week View
+  #        descriptor: View your schedule across multiple weeks with the click of a button, with easy filters available to view by personnel or event type.
+  #      - header: Performance Improvements & Bug Fixes
+  #        descriptor: Improvements to loading time and bug fixes for multiple features. 
+  #      - header: Restructured Permission Set
+  #        descriptor: Added functionality for Squadron POCs and Organizational Admins, with greater flexibility to scale fast and securely.
+  #      - header: Delete / Cancel Requests
+  #        descriptor: Delete or cancel requests after review, improving communications within your squadron. 
+  #      - header: Puckboard Logging Beta
+  #        descriptor: Puckboard Logging Beta Program, contact us to get involved!
 ---
