@@ -27,7 +27,7 @@ sections:
   splitColumnsFinal:
     header: 2023 Spark Tank Timeline
     descriptor: >
-      1 October - 15 November, 2022<br> 
+       October - 15 November, 2022<br> 
       <h5>Window for Spark Tank submissions</h5>
       <br>
       15 November - 7 December, 2022<br>
