@@ -17,33 +17,33 @@ sections:
       textOrientation: right
     - header: Spark Tank Timeline
       descriptor: >
-      <br>
-      October - 15 November, 2022<br> 
-      <h5>Window for Spark Tank submissions</h5><br>
-      <br>
-      15 November - 7 December, 2022<br>
-      <h5>Refine your submission and submit your final proposal</h5><br>
-      NOTE - Personnel pitching ideas must attend one of the Friday Pitch Sessions<br>
-      <br>
-      15 December, 2022 <br>
-      <h5>Pitch your idea to the Spark Tank judges panel</h5>
-      <br>
-      <br>
-      16 December, 2022 - 15 January, 2023<br>
-      <h5>Submitters create and forward all required documentation for their proposals</h5>
-      Ex. - Statements of Work, Form 9's, etc.
-      <br>
-      <br>
-      15 January, 2023<br>
-      <h5>Wing CC reviews top picks and selects the top 3</h5>
-      <br>
-      <br>
-      1 March, 2023<br>
-      <h5>Spark Tank is held at Travis AFB</h5>
-      <h5>Top 3 present their ideas to the Wing CC and VIP's</h5>
-      <br>
-      <br>
-
+        October - 15 November, 2022<br> 
+        <h5>Window for Spark Tank submissions</h5>
+        <br>
+        15 November - 7 December, 2022<br>
+        <h5>Refine your submission and submit your final proposal</h5><br>
+        <h6>NOTE: Personnel pitching ideas must attend one of the Friday Pitch Sessions</h6><br>
+        <br>
+        15 December, 2022 <br>
+        <h5>Pitch your idea to the Spark Tank judges panel</h5>
+        <br>
+        <br>
+        16 December, 2022 - 15 January, 2023<br>
+        <h5>Submitters create and forward all required documentation for their proposals</h5>
+        <h6>Ex.: Statements of Work, Form 9's, etc.</h6>
+        <br>
+        <br>
+        15 January, 2023<br>
+        <h5>Wing CC reviews top picks and selects the top 3</h5>
+        <br>
+        <br>
+        1 March, 2023<br>
+        <h5>Spark Tank is held at Travis AFB</h5>
+        <h5>Top 3 present their ideas to the Wing CC and VIP's</h5>
+        <br>
+        <br>
+      image: /sparktank/images/spark-tank-2022-wolfe.jpg
+      textOrientation: left
   splitColumnsFinal:
     header: Modernize your TTPs with sUAS
     descriptor: >
