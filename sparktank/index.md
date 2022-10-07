@@ -56,7 +56,7 @@ sections:
         <h4>2023</h4>
         <h5>Spark Tank is held in person</h5>
       image:
-      textOrientation: left 
+      textOrientation: right 
   splitColumnsFinal:
     header: Overview of Previous Spark Tank Top Nominees
     descriptor: >
