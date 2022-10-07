@@ -17,7 +17,7 @@ sections:
       textOrientation: right
     - header: Spark Tank Timeline
       descriptor: >
-        <h4>October - 15 November, 2022</h4>
+        <h4>1 October - 15 November, 2022</h4>
         <h5>Window for Spark Tank submissions</h5>
         <br>
         <h4>15 November - 7 December, 2022</h4>
@@ -39,6 +39,24 @@ sections:
         <h5>Top 3 present their ideas to the Wing CC and VIP's</h5><br>
       image:
       textOrientation: left
+    - header: The History of Spark Tank
+      descriptor: >
+        <h4>2019</h4>
+        <h5>Spark Tank is born</h5>
+        <br>
+        <h4>2020</h4>
+        <h5>Spark Tank is held virtually</h5>
+        <br>
+        <h4>2021</h4>
+        <h5>Spark Tank is held virtually</h5>
+        <br>
+        <h4>2022</h4>
+        <h5>Spark Tank is held virtually</h5>
+        <br>
+        <h4>2023</h4>
+        <h5>Spark Tank is held in person</h5>
+      image:
+      textOrientation: right 
   splitColumnsFinal:
     header: Overview of Previous Spark Tank Top Nominees
     descriptor: >
