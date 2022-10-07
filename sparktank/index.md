@@ -9,10 +9,10 @@ sections:
     color:
       light: '000'
       dark: '111'
-  events:
-    button: Submit your idea!
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSeaYe7xqJ6zuEVK0N8Lj974YY-rBSqi6C_VH1WD-Z8Hx3y33w/viewform?embedded=true"
   splitColumns:
+    - header: Submit your idea now!
+      button: Submit
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSeaYe7xqJ6zuEVK0N8Lj974YY-rBSqi6C_VH1WD-Z8Hx3y33w/viewform?embedded=true" 
     - header: What is Spark Tank?
       descriptor: >
         The Travis AFB Spark Tank is a chance for any airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to grow a culture of innovation.
