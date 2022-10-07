@@ -143,13 +143,7 @@ font header .navbar-default .navbar-nav li a:hover {
   animation: slide 15s infinite;
 }
 @keyframes slide{
-    33%{
-        transform: translateX(0);
-    }
-    67%{
-        transform: translateX(-100%);
-    }
-    100%{
+    100% {
         transform: translateX(-200%);
     }    
 }
