@@ -52,7 +52,7 @@ sections:
       <h5>Top 3 present their ideas to the Wing CC and VIP's</h5>
       <br>
       <br>
-    textOrientation: center
+    textOrientation: left
     # image: /arvr/images/arvr.png
   faq:
     header: Frequently Asked Questions (FAQs)
