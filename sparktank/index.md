@@ -15,6 +15,9 @@ sections:
         descriptor: >
           The Travis AFB Spark Tank is a chance for any airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to grow a culture of innovation.
         image: /sparktank/images/spark-tank-bkgrnd.png
+        buttons:
+          - text: <span style="padding:1px">Submit your idea</span>
+            url: /ideas
         textOrientation: right
       - header: Spark Tank Timeline
         descriptor: >
@@ -141,6 +144,5 @@ sections:
   # #      - header: Delete / Cancel Requests
   # #        descriptor: Delete or cancel requests after review, improving communications within your squadron. 
   # #      - header: Puckboard Logging Beta
-  # #        descriptor: Puckboard Logging Beta Program, contact us to get involved!
-  
+  # #        descriptor: Puckboard Logging Beta Program, contact us to get involved!  
 ---
