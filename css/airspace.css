@@ -135,7 +135,6 @@ font header .navbar-default .navbar-nav li a:hover {
 .slider-nav a:hover {
   opacity: 1;
 }
-}
 .slider img {
   flex: 1 0 100%;
   scroll-snap-align: start;
@@ -143,13 +142,13 @@ font header .navbar-default .navbar-nav li a:hover {
   animation: slide 20s infinite;
 }
 @keyframes slide{
-    100%{
+    25%{
         transform: translateX(0);
     }
-    100%{
+    50%{
         transform: translateX(-100%);
     }
-    100% {
+    75% {
         transform: translateX(-200%);
     }
     100% {
