@@ -1,6 +1,6 @@
 ---
 layout: dau
-title: 2023 Spark Tank 
+title: Spark Tank 
 sections:
   hero:
     logo: 
