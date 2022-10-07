@@ -45,7 +45,11 @@ sections:
   splitColumnsFinal:
     header: Overview of Previous Spark Tank Top Nominees
     descriptor: >
-      Previous Spark Tank top selectees have included a submission from the Aeromedical Evacuation Squadron for a additively manufactured KC-46A hose and line clamp, a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application, Augmented Reality equipment for aircraft maintenance, and more.  
+      Previous Spark Tank top selectees have included:
+      <li> From AES: an additively manufactured KC-46A hose and line clamp to prevent tripping hazards and remove the need to use sharp tools to remove the mounted hoses and lines</li>
+      <li> From MDG: a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application to help get post-partum mothers back into shape.</li>
+      <li> From MXG: Augmented Reality equipment for aircraft maintenance.</li>
+      <li> From SFS: a backscatter x-ray system to inspect tractor trailers coming through the South Gate.</li>
     image: /sparktank/images/spark-tank-2022-wolfe.jpg
     textOrientation: center # image: /arvr/images/arvr.png
   faq:
