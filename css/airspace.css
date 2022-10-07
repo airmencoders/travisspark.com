@@ -107,7 +107,7 @@ font header .navbar-default .navbar-nav li a:hover {
 .slider {
   position: relative;
   display: flex;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16 / 9;
   overflow-x: hidden;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
