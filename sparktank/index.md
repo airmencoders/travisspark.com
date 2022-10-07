@@ -15,6 +15,11 @@ sections:
         The Travis AFB Spark Tank is a chance for any airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to grow a culture of innovation.
       image: /sparktank/images/spark-tank-bkgrnd.png
       textOrientation: right
+  faq:
+    tabs:
+    - question: The history of the Travis AFB Spark Tank
+      answer: >
+        History to go here.
     - header: Spark Tank Timeline
       descriptor: >
         <h4>1 October - 15 November, 2022</h4>
