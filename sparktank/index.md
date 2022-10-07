@@ -60,7 +60,7 @@ sections:
   splitColumnsFinal:
     header: Overview of Previous Spark Tank Top Nominees
     descriptor: >
-      **Previous Spark Tank top selectees have included:**
+      <strong>Previous Spark Tank top selectees have included:</strong>
         <li> From 60 MDG: an additively manufactured KC-46A hose and line clamp to prevent tripping hazards and remove the need to use sharp tools to remove the mounted hoses and lines.
         <h6>Champions: Branden Bowman, TSgt, 60 AES, Tristen Meadors, SSgt, 60 AES, Max Estrada, SSgt, 60 AES, and Stephen Jogerst, TSgt, 60 AMXS</h6></li>
         <li> From 60 MDG: a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application to help get post-partum mothers back into shape.
