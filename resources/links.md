@@ -26,11 +26,11 @@ sections:
             link: https://www.afwerx.af.mil/sbir.html
             description: > 
               Go here to learn more about the Small Business Innovation Research (SBIR) Program at AFWERX.
-          - title: Platform One
-            filter: p1
-            link: https://p1.dso.mil/
+          - title: Get a P1 Account
+            filter: p1-account
+            link: https://tron.dso.mil/p1/#
             description: > 
-              Go here to learn more about Platform One & how to use for your needs.
+              Go here for instructions on getting a Platform One SSO account
       - name: FOUO/CUI Enterprise Collaboration on Platform One
         filter: fouo-collab
         links:
