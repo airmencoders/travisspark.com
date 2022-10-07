@@ -140,18 +140,21 @@ font header .navbar-default .navbar-nav li a:hover {
   flex: 1 0 100%;
   scroll-snap-align: start;
   object-fit: cover;
-  animation: slide 15s infinite;
+  animation: slide 20s infinite;
 }
 @keyframes slide{
-    33%{
+    100%{
         transform: translateX(0);
     }
-    67%{
+    100%{
         transform: translateX(-100%);
     }
     100% {
         transform: translateX(-200%);
-    }    
+    }
+    100% {
+      transform: translateX(-300%);
+  }    
 }
 /*--
 	wrapper Start
