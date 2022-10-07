@@ -1,14 +1,14 @@
 ---
 layout: links
 title: Reports
-permalink: /reports/
+permalink: /1-pagers/
 sections:
   resources:
     color: 
       button: c6c8d2
       standard: 1d192c
     categories:
-      - name: Phoenix Spark Innovation Reports & One-Pagers
+      - name: Phoenix Spark Innovation Reports & Industry One-Pagers
         filter: innovation-ecosystem
         links: 
           - title: Heavy Lifts
