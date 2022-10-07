@@ -17,8 +17,7 @@ sections:
       textOrientation: right
     - header: The History of Spark Tank
       descriptor: >
-        Spark Tank history to go here.
-      
+        Spark Tank history to go here.  
     - header: Overview of Previous Spark Tank Top Nominees
       descriptor: >
          Previous Spark Tank top selectees have included a submission from the Aeromedical Evacuation Squadron for a additively manufactured KC-46A hose and line clamp, a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application, Augmented Reality equipment for aircraft maintenance, and more.  
