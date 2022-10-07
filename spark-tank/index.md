@@ -1,6 +1,6 @@
 ---
 layout: dau
-title: Spark Tank 
+title: Spark Tank
 sections:
   hero:
     logo: 
