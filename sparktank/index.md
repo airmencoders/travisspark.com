@@ -3,7 +3,7 @@ layout: dau
 title: 2023 Spark Tank 
 sections:
   hero:
-    logo: 
+    logo: /image/sparktank/spark-logo-trans-bkgrnd.png/
     text: 2023 Travis AFB Spark Tank
     header: 
     color:
