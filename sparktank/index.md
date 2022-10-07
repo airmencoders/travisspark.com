@@ -42,8 +42,8 @@ sections:
       <br>
       <br>
       16 December, 2022 - 15 January, 2023<br>
-      <h5>Submitters create and forward all required documentation for their proposals</h5><br>
-      <h6>Ex.: Statements of Work, Form 9's, etc.</h6><br>
+      <h5>Submitters create and forward all required documentation for their proposals</h5>
+      <h6>Ex.: Statements of Work, Form 9's, etc.</h6>
       <br>
       <br>
       15 January, 2023<br>
