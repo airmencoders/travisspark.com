@@ -15,9 +15,34 @@ sections:
         The Travis AFB Spark Tank is a chance for any airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to grow a culture of innovation.
       image: 
       textOrientation: right
-    - header: Border Perimeter Security
+    - header: Spark Tank Timeline
       descriptor: >
-         Previous Spark Tank top selectees have included a submission from the Aeromedical Evacuation Squadron for a additively manufactured KC-46A hose and line clamp, a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application, Augmented Reality equipment for aircraft maintenance, and more.  
+      October - 15 November, 2022<br> 
+      <h5>Window for Spark Tank submissions</h5><br>
+      <br>
+      15 November - 7 December, 2022<br>
+      <h5>Refine your submission and submit your final proposal</h5><br>
+      NOTE - Personnel pitching ideas must attend one of the Friday Pitch Sessions<br>
+      <br>
+      15 December, 2022 <br>
+      <h5>Pitch your idea to the Spark Tank judges panel</h5>
+      <br>
+      <br>
+      16 December, 2022 - 15 January, 2023<br>
+      <h5>Submitters create and forward all required documentation for their proposals</h5>
+      Ex. - Statements of Work, Form 9's, etc.
+      <br>
+      <br>
+      15 January, 2023<br>
+      <h5>Wing CC reviews top picks and selects the top 3</h5>
+      <br>
+      <br>
+      1 March, 2023<br>
+      <h5>Spark Tank is held at Travis AFB</h5>
+      <h5>Top 3 present their ideas to the Wing CC and VIP's</h5>
+      <br>
+      <br>
+
       image: /sparktank/images/spark-tank-2022-wolfe.jpg
       textOrientation: left
   splitColumnsFinal:
