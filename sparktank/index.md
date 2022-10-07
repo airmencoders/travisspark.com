@@ -56,7 +56,7 @@ sections:
         <h4>2023</h4>
         <h5>Spark Tank is held in person</h5>
       image:
-      textOrientation: right 
+      textOrientation: left 
   splitColumnsFinal:
     header: Overview of Previous Spark Tank Top Nominees
     descriptor: >
@@ -72,7 +72,7 @@ sections:
         <li> From 60 MSG: a drive-in backscatter x-ray system to inspect tractor trailers coming through the South Gate.
         <h6>Champion: Donald Gresham, TSgt, 60 SFS</li>
     image: /sparktank/images/spark-tank-2022-wolfe.jpg/
-    textOrientation: center # image: /arvr/images/arvr.png
+    textOrientation: right # image: /arvr/images/arvr.png
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
