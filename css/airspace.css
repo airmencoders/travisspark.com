@@ -135,12 +135,11 @@ font header .navbar-default .navbar-nav li a:hover {
 .slider-nav a:hover {
   opacity: 1;
 }
-/* .slider img {
+.slider img {
   flex: 1 0 100%;
   scroll-snap-align: start;
   object-fit: cover;
-  animation: slide 20s infinite;
-} */
+}
 @keyframes slide{
     20%{
         transform: translateX(0);
