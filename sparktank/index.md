@@ -21,7 +21,7 @@ sections:
         <h5>Window for Spark Tank submissions</h5>
         <br>
         15 November - 7 December, 2022<br>
-        <h5>Refine your submission and submit your final proposal</h5><br>
+        <h5>Refine your submission and submit your final proposal</h5>
         <h6>NOTE: Personnel pitching ideas must attend one of the Friday Pitch Sessions</h6><br>
         <br>
         15 December, 2022 <br>
@@ -39,28 +39,24 @@ sections:
         <br>
         1 March, 2023<br>
         <h5>Spark Tank is held at Travis AFB</h5>
-        <h5>Top 3 present their ideas to the Wing CC and VIP's</h5>
-        <br>
-        <br>
-      image: /sparktank/images/spark-tank-2022-wolfe.jpg
+        <h5>Top 3 present their ideas to the Wing CC and VIP's</h5><br>
+      image:
       textOrientation: left
   splitColumnsFinal:
-    header: Modernize your TTPs with sUAS
+    header: Overview of Previous Spark Tank Top Nominees
     descriptor: >
-      Small UAS tactics, techniques and procedures are not keeping pace with innovation, the demand for capability, or the growing threats emerging from malignant actors. The massive proliferation of  extreme-low-cost and autonomous aviation technologies, commonly referred to as sUAS or “drones,” creates a paradigm shift in the way global mobility operations are conducted. We are working on staying ahead of the wave!
-    textOrientation: center
-    # image: /arvr/images/arvr.png
+      Previous Spark Tank top selectees have included a submission from the Aeromedical Evacuation Squadron for a additively manufactured KC-46A hose and line clamp, a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application, Augmented Reality equipment for aircraft maintenance, and more.  
+    image: /sparktank/images/spark-tank-2022-wolfe.jpg
+    textOrientation: center # image: /arvr/images/arvr.png
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
-      - question: How do I get sUAS solutions for my unit?
+      - question: If I don't get picked as a top nominee, can I still receive funding for my idea?
         answer: >
-          Click the "View the sUAS Knowledge Base" button above to find contact information, best practices, and existing contracts.  Once you are ready, feel free to contact one of the team members there to get going!
-      - question: How do I use SBIR for sUAS?
+          Yes!  Even those submissions which are not selected as top nominees will be considered for funding.  Once the top submissions have had funding allocated, other innovation ideas will be considered for funding.  If you have an idea, submit it!
+      - question: If I didn't make the Spark Tank submission deadline, can I still submit my idea?
         answer: >
-          Before you start a new SBIR, we highly recommend that you try to team up to scale an existing effort that has proven success & that
-          has a passionate government POC.  You can find these efforts from the <b>View the sUAS Knowledge Base</b> button above!  If you want to keep
-          looking at other options, checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reachout to any of them.  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
+          Of course!  We encourage all Airmen to submit their ideas at any point, not just during the Spark Tank submission time frame.  To do so, follow the steps earlier in the page.
   # cta:
   #   - header: Get started today!
   #     button1Text: Join our Ecosystem
