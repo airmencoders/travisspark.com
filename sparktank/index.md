@@ -32,7 +32,6 @@ sections:
       <br>
       15 November - 7 December, 2022<br>
       <h5>Refine your submission and submit your final proposal</h5>
-      <br>
       <h6>NOTE: Personnel pitching ideas must attend one of the Friday Pitch Sessions</h6>
       <br>
       <br>
@@ -50,7 +49,7 @@ sections:
       <br>
       <br>
       1 March, 2023<br>
-      <h5>Spark Tank is held at Travis AFB</h5><br>
+      <h5>Spark Tank is held at Travis AFB</h5>
       <h5>Top 3 present their ideas to the Wing CC and VIP's</h5>
       <br>
       <br>
