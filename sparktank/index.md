@@ -30,7 +30,6 @@ sections:
       1 October - 15 November, 2022<br> 
       <h5>Window for Spark Tank submissions</h5><br>
       <br>
-      <br>
       15 November - 7 December, 2022<br>
       <h5>Refine your submission and submit your final proposal</h5><br>
       <br>
