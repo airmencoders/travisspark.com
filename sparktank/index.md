@@ -17,6 +17,7 @@ sections:
       textOrientation: right
     - header: Spark Tank Timeline
       descriptor: >
+      <br>
       October - 15 November, 2022<br> 
       <h5>Window for Spark Tank submissions</h5><br>
       <br>
@@ -43,8 +44,6 @@ sections:
       <br>
       <br>
 
-      image: /sparktank/images/spark-tank-2022-wolfe.jpg
-      textOrientation: left
   splitColumnsFinal:
     header: Modernize your TTPs with sUAS
     descriptor: >
