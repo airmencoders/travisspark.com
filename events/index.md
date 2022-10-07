@@ -22,7 +22,7 @@ sections:
       description: >
         Submit your innovation, idea, project, or proposal to the 2023 Spark Tank and help the USAF and your fellow airmen "accelerate change".
       image: img/spark-tank-events-img.png
-      button: Submit
+      button: Submit your idea
       link: "https://travisspark.com/sparktank/"
       filter: 2023-spark
     - title: Friday Pitch Session
