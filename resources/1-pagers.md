@@ -1,6 +1,6 @@
 ---
 layout: links
-title: Reports
+title: One-Pagers
 permalink: /1-pagers/
 sections:
   resources:
