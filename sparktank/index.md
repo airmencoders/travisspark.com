@@ -1,10 +1,10 @@
 ---
 layout: dau
-title: 2023 Travis AFB Spark Tank 
+title: 2023 Spark Tank 
 sections:
   hero:
     logo: 
-    text: 2023 Spark Tank
+    text: 2023 Travis AFB Spark Tank
     header: 
     color:
       light: '000'
