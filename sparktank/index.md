@@ -61,16 +61,16 @@ sections:
     header: Overview of Previous Spark Tank Top Nominees
     descriptor: >
       **Previous Spark Tank top selectees have included:**
-        <li> From AES: an additively manufactured KC-46A hose and line clamp to prevent tripping hazards and remove the need to use sharp tools to remove the mounted hoses and lines.
+        <li> From 60 MDG: an additively manufactured KC-46A hose and line clamp to prevent tripping hazards and remove the need to use sharp tools to remove the mounted hoses and lines.
         <h6>Champions: Branden Bowman, TSgt, 60 AES, Tristen Meadors, SSgt, 60 AES, Max Estrada, SSgt, 60 AES, and Stephen Jogerst, TSgt, 60 AMXS</h6></li>
-        <li> From MDG: a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application to help get post-partum mothers back into shape.
+        <li> From 60 MDG: a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application to help get post-partum mothers back into shape.
         <h6>Champion: Sarah K. Brown-Fernandez, Capt, 60 MDG</h6></li>
-        <li> From MXG: Augmented Reality equipment for aircraft maintenance.
+        <li> From 60 MXG: Augmented Reality equipment for aircraft maintenance.
         <h6>Champion: Kevin C. Wolfe, TSgt, 60 MXS</h6></li>
-        <li>From MXG: a robot armature to calibrate thermometers for the Precision Measurement Equipment Laboratory.
+        <li>From 60 MXG: a robot armature to calibrate thermometers for the Precision Measurement Equipment Laboratory.
         <h6>Champion: Clay Clemmer, SrA, 60 MXS</h6></li>
-        <li> From SFS: a drive-in backscatter x-ray system to inspect tractor trailers coming through the South Gate.
-        <h6>Champion: Gresham, TSgt, 60 SFS</li>
+        <li> From 60 MSG: a drive-in backscatter x-ray system to inspect tractor trailers coming through the South Gate.
+        <h6>Champion: Donald Gresham, TSgt, 60 SFS</li>
     image: /sparktank/images/spark-tank-2022-wolfe.jpg
     textOrientation: center # image: /arvr/images/arvr.png
   faq:
