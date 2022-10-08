@@ -40,8 +40,8 @@ sections:
       image:
       textOrientation: left
     tabs:
-    - header: The History of Spark Tank
-      descriptor: >
+    - question: The History of Spark Tank
+      answer: >
         <h4>2019</h4>
         <h5>Spark Tank is born</h5>
         <br>
