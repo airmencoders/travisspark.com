@@ -138,7 +138,7 @@ font header .navbar-default .navbar-nav li a:hover {
 .slider img {
   flex: 1 0 100%;
   scroll-snap-align: start;
-  object-fit: flex;
+  object-fit: cover;
 }
 @keyframes slide{
     20%{
