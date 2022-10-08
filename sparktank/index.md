@@ -39,24 +39,25 @@ sections:
         <h5>Top 3 present their ideas to the Wing CC and VIP's</h5><br>
       image:
       textOrientation: left
-    # - header: The History of Spark Tank
-    #   descriptor: >
-    #     <h4>2019</h4>
-    #     <h5>Spark Tank is born</h5>
-    #     <br>
-    #     <h4>2020</h4>
-    #     <h5>Spark Tank is held virtually</h5>
-    #     <br>
-    #     <h4>2021</h4>
-    #     <h5>Spark Tank is held virtually</h5>
-    #     <br>
-    #     <h4>2022</h4>
-    #     <h5>Spark Tank is held virtually</h5>
-    #     <br>
-    #     <h4>2023</h4>
-    #     <h5>Spark Tank is held in person</h5>
-    #   image: 
-    #   textOrientation: right 
+    tabs:
+    - header: The History of Spark Tank
+      descriptor: >
+        <h4>2019</h4>
+        <h5>Spark Tank is born</h5>
+        <br>
+        <h4>2020</h4>
+        <h5>Spark Tank is held virtually</h5>
+        <br>
+        <h4>2021</h4>
+        <h5>Spark Tank is held virtually</h5>
+        <br>
+        <h4>2022</h4>
+        <h5>Spark Tank is held virtually</h5>
+        <br>
+        <h4>2023</h4>
+        <h5>Spark Tank is held in person</h5>
+      image: 
+      textOrientation: right 
   splitColumnsFinal:
     header: Overview of Previous Spark Tank Top Nominees
     descriptor: >
@@ -72,26 +73,7 @@ sections:
         <li> From 60 MSG: a drive-in backscatter x-ray system to inspect tractor trailers coming through the South Gate.
         <h6>Champion: Donald Gresham, TSgt, 60 SFS</li>
     image: /sparktank/images/spark-tank-2022-wolfe.jpg
-    textOrientation: right # image: /arvr/images/arvr.png
-  faq:
-    header: 
-    tabs:
-      - question: The History of Spark Tank at Travis AFB
-        answer: >
-        <h4>2019</h4>
-        <h5>Spark Tank is born</h5>
-        <br>
-        <h4>2020</h4>
-        <h5>Spark Tank is held virtually</h5>
-        <br>
-        <h4>2021</h4>
-        <h5>Spark Tank is held virtually</h5>
-        <br>
-        <h4>2022</h4>
-        <h5>Spark Tank is held virtually</h5>
-        <br>
-        <h4>2023</h4>
-        <h5>Spark Tank is held in person</h5>
+    textOrientation: right # image: /arvr/images/arvr.png  
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
