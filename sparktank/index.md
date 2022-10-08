@@ -40,7 +40,7 @@ sections:
       image:
       textOrientation: left
   faq:
-    header:
+    header: Test
       tabs:
       - question: The History of Spark Tank
         answer: >
