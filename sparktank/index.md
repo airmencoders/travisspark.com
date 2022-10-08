@@ -39,23 +39,25 @@ sections:
         <h5>Top 3 present their ideas to the Wing CC and VIP's</h5><br>
       image:
       textOrientation: left
-  tabs:
-  - question: The History of Spark Tank
-    answer: >
-      <h4>2019</h4>
-      <h5>Spark Tank is born</h5>
-      <br>
-      <h4>2020</h4>
-      <h5>Spark Tank is held virtually</h5>
-      <br>
-      <h4>2021</h4>
-      <h5>Spark Tank is held virtually</h5>
-      <br>
-      <h4>2022</h4>
-      <h5>Spark Tank is held virtually</h5>
-      <br>
-      <h4>2023</h4>
-      <h5>Spark Tank is held in person</h5>
+  faq:
+    header:
+      tabs:
+      - question: The History of Spark Tank
+        answer: >
+          <h4>2019</h4>
+          <h5>Spark Tank is born</h5>
+          <br>
+          <h4>2020</h4>
+          <h5>Spark Tank is held virtually</h5>
+          <br>
+          <h4>2021</h4>
+          <h5>Spark Tank is held virtually</h5>
+          <br>
+          <h4>2022</h4>
+          <h5>Spark Tank is held virtually</h5>
+          <br>
+          <h4>2023</h4>
+          <h5>Spark Tank is held in person</h5>
     # image: 
     # textOrientation: right 
   splitColumnsFinal:
