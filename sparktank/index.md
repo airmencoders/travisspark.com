@@ -40,7 +40,7 @@ sections:
       image:
       textOrientation: left
   splitColumnsFinal:
-    header: Overview of Previous Spark Tank Top Nominees
+    header: Overview of 2022 Spark Tank Top Nominees
     descriptor: >
       <strong>Previous Spark Tank top selectees have included:</strong>
         <li> From 60 MDG: an additively manufactured KC-46A hose and line clamp to prevent tripping hazards and remove the need to use sharp tools to remove the mounted hoses and lines.
@@ -55,7 +55,7 @@ sections:
         <h6>Champion: Donald Gresham, TSgt, 60 SFS</li>
     image: /sparktank/images/spark-tank-gif.gif
     textOrientation: right # image: /arvr/images/arvr.png  
-    
+
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
