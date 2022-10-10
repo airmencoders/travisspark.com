@@ -7,15 +7,6 @@ sections:
     color: 
       button: c6c8d2
       standard: 1d192c
-    filters:
-    - title: Government Partners
-      filter: government-partners
-    - title: Industry Partners 
-            (Partnered w/ Spark)
-      filter: industry-partners-active
-    - title: Industry Partners 
-            (Not Partnered)
-      filter: industry-partners-inactive  
     categories:
       - name: Government Partners
         filter: government-partners
