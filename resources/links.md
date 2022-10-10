@@ -49,7 +49,7 @@ sections:
             link: https://carestarter.co/
             description: >
               Go here to view the homepage of Exceptional Family Member Program (EFMP) partner CareStarter.
-      -name: Industry Partners (Not In-Use by Spark)
+      - name: Industry Partners (Not In-Use by Spark)
         filter: industry-partners-inactive
         links:
           - title: Aerialtronics
