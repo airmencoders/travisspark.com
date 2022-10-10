@@ -1,7 +1,8 @@
 ---
 layout: document
 permalink: /contact/
-title: Reach Out!
+title: Contact Us
 ---
 
-If you have a question, comment, or concern, let us know by sending an email to [phoenix@spark.dso.mil](mailto:phoenix@spark.dso.mil).
+If you have a question, comment, or concern, let us know by sending an email to the [Phoenix Spark org box](mailto:phoenix@travisspark.com) or at 
+DSN (707)-424-8920
