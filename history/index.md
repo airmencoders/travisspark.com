@@ -54,6 +54,7 @@ sections:
         <li> From 60 MSG: a drive-in backscatter x-ray system to inspect tractor trailers coming through the South Gate.
         <h6>Champion: Donald Gresham, TSgt, 60 SFS</li>
     image: /sparktank/images/spark-tank-2022-wolfe.jpg
+    imageOrientation: center
     textOrientation: right # image: /arvr/images/arvr.png  
   faq:
     header: Frequently Asked Questions (FAQs)
