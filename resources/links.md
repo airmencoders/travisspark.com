@@ -12,22 +12,22 @@ sections:
         filter: government-partners
         links: 
           - title: Tron Software
-            filter: government-partners
+            filter: tron-software
             link: https://tron.dso.mil/
             description: >
               Go here to view the homepage & portfolio for Tron Software.
           - title: AFWERX
-            filter: government-partners
+            filter: afwerx
             link: https://www.afwerx.af.mil/
             description: > 
               Go here to see the homepage for AFWERX.
           - title: SBIR
-            filter: government-partners
+            filter: sbir
             link: https://www.afwerx.af.mil/sbir.html
             description: > 
               Go here to learn more about the Small Business Innovation Research (SBIR) Program at AFWERX.
           - title: Get a P1 Account
-            filter: government-partners
+            filter: platform-one
             link: https://tron.dso.mil/p1/#
             description: > 
               Go here for instructions on getting a Platform One SSO account
@@ -35,17 +35,17 @@ sections:
         filter: industry-partners
         links:
           - title: EasyAerial
-            filter: industry-partners-active
+            filter: easyaerial
             link: https://www.easyaerial.com/
             description: >
               Go here to view the homepage of sUAS company easyAerial.
           - title: Klattworks
-            filter: industry-partners-active
+            filter: klattworks
             link: https://www.klattworks.com/
             description: >
               Go here to view the homepage of augmented reality company Klattworks.
           - title: CareStarter
-            filter: industry-partners-active
+            filter: carestarter
             link: https://carestarter.co/
             description: >
               Go here to view the homepage of Exceptional Family Member Program (EFMP) partner CareStarter.
