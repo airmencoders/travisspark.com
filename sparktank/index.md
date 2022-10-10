@@ -65,16 +65,16 @@ sections:
         answer: >
           Of course!  We encourage all Airmen to submit their ideas at any point, not just during the Spark Tank submission time frame.  To do so, follow the steps earlier in the page.
   cta:
-    - header: How did Spark Tank begin?
-      button1Text: Find out!
-      button1Url:  /history/
+    - header: Have an idea for Spark Tank?
+      button1Text: Submit your innovation today!
+      button1Url:  /ideas/
       isInternal: 'yes'
     # - header: Get started today!
     #   code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://travisspark.com/ideas/"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
-      # - header: Have an idea for Spark Tank?
-      # button1Text: Submit your innovation today!
-      # button1Url:  /ideas/
-      # isInternal: 'yes'
+    - header: How did Spark Tank begin?
+      button1Text: Once upon a time...
+      button1Url:  /history/
+      isInternal: 'yes'
   #   #     - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-da368c67-665f-4cab-b5f9-3dc694fa6523"><span class="hs-cta-node hs-cta-da368c67-665f-4cab-b5f9-3dc694fa6523" id="hs-cta-da368c67-665f-4cab-b5f9-3dc694fa6523"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/da368c67-665f-4cab-b5f9-3dc694fa6523"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-da368c67-665f-4cab-b5f9-3dc694fa6523" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/da368c67-665f-4cab-b5f9-3dc694fa6523.png"  alt="View the Small UAS (Drone) Knowledge Base"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'da368c67-665f-4cab-b5f9-3dc694fa6523', {"region":"na1"}); </script></span>
   #       # - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
   #     buttons:
