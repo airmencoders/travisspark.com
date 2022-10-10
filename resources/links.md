@@ -1,5 +1,5 @@
 ---
-layout: links
+layout: events
 title: Common Links
 permalink: /links/
 sections:
