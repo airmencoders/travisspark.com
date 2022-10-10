@@ -98,6 +98,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 .container {
   padding: 2rem;
+  vertical-align: middle
 }
 .slider-wrapper {
   position: relative;
