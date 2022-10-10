@@ -1,10 +1,10 @@
 ---
 layout: dau
-title: ARVR
+title: AR & VR
 sections:
   hero:
     logo: 
-    text: Augmented & Virtual Reality (AR/VR)
+    text: Augmented & Virtual Reality (AR & VR)
     header: 
     color:
       light: '000'
