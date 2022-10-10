@@ -1,6 +1,6 @@
 ---
 layout: links
-title: Common Links
+title: Government & Industry Partner Links
 permalink: /links/
 sections:
   resources:
@@ -31,8 +31,8 @@ sections:
             link: https://tron.dso.mil/p1/#
             description: > 
               Go here for instructions on getting a Platform One SSO account
-      - name: Industry Partners
-        filter: industry-partners
+      - name: Industry Partners (In-Use by Spark)
+        filter: industry-partners-active
         links:
           - title: EasyAerial
             filter: easyaerial
@@ -49,6 +49,15 @@ sections:
             link: https://carestarter.co/
             description: >
               Go here to view the homepage of Exceptional Family Member Program (EFMP) partner CareStarter.
+      -name: Industry Partners (Not In-Use by Spark)
+        filter: industry-partners-inactive
+        links:
+          - title: Aerialtronics
+            filter: aerialtronics
+            link: https://www.aerialtronics.com/
+            description: >
+              Go here to view the homepage of sUAS company Aerialtronics.
+          
           
 
       # - name: FOUO/CUI Enterprise Collaboration on Platform One
