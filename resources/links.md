@@ -7,27 +7,36 @@ sections:
     color: 
       button: c6c8d2
       standard: 1d192c
+    filters:
+      - title: Government Partners
+        filter: government-partners
+      - title: Industry Partners 
+              (Partnered w/ Spark)
+        filter: industry-partners-active
+      - title: Industry Partners 
+              (Not Partnered)
+        filter: industry-partners-inactive  
     categories:
       - name: Government Partners
         filter: government-partners
         links: 
           - title: Tron Software
-            filter: tron-software
+            filter: government-partners
             link: https://tron.dso.mil/
             description: >
               Go here to view the homepage & portfolio for Tron Software.
           - title: AFWERX
-            filter: afwerx
+            filter: government-partners
             link: https://www.afwerx.af.mil/
             description: > 
               Go here to see the homepage for AFWERX.
           - title: SBIR
-            filter: sbir
+            filter: government-partners
             link: https://www.afwerx.af.mil/sbir.html
             description: > 
               Go here to learn more about the Small Business Innovation Research (SBIR) Program at AFWERX.
           - title: Get a P1 Account
-            filter: p1-account
+            filter: government-partners
             link: https://tron.dso.mil/p1/#
             description: > 
               Go here for instructions on getting a Platform One SSO account
@@ -35,7 +44,20 @@ sections:
         filter: industry-partners
         links:
           - title: EasyAerial
-          
+            filter: industry-partners-active
+            link: https://www.easyaerial.com/
+            description: >
+              Go here to view the homepage of sUAS company easyAerial.
+          - title: Klattworks
+            filter: industry-partners-active
+            link: https://www.klattworks.com/
+            description: >
+              Go here to view the homepage of augmented reality company Klattworks.
+          - title: CareStarter
+            filter: industry-partners-active
+            link: https://carestarter.co/
+            description: >
+              Go here to view the homepage of Exceptional Family Member Program (EFMP) partner CareStarter.
           
 
       # - name: FOUO/CUI Enterprise Collaboration on Platform One
