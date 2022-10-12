@@ -18,7 +18,7 @@ sections:
     - header: Border Perimeter Security & Traffic Management
       descriptor: >
          The 60th SFS is working with an AFWERX SBIR company in testing and developing a prototype autonomous aerial monitoring system to deliver advanced perimeter security and situational awareness using autonomous self-deployed drones.  Currently they have 3 autonomous and 2 tethered units in production use.
-      image: /suas/images/easy-aerial.png
+      image: /suas/images/border_sec.mp4
       textOrientation: left
   splitColumnsFinal:
     header: Modernize your TTPs with sUAS
