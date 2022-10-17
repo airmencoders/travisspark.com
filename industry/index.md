@@ -21,8 +21,8 @@ sections:
         buttons:
           - text: <span style="padding:1px">Apply Now</span>
             url: /industry/apply
+      - header: <b>Step 2.</b> Pitch
         descriptor: >
-          <b>Step 2.</b> Pitch
           Travis hosts 2-4 pitch days per year for top industry applicants.  Selected companies will pitch before a key Travis Stakeholders, to include the 60th Air Mobility Wing Vice Wing Commander as the event chair.  Base functional Area Experts, Spark, Base Legal, and Contracting all join in these events to be able to rapidly make decisions on next steps.  Companies have the opportunity to leave with an immediate partnership.
           <br />
           <br />
@@ -31,8 +31,8 @@ sections:
           <br />
           <b>The next pitch day will be end of April 2022 to align with the associated AFWERX SBIR opening.  Spark will inform all industry applicants by the first week of April if they are being invited to pitch.</b>
 
+      - header: <b>Step 3.</b> Partner
         descriptor: >
-          <b>Step 3.</b> Partner
           If a you’re able to secure an active Government partner, Phoenix Spark will work with you and the airmen to bring that solution to reality!
         descriptor2: <i>Examples of past projects:</i>
         buttons:
@@ -47,14 +47,14 @@ sections:
     end:
         header: Thank you!
         descriptor: We are looking forward to your application.
-#     cta:
-#       - header: Want to read it again?
-#         descriptor: Click here to go back to the top.
-#         buttons:
-#           - text: Top of Page
-#             url: /start/
-#             isInternal: 'yes'
-#           - text: Contact us
-#             url: /contact/
-#         background-color: '000'
-# ---
+    cta:
+      - header: Want to read it again?
+        descriptor: Click here to go back to the top.
+        buttons:
+          - text: Top of Page
+            url: /start/
+            isInternal: 'yes'
+          - text: Contact us
+            url: /contact/
+        background-color: '000'
+---
