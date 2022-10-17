@@ -21,7 +21,7 @@ sections:
         buttons:
           - text: <span style="padding:1px">Apply Now</span>
             url: /industry/apply
-      - header: <b>Step 2.</b> Pitch
+      # - header: <b>Step 2.</b> Pitch
         descriptor: >
           Travis hosts 2-4 pitch days per year for top industry applicants.  Selected companies will pitch before a key Travis Stakeholders, to include the 60th Air Mobility Wing Vice Wing Commander as the event chair.  Base functional Area Experts, Spark, Base Legal, and Contracting all join in these events to be able to rapidly make decisions on next steps.  Companies have the opportunity to leave with an immediate partnership.
           <br />
