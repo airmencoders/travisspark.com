@@ -19,6 +19,15 @@ sections:
         <br />
         <b>Submit Your Company Info, we want to hear from you!</b>
       textOrientation: left
+      descriptor: >
+        Travis hosts 2-4 pitch days per year for top industry applicants.  Selected companies will pitch before a key Travis Stakeholders, to include the 60th Air Mobility Wing Vice Wing Commander as the event chair.  Base functional Area Experts, Spark, Base Legal, and Contracting all join in these events to be able to rapidly make decisions on next steps.  Companies have the opportunity to leave with an immediate partnership.
+        <br />
+        <br />
+        <i>Companies not selected are more than welcome to apply again, and all application materials will be distributed to our local innovation network to gauge interest.</i>
+        <br />
+        <br />
+        <b>The next pitch day will be end of April 2022 to align with the associated AFWERX SBIR opening.  Spark will inform all industry applicants by the first week of April if they are being invited to pitch.</b>
+      textOrientation: right
       # buttons:
       #   - text: <span style="padding:1px">Apply Now</span>
       #     url: /industry/apply
@@ -37,6 +46,7 @@ sections:
       descriptor: >
         If a you’re able to secure an active Government partner, Phoenix Spark will work with you and the airmen to bring that solution to reality!
       textOrientation: left
+
   #     descriptor2: <i>Examples of past projects:</i>
   #     buttons:
   #       - text: <span style="padding:1px">Additive Manufacturing</span>
