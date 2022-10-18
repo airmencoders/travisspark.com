@@ -46,7 +46,7 @@ sections:
           Checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list first, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reachout to any of them!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
   cta:
     - header: Are you interested in learning to program, or do you have prior experience?  
-      button1Text: Click this button
+      button1Text: Reach out and join
       button1Url:  /forms/dig-apply/
       isInternal: 'yes'
     # - header: Get started today!
