@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: links
 title: Industry One-Pagers
 permalink: /1-pagers/
@@ -71,4 +71,4 @@ sections:
             link: /1-pagers/SpecularTheory.pdf
             description: > 
               Go here to view a quick PDF overview of Specular Theory's C-17 immersive training tools.
----
+--- -->
