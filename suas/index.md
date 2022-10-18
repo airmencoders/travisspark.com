@@ -13,12 +13,12 @@ sections:
     - header: Aircraft Maintenance Remote Viewing
       descriptor: >
         The 60th and 860th Aircraft Maintenance Squadrons are currently using sUAS's to conduct over-the-wing inspections when local conditions do not allow maintenance personnel access to those areas due to safety concerns.  Ordinarily, those sections of the Basic Post-Flight (BPO) inspections pushed off to the next scheduled inspection, leaving the possibility that the aircraft could be released to flight status with an undetected defect.  The usage of sUAS's to augment maintenance inspections serves to alleviate this possibility.
-      image: /suas/images/drone-inspection.jpg
+      image: /suas/images/suas-insp.jpeg
       textOrientation: right
     - header: Border Perimeter Security & Traffic Management
       descriptor: >
-         The 60th SFS is working with an AFWERX SBIR company in testing and developing a prototype autonomous aerial monitoring system to deliver advanced perimeter security and situational awareness using autonomous self-deployed drones.  Currently they have 3 autonomous and 2 tethered units in production use.
-      image: /suas/images/border_sec.mp4
+         The 60th Security Forces Squadron (SFS) is using sUAS to conduct perimeter security inspections and to aid in the direction of traffic on base.  These capabilities have enabled SFS to increase the frequency of perimeter inspections and to provide a more efficient means of traffic management.  SFS personnel are now better able to .
+      image: /suas/images/suas-perim.jpeg
       textOrientation: left
   splitColumnsFinal:
     header: Modernize your TTPs with sUAS
