@@ -20,11 +20,16 @@ sections:
          The 60th Security Forces Squadron (SFS) is using sUAS to conduct perimeter security inspections and to aid in the direction of traffic on base.  These capabilities have enabled SFS to increase the frequency of perimeter inspections and to provide a more efficient means of traffic management.  SFS personnel are now better able to .
       image: /suas/images/suas-perim.png
       textOrientation: left
+    # - header: Public Affairs
+    #   descriptor: >
+    #      Travis AFB Public Affairs (PA) has begun using drones to cover on-base events and ceremonies.  
+    #   image: /suas/images/suas-perim.png
+    #   textOrientation: left
   splitColumnsFinal:
     header: Diaster Response & Recovery
     descriptor: >
       Civil Engineering and other disaster response agencies are using sUAS to conduct damage assessments and to provide situational awareness during disaster response and recovery operations.  The sUAS's are also being used to provide aerial imagery to assist in the planning and execution of recovery operations.
-    textOrientation: center
+    textOrientation: right
     image: /suas/images/suas-storm.png
   faq:
     header: Frequently Asked Questions (FAQs)
