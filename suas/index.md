@@ -21,11 +21,11 @@ sections:
       image: /suas/images/suas-perim.png
       textOrientation: left
   splitColumnsFinal:
-    header: Modernize your TTPs with sUAS
+    header: Diaster Response & Recovery
     descriptor: >
-      Small UAS tactics, techniques and procedures are not keeping pace with innovation, the demand for capability, or the growing threats emerging from malignant actors. The massive proliferation of  extreme-low-cost and autonomous aviation technologies, commonly referred to as sUAS or “drones,” creates a paradigm shift in the way global mobility operations are conducted. We are working on staying ahead of the wave!
+      Civil Engineering and other disaster response agencies are using sUAS to conduct damage assessments and to provide situational awareness during disaster response and recovery operations.  The sUAS's are also being used to provide aerial imagery to assist in the planning and execution of recovery operations.
     textOrientation: center
-    # image: /arvr/images/arvr.png
+    image: /suas/images/suas-storm.png
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
