@@ -46,7 +46,7 @@ sections:
           Checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list first, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reachout to any of them!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
   cta:
     - header: Are you interested in learning to program, or do you have prior experience?  
-    #   button1Text: Reach out and join
+    #   button1Text: Reach out 
     #   button1Url:  /forms/digital-survey/
     #   isInternal: 'yes'
     # - header: Get started today!
@@ -58,7 +58,7 @@ sections:
         # - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-c2797bbc-1361-4e12-8741-8e38c931ecdd"><span class="hs-cta-node hs-cta-c2797bbc-1361-4e12-8741-8e38c931ecdd" id="hs-cta-c2797bbc-1361-4e12-8741-8e38c931ecdd"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/c2797bbc-1361-4e12-8741-8e38c931ecdd"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-c2797bbc-1361-4e12-8741-8e38c931ecdd" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/c2797bbc-1361-4e12-8741-8e38c931ecdd.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'c2797bbc-1361-4e12-8741-8e38c931ecdd', {"region":"na1"}); </script></span>
       # buttons:
         - text: Reach out and join!  
-          url:  /forms/digital-survey.html
+          url:  /forms/digital-survey/
           isInternal: 'yes'
       #   - text: Join our ecosystem
       #     url: /apply/
