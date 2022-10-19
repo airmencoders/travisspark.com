@@ -18,7 +18,7 @@ sections:
     - header: Border Perimeter Security & Traffic Management
       descriptor: >
          The 60th Security Forces Squadron (SFS) is using sUAS to conduct perimeter security inspections and to aid in the direction of traffic on base.  These capabilities have enabled SFS to increase the frequency of perimeter inspections and to provide a more efficient means of traffic management.  SFS personnel are now better able to .
-      image: /suas/images/suas-perim.jpeg
+      image: /suas/images/suas-perim.png
       textOrientation: left
   splitColumnsFinal:
     header: Modernize your TTPs with sUAS
