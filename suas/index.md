@@ -34,14 +34,12 @@ sections:
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
-      - question: How do I get sUAS solutions for my unit?
+      - question: Question 1?
         answer: >
-          Click the "View the sUAS Knowledge Base" button above to find contact information, best practices, and existing contracts.  Once you are ready, feel free to contact one of the team members there to get going!
-      - question: How do I use SBIR for sUAS?
+          Answer 1
+      - question: Question 2?
         answer: >
-          Before you start a new SBIR, we highly recommend that you try to team up to scale an existing effort that has proven success & that
-          has a passionate government POC.  You can find these efforts from the <b>View the sUAS Knowledge Base</b> button above!  If you want to keep
-          looking at other options, checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reachout to any of them.  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
+          Answer 2
   # cta:
   #   - header: Get started today!
   #     button1Text: Join our Ecosystem
