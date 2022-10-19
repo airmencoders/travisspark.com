@@ -9,17 +9,16 @@ sections:
       light: '000'
       dark: '111'
   splitColumns:
-    - header: Tron Travis
+    - header: Galvanize Software Development Immersive
       descriptor: >
-        The 60th AMW is currently joining in a partnership called, <a target="_blank" href="https://tron.dso.mil/"><span style="font-style: italic;">Tron Software</span></a>, with the 437 AW, 15 Wg, 305 AMW, Joint Special Operations Command, Space Operations Center,
-        Platform One, CORSAIR Ranch, and AFWERX to build a collaborative software innovation organization that can allow 
-        community-driven decisions, centralized support, and decentralized control/execution.  We are actively creating partnerships between digital airmen & innovative businesses to solve problems through software!
+        Phoenix Spark and Galvanize have partnered to give Travis Airmen the opportunity to learn software development skills in a 12-week immersive program. The program is designed to give students the skills and experience to be successful in the software development industry. Students will learn the fundamentals of software development, including HTML, CSS, JavaScript, Postgres, and React. Students will also learn how to work in a team environment, how to communicate effectively, and how to present their work to an audience. The program will culminate in a final project that will be presented to the wider USAF and USSF Travis communities.
       image: /digital/images/digital-airmen-commit.png
       textOrientation: left
-    - header: Digital Aircrew Initiative, Mattermost
+    - header: In-House Software Development Courses
       descriptor: >
-         When COVID restrictions began in March of 2020, the 60th AMW quickly began working to find a lasting solution for remote collaboration
-         that could handle both normal and FOUO/PII communications.  Working with both <a target="_blank" href="https://p1.dso.mil/">DoD Platform One</a> and <a target="_blank" href="https://tron.dso.mil/">Tron Software</a>, Phoenix Spark helped to launch a DoD-wide version of Mattermost to support remote collaboration.  Since that time, Phoenix Spark has continued to iterate, working with multiple AMC wings & staff agencies to build command-wide guidance & processes for utilizing the platform as a C2 capability. 
+        <b>This Digital Initiative is currently under construction.</b>
+        
+        Phoenix Spark is working with the 60th Air Mobility Wing to create a software development course that will teach Airmen the fundamentals of software development.  The course will be taught by Airmen who have already completed the Galvanize Software Development Immersive program, or who already have real-world experience with a given programming language.  The languages taught will start out with basic JavaScript, React, HTML, and CSS, possibly expanding to cover other languages as personnel, time, and opportunity permit.  The course will be taught in a classroom setting and will be open to all Airmen on Travis AFB.
       video: https://vimeo.com/showcase/8144814/embed
       textOrientation: right
     - header: Digital Aircrew Initiative, Puckboard
