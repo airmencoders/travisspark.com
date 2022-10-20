@@ -21,9 +21,9 @@ sections:
         Phoenix Spark is working with the 60th Air Mobility Wing to create a software development course that will teach Airmen the fundamentals of software development.  The course will be taught by Airmen who have already completed the Galvanize Software Development Immersive program, or who already have real-world experience with a given programming language.  The languages taught will start out with basic JavaScript, React, HTML, and CSS, possibly expanding to cover other languages as personnel, time, and opportunity permit.  The course will be taught in a classroom setting and will be open to all Airmen on Travis AFB.
       video: https://vimeo.com/showcase/8144814/embed
       textOrientation: right
-    - header: InfiniSheets
+    - header: Platinum Grid
       descriptor: >
-         InfiniSheets <i>(name not final)</i> is a program designed to track inventory or equipment.  Originally designed in Microsoft Access, InfiniSheets was redeveloped in JavaScript, CSS, and Postgres during SDI #10 as a capstone project.  The program is currently being optioned by the USSF and USAF HAF/A4 to track satellite information and aircraft part Tail Number Bin (TNB) information, respectively.  While not yet deployed for wider use, InfiniSheets' ability to generate QR-codes from entered data to better enable has the potential to transform how parts out of the supply system are tracked, and once installed on an aircraft, are replaced.
+         Platinum Grid <i>(formerly 'SmartSheets')</i> is a program designed to track inventory or equipment.  Originally designed in Microsoft Access, Platinum Grid was redeveloped in JavaScript, CSS, and Postgres during SDI #10 as a capstone project.  The program is currently being optioned by the USSF/Space Camp and USAF HAF/A4 to track satellite information and aircraft part Tail Number Bin (TNB) information, respectively.  While not yet deployed for wider use, Platinum Grid's ability to generate QR-codes from entered data to better enable has the potential to transform how parts out of the supply system are tracked, and once installed on an aircraft, are replaced.
       video: /digital/images/InfiniSheets Demo.mp4
       textOrientation: left
   splitColumnsFinal:
