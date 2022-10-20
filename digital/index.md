@@ -21,7 +21,7 @@ sections:
         Phoenix Spark is working with the 60th Air Mobility Wing to create a software development course that will teach Airmen the fundamentals of software development.  The course will be taught by Airmen who have already completed the Galvanize Software Development Immersive program, or who already have real-world experience with a given programming language.  The languages taught will start out with basic JavaScript, React, HTML, and CSS, possibly expanding to cover other languages as personnel, time, and opportunity permit.  The course will be taught in a classroom setting and will be open to all Airmen on Travis AFB.
       video: https://vimeo.com/showcase/8144814/embed
       textOrientation: right
-    - header: Digital Aircrew Initiative, Puckboard
+    - header: InfiniSheets
       descriptor: >
          Puckboard is a live, collaborative scheduling platform available to servicemembers around the globe on your desktop, phone, or tablet--anywhere you have the internet!  Build a schedule in minutes, with customizable roles, event types, and conflict settings. View your squadron or unit roster while you’re building the schedule, and see in real time who is available for missions.
       video: https://player.vimeo.com/video/519703781
