@@ -17,24 +17,20 @@ sections:
       textOrientation: right
     - header: Spark Tank Timeline
       descriptor: >
-        <strong><h4>1 October - 15 November, 2022</h4></strong>
-        <h5>Window for Spark Tank submissions</h5>
+        <strong><h4>25 October, 2022 - 15 January, 2023</h4></strong>
+        <h5>Window for Spark Tank submissions
+        Refine your submission and submit your final proposal</h5>
         <br>
-        <strong><h4>15 November - 7 December, 2022</h4></strong>
-        <h5>Refine your submission and submit your final proposal</h5>
         </strong><h6 style="color:red;">NOTE:</strong> Personnel pitching ideas must attend one of the Friday Pitch Sessions</h6>
         <br>
-        <strong><h4>15 December, 2022</h4></strong>
+        <strong><h4>13 - 17 February, 2023</h4></strong>
         <h5>Pitch your idea to the Spark Tank judges panel</h5>
         <br>
-        <strong><h4>16 December, 2022 - 15 January, 2023</h4></strong>
-        <h5>Submitters create and forward all required documentation for their proposals</h5>
+        <strong><h4>28 February, 2023</h4></strong>
+        <h5>Submitters finalize all required documentation for their proposals</h5>
         <h6>Ex.: Statements of Work, Form 9's, etc.</h6>
         <br>
-        <strong><h4>15 January, 2023</h4></strong>
-        <h5>Wing CC reviews top picks and selects the top 3</h5>
-        <br>
-        </strong><h4>1 March, 2023</h4></strong>
+        </strong><h4>13 - 17 March, 2023</h4></strong>
         <h5>Spark Tank is held at Travis AFB</h5>
         <h5>Top 3 present their ideas to the Wing CC and VIP's</h5><br>
       image:
