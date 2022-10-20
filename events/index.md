@@ -17,7 +17,7 @@ sections:
     #   filter: working
   events:
     - title: Spark Tank 2023
-      date: TBD
+      date: Begins 25 October, 2022!
       time: Open for submissions 24/7
       description: >
         Submit your innovation, idea, project, or proposal to the 2023 Spark Tank and help the USAF and your fellow airmen "accelerate change".
@@ -61,12 +61,12 @@ sections:
       button: Register
       link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-441348594527?aff=website"
       filter: 3d
-    - title: Industry Pitch Day
-      date: June
-      description: >
-        If you are a company with a product or solution and you would like the opportuntiy to demo your product to potential customers at Travis AFB, sign up for our Industry Pitch Day.
-      image: /events/img/industry_pitch_day.png
-      button: Learn More
-      link: "https://travisspark.com/industry/"
-      filter: industry
+    # - title: Industry Pitch Day
+    #   date: June
+    #   description: >
+    #     If you are a company with a product or solution and you would like the opportuntiy to demo your product to potential customers at Travis AFB, sign up for our Industry Pitch Day.
+    #   image: /events/img/industry_pitch_day.png
+    #   button: Learn More
+    #   link: "https://travisspark.com/industry/"
+    #   filter: industry
 ---
