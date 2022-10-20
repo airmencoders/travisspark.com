@@ -18,8 +18,7 @@ sections:
     - header: Spark Tank Timeline
       descriptor: >
         <strong><h4>25 October, 2022 - 15 January, 2023</h4></strong>
-        <h5>Window for Spark Tank submissions
-        Refine your submission and submit your final proposal</h5>
+        <h5>Window for Spark Tank submissions, refining submissions, and submitting your final proposal</h5>
         <br>
         </strong><h6 style="color:red;">NOTE:</strong> Personnel pitching ideas must attend one of the Friday Pitch Sessions</h6>
         <br>
