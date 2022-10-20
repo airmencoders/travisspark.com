@@ -9,9 +9,9 @@ sections:
       light: '000'
       dark: '111'
   splitColumns:
-    - header: Galvanize Software Development Immersive
+    - header: Galvanize Software Development Immersive (SDI)
       descriptor: >
-        Phoenix Spark and Galvanize have partnered to give Travis Airmen the opportunity to learn software development skills in a 12-week immersive program. The program is designed to give students the skills and experience to be successful in the software development industry. Students will learn the fundamentals of software development, including HTML, CSS, JavaScript, Postgres, and React. Students will also learn how to work in a team environment, how to communicate effectively, and how to present their work to an audience. The program will culminate in a final project that will be presented to the wider USAF and USSF Travis communities.
+        Phoenix Spark and Galvanize have partnered to give Travis Airmen the opportunity to learn software development skills in a 12-week immersive program. The program is designed to give students the skills and experience to be successful in the software development industry. Students will learn the fundamentals of software development, including HTML, CSS, JavaScript, Postgres, and React. Students will also learn how to work in a team environment, how to communicate effectively, and how to present their work to an audience. The program will culminate in a final project that will be presented to the wider USAF and United States Space Force (USSF) Travis communities.
       image: /digital/images/digital-airmen-commit.png
       textOrientation: left
     - header: In-House Software Development Courses
@@ -23,13 +23,13 @@ sections:
       textOrientation: right
     - header: InfiniSheets
       descriptor: >
-         Puckboard is a live, collaborative scheduling platform available to servicemembers around the globe on your desktop, phone, or tablet--anywhere you have the internet!  Build a schedule in minutes, with customizable roles, event types, and conflict settings. View your squadron or unit roster while you’re building the schedule, and see in real time who is available for missions.
-      video: https://player.vimeo.com/video/519703781
+         InfiniSheets <i>(name not final)</i> is a program designed to track inventory or equipment.  Originally designed in Microsoft Access, InfiniSheets was redeveloped in JavaScript, CSS, and Postgres during SDI #10 as a capstone project.  The program is currently being optioned by the USSF and USAF HAF/A4 to track satellite information and aircraft part Tail Number Bin (TNB) information, respectively.  While not yet deployed for wider use, InfiniSheets' ability to generate QR-codes from entered data to better enable has the potential to transform how parts out of the supply system are tracked, and once installed on an aircraft, are replaced.
+      video: /digital/images/InfiniSheets Demo.mp4
       textOrientation: left
   splitColumnsFinal:
     header: Modernize your Software & Digital Talent
     descriptor: >
-      Help us to create an environment within the US military and government at large where any servicemember or government civilian can become educated and enabled to contribute to the software that runs their lives & the lives of the people they represent, whether through code, product ownership, design, or elsewhere, in a manner that brings programmatic decision authority to the people who are closest to the mission.
+      Help us to create an environment within the US military and government at large where any service member or government civilian can become educated and enabled to contribute to the software that runs their lives & the lives of the people they represent, whether through code, product ownership, design, or elsewhere, in a manner that brings programmatic decision authority to the people who are closest to the mission.
     textOrientation: center
     # image: /arvr/images/arvr.png
   faq:
