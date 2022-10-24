@@ -141,6 +141,7 @@ font header .navbar-default .navbar-nav li a:hover {
   scroll-snap-align: none;
   object-fit: cover;
   object-position: center;
+  border-radius: 3px;
 }
 @keyframes slide{
     20%{
