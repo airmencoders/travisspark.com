@@ -97,7 +97,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 .container {
-  background-color: #111;
+  /* background-color: #111; */
   padding: 2rem;
 }
 .slider-wrapper {
