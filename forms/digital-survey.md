@@ -1,6 +1,6 @@
 ---
 layout: googleform
-title: Digital Initiatives Survey
+title: DI Survey
 permalink: /digital-survey/
 ---
 

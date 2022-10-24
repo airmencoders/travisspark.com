@@ -98,12 +98,12 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 .container {
   padding: 2rem;
-  background-color: #000;
 }
 .slider-wrapper {
   position: relative;
   max-width: 75rem;
   margin: 0 auto;
+  background-color: #111;
 }
 .slider {
   position: relative;
