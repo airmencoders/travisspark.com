@@ -130,7 +130,7 @@ font header .navbar-default .navbar-nav li a:hover {
   height: 1.5rem;
   border-radius: 50%;
   background-color: #555;
-  opacity: 0.75;
+  opacity: 0.50;
   transition: opacity ease 250ms;
 }
 .slider-nav a:hover {
