@@ -100,14 +100,13 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 2rem;
 }
 .slider-wrapper {
+  background-color: #111;
   position: relative;
   max-width: 75rem;
   margin: 0 auto;
-  /* background-color: #111; */
 }
 .slider {
   position: relative;
-  background-color: #111;
   display: flex;
   aspect-ratio: 16 / 9;
   overflow-x: hidden;
