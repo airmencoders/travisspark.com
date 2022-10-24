@@ -136,8 +136,8 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: opacity ease 250ms;
 }
 .slider-nav a:hover {
-  opacity: 1;
-}
+  opacity: 1; */
+/* } */
 .slider img {
   flex: 1 0 100%;
   scroll-snap-align: none;
@@ -145,7 +145,7 @@ font header .navbar-default .navbar-nav li a:hover {
   object-position: center;
   border-radius: 3px;
 }
-@keyframes slide{
+/* @keyframes slide{
     20%{
         transform: translateX(0);
     }
@@ -160,8 +160,8 @@ font header .navbar-default .navbar-nav li a:hover {
     }
     100% {
       transform: translateX(0);
-  }     */
-/* } */
+  }     */ */
+/* }
 
 /*--
 	wrapper Start
