@@ -106,6 +106,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
   max-width: 75rem;
   margin: 0 auto;
+  border-radius: 3px;
 }
 .slider {
   position: relative;
@@ -143,7 +144,6 @@ font header .navbar-default .navbar-nav li a:hover {
   scroll-snap-align: none;
   object-fit: cover;
   object-position: center;
-  border-radius: 3px;
 }
 @keyframes slide{
     20%{
