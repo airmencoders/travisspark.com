@@ -100,13 +100,14 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 .container {
   padding: 2rem;
+  border-radius: 19px;
 }
 .slider-wrapper {
   background-color: #111;
   position: relative;
   max-width: 75rem;
   margin: 0 auto;
-  border-radius: 29px;
+  border-radius: 19px;
 }
 .slider {
   position: relative;
