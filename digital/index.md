@@ -19,7 +19,7 @@ sections:
         <b>This Digital Initiative is currently under construction.</b><br>
         <br>
         Phoenix Spark is working with the 60th Air Mobility Wing to create a software development course that will teach Airmen the fundamentals of software development.  The course will be taught by Airmen who have already completed the Galvanize Software Development Immersive program, or who already have real-world experience with a given programming language.  The languages taught will start out with basic JavaScript, React, HTML, and CSS, possibly expanding to cover other languages as personnel, time, and opportunity permit.  The course will be taught in a classroom setting and will be open to all Airmen on Travis AFB.
-      video: https://vimeo.com/showcase/8144814/embed
+      image: /digital/images/PWRAPP-POL.gif
       textOrientation: right
     - header: Platinum Grid
       descriptor: >
