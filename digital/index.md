@@ -24,7 +24,7 @@ sections:
     - header: Platinum Grid
       descriptor: >
          Platinum Grid <i>(formerly 'SmartSheets')</i> is a program designed to track inventory or equipment.  Originally designed in Microsoft Access, Platinum Grid was redeveloped in JavaScript, CSS, and Postgres during SDI #10 as a capstone project.  The program is currently being optioned by the USSF/Space Camp and USAF HAF/A4 to track satellite information and aircraft part Tail Number Bin (TNB) information, respectively.  While not yet deployed for wider use, Platinum Grid's ability to generate QR-codes from entered data to better enable has the potential to transform how parts out of the supply system are tracked, and once installed on an aircraft, are replaced.
-      video: /digital/images/infinisheets-demo.mp4
+      video: /digital/images/platinumgrid-inv.PNG
       textOrientation: left
   splitColumnsFinal:
     header: Modernize your Software & Digital Talent
