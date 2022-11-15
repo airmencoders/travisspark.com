@@ -26,6 +26,9 @@ sections:
          Platinum Grid <i>(formerly 'SmartSheets')</i> is a program designed to track inventory or equipment.  Originally designed in Microsoft Access, Platinum Grid was redeveloped in JavaScript, CSS, and Postgres during SDI #10 as a capstone project.  The program is currently being optioned by the USSF/Space Camp and USAF HAF/A4 to track satellite information and aircraft part Tail Number Bin (TNB) information, respectively.  While not yet deployed for wider use, Platinum Grid's ability to generate QR-codes from entered data to better enable has the potential to transform how parts out of the supply system are tracked, and once installed on an aircraft, are replaced.
       video: /digital/images/platinumgrid-inv.PNG
       textOrientation: left
+    - header: Microsoft PowerApps Development
+      descriptor: >
+        Microsoft PowerApps enable in-house, bespoke solutions for work center issues that can be resolved through digital means.  Whether this is the sharing of documents between sections, to creating a Petrol, Oil, and Lubrication (POL) dashboard to ensure aircraft receive fuel in a timely manner, to establishing a centrally available shift turnover log, PowerApps can be used to solve a wide variety of problems.  Phoenix Spark is developing a PowerApps training course to better leverage this tool set to make life easier at Travis AFB. 
   splitColumnsFinal:
     header: Modernize your Software & Digital Talent
     descriptor: >
