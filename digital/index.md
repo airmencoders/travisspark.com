@@ -31,6 +31,8 @@ sections:
         <b>This Digital Initiative is currently under construction.</b><br>
         <br>
         Microsoft PowerApps enables in-house, bespoke solutions for work center issues that can be resolved through digital means.  Whether this is the sharing of documents between sections, to creating a Petrol, Oil, and Lubrication (POL) dashboard to ensure aircraft receive fuel in a timely manner, to establishing a centrally available shift turnover log, PowerApps can be used to solve a wide variety of problems.  Phoenix Spark is developing a PowerApps training course to better leverage this tool set to make life easier at Travis AFB. 
+      image:
+      textOrientation: left
   splitColumnsFinal:
     header: Modernize your Software & Digital Talent
     descriptor: >
