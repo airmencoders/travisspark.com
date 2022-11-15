@@ -16,8 +16,8 @@ sections:
       textOrientation: left
     - header: In-House Software Development Courses
       descriptor: >
-        <b>This Digital Initiative is currently under construction.</b>
-        
+        <b>This Digital Initiative is currently under construction.</b><br>
+        <br>
         Phoenix Spark is working with the 60th Air Mobility Wing to create a software development course that will teach Airmen the fundamentals of software development.  The course will be taught by Airmen who have already completed the Galvanize Software Development Immersive program, or who already have real-world experience with a given programming language.  The languages taught will start out with basic JavaScript, React, HTML, and CSS, possibly expanding to cover other languages as personnel, time, and opportunity permit.  The course will be taught in a classroom setting and will be open to all Airmen on Travis AFB.
       video: https://vimeo.com/showcase/8144814/embed
       textOrientation: right
@@ -28,9 +28,8 @@ sections:
       textOrientation: left
     - header: Microsoft PowerApps Development
       descriptor: >
-        <b>This Digital Initiative is currently under construction.</b>
-
-
+        <b>This Digital Initiative is currently under construction.</b><br>
+        <br>
         Microsoft PowerApps enable in-house, bespoke solutions for work center issues that can be resolved through digital means.  Whether this is the sharing of documents between sections, to creating a Petrol, Oil, and Lubrication (POL) dashboard to ensure aircraft receive fuel in a timely manner, to establishing a centrally available shift turnover log, PowerApps can be used to solve a wide variety of problems.  Phoenix Spark is developing a PowerApps training course to better leverage this tool set to make life easier at Travis AFB. 
   splitColumnsFinal:
     header: Modernize your Software & Digital Talent
