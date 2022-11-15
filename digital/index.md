@@ -30,7 +30,7 @@ sections:
       descriptor: >
         <b>This Digital Initiative is currently under construction.</b><br>
         <br>
-        Microsoft PowerApps enable in-house, bespoke solutions for work center issues that can be resolved through digital means.  Whether this is the sharing of documents between sections, to creating a Petrol, Oil, and Lubrication (POL) dashboard to ensure aircraft receive fuel in a timely manner, to establishing a centrally available shift turnover log, PowerApps can be used to solve a wide variety of problems.  Phoenix Spark is developing a PowerApps training course to better leverage this tool set to make life easier at Travis AFB. 
+        Microsoft PowerApps enables in-house, bespoke solutions for work center issues that can be resolved through digital means.  Whether this is the sharing of documents between sections, to creating a Petrol, Oil, and Lubrication (POL) dashboard to ensure aircraft receive fuel in a timely manner, to establishing a centrally available shift turnover log, PowerApps can be used to solve a wide variety of problems.  Phoenix Spark is developing a PowerApps training course to better leverage this tool set to make life easier at Travis AFB. 
   splitColumnsFinal:
     header: Modernize your Software & Digital Talent
     descriptor: >
@@ -40,14 +40,13 @@ sections:
   faq:
     header: Frequently Asked Questions (FAQs)
     tabs:
-      - question: How do I get sUAS solutions for my unit?
+      - question: If I don't have any coding experience can I still partake in the Digital Initiatives?
         answer: >
-          Click the "Contact Us" button above, send us some information about your use case, and we will connect you to other teams on base
-          who are already working in the same arena!
+          Yes!  Your experience, or inexperience, in coding is not a barrier to entry.  We will teach you the fundamentals of coding, and you will have the opportunity to learn from your peers and instructors.  We will also provide you with the opportunity to learn from the best in the industry, and to network with them.
         # Link to confluence, add in primary POCs for travis & other bases, if that doesn't work, try a new SBIR (see FAQ below) 
-      - question: How do I use SBIR for sUAS?
+      - question: Where can I go to learn more about coding before taking the Phoenix Spark aptitude assessment?
         answer: >
-          Checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/suas-sbir-list/>AFWERX SBIR Companies</a> list first, search for companies with keywords containing "Unmanned Aerial Systems," and feel to reachout to any of them!  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
+          Checkout <a target="_blank" href=https://www.freecodecamp.org/news/tag/coding-bootcamps/>Free Code Camp</a> to begin your journey.  Alternatively, search for "free coding courses" and take whichever program strikes your fancy!
   cta:
     - header: Are you interested in learning to program, or do you have prior experience?  
       button1Text: Reach out and join
