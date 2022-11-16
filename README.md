@@ -1,9 +1,6 @@
-## Steps for Setup:
+## How to Edit files before committing them:
 
-### Read Jekyll tutorial
-Go through the steps to learn `jekyll` in the tutorial here: https://jekyllrb.com/docs/step-by-step/01-setup/
-
-### Make sure you have Ruby
+### Install Ruby
 
 First, make sure you have [Ruby](https://www.ruby-lang.org/en/) installed. You can confirm this by running `ruby -v` on the command line:
 
@@ -15,6 +12,15 @@ ruby [version number] (date) [your platform]
 If you get something like `"Error, command not found"` visit the link above and
 install Ruby for your platform.
 
+
+## Install Jekyll and Bundler
+
+``` bash
+gem install jekyll bundler
+```
+
+### Read Jekyll tutorial
+Go through the steps to learn `jekyll` in the tutorial here: https://jekyllrb.com/docs/step-by-step/01-setup/
 
 ### Make sure you have Bundler
 
