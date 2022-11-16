@@ -43,24 +43,24 @@ sections:
       button: Learn More
       link: "/forms/sdi-full-time.html"
       filter: coding
-    - title: 3D Printing Level 1
-      date: 27-28 Oct
-      time: 0800-1600
-      description: >
-        Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
-      image: /manufacturing/images/printing.jpg
-      button: Register
-      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-441347842277?aff=website"
-      filter: 3d
-    - title: 3D Printing Level 1
-      date: 14-15 Nov
-      time: 0800-1600
-      description: >
-        Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
-      image: /manufacturing/images/printing.jpg
-      button: Register
-      link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-441348594527?aff=website"
-      filter: 3d
+    # - title: 3D Printing Level 1
+    #   date: 27-28 Oct
+    #   time: 0800-1600
+    #   description: >
+    #     Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
+    #   image: /manufacturing/images/printing.jpg
+    #   button: Register
+    #   link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-441347842277?aff=website"
+    #   filter: 3d
+    # - title: 3D Printing Level 1
+    #   date: 14-15 Nov
+    #   time: 0800-1600
+    #   description: >
+    #     Sign up today to learn introductory 3D Printing skills with Phoenix Spark at the Lt. Gen John Gonge Innovation Lab.
+    #   image: /manufacturing/images/printing.jpg
+    #   button: Register
+    #   link: "https://www.eventbrite.com/e/3d-printing-level-1-registration-441348594527?aff=website"
+    #   filter: 3d
     # - title: Industry Pitch Day
     #   date: June
     #   description: >
