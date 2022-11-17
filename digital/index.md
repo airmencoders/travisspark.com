@@ -55,7 +55,7 @@ sections:
       button1Url:  /digital-survey/
       isInternal: 'yes'
     - header: Think you are ready to apply to be a full-stack developer?  
-      button2Text: Take this 10-minute assessment and find out!
+      button2Text: Take this assessment!
       button2Url:  /knowledge-test/
       isInternal: 'yes'
     # - header: Get started today!
