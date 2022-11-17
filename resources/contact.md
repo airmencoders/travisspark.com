@@ -13,58 +13,58 @@ sections:
   splitColumns:
     - header: Contact Us
       descriptor: >
-        The Travis AFB Spark Tank is a chance for any airman, regardless of rank, to pitch their innovative ideas, initiatives, or programs for additional funding, visibility, and to grow a culture of innovation.
+        If you have a question, comment, or concern, let us know by sending an email to the [Phoenix Spark org box](mailto:phoenix@travisspark.com) or at <b>DSN (707)-424-8920<b>.
       image: /sparktank/images/spark-tank-bkgrnd.png
       textOrientation: right
-    - header: Spark Tank Timeline
-      descriptor: >
-        <strong><h4>25 October, 2022 - 15 January, 2023</h4></strong>
-        <h5>Window for Spark Tank submissions, refining submissions, and submitting your final proposal</h5>
-        <br>
-        </strong><h6 style="color:red;">NOTE:</strong> Personnel pitching ideas must attend one of the Friday Pitch Sessions</h6>
-        <br>
-        <strong><h4>13 - 17 February, 2023</h4></strong>
-        <h5>Pitch your idea to the Spark Tank judges panel</h5>
-        <br>
-        <strong><h4>28 February, 2023</h4></strong>
-        <h5>Submitters finalize all required documentation for their proposals</h5>
-        <h6>Ex.: Statements of Work, Form 9's, etc.</h6>
-        <br>
-        </strong><h4>13 - 17 March, 2023</h4></strong>
-        <h5>Spark Tank is held at Travis AFB</h5>
-        <h5>Top 3 present their ideas to the Wing CC and VIP's</h5><br>
-      image:
-      textOrientation: left
-  splitColumnsFinal:
-    header: Overview of 2022 Spark Tank Top Nominees
-    descriptor: >
-      <strong>Previous Spark Tank top selectees have included:</strong>
-        <li> From 60 MDG: an additively manufactured KC-46A hose and line clamp to prevent tripping hazards and remove the need to use sharp tools to remove the mounted hoses and lines.
-        <h6>Champions: Branden Bowman, TSgt, 60 AES, Tristen Meadors, SSgt, 60 AES, Max Estrada, SSgt, 60 AES, and Stephen Jogerst, TSgt, 60 AMXS</h6></li>
-        <li> From 60 MDG: a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application to help get post-partum mothers back into shape.
-        <h6>Champion: Sarah K. Brown-Fernandez, Capt, 60 MDG</h6></li>
-        <li> From 60 MXG: Augmented Reality equipment for aircraft maintenance.
-        <h6>Champion: Kevin C. Wolfe, TSgt, 60 MXS</h6></li>
-        <li>From 60 MXG: a robot armature to calibrate thermometers for the Precision Measurement Equipment Laboratory.
-        <h6>Champion: Clay Clemmer, SrA, 60 MXS</h6></li>
-        <li> From 60 MSG: a drive-in backscatter x-ray system to inspect tractor trailers coming through the South Gate.
-        <h6>Champion: Donald Gresham, TSgt, 60 SFS</li>
-    image: /sparktank/images/spark-tank-gif.gif
-    textOrientation: right # image: /arvr/images/arvr.png  
+  #   - header: Spark Tank Timeline
+  #     descriptor: >
+  #       <strong><h4>25 October, 2022 - 15 January, 2023</h4></strong>
+  #       <h5>Window for Spark Tank submissions, refining submissions, and submitting your final proposal</h5>
+  #       <br>
+  #       </strong><h6 style="color:red;">NOTE:</strong> Personnel pitching ideas must attend one of the Friday Pitch Sessions</h6>
+  #       <br>
+  #       <strong><h4>13 - 17 February, 2023</h4></strong>
+  #       <h5>Pitch your idea to the Spark Tank judges panel</h5>
+  #       <br>
+  #       <strong><h4>28 February, 2023</h4></strong>
+  #       <h5>Submitters finalize all required documentation for their proposals</h5>
+  #       <h6>Ex.: Statements of Work, Form 9's, etc.</h6>
+  #       <br>
+  #       </strong><h4>13 - 17 March, 2023</h4></strong>
+  #       <h5>Spark Tank is held at Travis AFB</h5>
+  #       <h5>Top 3 present their ideas to the Wing CC and VIP's</h5><br>
+  #     image:
+  #     textOrientation: left
+  # splitColumnsFinal:
+  #   header: Overview of 2022 Spark Tank Top Nominees
+  #   descriptor: >
+  #     <strong>Previous Spark Tank top selectees have included:</strong>
+  #       <li> From 60 MDG: an additively manufactured KC-46A hose and line clamp to prevent tripping hazards and remove the need to use sharp tools to remove the mounted hoses and lines.
+  #       <h6>Champions: Branden Bowman, TSgt, 60 AES, Tristen Meadors, SSgt, 60 AES, Max Estrada, SSgt, 60 AES, and Stephen Jogerst, TSgt, 60 AMXS</h6></li>
+  #       <li> From 60 MDG: a medical program using Oura fitness rings in conjunction with the Pear Sports smart phone application to help get post-partum mothers back into shape.
+  #       <h6>Champion: Sarah K. Brown-Fernandez, Capt, 60 MDG</h6></li>
+  #       <li> From 60 MXG: Augmented Reality equipment for aircraft maintenance.
+  #       <h6>Champion: Kevin C. Wolfe, TSgt, 60 MXS</h6></li>
+  #       <li>From 60 MXG: a robot armature to calibrate thermometers for the Precision Measurement Equipment Laboratory.
+  #       <h6>Champion: Clay Clemmer, SrA, 60 MXS</h6></li>
+  #       <li> From 60 MSG: a drive-in backscatter x-ray system to inspect tractor trailers coming through the South Gate.
+  #       <h6>Champion: Donald Gresham, TSgt, 60 SFS</li>
+  #   image: /sparktank/images/spark-tank-gif.gif
+  #   textOrientation: right # image: /arvr/images/arvr.png  
 
-  faq:
-    header: Frequently Asked Questions (FAQs)
-    tabs:
-      - question: If I don't get picked as a top nominee, can I still receive funding for my idea?
-        answer: >
-          Yes!  Even those submissions which are not selected as top nominees will be considered for funding.  Once the top submissions have had funding allocated, other innovation ideas will be considered for funding.  If you have an idea, submit it!
-      - question: If I didn't make the Spark Tank submission deadline, can I still submit my idea?
-        answer: >
-          Of course!  We encourage all Airmen to submit their ideas at any point, not just during the Spark Tank submission time frame.  To do so, follow the steps earlier in the page.
+  # faq:
+  #   header: Frequently Asked Questions (FAQs)
+  #   tabs:
+  #     - question: If I don't get picked as a top nominee, can I still receive funding for my idea?
+  #       answer: >
+  #         Yes!  Even those submissions which are not selected as top nominees will be considered for funding.  Once the top submissions have had funding allocated, other innovation ideas will be considered for funding.  If you have an idea, submit it!
+  #     - question: If I didn't make the Spark Tank submission deadline, can I still submit my idea?
+  #       answer: >
+  #         Of course!  We encourage all Airmen to submit their ideas at any point, not just during the Spark Tank submission time frame.  To do so, follow the steps earlier in the page.
   cta:
-    - header: Have an idea for Spark Tank?
-      button1Text: Submit your innovation today!
-      button1Url:  /ideas/
+    - header: Interested in seeing the Phoenix Spark Innovation Lab?
+      button1Text: Schedule a tour!
+      button1Url:  /tour-schedule/
       isInternal: 'yes'
     # - header: Get started today!
     #   code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://travisspark.com/ideas/"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
