@@ -51,7 +51,7 @@ sections:
           Checkout <a target="_blank" href=https://www.freecodecamp.org/news/tag/coding-bootcamps/>Free Code Camp</a> to begin your journey.  Alternatively, search for "free coding courses" and take whichever program strikes your fancy!
   cta:
     - header: Are you interested in learning to program, or do you have prior experience?  
-      button1Text: Tell us about it!
+      button1Text: Tell us!
       button1Url:  /digital-survey/
       isInternal: 'yes'
     - header: Think you are ready to apply to be a full-stack developer?  
