@@ -12,7 +12,7 @@ sections:
   splitColumns:
     - header: Aircraft Maintenance Remote Viewing
       descriptor: >
-        The 60th and 860th Aircraft Maintenance Squadrons are currently using sUAS's to conduct over-the-wing inspections when local conditions do not allow maintenance personnel access to those areas due to safety concerns.  Ordinarily, those sections of the Basic Post-Flight (BPO) inspections pushed off to the next scheduled inspection, leaving the possibility that the aircraft could be released to flight status with an undetected defect.  The usage of sUAS's to augment maintenance inspections serves to alleviate this possibility.
+        The 60th and 860th Aircraft Maintenance Squadrons are currently using sUAS's to conduct over-the-wing inspections when local conditions do not allow maintenance personnel access to those areas due to safety concerns.  Ordinarily, those sections of the Basic Post-Flight (BPO) inspections would be pushed off to the next scheduled inspection, leaving the possibility that the aircraft could be released to flight status with an undetected defect.  The usage of sUAS's to augment maintenance inspections serves to alleviate this possibility.
       image: /suas/images/suas-insp.jpeg
       textOrientation: right
     - header: Border Perimeter Security & Traffic Management
