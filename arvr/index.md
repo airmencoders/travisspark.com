@@ -39,7 +39,7 @@ sections:
           looking at other options, checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/arvr-sbir-list/>AFWERX AR/VR SBIR Companies</a> list, and feel to reachout to any of these companies.  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
   cta:
     - header: Have an idea for AR/VR training?
-      button1Text: Submit your idea below!
+      button1Text: Submit your idea!
       button1Url:  /arvr-training/
       isInternal: 'yes'
     # - header: Get started today!
