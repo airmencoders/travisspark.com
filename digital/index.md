@@ -56,7 +56,7 @@ sections:
       isInternal: 'yes'
     - header: Think you are ready to apply to be a full-stack developer?  
       button2Text: Take this assessment!
-      button2Url:  /knowledge-test/
+      button2Url:  /links/
       isInternal: 'yes'
     # - header: Get started today!
     #   code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-c2797bbc-1361-4e12-8741-8e38c931ecdd"><span class="hs-cta-node hs-cta-c2797bbc-1361-4e12-8741-8e38c931ecdd" id="hs-cta-c2797bbc-1361-4e12-8741-8e38c931ecdd"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/c2797bbc-1361-4e12-8741-8e38c931ecdd"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-c2797bbc-1361-4e12-8741-8e38c931ecdd" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/c2797bbc-1361-4e12-8741-8e38c931ecdd.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'c2797bbc-1361-4e12-8741-8e38c931ecdd', {"region":"na1"}); </script></span>
