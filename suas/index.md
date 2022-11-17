@@ -12,23 +12,18 @@ sections:
   splitColumns:
     - header: Aircraft Maintenance Remote Viewing
       descriptor: >
-        The 60th and 860th Aircraft Maintenance Squadrons are currently using sUAS's to conduct over-the-wing inspections when local conditions do not allow maintenance personnel access to those areas due to safety concerns.  Ordinarily, those sections of the Basic Post-Flight (BPO) inspections would be pushed off to the next scheduled inspection, leaving the possibility that the aircraft could be released to flight status with an undetected defect.  The usage of sUAS's to augment maintenance inspections serves to alleviate this possibility.
+        The 60th and 860th Aircraft Maintenance Squadrons are currently using sUAS's to conduct over-the-wing inspections when local conditions do not allow maintenance personnel access to those areas due to safety concerns.  Ordinarily, those sections of the Basic Post-Flight (BPO) inspections would be pushed off until the next inspection; this leaves the possibility that the aircraft could be released to flight status with an undetected defect.  The usage of sUAS's to augment maintenance inspections serves to alleviate this possibility.
       image: /suas/images/suas-insp.jpeg
       textOrientation: right
     - header: Border Perimeter Security & Traffic Management
       descriptor: >
-         The 60th Security Forces Squadron (SFS) is using sUAS to conduct perimeter security inspections and to aid in the direction of traffic on base.  These capabilities have enabled SFS to increase the frequency of perimeter inspections and to provide a more efficient means of traffic management.  SFS personnel are now better able to safeguard facilities and personnel.
+         The 60th Security Forces Squadron (SFS) is using sUAS to conduct perimeter security inspections and to aid in the direction of traffic on base.  These capabilities have enabled SFS to increase the frequency of perimeter inspections and to provide a more efficient means of traffic management.  
       image: /suas/images/suas-perim.png
       textOrientation: left
-    # - header: Public Affairs
-    #   descriptor: >
-    #      Travis AFB Public Affairs (PA) has begun using drones to cover on-base events and ceremonies.  
-    #   image: /suas/images/suas-perim.png
-    #   textOrientation: left
   splitColumnsFinal:
     header: Diaster Response & Recovery
     descriptor: >
-      Civil Engineering and other disaster response agencies are using sUAS to conduct damage assessments and to provide situational awareness during disaster response and recovery operations.  The sUAS's are also being used to provide aerial imagery to assist in the planning and execution of recovery operations.
+      Civil Engineering and other disaster response agencies are using sUAS's to conduct damage assessments and to provide situational awareness during disaster response and recovery operations.  The sUAS's are also being used to provide aerial imagery to assist in the planning and execution of recovery operations.
     textOrientation: right
     image: /suas/images/suas-storm.png
   faq:
