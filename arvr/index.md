@@ -12,7 +12,7 @@ sections:
   splitColumns:
     - header: Aircrew Training in Virtual Reality
       descriptor: >
-         Increased AR/VR design capabilities to provide Airmen with an advanced platform to design and execute complex AR/VR training simulations. They have developed an emergency escape testing program, virtual loadmaster preflight checklist and a 360 degree AR (Aerial Refueling) instructional video.
+         Increased AR/VR design capabilities to provide Airmen with an advanced platform to design and execute complex AR/VR training simulations. They have developed an emergency escape testing program, a virtual loadmaster preflight checklist, and a 360 degree AR (Aerial Refueling) instructional video.
       image: /arvr/images/arvr.png
       textOrientation: left
     - header: Security Forces Virtual Simulation Training
@@ -37,11 +37,11 @@ sections:
           Before you start a new SBIR, we highly recommend that you try to team up to scale an existing effort that has proven success & that
           has a passionate government POC.  You can find these efforts from the <b>View the AR/VR Knowledge Base</b> button above!  If you want to keep
           looking at other options, checkout the <a target="_blank" href=/sbir/>AFWERX SBIR page</a> and the <a target="_blank" href=/arvr-sbir-list/>AFWERX AR/VR SBIR Companies</a> list, and feel to reachout to any of these companies.  When you feel like you are ready to move forward, come by during the Phoenix Spark walk-in hours on Fridays afteroons & we can talk next steps!
-  # cta:
-  #   - header: Get started today!
-  #     button1Text: Join our Ecosystem
-  #     button1Url:  /forms/arvr-join.html
-  #     isInternal: 'yes'
+  cta:
+    - header: Have an idea for AR/VR training?
+      button1Text: Submit your idea below!
+      button1Url:  /forms/arvr-training/
+      isInternal: 'yes'
     # - header: Get started today!
     #   code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-b9233c3a-1d44-4eaf-90c3-afac83dc04ad"><span class="hs-cta-node hs-cta-b9233c3a-1d44-4eaf-90c3-afac83dc04ad" id="hs-cta-b9233c3a-1d44-4eaf-90c3-afac83dc04ad"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/b9233c3a-1d44-4eaf-90c3-afac83dc04ad"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-b9233c3a-1d44-4eaf-90c3-afac83dc04ad" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/b9233c3a-1d44-4eaf-90c3-afac83dc04ad.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'b9233c3a-1d44-4eaf-90c3-afac83dc04ad', {"region":"na1"}); </script></span>
     # - header: Ready to get started?
