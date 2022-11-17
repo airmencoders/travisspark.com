@@ -40,7 +40,7 @@ sections:
   cta:
     - header: Have an idea for AR/VR training?
       button1Text: Submit your idea below!
-      button1Url:  /forms/arvr-training/
+      button1Url:  /arvr-training/
       isInternal: 'yes'
     # - header: Get started today!
     #   code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-b9233c3a-1d44-4eaf-90c3-afac83dc04ad"><span class="hs-cta-node hs-cta-b9233c3a-1d44-4eaf-90c3-afac83dc04ad" id="hs-cta-b9233c3a-1d44-4eaf-90c3-afac83dc04ad"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/b9233c3a-1d44-4eaf-90c3-afac83dc04ad"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-b9233c3a-1d44-4eaf-90c3-afac83dc04ad" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/b9233c3a-1d44-4eaf-90c3-afac83dc04ad.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'b9233c3a-1d44-4eaf-90c3-afac83dc04ad', {"region":"na1"}); </script></span>
