@@ -1,7 +1,7 @@
 ---
 layout: dau
 permalink: /contact/
-title: COntact Us & Schedule A Tour 
+title: Contact Us & Schedule A Tour 
 sections:
   hero:
     logo: 
