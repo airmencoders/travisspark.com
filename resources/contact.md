@@ -13,7 +13,7 @@ sections:
   splitColumns:
     - header: Contact Us
       descriptor: >
-        If you have a question, comment, or concern, let us know by sending an email to <b>phoenix@travisspark.com<b> or calling <b>DSN (707)-424-8920<b>.
+        If you have a question, comment, or concern, let us know by sending an email to <b>phoenix@travisspark.com</b> or calling <b>DSN (707)-424-8920</b>.
       image: /sparktank/images/spark-tank-bkgrnd.png
       textOrientation: right
   #   - header: Spark Tank Timeline
