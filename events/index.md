@@ -25,6 +25,15 @@ sections:
       button: Learn more
       link: "https://travisspark.com/sparktank/"
       filter: 2023-spark
+    - title: Microsoft Power Platform 101
+      date: Dec 9, 2022
+      time: 0900-1300
+      description: >
+        Take your unit's innovation to the cloud with this Power Apps & Power Automate Training provided by Microsoft and hosted by Phoenix Spark!
+      image: img/Power Platform Training Banner.png
+      button: Sign Up
+      link: "https://www.eventbrite.com/e/microsoft-power-platforms-101-video-conference-or-in-person-tickets-473506289057"
+      filter: coding
     - title: Friday Pitch Session
       date: Every Working Friday
       time: 1200
