@@ -30,7 +30,7 @@ sections:
       time: 0900-1300
       description: >
         Take your unit's innovation to the cloud with this Power Apps & Power Automate Training provided by Microsoft and hosted by Phoenix Spark!
-      image: img/Power Platform Training Banner.png
+      image: img/Power%20Platform%20Training%20Banner.png
       button: Sign Up
       link: "https://www.eventbrite.com/e/microsoft-power-platforms-101-video-conference-or-in-person-tickets-473506289057"
       filter: coding
