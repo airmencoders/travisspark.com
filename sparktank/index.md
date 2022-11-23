@@ -79,7 +79,7 @@ sections:
   #       # - code: <span class="hs-cta-wrapper" id="hs-cta-wrapper-ccad752c-9208-46fc-95ab-6c161ec2da44"><span class="hs-cta-node hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44" id="hs-cta-ccad752c-9208-46fc-95ab-6c161ec2da44"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-ccad752c-9208-46fc-95ab-6c161ec2da44" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/19681065/ccad752c-9208-46fc-95ab-6c161ec2da44.png"  alt="Join our Ecosystem"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(19681065, 'ccad752c-9208-46fc-95ab-6c161ec2da44', {"region":"na1"}); </script></span>
       buttons:
         - text: Read the Spark Tank 2023 One-pager
-          url:  /sparktank/images/tank-pager-2023.pdf
+          url:  /sparktank/tank-pager-2023.pdf
           isInternal: 'yes'
   #     #   - text: Join our ecosystem
   #     #     url: /apply/
