@@ -29,7 +29,7 @@ sections:
         Blah blah blah
       image: 
       textOrientation: right
-    - header: John Dickerson, Mr. Moneybags
+    - header: John Dickerson, Innovation & Continuity Officer
       descriptor: >
         Blah blah blah
       image: 
@@ -39,17 +39,17 @@ sections:
         Blah blah blah
       image: 
       textOrientation: right 
-    - header: John Dickerson, Mr. Moneybags
-      descriptor: >
-        Blah blah blah
-      image: 
-      textOrientation: left 
     - header: TSgt Kevin Wolfe, Media & Marketing, Digital Initiatives
       descriptor: >
         Blah blah blah
       image: 
-      textOrientation: right 
+      textOrientation: left 
     - header: TSgt James Andrews, Digital Initiatives
+      descriptor: >
+        Blah blah blah
+      image: 
+      textOrientation: right 
+    - header: TSgt Homero Rodriguez, Media & Marketing
       descriptor: >
         Blah blah blah
       image: 
