@@ -65,7 +65,7 @@ sections:
       button1Text: Submit your innovation today!
       button1Url:  /ideas/
       isInternal: 'yes'
-    - header: Read the Spark Tank 2023 one-pager!
+    - header: Read the Spark Tank 2023 brief
       button2Text: Click to open
       button2Url:  /sparktank/tank-pager-2023.pdf
       isInternal: 'yes'
