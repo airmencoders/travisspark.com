@@ -1,9 +1,9 @@
 ---
 layout: guide
-title: Get Started
+title: About Us
 sections:
     hero:
-        header: Onboard Into the Innovation Ecosystem
+        header: Meet the Travis Air Force Base Phoenix Spark Team
         descriptor: >
           Follow the steps below to get started
         color:
