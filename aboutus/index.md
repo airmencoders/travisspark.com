@@ -11,12 +11,12 @@ sections:
   splitColumns:
     - header: Major Byron Doan, Director
       descriptor: >
-        Major Byron Doan is on loan to Phoenix Spark from the 21st Air Refueling Squadron here at Travis Air Force Base.  A C-17A pilot by trade, Major Doan has served for ten years in the USAF and is a graduate of the Citadel and the University of Florida with Baccalaureates in Electrical and Computer Engineering from both schools.  Major Doan's concentration at Phoenix Spark is as the Director of Operations.
+        Major Byron Doan is on loan to Phoenix Spark from the 21st Air Refueling Squadron.  A C-17A pilot by trade, Major Doan has served for ten years in the USAF and is a graduate of both the Citadel and the University of Florida with Baccalaureates in Electrical and Computer Engineering from both schools.  Major Doan's concentration at Phoenix Spark is as the Director of Operations.
       image: 
       textOrientation: left
     - header: Captain Justin Niquette, Digital Initiatives
       descriptor: >
-        Captain Justin Niquette is on loan to Phoenix Spark from the 6th Air Refueling Squadron here at Travis Air Force Base.  A KC-10A pilot by trade, Captain Niquette has served for six years in the USAF, and is a graduate from both the United States Air Force Academy and Embry-Riddle Aeronautical University.  Captain Niquette's concentration at Phoenix Spark is serving as the Deputy Director of Software Innovation.
+        Captain Justin Niquette is on loan to Phoenix Spark from the 6th Air Refueling Squadron.  A KC-10A pilot by trade, Captain Niquette has served for six years in the USAF, and is a graduate from both the United States Air Force Academy and Embry-Riddle Aeronautical University.  Captain Niquette's concentration at Phoenix Spark is serving as the Deputy Director of Software Innovation.
       image: 
       textOrientation: right
     # - header: Captain Wes Williams, Contracting
@@ -31,24 +31,24 @@ sections:
     #   textOrientation: right
     - header: John Dickerson, Innovation & Continuity Officer
       descriptor: >
-        Mr. John Dickerson is on loan to Phoenix Spark from Manpower here at Travis Air Force Base.  A retired veteran, having served 26 years in the USAF, John has been working for Phoenix Spark for the last five years.  John was previously stationed at Altus AFB, OK, Loring AFB, ME, Travis AFB, CA, and Dover AFB, DE.  John has a Baccalaureate in Computer Engineering and an MBA in Program Management.  John's concentration here at Phoenix Spark is Operations Management, Procurement, Budget Management, Facilities, and Lab Operations.
+        Mr. John Dickerson is on loan to Phoenix Spark from Manpower.  A retired veteran, having served 26 years in the USAF, John has been working for Phoenix Spark for the last five years.  John was previously stationed at Altus AFB, OK, Loring AFB, ME, Travis AFB, CA, and Dover AFB, DE.  John has a Baccalaureate in Computer Engineering and an MBA in Program Management.  John's concentration here at Phoenix Spark is Operations Management, Procurement, Budget Management, Facilities, and Lab Operations.
       image: 
       textOrientation: left 
     - header: TSgt Stephen Jogerst, Additive Manufacturing
       descriptor: >
-        TSgt Jogerst is on loan to Phoenix Spark from the 60th Aircraft Maintenance Squadron (AMXS) here at Travis Air Force Base.  He has been in the USAF for fifteen years and has spent all of it at Travis.  
+        TSgt Jogerst is on loan to Phoenix Spark from the 60th Aircraft Maintenance Squadron (AMXS).  He has been in the USAF for fifteen years and has spent all of it at Travis.  
       image: 
       textOrientation: right 
     - header: TSgt Kevin Wolfe, Media & Marketing, Digital Initiatives
       descriptor: >
-        TSgt Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS) here at Travis Air Force Base.  He has been in the USAF for fifteen years and has been stationed at Travis AFB, Lajes AB, Ramstein AB, Hickam AFB, and is now back at Travis.  Having worked both home station and enroute squadrons, TSgt Wolfe brings a unique perspective concerning the challenges facing the aircraft maintenance world.
+        TSgt Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS).  A 2A5X1 C-5 crew chief by trade, he has been in the USAF for fifteen years and has been stationed at Travis AFB, CA, Lajes AB, Portugal, Ramstein AB, Germany, Hickam AFB, HI, and is now back at Travis.  Having worked both home station and enroute squadrons, TSgt Wolfe brings a unique perspective concerning the challenges facing the aircraft maintenance world.
       image: 
       textOrientation: left 
-    # - header: TSgt James Andrews, Digital Initiatives
-    #   descriptor: >
-    #     Blah blah blah
-    #   image: 
-    #   textOrientation: right 
+    - header: TSgt James Andrews, Digital Initiatives
+      descriptor: >
+        TSgt Andrews is on loan to Phoenix Spark from the 60th Logistics Resource Squadron (LRS).  A 2F0X1 Fuels by AFSC, he has been in the USAF for thirteen years and has been stationed at Travis AFB, CA, Ramstein AB, Germany, Yokota AB, Japan, Moron AB, Spain, and Kunsan Air Base, South Korea.  TSgt Andrews has a Baccalaureate in Computer Science from American Military University.  TSgt Andrews' concentration at Phoenix Spark is as part of the Digital Initiatives Team.  
+      image: 
+      textOrientation: right 
     # - header: TSgt Homero Rodriguez, Media & Marketing
     #   descriptor: >
     #     Blah blah blah
