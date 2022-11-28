@@ -11,12 +11,12 @@ sections:
   splitColumns:
     - header: Major Byron Doan, Director
       descriptor: >
-        Major Byron Doan is on loan to Phoenix Spark from the 21st Aerial Refueling Squadron here at Travis Air Force Base.  A veteran of ten years, Major Doan has worked acquisitions, logistics, and development for the Air Force.  A pilot by trade, Major Doan was selected to lead Phoenix Spark in 2022 at the behest of the outgoing Director, Major Robinson.  Major Doan is a graduate of 
+        Major Byron Doan is on loan to Phoenix Spark from the 21st Air Refueling Squadron here at Travis Air Force Base.  A C-17A pilot by trade, Major Doan has served for ten years in the USAF and is a graduate of the Citadel and the University of Florida with Baccalaureates in Electrical and Computer Engineering from both schools.  Major Doan's concentration at Phoenix Spark is as the Director of Operations.
       image: 
       textOrientation: left
     - header: Captain Justin Niquette, Digital Initiatives
       descriptor: >
-        Blah blah blah
+        Captain Justin Niquette is on loan to Phoenix Spark from the 6th Air Refueling Squadron here at Travis Air Force Base.  A KC-10A pilot by trade, Captain Niquette has served for six years in the USAF, and is a graduate from both the United States Air Force Academy and Embry-Riddle Aeronautical University.  Captain Niquette's concentration at Phoenix Spark is serving as the Deputy Director of Software Innovation.
       image: 
       textOrientation: right
     - header: Captain Wes Williams, Contracting
@@ -31,7 +31,7 @@ sections:
       textOrientation: right
     - header: John Dickerson, Innovation & Continuity Officer
       descriptor: >
-        Mr. John Dickerson is on loan to Phoenix Spark from Manpower here at Travis Air Force Base
+        Mr. John Dickerson is on loan to Phoenix Spark from Manpower here at Travis Air Force Base.  A retired veteran, having served 26 years in the USAF, John has been working for Phoenix Spark for the last five years.  John was previously stationed at Altus AFB, OK, Loring AFB, ME, Travis AFB, CA, and Dover AFB, DE.  John has a Baccalaureate in Computer Engineering and an MBA in Program Management.  John's concentration here at Phoenix Spark is Operations Management, Procurement, Budget Management, Facilities, and Lab Operations.
       image: 
       textOrientation: left 
     - header: TSgt Stephen Jogerst, Additive Manufacturing
@@ -41,7 +41,7 @@ sections:
       textOrientation: right 
     - header: TSgt Kevin Wolfe, Media & Marketing, Digital Initiatives
       descriptor: >
-        TSgt Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS) here at Travis Air Force Base.  He has been in the USAF for fifteen years and has been stationed at Travis AFB, Lajes AB, Ramstein AB, Hickam AFB, and is now back at Travis.  Having worked both home station and enroute squadrons, TSgt Wolfe brings a unique perspective concerning the challenges facing the aircraft maintenance world. 
+        TSgt Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS) here at Travis Air Force Base.  He has been in the USAF for fifteen years and has been stationed at Travis AFB, Lajes AB, Ramstein AB, Hickam AFB, and is now back at Travis.  Having worked both home station and enroute squadrons, TSgt Wolfe brings a unique perspective concerning the challenges facing the aircraft maintenance world.
       image: 
       textOrientation: left 
     - header: TSgt James Andrews, Digital Initiatives
@@ -55,9 +55,9 @@ sections:
       image: 
       textOrientation: left 
   splitColumnsFinal:
-    header: Modernize your Software & Digital Talent
+    header: Phoenix Spark Success Stories
     descriptor: >
-      Help us to create an environment within the US military and government at large where any service member or government civilian can become educated and enabled to contribute to the software that runs their lives & the lives of the people they represent, whether through code, product ownership, design, or elsewhere, in a manner that brings programmatic decision authority to the people who are closest to the mission.
+      The Travis AFB Phoenix Spark innovation cell has had a hand in creating many innovative solutions to both common, and uncommon, problems at the 60th Air Mobility Wing.  Below, you'll find some of the most recent success stories from Phoenix Spark:
     textOrientation: center
     # image: /arvr/images/arvr.png
   # faq:
