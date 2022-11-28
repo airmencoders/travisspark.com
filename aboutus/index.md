@@ -11,7 +11,7 @@ sections:
   splitColumns:
     - header: Major Byron Doan, Director
       descriptor: >
-        Blah blah blah
+        Major Byron Doan is on loan to Phoenix Spark from the 21st Aerial Refueling Squadron here at Travis Air Force Base.  A veteran of ten years, Major Doan has worked acquisitions, logistics, and development for the Air Force.  A pilot by trade, Major Doan was selected to lead Phoenix Spark in 2022 at the behest of the outgoing Director, Major Robinson.  Major Doan is a graduate of 
       image: 
       textOrientation: left
     - header: Captain Justin Niquette, Digital Initiatives
@@ -31,17 +31,17 @@ sections:
       textOrientation: right
     - header: John Dickerson, Innovation & Continuity Officer
       descriptor: >
-        Blah blah blah
+        Mr. John Dickerson is on loan to Phoenix Spark from Manpower here at Travis Air Force Base
       image: 
       textOrientation: left 
     - header: TSgt Stephen Jogerst, Additive Manufacturing
       descriptor: >
-        Blah blah blah
+        TSgt Jogerst is on loan to Phoenix Spark from the 60th Aircraft Maintenance Squadron (AMXS) here at Travis Air Force Base.  He has been in the USAF for fifteen years and has spent all of it at Travis.  
       image: 
       textOrientation: right 
     - header: TSgt Kevin Wolfe, Media & Marketing, Digital Initiatives
       descriptor: >
-        Blah blah blah
+        TSgt Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS) here at Travis Air Force Base.  He has been in the USAF for fifteen years and has been stationed at Travis AFB, Lajes AB, Ramstein AB, Hickam AFB, and is now back at Travis.  Having worked both home station and enroute squadrons, TSgt Wolfe brings a unique perspective concerning the challenges facing the aircraft maintenance world. 
       image: 
       textOrientation: left 
     - header: TSgt James Andrews, Digital Initiatives
