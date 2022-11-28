@@ -19,16 +19,16 @@ sections:
         Captain Justin Niquette is on loan to Phoenix Spark from the 6th Air Refueling Squadron here at Travis Air Force Base.  A KC-10A pilot by trade, Captain Niquette has served for six years in the USAF, and is a graduate from both the United States Air Force Academy and Embry-Riddle Aeronautical University.  Captain Niquette's concentration at Phoenix Spark is serving as the Deputy Director of Software Innovation.
       image: 
       textOrientation: right
-    - header: Captain Wes Williams, Contracting
-      descriptor: >
-        Blah blah blah
-      image: 
-      textOrientation: left
-    - header: MSgt Sean McKinney, Superintendent
-      descriptor: >
-        Blah blah blah
-      image: 
-      textOrientation: right
+    # - header: Captain Wes Williams, Contracting
+    #   descriptor: >
+    #     Blah blah blah
+    #   image: 
+    #   textOrientation: left
+    # - header: MSgt Sean McKinney, Superintendent
+    #   descriptor: >
+    #     Blah blah blah
+    #   image: 
+    #   textOrientation: right
     - header: John Dickerson, Innovation & Continuity Officer
       descriptor: >
         Mr. John Dickerson is on loan to Phoenix Spark from Manpower here at Travis Air Force Base.  A retired veteran, having served 26 years in the USAF, John has been working for Phoenix Spark for the last five years.  John was previously stationed at Altus AFB, OK, Loring AFB, ME, Travis AFB, CA, and Dover AFB, DE.  John has a Baccalaureate in Computer Engineering and an MBA in Program Management.  John's concentration here at Phoenix Spark is Operations Management, Procurement, Budget Management, Facilities, and Lab Operations.
@@ -44,14 +44,14 @@ sections:
         TSgt Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS) here at Travis Air Force Base.  He has been in the USAF for fifteen years and has been stationed at Travis AFB, Lajes AB, Ramstein AB, Hickam AFB, and is now back at Travis.  Having worked both home station and enroute squadrons, TSgt Wolfe brings a unique perspective concerning the challenges facing the aircraft maintenance world.
       image: 
       textOrientation: left 
-    - header: TSgt James Andrews, Digital Initiatives
-      descriptor: >
-        Blah blah blah
-      image: 
-      textOrientation: right 
-    - header: TSgt Homero Rodriguez, Media & Marketing
-      descriptor: >
-        Blah blah blah
+    # - header: TSgt James Andrews, Digital Initiatives
+    #   descriptor: >
+    #     Blah blah blah
+    #   image: 
+    #   textOrientation: right 
+    # - header: TSgt Homero Rodriguez, Media & Marketing
+    #   descriptor: >
+    #     Blah blah blah
       image: 
       textOrientation: left 
   splitColumnsFinal:
