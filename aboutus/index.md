@@ -1,6 +1,6 @@
 ---
 layout: dau
-title: About US
+title: About Us
 sections:
   hero:
     text: Meet the People Behind Phoenix Spark!
