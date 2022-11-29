@@ -52,8 +52,8 @@ sections:
     # - header: TSgt Homero Rodriguez, Media & Marketing
     #   descriptor: >
     #     Blah blah blah
-      image: 
-      textOrientation: left 
+      # image: 
+      # textOrientation: left 
   splitColumnsFinal:
     header: Phoenix Spark Success Stories
     descriptor: >
