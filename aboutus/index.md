@@ -58,7 +58,7 @@ sections:
       descriptor: >
         Technical Sergeant Brandon Gresham is on loan to Phoenix Spark from the 60th Security Forces Squadron (SFS).  A 3P071 Security Forces by AFSC, he has been in the USAF for thirteen years and has been stationed at Travis AFB, CA, Malmstrom AFB, MT, and Vogelweh AS, Germany.  TSgt Gresham has a Baccalaureate in Cyber Intelligence from American Military University.  TSgt Gresham's concentration at Phoenix Spark is as part of the Additive Manufacturing team.
       image: 
-      textOrientation: left 
+      textOrientation: right 
   splitColumnsFinal:
     header: Phoenix Spark Success Stories
     descriptor: >
