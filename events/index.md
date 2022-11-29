@@ -48,7 +48,7 @@ sections:
       description: >
         Interested in learning to be a junior software developer?  Spark & Tron offer a full-time, 3-month course that can be funded
         by your unit.  Applications & vetting are free, learn more here!
-      image: /img/matrix-dev-computer.png
+      image: \events\img\matrix-dev-computer.png
       button: Learn More
       link: "/forms/sdi-full-time.html"
       filter: coding
