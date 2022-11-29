@@ -31,7 +31,7 @@ sections:
       textOrientation: right
     - header: John Dickerson, Innovation & Continuity Officer
       descriptor: >
-        Mr. John Dickerson is on loan to Phoenix Spark from Manpower.  A retired veteran, having served 26 years in the USAF, John has been working for Phoenix Spark for the last five years.  John was previously stationed at Altus AFB, OK, Loring AFB, ME, Travis AFB, CA, and Dover AFB, DE.  John has a Baccalaureate in Computer Engineering and an MBA in Program Management.  John's concentration here at Phoenix Spark is Operations Management, Procurement, Budget Management, Facilities, and Lab Operations.
+        Mr. John Dickerson is on loan to Phoenix Spark from Manpower.  A retired veteran, having served 26 years in the USAF, John has been working for Phoenix Spark for the last five years.  John was previously stationed at Altus AFB, OK, Loring AFB, ME, Travis AFB, CA, and Dover AFB, DE.  John has a Baccalaureate in Computer Engineering and an MBA in Program Management.  John's concentration here at Phoenix Spark is Operations Management, Procurement, Budget Management, Facilities, and Lab Operations.  Having worked at Phoenix Spark for several changeovers in command and personnel, Mr. Dickerson also acts as the continuity officer for Phoenix Spark.
       image: 
       textOrientation: left 
     - header: TSgt Stephen Jogerst, Additive Manufacturing
@@ -41,7 +41,7 @@ sections:
       textOrientation: right 
     - header: TSgt Kevin Wolfe, Media & Marketing, Digital Initiatives
       descriptor: >
-        Technical Sergeant Kevin Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS).  A 2A5X1 C-5 crew chief by trade, he has been in the USAF for fifteen years and has been stationed at Travis AFB, CA, Lajes AB, Portugal, Ramstein AB, Germany, Hickam AFB, HI, and is now back at Travis.  Having worked both home station and enroute squadrons, TSgt Wolfe brings a unique perspective concerning the challenges facing the aircraft maintenance world.
+        Technical Sergeant Kevin Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS).  A 2A5X1 C-5 crew chief by trade, he has been in the USAF for fifteen years and has been stationed at Travis AFB, CA, Lajes AB, Portugal, Ramstein AB, Germany, Hickam AFB, HI, and is now back at Travis.  TSgt Wolfe has a Baccalaureate in Biology from Virginia Polytechnic Institute and State University.  Having worked both home station and enroute squadrons, TSgt Wolfe brings a unique perspective concerning the challenges facing the aircraft maintenance world.
       image: 
       textOrientation: left 
     - header: TSgt James Andrews, Digital Initiatives
