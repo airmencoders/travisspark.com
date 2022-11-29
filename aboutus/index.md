@@ -41,7 +41,7 @@ sections:
       textOrientation: right 
     - header: TSgt Kevin Wolfe, Media & Marketing, Digital Initiatives
       descriptor: >
-        Technical Sergeant Kevin Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS).  A 2A5X1 C-5 crew chief by trade, he has been in the USAF for fifteen years and has been stationed at Travis AFB, CA, Lajes AB, Portugal, Ramstein AB, Germany, Hickam AFB, HI, and is now back at Travis.  TSgt Wolfe has a Baccalaureate in Biology from Virginia Polytechnic Institute and State University.  Having worked both home station and enroute squadrons, TSgt Wolfe brings a unique perspective concerning the challenges facing the aircraft maintenance world.
+        Technical Sergeant Kevin Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS).  A 2A5X1 C-5 crew chief by trade, he has been in the USAF for fifteen years and has been stationed at Travis AFB, CA, Lajes AB, Portugal, Ramstein AB, Germany, Hickam AFB, HI, and is now back at Travis.  TSgt Wolfe has a Baccalaureate in Biology from Virginia Polytechnic Institute and State University.  
       image: 
       textOrientation: left 
     - header: TSgt James Andrews, Digital Initiatives
