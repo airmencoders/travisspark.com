@@ -24,11 +24,11 @@ sections:
     #     Blah blah blah
     #   image: 
     #   textOrientation: left
-    # - header: MSgt Sean McKinney, Superintendent
-    #   descriptor: >
-    #     Blah blah blah
-    #   image: 
-    #   textOrientation: right
+    - header: MSgt Sean McKinney, Superintendent
+      descriptor: >
+        Master Sergeant Sean McKinney is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS).  An Electrical & Environmental aircraft maintainer by trade, he has been in the USAF for fifteen years and has been stationed at Luke AFB, AZ, McGuire AFB, NJ, and Travis AFB, CA.  MSgt McKinney has a Baccalaureate in Computer Science from the University of Maryland Global Campus and is pursuing a Masters in Cyber Security from Georgia Institute of Technology.  MSgt McKinney's concentration at Phoenix Spark is as the Superintendent.
+      image: 
+      textOrientation: right
     - header: John Dickerson, Innovation & Continuity Officer
       descriptor: >
         Mr. John Dickerson is on loan to Phoenix Spark from Manpower.  A retired veteran, having served 26 years in the USAF, John has been working for Phoenix Spark for the last five years.  John was previously stationed at Altus AFB, OK, Loring AFB, ME, Travis AFB, CA, and Dover AFB, DE.  John has a Baccalaureate in Computer Engineering and an MBA in Program Management.  John's concentration here at Phoenix Spark is Operations Management, Procurement, Budget Management, Facilities, and Lab Operations.
@@ -36,17 +36,17 @@ sections:
       textOrientation: left 
     - header: TSgt Stephen Jogerst, Additive Manufacturing
       descriptor: >
-        TSgt Jogerst is on loan to Phoenix Spark from the 60th Aircraft Maintenance Squadron (AMXS).  He has been in the USAF for fifteen years and has spent all of it at Travis.  
+        Technical Sergeant Stephen Jogerst is on loan to Phoenix Spark from the 60th Aircraft Maintenance Squadron (AMXS).  He has been in the USAF for fifteen years and has spent all of it at Travis.  
       image: 
       textOrientation: right 
     - header: TSgt Kevin Wolfe, Media & Marketing, Digital Initiatives
       descriptor: >
-        TSgt Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS).  A 2A5X1 C-5 crew chief by trade, he has been in the USAF for fifteen years and has been stationed at Travis AFB, CA, Lajes AB, Portugal, Ramstein AB, Germany, Hickam AFB, HI, and is now back at Travis.  Having worked both home station and enroute squadrons, TSgt Wolfe brings a unique perspective concerning the challenges facing the aircraft maintenance world.
+        Technical Sergeant Kevin Wolfe is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS).  A 2A5X1 C-5 crew chief by trade, he has been in the USAF for fifteen years and has been stationed at Travis AFB, CA, Lajes AB, Portugal, Ramstein AB, Germany, Hickam AFB, HI, and is now back at Travis.  Having worked both home station and enroute squadrons, TSgt Wolfe brings a unique perspective concerning the challenges facing the aircraft maintenance world.
       image: 
       textOrientation: left 
     - header: TSgt James Andrews, Digital Initiatives
       descriptor: >
-        TSgt Andrews is on loan to Phoenix Spark from the 60th Logistics Resource Squadron (LRS).  A 2F0X1 Fuels by AFSC, he has been in the USAF for thirteen years and has been stationed at Travis AFB, CA, Ramstein AB, Germany, Yokota AB, Japan, Moron AB, Spain, and Kunsan Air Base, South Korea.  TSgt Andrews has a Baccalaureate in Computer Science from American Military University.  TSgt Andrews' concentration at Phoenix Spark is as part of the Digital Initiatives Team.  
+        Technical Sergeant James Andrews is on loan to Phoenix Spark from the 60th Logistics Resource Squadron (LRS).  A 2F0X1 Fuels by AFSC, he has been in the USAF for thirteen years and has been stationed at Travis AFB, CA, Ramstein AB, Germany, Yokota AB, Japan, Moron AB, Spain, and Kunsan Air Base, South Korea.  TSgt Andrews has a Baccalaureate in Computer Science from American Military University.  TSgt Andrews' concentration at Phoenix Spark is as part of the Digital Initiatives Team.  
       image: 
       textOrientation: right 
     # - header: TSgt Homero Rodriguez, Media & Marketing
