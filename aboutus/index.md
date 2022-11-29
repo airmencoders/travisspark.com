@@ -46,7 +46,7 @@ sections:
       textOrientation: left 
     - header: TSgt James Andrews, Digital Initiatives
       descriptor: >
-        Technical Sergeant James Andrews is on loan to Phoenix Spark from the 60th Logistics Resource Squadron (LRS).  A 2F0X1 Fuels by AFSC, he has been in the USAF for thirteen years and has been stationed at Travis AFB, CA, Ramstein AB, Germany, Yokota AB, Japan, Moron AB, Spain, and Kunsan Air Base, South Korea.  TSgt Andrews has a Baccalaureate in Computer Science from American Military University.  TSgt Andrews' concentration at Phoenix Spark is as part of the Digital Initiatives Team.  
+        Technical Sergeant James Andrews is on loan to Phoenix Spark from the 60th Logistics Resource Squadron (LRS).  A 2F0X1 Fuels by AFSC, he has been in the USAF for thirteen years and has been stationed at Travis AFB, CA, Ramstein AB, Germany, Yokota AB, Japan, Moron AB, Spain, and Kunsan Air Base, South Korea.  TSgt Andrews has a Baccalaureate in Computer Science from American Military University.  TSgt Andrews' concentration at Phoenix Spark is as part of the Digital Initiatives Team, with a focus on Microsoft PowerApps.  
       image: 
       textOrientation: right 
     # - header: TSgt Homero Rodriguez, Media & Marketing
