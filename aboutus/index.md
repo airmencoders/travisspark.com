@@ -17,7 +17,7 @@ sections:
     - header: Captain Justin Niquette, Digital Initiatives
       descriptor: >
         Captain Justin Niquette is on loan to Phoenix Spark from the 6th Air Refueling Squadron.  A KC-10A pilot by trade, Captain Niquette has served for six years in the USAF, and is a graduate from both the United States Air Force Academy and Embry-Riddle Aeronautical University.  Captain Niquette's concentration at Phoenix Spark is serving as the Deputy Director of Software Innovation.
-      image: \aboutus\images\justin-niquette.png
+      # image: \aboutus\images\justin-niquette.png
       textOrientation: right
     # - header: Captain Wes Williams, Contracting
     #   descriptor: >
