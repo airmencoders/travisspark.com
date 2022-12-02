@@ -46,17 +46,17 @@ sections:
       textOrientation: left 
     - header: TSgt James Andrews, Digital Initiatives
       descriptor: >
-        Technical Sergeant James Andrews is on loan to Phoenix Spark from the 60th Logistics Resource Squadron (LRS).  A 2F0X1 Fuels by AFSC, he has been in the USAF for thirteen years and has been stationed at Travis AFB, CA, Ramstein AB, Germany, Yokota AB, Japan, Moron AB, Spain, and Kunsan Air Base, South Korea.  TSgt Andrews has a Baccalaureate in Computer Science from American Military University.  TSgt Andrews' concentration at Phoenix Spark is as part of the Digital Initiatives Team, with a focus on Microsoft PowerApps.  
+        Technical Sergeant James Andrews is on loan to Phoenix Spark from the 60th Logistics Resource Squadron (LRS).  A 2F0X1 Fuels airman by AFSC, he has been in the USAF for thirteen years and has been stationed at Travis AFB, CA, Ramstein AB, Germany, Yokota AB, Japan, Moron AB, Spain, and Kunsan Air Base, South Korea.  TSgt Andrews has a Baccalaureate in Computer Science from American Military University.  TSgt Andrews' concentration at Phoenix Spark is as part of the Digital Initiatives Team, with a focus on Microsoft PowerApps.  
       image: 
       textOrientation: right 
-    # - header: TSgt Homero Rodriguez, Media & Marketing
-    #   descriptor: >
-    #     Blah blah blah
-      # image: 
-      # textOrientation: left 
+    - header: TSgt Homero Rodriguez, Media & Marketing
+      descriptor: >
+        Technical Sergeant Homero Rodriguez is on loan to Phoenix Spark from the Air Force Medical Readiness Agency.  A 4A171 Medical Materiel airman by AFSC, he has been in the USAF for nineteen years and has been stationed at Travis AFB, CA, for all of it.  TSgt Rodriguez' concentration here at Phoenix Spark is as the Vice Chief of Marketing and Public Relations.
+      image: 
+      textOrientation: left 
     - header: TSgt Brandon Gresham, Additive Manufacturing
       descriptor: >
-        Technical Sergeant Brandon Gresham is on loan to Phoenix Spark from the 60th Security Forces Squadron (SFS).  A 3P071 Security Forces by AFSC, he has been in the USAF for thirteen years and has been stationed at Travis AFB, CA, Malmstrom AFB, MT, and Vogelweh AS, Germany.  TSgt Gresham has a Baccalaureate in Cyber Intelligence from American Military University.  TSgt Gresham's concentration at Phoenix Spark is as part of the Additive Manufacturing team.
+        Technical Sergeant Brandon Gresham is on loan to Phoenix Spark from the 60th Security Forces Squadron (SFS).  A 3P071 Security Forces airman by AFSC, he has been in the USAF for thirteen years and has been stationed at Travis AFB, CA, Malmstrom AFB, MT, and Vogelweh AS, Germany.  TSgt Gresham has a Baccalaureate in Cyber Intelligence from American Military University.  TSgt Gresham's concentration at Phoenix Spark is as part of the Additive Manufacturing team.
       image: 
       textOrientation: right 
   splitColumnsFinal:
