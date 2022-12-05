@@ -36,7 +36,7 @@ sections:
       textOrientation: left 
     - header: TSgt Stephen Jogerst, Additive Manufacturing
       descriptor: >
-        Technical Sergeant Stephen Jogerst is on loan to Phoenix Spark from the 60th Aircraft Maintenance Squadron (AMXS).  He has been in the USAF for fifteen years and has spent all of it at Travis.  
+        Technical Sergeant Stephen Jogerst is on loan to Phoenix Spark from the 60th Aircraft Maintenance Squadron (AMXS).  A 2A871 Communications/Navigation/Mission Systems maintainer by trade, he has been in 17 years and has been stationed at Travis AFB, CA, Ellsworth AFB, SD, Dover AFB, DE, and Spangdahlem AB, Germany.  TSgt Jogerst has a Associates in Applied Avionics Science from the Community College of the Air Force and is currently pursuing a Baccalaureate in Aviation Maintenance from Embry-Riddle Aeronautical University.  TSgt Jogerst's concentration at Phoenix Spark is as the Head of Additive Manufacturing, Computer Aided Design, Floor Operations NCOIC, is a Project Mercury-certified professional innovator, and is an OpenX Certified Innovation Specialist.  
       image: 
       textOrientation: right 
     - header: TSgt Kevin Wolfe, Media & Marketing, Digital Initiatives
