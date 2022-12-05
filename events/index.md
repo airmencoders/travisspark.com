@@ -20,7 +20,7 @@ sections:
       date: Begins 25 October, 2022!
       time: Open for submissions 24/7
       description: >
-        Submit your innovation, idea, project, or proposal to the 2023 Spark Tank and help the USAF and your fellow airmen "accelerate change".
+        Submit your innovation, project, or proposal to the 2023 Spark Tank and help the USAF "accelerate change".
       image: img/spark-tank-events-img.png
       button: Learn more
       link: "https://travisspark.com/sparktank/"
@@ -38,7 +38,7 @@ sections:
       date: Every Working Friday
       time: 1200
       description: >
-        Got an idea? Walk-ins and pitches are welcome every Friday at 1200. Big or small, Phoenix Spark is here to help you develop your idea into an innovation project.
+        Got an idea? Walk-ins and pitches are welcome every Friday at 1200. Phoenix Spark is here to help you develop your idea into an innovation project.
       image: /img/light_bulbs.jpg
       button: Reserve
       link: "https://www.eventbrite.com/e/friday-ideation-development-tickets-211387905917"
