@@ -19,11 +19,11 @@ sections:
         Captain Justin Niquette is on loan to Phoenix Spark from the 6th Air Refueling Squadron.  A KC-10A pilot by trade, Captain Niquette has served for six years in the USAF, and is a graduate from both the United States Air Force Academy and Embry-Riddle Aeronautical University.  Captain Niquette's concentration at Phoenix Spark is serving as the Deputy Director of Software Innovation.
       # image: \aboutus\images\justin-niquette.png
       textOrientation: right
-    # - header: Captain Wes Williams, Contracting
-    #   descriptor: >
-    #     Blah blah blah
-    #   image: 
-    #   textOrientation: left
+    - header: Captain Wes Williams, Venture and Acquisitions
+      descriptor: >
+         Captain Wesley Williams is on loan to Phoenix Spark from the 21st Air Refueling Squadron.  A C-17A pilot by trade, Captain Williams has served for nine and a half years in the USAF, and is a graduate of the United States Air Force Academy with a Baccalaureate in aeronautical engineering with a minor in Mandarin, and the University of Southern California, with a Masters in Astronautical Engineering with a specialization in Space Launch Vehicle Design.  Captain Williams' concentration at Phoenix Spark is serving as the Deputy Director of Venture and Acquisitions (Industry Engagement).   
+      # image: 
+      textOrientation: left
     - header: MSgt Sean McKinney, Superintendent
       descriptor: >
         Master Sergeant Sean McKinney is on loan to Phoenix Spark from the 60th Maintenance Squadron (MXS).  An Electrical & Environmental aircraft maintainer by trade, he has been in the USAF for fifteen years and has been stationed at Luke AFB, AZ, McGuire AFB, NJ, and Travis AFB, CA.  MSgt McKinney has a Baccalaureate in Computer Science from the University of Maryland Global Campus and is pursuing a Masters in Cyber Security from Georgia Institute of Technology.  MSgt McKinney's concentration at Phoenix Spark is as the Superintendent.
