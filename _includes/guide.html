@@ -15,7 +15,7 @@
 {% for section in page.sections.body %}
 <section id="feature" style="border-bottom: 1px double #ddd;">
   <div class="container">
-    <div class="row">
+    <div class="column">
       <div class="col-md-6 col-sm-12">
         <h3>{{ section.header }}</h3>
         <p>{{ section.descriptor }}</p>
@@ -48,7 +48,7 @@
 
 <section id="intro" style="border-bottom: 1px double #ddd;">
   <div class="container">
-    <div class="row">
+    <div class="column">
       <div class=" col-md-12">
         <h3>{{ page.sections.end.header }}</h3>
         <p style="width: 75%;">{{ page.sections.end.descriptor }}</p>
@@ -59,7 +59,7 @@
 
 <section class="cta white" style="background-color: #{{ page.sections.cta[0].background-color }}">
   <div class="container">
-    <div class="row">
+    <div class="column">
       <div class="col-md-6 col-sm-12">
         <h3>{{ page.sections.cta[0].header }}</h3>
         <h4>{{ page.sections.cta[0].descriptor }}</h4>
