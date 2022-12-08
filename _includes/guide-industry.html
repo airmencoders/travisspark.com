@@ -1,0 +1,152 @@
+{% if page.sections.hero %}
+<section id="hero">
+  <div id="hero-image"></div>
+  <div id="hero-container" class="container">
+    <div class="row white">
+      <div class="col-md-12">
+        <h1>{{ page.sections.hero.header }}</h1>  
+        <h3 >{{ page.sections.hero.descriptor }}</h3>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %} 
+
+{% for section in page.sections.body %}
+<section id="feature" style="border-bottom: 1px double #ddd;">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>Focus Areas</h2>
+        <p>The tools we use to improve the mission.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <ion-icon name="print-outline"></ion-icon>
+          <h4>Additive Manufacturing</h4>
+          <p>
+            Additive manufacturing, also known as 3D printing, has a proven ability to
+            enhance sustainment capabilities while minimizing supply chain costs
+            associated with contracts, transport, and storage.
+            <br>
+            <br>
+            Phoenix Spark has an array of 3D printing capabilities using both extrusion 
+            and resin printing technology.  
+            <br>
+            <br>
+            Phoenix Spark hosts bi-weekly classes to teach airmen the basics of 
+            Computer Aided Design (CAD) and drafting taught by a dedicated corp of
+            trained instructors.  Classes are open to all DoD personnel (not dependents).
+          </p>
+          <br />
+          <a href="{{ '/manufacturing/'  | relative_url }}" class="linktext"
+            >Learn about 3D printing</a
+          >
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <ion-icon name="code-slash-outline"></ion-icon>
+          <h4>Digital Environments</h4>
+          <p>
+            The wars of today and tomorrow are not only fought by soldiers with guns 
+            but increasingly by leveraging digital capabilities and knowledge.
+            <br>
+            <br>
+            Phoenix Spark seeks to ensure this arrow in the quiver of the USAF achieves 
+            all it can to better safeguard our nations and its citizens.  A Digital 
+            Initiative pipeline is being created to educate airmen on software coding 
+            using languages such as JavaScript, CSS, React, HTML, and others.  
+            <br>
+            <br>
+            Look back later to see what exciting new digital classes are available here
+            at Phoenix Spark!
+          </p>
+          <br />
+          <a href="{{ '/digital/' | relative_url }}" class="linktext"
+            >Learn about planned Digital Initiatives</a
+          >
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <ion-icon name="game-controller-outline"></ion-icon>
+          <h4>Augmented & Virtual Reality (AR & VR)</h4>
+          <p>
+            Traditional training and workflows in the military are conducted
+            using legacy paper products and checklists. AR & VR solutions have
+            the potential to change this paradigm and bring the USAF into the 
+            future.
+            <br>
+            <br>
+            Phoenix Spark is leading the way by incorporating AR & VR to 
+            increase the speed of training without sacrificing quality, 
+            bolstering efficiency while enabling instructors to better educate
+            their students, along with providing USAF personnel better tools to
+            ensure aircraft and aircrew are mission-ready.
+          </p>
+          <br>
+          <a href="{{ '/arvr/' | relative_url }}" class="linktext"
+            >Learn about AR & VR</a
+          >
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <ion-icon name="airplane-outline"></ion-icon>
+          <h4>Small Unmanned Aerial Systems (sUAS)</h4>
+          <p>
+            sUAS projects at Travis are actively changing how the USAF uses cutting-edge 
+            technology to improve our posturing to ensure rapid responses to real-world 
+            events, ensuring our situational awareness for rapid decision making, and 
+            safeguarding mission readiness.
+            <br>
+            <br>
+            Travis AFB was the first base in the USAF to secure a waiver for sUAS 
+            operations on the flightline and has not looked back since.  Whether it's 
+            patroling the base perimeter for SFS, survey storm damage for CE, or helping 
+            inspect aircraft for MX, the Travis AFB sUAS program is leading the way.
+          </p>
+          <br />
+          <a href="{{ '/suas/' | relative_url }}" class="linktext"
+            >Learn about the sUAS program</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+
+<section id="intro" style="border-bottom: 1px double #ddd;">
+  <div class="container">
+    <div class="row">
+      <div class=" col-md-12">
+        <h3>{{ page.sections.end.header }}</h3>
+        <p style="width: 75%;">{{ page.sections.end.descriptor }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta white" style="background-color: #{{ page.sections.cta[0].background-color }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h3>{{ page.sections.cta[0].header }}</h3>
+        <h4>{{ page.sections.cta[0].descriptor }}</h4>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        {% if page.sections.cta[0].buttons %}
+        <a class="btn btn-primary btn-lg" href="{{ page.sections.cta[0].buttons[0].url | relative_url }}">{{ page.sections.cta[0].buttons[0].text }}</a>
+        {% for button in page.sections.cta[0].buttons offset:1 %}
+        <a class="btn btn-primary btn-lg" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
+        {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
