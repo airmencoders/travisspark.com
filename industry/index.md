@@ -56,5 +56,5 @@ sections:
             isInternal: 'yes'
           - text: Contact us
             url: /contact/
-        # background-color: '000'
+        background-color: '000'
 ---
