@@ -6,9 +6,9 @@ sections:
         header: Industry, Are You Interested in Partnering with Travis?
         descriptor: >
           Follow the steps below to get started!
-        # color:
-        #   light: '000'
-        #   dark: '111'
+        color:
+          light: '000'
+          dark: '111'
     body:
       - header: <b>Step 1.</b> Apply
         descriptor: > 
