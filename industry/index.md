@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: guide-industry
 title: Industry Partnerships
 sections:
     hero:
