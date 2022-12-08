@@ -1,18 +1,91 @@
-<!-- {% if page.sections.hero %}
-<section id="hero">
-  <div id="hero-image"></div>
-  <div id="hero-container" class="container">
-    <div class="row white">
-      <div class="col-md-12">
-        <h1>{{ page.sections.hero.header }}</h1>  
-        <h3 >{{ page.sections.hero.descriptor }}</h3>
+---
+layout: page
+title: Spark
+permalink: /
+---
+
+<!-- Slider Start -->
+<section id="slider">
+  <div class="container" style="height:500px;width:auto;background-color:black;">
+    <div class="slider-wrapper">
+      <div class="slider">
+        <img id="slide-1" src="img/spark-logo-card.png" alt="spark-logo"/>
+        <img id="slide-2" src="img/mission-vision.png" alt="mission-vision"/>
+        <img id="slide-3" src="img/2023-spark-tank-marquee.png" alt="2023-Spark-Tank"/>
+        <img id="slide-4" src="img/priorities.png" alt="priorities"/>
+        <img id="slide-5" src="img/Dig-Init.png" alt="Digital-Initiatives-placeholder"/>
       </div>
+      <div class="slider-nav">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>        
+        <a href="#slide-3"></a>
+        <a href="#slide-4"></a>       
+        <a href="#slide-5"></a>         
+    </div>    
+  </div>
+</section> 
+
+<!-- Wrapper Start -->
+<!-- <section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>Mission</h2>
+            <p>
+              Empower a community of venture & experimentation at Team Travis to
+              outpace advancements made by international competitors.
+            </p>
+          </div>
+          <div class="section-title">
+            <h2>Vision</h2>
+          </div>
+          <p>
+            Passionate, solution-driven Airmen accelerating the development,
+            adoption, and acquisition of real-time solutions in the arena of
+            rapid global mobility.
+          </p>
+        </div>
+      </div> -->
+      <!-- .col-md-7 close -->
+      <!-- <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="img/accel-cylcheck.png" alt="Mx Accelerator cylinder check" />
+        </div>
+      </div> -->
+      <!-- .col-md-5 close -->
+    <!-- </div>
+  </div>
+</section> -->
+
+<!-- <div class="container">
+  <div class="responsive-iframe-container">
+    <iframe
+      src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Y19mNW5iZGE1Y29xa3BlOHNmYzRjdGFsZzZkMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=OTlsMDZtOGZscmgzcjAyZ2VmMmdmbGZxcjFqaG5lYm9AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23D50000&amp;color=%23009688&amp;mode=AGENDA&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=1&amp;showTabs=1&amp;showCalendars=0&amp;showTz=1"
+      style="border-width: 0"
+      frameborder="0"
+      scrolling="no"
+    ></iframe>
+  </div>
+</div> -->
+
+<!-- <section id="feature">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-6">        
+        <h2>PRIORITIES</h2>
+        <p>1. Increase Lethality</p>
+        <p>2. Return Time to Airmen</p>
+        <p>3. Empower Innovators at all Levels</p>
+        <p>4. Reduce Cost</p> -->
+        <!-- <a href="mailto:phoenix@spark.dso.mil" class="btn btn-view-works">Learn More</a> -->
+      <!-- </div>
     </div>
   </div>
-</section>
-{% endif %}  -->
+</section> -->
 
-<!-- {% for section in page.sections.body %} -->
+<!-- Service Start -->
 <section id="service">
   <div class="container">
     <div class="row">
@@ -118,33 +191,84 @@
     </div>
   </div>
 </section>
-<!-- {% endfor %}
-
-
-<section id="intro" style="border-bottom: 1px double #ddd;">
+<!-- Call to action Start -->
+<section id="call-to-action">
   <div class="container">
     <div class="row">
-      <div class=" col-md-12">
-        <h3>{{ page.sections.end.header }}</h3>
-        <p style="width: 75%;">{{ page.sections.end.descriptor }}</p>
+      <div class="col-md-12">
+        <div class="block">
+          <!-- <h2>View our Portfolio</h2> -->
+          <!-- <p>
+            If you are interested in joining a Tron community like <em>Airmen Coders</em>,
+            or would like to build a local #PoweredByTron software development team
+            at your unit, take a look at our Portfolio/Partners to see what work is 
+            currently being done! 
+          </p>
+          <a class="btn btn-default btn-call-to-action" href="{{ '/portfolio/' | relative_url }}"
+            >View our Partners & Portfolio</a
+          > -->
+          <h2>Interested?</h2>
+          <p>
+            If you are interested in joining the Travis innovation community,
+            reach out!
+          </p>
+          <a
+            class="btn btn-default btn-call-to-action"
+            href="{{ '/contact/' | relative_url }}"
+            >Contact Us</a
+          >
+        </div>
       </div>
     </div>
   </div>
-</section> -->
-
-<!-- <section class="cta white" style="background-color: #{{ page.sections.cta[0].background-color }}">
+</section>
+<!-- Content Start -->
+<!-- <section id="testimonial">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <h3>{{ page.sections.cta[0].header }}</h3>
-        <h4>{{ page.sections.cta[0].descriptor }}</h4>
+      <div class="section-title text-center">
+        <h2>Fun Facts About Us</h2>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they
+          live in Bookmarksgrove right at the coast of the Semantics
+        </p>
       </div>
-      <div class="col-md-6 col-sm-12">
-        {% if page.sections.cta[0].buttons %}
-        <a class="btn btn-primary btn-lg" href="{{ page.sections.cta[0].buttons[0].url | relative_url }}">{{ page.sections.cta[0].buttons[0].text }}</a>
-        {% for button in page.sections.cta[0].buttons offset:1 %}
-        <a class="btn btn-primary btn-lg" href="{% if button.isInternal %} {{ site.url }}/{% endif %}{{ button.url }}">{{ button.text }}</a>
-        {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        {% if site.data.funfacts.size > 0 %}
+        <div class="block">
+          {% for ff in site.data.funfacts %}
+          <ul class="counter-box clearfix">
+            <li>
+              <div class="block">
+                <i class="{{ ff.icon }}"></i>
+                <h4 class="counter">{{ ff.counter }}</h4>
+                <span>{{ ff.text }}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        {% if site.data.testimonials.size > 0 %}
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.testimonials %}
+            <div>
+              <img src="img/cotation.png" alt="IMG" />
+              <p>{{ tm.testimonial }}</p>
+              <div class="user">
+                <img src="{{ tm.image }}" alt="People" />
+                <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
         {% endif %}
       </div>
     </div>
