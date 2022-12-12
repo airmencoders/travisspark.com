@@ -48,13 +48,13 @@ sections:
         header: Thank you!
         descriptor: We are looking forward to your application.
     cta:
-      - header: Want to read it again?
-        descriptor: Click here to go back to the top.
-        buttons:
-          - text: Top of Page
-            url: /start/
-            isInternal: 'yes'
-          - text: Contact us
-            url: /contact/
-        background-color: '000'
+      # - header: Want to read it again?
+      #   descriptor: Click here to go back to the top.
+      #   buttons:
+      #     - text: Top of Page
+      #       url: /start/
+      #       isInternal: 'yes'
+      #     - text: Contact us
+      #       url: /contact/
+      #   background-color: '000'
 ---
